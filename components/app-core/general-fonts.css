@@ -1,0 +1,41 @@
+@import './settings.css';
+
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('/fonts/josefin-sans-300.woff2') format('woff2'),
+    url('/fonts/josefin-sans-300.woff') format('woff');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: var(--font-body);
+  src: url('/fonts/CooperHewitt-Light.woff2') format('woff2'),
+    url('/fonts/CooperHewitt-Light.woff') format('woff');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: var(--font-body);
+  src: url('/fonts/CooperHewitt-Book.woff2') format('woff2'),
+    url('/fonts/CooperHewitt-Book.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: var(--font-body);
+  src: url('/fonts/CooperHewitt-Medium.woff2') format('woff2'),
+    url('/fonts/CooperHewitt-Medium.woff') format('woff');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: var(--font-body);
+  src: url('/fonts/CooperHewitt-Semibold.woff2') format('woff2'),
+    url('/fonts/CooperHewitt-Semibold.woff') format('woff');
+  font-style: normal;
+  font-weight: 600;
+}
