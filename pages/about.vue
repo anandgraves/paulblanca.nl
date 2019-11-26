@@ -1,5 +1,5 @@
 <template>
-  <article class="about content">
+  <article class="about center-content">
     <h1 class="heading-large">About</h1>
 
     <section>
