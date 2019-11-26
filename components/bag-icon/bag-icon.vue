@@ -35,6 +35,7 @@ export default {
 
 .bag-icon__svg {
   display: inline-block;
+  margin-top: -8px;
   vertical-align: middle;
 }
 

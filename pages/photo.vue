@@ -7,18 +7,15 @@
       sit datus, verum etiam animus hominis.
     </p>
     <p>
-      <strong>Title:</strong> consectetur adipiscing elit<br />
-      <strong>Edition:</strong> re eadem defendunt<br />
-      <strong>Year:</strong> 2019<br />
-      Edition of 20 photos
+      <strong>Title</strong> consectetur adipiscing elit<br />
+      <strong>Edition</strong> re eadem defendunt<br />
+      <strong>Year</strong> 2019<br />
+      <strong>Edition</strong> 25
     </p>
-    <p class="price">€ 400</p>
-    <p class="photos-remaining">12 photos left</p>
+    <p class="price">€400</p>
 
     <div class="order">
-      <button @click.once="addToCart" class="button">
-        Add photo to cart
-      </button>
+      <button @click.once="addToCart" class="button">Add photo to cart</button>
     </div>
 
     <p>Order can be shipped internationally.</p>
@@ -50,8 +47,10 @@ export default {
 
 <style>
 .price {
+  font-family: 'Cooper Hewitt';
+  font-weight: 400;
   line-height: 1;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .order {

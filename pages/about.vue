@@ -1,17 +1,15 @@
 <template>
-  <article class="content">
+  <article class="about content">
     <h1 class="heading-large">About</h1>
 
     <section>
-      <h2 class="heading-medium">Career</h2>
-
       <p>
         Blanca’s interest in photography began after he met his contemporary,
-        Eva Veldhoen.[1] She was the daughter of painter Aat Veldhoen. Blanca
-        began using a small, colour camera. He then took black and white
-        photographs using a 6 x 6 cm Hasselblad camera. In the 1980s Blanca
-        received recognition for his violent self-portraits inspired by the
-        works of Andres Serrano and Robert Mapplethorpe.[2]
+        Eva Veldhoen. She was the daughter of painter Aat Veldhoen. Blanca began
+        using a small, colour camera. He then took black and white photographs
+        using a 6 x 6 cm Hasselblad camera. In the 1980s Blanca received
+        recognition for his violent self-portraits inspired by the works of
+        Andres Serrano and Robert Mapplethorpe.
       </p>
 
       <p>
@@ -20,8 +18,8 @@
       </p>
 
       <p>
-        In the 1990s, Blanca became a journalist the Amsterdam Weekly;[3] the
-        Nieuwe Revu and the Het Parool.[4] In 1995, Blanca wrote an article for
+        In the 1990s, Blanca became a journalist the Amsterdam Weekly; the
+        Nieuwe Revu and the Het Parool. In 1995, Blanca wrote an article for
         Nieuwe Revu which discussed the use of grenades and then became linked
         to an attack on Rob Scholte.
       </p>
@@ -44,7 +42,7 @@
       </p>
 
       <blockquote>
-        "Paul Blanca is my only competitor.".[5]
+        "Paul Blanca is my only competitor.".
       </blockquote>
 
       <p>
@@ -86,3 +84,10 @@
     </section>
   </article>
 </template>
+
+<style>
+.about p {
+  max-width: 64ch;
+  line-height: 1.45;
+}
+</style>

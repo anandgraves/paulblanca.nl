@@ -7,6 +7,7 @@ html {
   font-weight: normal;
   font-size: 125%;
   color: black;
+  letter-spacing: -0.1px;
 }
 
 p {
@@ -18,23 +19,25 @@ p:last-of-type {
 }
 
 a {
-  color: black;
+  color: #333;
   text-decoration: underline;
 }
 
 strong,
 b {
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .heading-large {
-  margin-bottom: 24px;
-  font-size: 2rem;
+  margin-bottom: 12px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .heading-medium {
-  font-size: 1.5rem;
-  margin-bottom: 12px;
+  font-size: 1.2rem;
+  margin-bottom: 6px;
 }
 
 .content {
@@ -42,18 +45,21 @@ b {
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 98px;
-  max-width: var(--content-max-width);
+  max-width: var(--full-content-max-width);
   line-height: 1.5;
 }
 
 .button {
-  display: inline-block;
-  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  padding: 18px 24px 12px 24px;
+  font-family: 'Cooper Hewitt';
   font-weight: 500;
   font-size: 1rem;
   line-height: 1;
+  text-transform: uppercase;
   text-decoration: none;
+  letter-spacing: .1px;
   background-color: black;
   color: white;
   border: 2px solid black;
