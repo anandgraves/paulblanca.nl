@@ -1,32 +1,36 @@
 <template>
-  <article class="content">
-    <h1 class="heading-large">Photo</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum id fugiunt,
-      re eadem defendunt, quae Peripatetici, verba. Quid, si non sensus modo ei
-      sit datus, verum etiam animus hominis.
-    </p>
-    <p>
-      <strong>Title:</strong> consectetur adipiscing elit<br />
-      <strong>Edition:</strong> re eadem defendunt<br />
-      <strong>Year:</strong> 2019<br />
-      Edition of 20 photos
-    </p>
-    <p class="price">€ 400</p>
-    <p class="photos-remaining">12 photos left</p>
+  <div class="center-content center-content--large">
+    <article class="photo-detail">
+      <figure class="photo-detail__image">
+        <img src="/images/featured_photo.png" alt="" />
+      </figure>
 
-    <div class="order">
-      <button @click.once="addToCart" class="button">
-        Add photo to cart
-      </button>
-    </div>
+      <div class="photo-detail__content">
+        <h1 class="heading-large">Snow White Giullia - Kristal</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum id
+          fugiunt, re eadem defendunt, quae Peripatetici, verba. Quid, si non
+          sensus modo ei sit datus, verum etiam animus hominis.
+        </p>
+        <p>
+          <strong>Title</strong> Consectetur adipiscing elit<br />
+          <strong>Subtitle</strong> 8<br />
+          <strong>Medium</strong> Lambda print<br />
+          <strong>Year</strong> 2019<br />
+          <strong>Edition</strong> 25
+        </p>
+        <p class="price">€400</p>
 
-    <p>Order can be shipped internationally.</p>
+        <p>Free international shipping.</p>
 
-    <figure>
-      <img src="/images/featured_photo.png" alt="" />
-    </figure>
-  </article>
+        <div class="order">
+          <button @click.once="addToCart" class="button--order button">
+            Add Photo to Cart
+          </button>
+        </div>
+      </div>
+    </article>
+  </div>
 </template>
 
 <script>
@@ -50,8 +54,10 @@ export default {
 
 <style>
 .price {
+  font-family: 'Cooper Hewitt';
+  font-weight: 400;
   line-height: 1;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .order {
@@ -62,5 +68,20 @@ export default {
   margin-bottom: 32px;
   line-height: 1;
   font-size: 1.2rem;
+}
+
+@media (min-width: 800px) {
+  .photo-detail {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .photo-detail__image {
+    width: 50%;
+  }
+
+  .photo-detail__content {
+    width: 45%;
+  }
 }
 </style>
