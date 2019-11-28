@@ -6,6 +6,7 @@
           <img
             src="/images/front-paul-blanca.jpg"
             alt="Snow White Giullia by Paul Blanca"
+            loading="lazy"
           />
         </picture>
       </fixed-ratio>
