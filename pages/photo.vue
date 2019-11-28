@@ -92,12 +92,8 @@ export default {
   margin-bottom: 24px;
 }
 
-.photo-info {
-  margin-bottom: 12px;
-}
-
-.photo-info__description {
-  margin-bottom: 12px;
+.photo-detail__heading {
+  margin-bottom: 24px;
 }
 
 .photo-detail__body {
@@ -110,6 +106,14 @@ export default {
 
 .photo-detail__divider {
   margin-bottom: 24px;
+}
+
+.photo-info {
+  margin-bottom: 12px;
+}
+
+.photo-info__description {
+  margin-bottom: 12px;
 }
 
 @media (min-width: 500px) {
