@@ -1,5 +1,5 @@
 <template>
-  <article class="content">
+  <article class="center-content">
     <h1 class="heading-large">Order</h1>
 
     <form>
