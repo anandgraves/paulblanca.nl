@@ -27,5 +27,6 @@ export const mutations = {
     if (!hasSelectedProductInCart) {
       state.inCart.push(selectedProduct)
     }
+    this.$router.push('/shopping-cart')
   }
 }

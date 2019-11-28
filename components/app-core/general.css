@@ -4,8 +4,8 @@
 
 html {
   font-family: var(--font-body);
-  font-weight: 400;
-  font-size: 125%;
+  font-weight: 300;
+  font-size: 18px;
   color: black;
 }
 
@@ -19,14 +19,28 @@ a {
 }
 
 strong,
-b {
+b,
+dt {
   font-weight: 600;
+}
+
+hr {
+  background-color:#E1E3DF;
+  border: 0;
+  height: 1px;
+  width: 100%;
+}
+
+.body {
+  font-size: 1rem;
+  line-height: 1.45;
 }
 
 .heading-large {
   margin-bottom: 12px;
   font-size: 1.4rem;
   font-weight: 600;
+  line-height: 1.2;
   letter-spacing: 1px;
 }
 
