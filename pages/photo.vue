@@ -123,11 +123,11 @@ export default {
   }
 
   .photo-info__term {
-    width: 15%;
+    width: 125px;
   }
 
   .photo-info__description {
-    width: 80%;
+    width: calc(100% - 125px);
   }
 }
 
@@ -147,14 +147,6 @@ export default {
 
   .photo-detail__content {
     width: 35%;
-  }
-
-  .photo-info__term {
-    width: 25%;
-  }
-
-  .photo-info__description {
-    width: 70%;
   }
 }
 </style>
