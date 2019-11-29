@@ -21,7 +21,6 @@ export default {
   },
   methods: {
     navigateToShoppingCart() {
-      // console.log('go to shop cart')
       this.$router.replace('/shopping-cart')
     }
   }
@@ -38,7 +37,7 @@ export default {
   margin-top: 2px;
   font-family: 'Cooper Hewitt';
   font-weight: 400;
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: #555;
   vertical-align: middle;
   text-decoration: none;
@@ -55,6 +54,11 @@ export default {
 }
 
 .app-menu__button {
+  border: none;
+  background-color: transparent;
+}
+
+.app-menu__button:hover {
   border: none;
   background-color: transparent;
 }

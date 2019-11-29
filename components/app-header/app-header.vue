@@ -29,8 +29,8 @@ export default {
 .app-header__title {
   font-family: 'Josefin Sans', Helvetica, sans-serif;
   font-weight: 300;
-  font-size: 2rem;
-  line-height: 0.9;
+  font-size: 2.25rem;
+  line-height: 0.9; /* aanpassen, 32.4px */
 }
 
 .app-header__brand {
@@ -47,8 +47,8 @@ export default {
 .app-header__subtitle {
   font-family: 'Cooper Hewitt';
   font-weight: 400;
-  font-size: 0.7rem;
-  letter-spacing: 1.8px;
+  font-size: 0.8125rem;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
   color: #555;
 }

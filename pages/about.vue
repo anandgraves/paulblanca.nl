@@ -2,7 +2,7 @@
   <article class="about center-content">
     <h1 class="heading-large">About</h1>
 
-    <section>
+    <section class="body">
       <p>
         Blanca’s interest in photography began after he met his contemporary,
         Eva Veldhoen. She was the daughter of painter Aat Veldhoen. Blanca began
@@ -25,7 +25,7 @@
       </p>
     </section>
 
-    <section>
+    <section class="body">
       <h2 class="heading-medium">Influences</h2>
 
       <p>
@@ -66,7 +66,7 @@
       </p>
     </section>
 
-    <section>
+    <section class="body">
       <h2 class="heading-medium">Themes</h2>
 
       <p>

@@ -25,6 +25,14 @@
 }
 
 @font-face {
+  font-family: var(--font-body);
+  src: url('/fonts/ibm-plex-sans-condensed-v6-latin-500.woff2') format('woff2'),
+    url('/fonts/ibm-plex-sans-condensed-v6-latin-500.woff') format('woff');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
   font-family: 'Josefin Sans';
   src: url('/fonts/josefin-sans-300.woff2') format('woff2'),
     url('/fonts/josefin-sans-300.woff') format('woff');

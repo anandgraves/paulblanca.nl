@@ -40,7 +40,6 @@ export default {
 }
 
 .bag-icon:hover {
-  /* background-color: #ccc; */
   cursor: pointer;
 }
 
@@ -50,10 +49,10 @@ export default {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 150%;
-  height: 150%;
+  width: 50px;
+  height: 40px;
   border-radius: 3px;
-  background-color: rgb(240, 226, 226);
+  background-color: rgba(240, 226, 226, 0.5);
   z-index: -1;
 }
 

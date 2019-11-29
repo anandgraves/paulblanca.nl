@@ -18,7 +18,7 @@
           etiam animus hominis.
         </p>
 
-        <dl class="photo-info">
+        <dl class="photo-info body">
           <dt class="photo-info__term">Title</dt>
           <dd class="photo-info__description">Consectetur adipiscing elit</dd>
           <dt class="photo-info__term">Subtitle</dt>
@@ -35,7 +35,7 @@
 
         <hr class="photo-detail__divider" />
 
-        <p class="price">€400</p>
+        <p class="photo-detail__price">€400</p>
 
         <p class="photo-detail__shipping body">
           Free (international) shipping.
@@ -71,11 +71,12 @@ export default {
 </script>
 
 <style>
-.price {
+.photo-detail__price {
   font-family: 'Cooper Hewitt';
   font-weight: 400;
   line-height: 1;
-  font-size: 1.2rem;
+  font-size: 1.2rem; /* 21.6px */
+  margin-bottom: 6px;
 }
 
 .order {
