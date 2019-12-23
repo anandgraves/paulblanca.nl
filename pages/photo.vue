@@ -35,11 +35,7 @@
 
         <hr class="photo-detail__divider" />
 
-        <p class="photo-detail__price">€400</p>
-
-        <p class="photo-detail__shipping body">
-          Free (international) shipping.
-        </p>
+        <p class="photo-detail__price">€500</p>
 
         <div class="order">
           <button @click.once="addToCart" class="button--order button">
@@ -72,11 +68,11 @@ export default {
 
 <style>
 .photo-detail__price {
+  margin-bottom: 36px;
   font-family: 'Cooper Hewitt';
   font-weight: 400;
   line-height: 1;
   font-size: 1.2rem; /* 21.6px */
-  margin-bottom: 6px;
 }
 
 .order {

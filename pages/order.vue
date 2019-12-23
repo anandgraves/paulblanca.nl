@@ -1,5 +1,5 @@
 <template>
-  <article class="center-content">
+  <article class="order center-content">
     <h1 class="heading-large">Order</h1>
 
     <form>
@@ -59,15 +59,28 @@
       </p>
 
       <div>
-        <button class="button" type="submit">Buy Domestic Violence</button>
+        <button class="order__button button" type="submit">
+          Place Your Order
+        </button>
       </div>
     </form>
   </article>
 </template>
 
 <style>
+.order input {
+  width: 100%;
+  padding: 0.92857em 0.78571em;
+  border: 1px solid #555;
+}
+
+.order__button {
+  width: 300px;
+}
+
 label {
   display: block;
+  margin-bottom: 6px;
 }
 
 input {
