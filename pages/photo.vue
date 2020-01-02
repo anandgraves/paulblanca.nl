@@ -3,7 +3,7 @@
     <article class="photo-detail">
       <figure class="photo-detail__image">
         <img
-          src="/images/featured_photo.jpg"
+          src="/images/snow-white-kristal-l.jpg"
           loading="lazy"
           alt="Snow White Giullia by Paul Blanca"
         />
@@ -11,11 +11,15 @@
 
       <div class="photo-detail__content">
         <h1 class="photo-detail__heading heading-large">Snow White Giullia</h1>
-        <p class="photo-detail__body body">
+        <p class="body">
           Every month Paul Blanca creates a new photo. Lorem ipsum dolor sit
           amet, consectetur adipiscing elit. Cum id fugiunt, re eadem defendunt,
           quae Peripatetici, verba. Quid, si non sensus modo ei sit datus, verum
           etiam animus hominis.
+        </p>
+
+        <p class="photo-detail__body body">
+          Every photo includes a signed certificate of authenticity.
         </p>
 
         <dl class="photo-info body">
@@ -35,10 +39,10 @@
 
         <hr class="photo-detail__divider" />
 
-        <p class="photo-detail__price">€500</p>
+        <p class="photo-detail__price">€550</p>
 
         <div class="order">
-          <button @click.once="addToCart" class="button--order button">
+          <button @click="addProductToCart(uuid)" class="button--order button">
             Add to Cart
           </button>
         </div>
@@ -48,20 +52,11 @@
 </template>
 
 <script>
-import { mapMutations } from 'vuex'
+import { mapActions } from 'vuex'
 
 export default {
-  data() {
-    return {
-      uuid: 'c5ea4c0-4067-11e9-8bad-9b1deb4d3b7d'
-    }
-  },
   methods: {
-    // map `this.increment()` to `this.$store.commit('increment')
-    ...mapMutations({ add: 'addToCart' }),
-    addToCart() {
-      this.add(this.uuid)
-    }
+    ...mapActions('cart', ['addProductToCart'])
   }
 }
 </script>
@@ -94,7 +89,7 @@ export default {
 }
 
 .photo-detail__body {
-  margin-bottom: 24px;
+  margin-bottom: 36px;
 }
 
 .photo-detail__shipping {

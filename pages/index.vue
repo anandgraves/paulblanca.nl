@@ -4,7 +4,7 @@
       <fixed-ratio :width="1300" :height="910">
         <picture class="hero__container">
           <img
-            src="/images/front-paul-blanca.jpg"
+            src="/images/snow-white-kristal-xl.jpg"
             alt="Snow White Giullia by Paul Blanca"
             loading="lazy"
           />

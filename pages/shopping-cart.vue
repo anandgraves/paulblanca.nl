@@ -3,6 +3,8 @@
     <article class="shopping-cart">
       <h1 class="shopping-cart__heading heading-large">Shopping Cart</h1>
 
+      <p v-if="!products.length">Please add some products to cart.</p>
+
       <ul class="shopping-cart__list">
         <li class="shopping-cart__list-item">
           <cart-item
@@ -12,16 +14,18 @@
             :price="product.price"
             :thumbnailUrl="product.thumbnailUrl"
             :title="product.title"
-            class="cart-item"
+            class="shopping-cart__list-content"
           />
         </li>
       </ul>
 
       <hr class="shopping-cart__divider" />
 
+      <div class="shopping-cart__subtotal">Subtotal €...</div>
+
       <div class="shopping-cart__navigation">
         <nuxt-link class="shopping-cart__link-back" to="/"
-          >Continue shopping</nuxt-link
+          >Back to shopping</nuxt-link
         >
         <nuxt-link class="shopping-cart__button-checkout button" to="/order"
           >Continue to Checkout</nuxt-link
@@ -37,11 +41,14 @@ import { mapGetters } from 'vuex'
 import CartItem from '../components/cart-item/cart-item.vue'
 
 export default {
+  layout: 'shopping-cart',
   components: {
     CartItem
   },
   computed: {
-    ...mapGetters(['inCart'])
+    ...mapGetters(['cart'], {
+      products: state => state.cartProducts
+    })
   },
   methods: {
     removeCartItem(id) {}
@@ -99,14 +106,22 @@ export default {
   text-align: center;
 }
 
-@media (min-width: 500px) {
-  .cart-item {
+.shopping-cart__subtotal {
+  margin-bottom: 36px;
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media (min-width: 550px) {
+  .shopping-cart__list-content {
     display: flex;
     align-items: center;
   }
 
   .shopping-cart__navigation {
     display: flex;
+    justify-content: flex-end;
     align-items: center;
     text-align: left;
   }
@@ -117,6 +132,11 @@ export default {
 
   .shopping-cart__button-checkout {
     margin-left: 24px;
+  }
+
+  .shopping-cart__subtotal {
+    display: flex;
+    justify-content: flex-end;
   }
 }
 </style>

@@ -1,32 +1,31 @@
-export const state = () => ({
-  products: [
-    {
-      uuid: 'c5ea4c0-4067-11e9-8bad-9b1deb4d3b7d',
-      title: 'Domestic Abuse',
-      series: 'Kristal',
-      price: 400,
-      thumbnailUrl: '/images/thumbnail.jpg'
-    }
-  ],
-  inCart: []
-})
+import cart from './modules/cart'
+import shop from './modules/shop'
 
+/*
 export const getters = {
-  inCart: state => state.inCart,
-  inCartCount: state => state.inCart.length
+  inCart: state => state.productList,
+  inCartCount: state => state.productList.length,
+  countOfProductsInCart: state => state.productList.length
 }
 
 export const mutations = {
-  addToCart(state, uuid) {
-    const selectedProduct = state.products.find(
-      product => product.uuid === uuid
-    )
-    const hasSelectedProductInCart = state.inCart.find(
-      product => product.uuid === uuid
-    )
-    if (!hasSelectedProductInCart) {
-      state.inCart.push(selectedProduct)
-    }
+  ADD_TO_CART: (state, product) => {
+    state.productList.push(product)
+  }
+}
+
+export const actions = {
+  addToCart({ commit }, product) {
+    commit('ADD_TO_CART', product)
     this.$router.push('/shopping-cart')
+  }
+}
+
+*/
+
+export default {
+  modules: {
+    cart,
+    shop
   }
 }

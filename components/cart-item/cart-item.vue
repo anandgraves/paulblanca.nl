@@ -1,42 +1,55 @@
 <template>
-  <article class="cart-item">
-    <div class="cart-item__action">
-      <button
-        @click="removeCartItem(uuid)"
-        class="shopping-cart__button-remove"
-      >
-        Remove
-      </button>
-    </div>
-    <div class="cart-item__thumbnail">
-      <nuxt-link to="/photo"
-        ><img :src="thumbnailUrl" style="width:80px; height: 80px;" alt="..."
-      /></nuxt-link>
-    </div>
-    <div class="cart-item__title">
-      <h2>
-        <nuxt-link to="/photo" class="shopping-cart__title-link">{{
-          title
-        }}</nuxt-link>
-      </h2>
-      <span class="shopping-cart__subtitle">Edition 1/25<br />42x40cm</span>
-    </div>
-    <div class="cart-item__quantity form-select">
-      <select class="form-select__element">
-        <option value="1">1</option>
-        <option value="1">2</option>
-        <option value="1">3</option>
-        <option value="1">4</option>
-        <option value="1">5</option>
-        <option value="1">6</option>
-        <option value="1">7</option>
-        <option value="1">8</option>
-        <option value="1">9</option>
-        <option value="1">10</option>
-      </select>
-    </div>
-    <div class="cart-item__price">€{{ price }}</div>
-  </article>
+  <div>
+    <article class="cart-item">
+      <div class="cart-item__action">
+        <button
+          @click="removeCartItem(uuid)"
+          class="shopping-cart__button-remove"
+        >
+          Remove
+        </button>
+      </div>
+      <div class="cart-item__media">
+        <nuxt-link to="/photo"
+          ><img :src="thumbnailUrl" class="cart-item__thumbnail" alt="..."
+        /></nuxt-link>
+      </div>
+      <div class="cart-item__title">
+        <h2>
+          <nuxt-link to="/photo" class="shopping-cart__title-link">{{
+            title
+          }}</nuxt-link>
+        </h2>
+        <span class="shopping-cart__subtitle"
+          >Edition 1/25<br />35.5 x 34 cm</span
+        >
+      </div>
+      <div class="cart-item__quantity form-select">
+        <select v-model="quantity" class="form-select__element">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+        </select>
+      </div>
+      <div class="cart-item__price">€{{ priceCalculatedFromQuantity }}</div>
+    </article>
+  </div>
 </template>
 
 <script>
@@ -57,6 +70,16 @@ export default {
     title: {
       type: String,
       required: true
+    }
+  },
+  data() {
+    return {
+      quantity: 1
+    }
+  },
+  computed: {
+    priceCalculatedFromQuantity() {
+      return Number(this.price) * this.quantity
     }
   }
 }
@@ -101,8 +124,14 @@ export default {
   text-align: center;
 }
 
-.cart-item__thumbnail {
+.cart-item__media {
   margin-bottom: 12px;
+}
+
+.cart-item__thumbnail {
+  width: 80px;
+  height: 80px;
+  max-width: none;
 }
 
 .cart-item__quantity {
@@ -114,13 +143,15 @@ export default {
   font-weight: 400;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 550px) {
   .cart-item {
     flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
   }
 
   .cart-item__quantity {
-    margin-right: 48px;
+    margin-left: auto;
     margin-bottom: 0;
   }
 
@@ -131,10 +162,25 @@ export default {
   }
 
   .cart-item__title {
-    margin-right: 48px;
+    margin-left: 16px;
+    margin-bottom: 0;
     text-align: left;
     font-size: 1.25rem;
     font-weight: 500;
+  }
+
+  .cart-item__media {
+    margin-bottom: 0;
+  }
+
+  .cart-item__price {
+    margin-left: 24px;
+  }
+}
+
+@media (min-width: 700px) {
+  .cart-item__price {
+    margin-left: 18%;
   }
 }
 </style>

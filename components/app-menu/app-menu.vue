@@ -1,6 +1,6 @@
 <template>
   <nav class-="app-menu" role="navigation">
-    <nuxt-link to="/photo" class="app-menu__link">Photo</nuxt-link>
+    <nuxt-link to="/shop" class="app-menu__link">Shop</nuxt-link>
     <nuxt-link to="/about" class="app-menu__link">About</nuxt-link>
     <nuxt-link to="/contact" class="app-menu__link">Contact</nuxt-link>
     <button
