@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import { mapMutations, mapGetters } from 'vuex'
+import { mapGetters } from 'vuex'
 
 export default {
   data() {
@@ -24,36 +24,6 @@ export default {
 
   computed: {
     ...mapGetters(['shopProductList'])
-  },
-
-  async fetch({ store }) {
-    const products = await Promise.resolve([
-      {
-        uuid: 'c5ea4c0-4067-11e9-8bad-9b1deb4d3b7d',
-        slug: 'domestic-abuse-kristal',
-        title: 'Domestic Abuse',
-        series: 'Kristal',
-        price: 550,
-        thumbnailUrl: '/images/snow-white-kristal-s.jpg',
-        alt: 'test',
-        quantity: 1
-      },
-      {
-        uuid: '332f2a22-db76-4107-a165-ab7742bc6226',
-        slug: 'test-title-kristal',
-        title: 'Test title',
-        series: 'Kristal',
-        price: 550,
-        thumbnailUrl: '/images/snow-white-kristal-s.jpg',
-        alt: 'test',
-        quantity: 1
-      }
-    ])
-    store.commit('setShopProducts', products)
-  },
-
-  methods: {
-    ...mapMutations(['setShopProducts'])
   }
 }
 </script>

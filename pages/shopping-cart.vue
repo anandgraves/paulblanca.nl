@@ -49,9 +49,6 @@ export default {
     ...mapGetters(['cart'], {
       products: state => state.cartProducts
     })
-  },
-  methods: {
-    removeCartItem(id) {}
   }
 }
 </script>
