@@ -6,10 +6,12 @@
       <p v-if="!cartProducts.length">Please add some products to cart.</p>
 
       <ul class="shopping-cart__list">
-        <li class="shopping-cart__list-item">
+        <li
+          v-for="product in cartProducts"
+          :key="product.uuid"
+          class="shopping-cart__list-item"
+        >
           <cart-item
-            v-for="product in cartProducts"
-            :key="product.uuid"
             :uuid="product.uuid"
             :price="product.price"
             :thumbnailUrl="product.thumbnailUrl"
@@ -131,6 +133,10 @@ export default {
   .shopping-cart__subtotal {
     display: flex;
     justify-content: flex-end;
+  }
+
+  .shopping-cart__list-item {
+    margin-bottom: 36px;
   }
 }
 </style>
