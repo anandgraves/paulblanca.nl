@@ -3,12 +3,12 @@
     <article class="shopping-cart">
       <h1 class="shopping-cart__heading heading-large">Shopping Cart</h1>
 
-      <p v-if="!products.length">Please add some products to cart.</p>
+      <p v-if="!cartProducts.length">Please add some products to cart.</p>
 
       <ul class="shopping-cart__list">
         <li class="shopping-cart__list-item">
           <cart-item
-            v-for="product in inCart"
+            v-for="product in cartProducts"
             :key="product.uuid"
             :uuid="product.uuid"
             :price="product.price"
@@ -37,7 +37,6 @@
 
 <script>
 import { mapGetters } from 'vuex'
-
 import CartItem from '../components/cart-item/cart-item.vue'
 
 export default {
@@ -46,9 +45,7 @@ export default {
     CartItem
   },
   computed: {
-    ...mapGetters(['cart'], {
-      products: state => state.cartProducts
-    })
+    ...mapGetters(['cartProducts'])
   }
 }
 </script>

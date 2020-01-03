@@ -40,7 +40,10 @@
         </p>
 
         <div class="order">
-          <button @click="addProductToCart(uuid)" class="button--order button">
+          <button
+            @click="addProductToCart(product)"
+            class="button--order button"
+          >
             Add to Cart
           </button>
         </div>
@@ -50,19 +53,19 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
+import { mapGetters, mapActions } from 'vuex'
 
 export default {
   computed: {
     ...mapGetters(['shopProductList']),
-    test() {
-      return this.$route.params.slug
-    },
     product() {
       return this.shopProductList.find(
         product => product.slug === this.$route.params.slug
       )
     }
+  },
+  methods: {
+    ...mapActions(['addProductToCart'])
   }
 }
 </script>

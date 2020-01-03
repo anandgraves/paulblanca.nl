@@ -32,7 +32,7 @@ const actions = {
           price: 550,
           thumbnailUrl: '/images/snow-white-kristal-l.jpg',
           alt: 'test',
-          quantity: 1
+          inventory: 19
         },
         {
           uuid: '332f2a22-db76-4107-a165-ab7742bc6226',
@@ -46,7 +46,7 @@ const actions = {
           price: 550,
           thumbnailUrl: '/images/snow-white-kristal-l.jpg',
           alt: 'test',
-          quantity: 1
+          inventory: 1
         }
       ])
       return commit('setShopProducts', products)
@@ -55,22 +55,6 @@ const actions = {
     }
   }
 }
-
-/*
-export const mutations = {
-  ADD_TO_CART: (state, product) => {
-    state.productList.push(product)
-  }
-}
-
-export const actions = {
-  addToCart({ commit }, product) {
-    commit('ADD_TO_CART', product)
-    this.$router.push('/shopping-cart')
-  }
-}
-
-*/
 
 export default {
   state,

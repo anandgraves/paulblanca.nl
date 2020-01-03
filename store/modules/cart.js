@@ -5,12 +5,16 @@ const state = () => ({
 const getters = {
   cartProducts: state => {
     return state.productList
+  },
+  cartProductsQuantity: state => {
+    return state.productList.length
   }
 }
 
 const mutations = {
-  addProductToCart(state, product) {
+  ADD_TO_CART: (state, product) => {
     state.productList.push(product)
+    console.log('productList', state.productList)
   }
 }
 
