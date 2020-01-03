@@ -23,7 +23,9 @@
 
       <hr class="shopping-cart__divider" />
 
-      <div class="shopping-cart__subtotal">Subtotal €...</div>
+      <div class="shopping-cart__subtotal">
+        Subtotal €{{ cartProductsSubTotal }}
+      </div>
 
       <div class="shopping-cart__navigation">
         <nuxt-link class="shopping-cart__link-back" to="/"
@@ -47,7 +49,7 @@ export default {
     CartItem
   },
   computed: {
-    ...mapGetters(['cartProducts'])
+    ...mapGetters(['cartProducts', 'cartProductsSubTotal'])
   }
 }
 </script>

@@ -80,7 +80,7 @@ export default {
   },
   data() {
     return {
-      quantity: this.$store.getters.getCartProductQuantityById(this.uuid)
+      quantity: this.$store.getters.cartProductQuantityById(this.uuid)
     }
   },
   computed: {

@@ -12,8 +12,13 @@ const getters = {
       .reduce((total, quantity) => total + quantity, 0)
     return sumOfQuantity
   },
-  getCartProductQuantityById: state => uuid => {
+  cartProductQuantityById: state => uuid => {
     return state.productList.find(product => product.uuid === uuid).quantity
+  },
+  cartProductsSubTotal: state => {
+    return state.productList
+      .map(product => product.quantity * product.price)
+      .reduce((total, price) => total + price, 0)
   }
 }
 
