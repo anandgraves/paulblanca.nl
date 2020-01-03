@@ -193,6 +193,8 @@ export default {
 @media (min-width: 700px) {
   .cart-item__price {
     margin-left: 18%;
+    width: 100px;
+    text-align: right;
   }
 }
 </style>
