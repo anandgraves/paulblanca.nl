@@ -32,7 +32,8 @@ const actions = {
           price: 550,
           thumbnailUrl: '/images/snow-white-kristal-l.jpg',
           alt: 'test',
-          inventory: 19
+          inventory: 19,
+          quantity: 1
         },
         {
           uuid: '332f2a22-db76-4107-a165-ab7742bc6226',
@@ -46,7 +47,8 @@ const actions = {
           price: 550,
           thumbnailUrl: '/images/snow-white-kristal-l.jpg',
           alt: 'test',
-          inventory: 1
+          inventory: 1,
+          quantity: 1
         }
       ])
       return commit('setShopProducts', products)

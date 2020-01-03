@@ -7,21 +7,50 @@ const getters = {
     return state.productList
   },
   cartProductsQuantity: state => {
-    return state.productList.length
+    const sumOfQuantity = state.productList
+      .map(product => product.quantity)
+      .reduce((total, quantity) => total + quantity, 0)
+    return sumOfQuantity
+  },
+  getCartProductQuantityById: state => uuid => {
+    return state.productList.find(product => product.uuid === uuid).quantity
   }
 }
 
 const mutations = {
   ADD_TO_CART: (state, product) => {
     state.productList.push(product)
-    console.log('productList', state.productList)
+  },
+  CHANGE_QUANTITY_IN_CART: (state, { uuid, quantity }) => {
+    state.productList.map(cartProduct => {
+      if (cartProduct.uuid === uuid) {
+        cartProduct.quantity = quantity
+      }
+      return cartProduct
+    })
+  },
+  INCREMENT_CART_PRODUCT_QUANTITY: (state, { uuid }) => {
+    const cartProduct = state.productList.find(product => product.uuid === uuid)
+    cartProduct.quantity++
   }
 }
 
 const actions = {
-  addProductToCart({ commit }, product) {
-    commit('ADD_TO_CART', product)
+  addProductToCart({ state, commit }, product) {
+    if (product.inventory > 0) {
+      const cartItem = state.productList.find(
+        cartProduct => cartProduct.uuid === product.uuid
+      )
+      if (!cartItem) {
+        commit('ADD_TO_CART', product)
+      } else {
+        commit('INCREMENT_CART_PRODUCT_QUANTITY', cartItem)
+      }
+    }
     this.$router.push('/shopping-cart')
+  },
+  changeQuantityInCart({ commit }, payload) {
+    commit('CHANGE_QUANTITY_IN_CART', payload)
   }
 }
 

@@ -25,7 +25,11 @@
         >
       </div>
       <div class="cart-item__quantity form-select">
-        <select v-model="quantity" class="form-select__element">
+        <select
+          @change="setQuantity(quantity)"
+          v-model.number="quantity"
+          class="form-select__element"
+        >
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
@@ -53,6 +57,8 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex'
+
 export default {
   props: {
     uuid: {
@@ -74,12 +80,18 @@ export default {
   },
   data() {
     return {
-      quantity: 1
+      quantity: this.$store.getters.getCartProductQuantityById(this.uuid)
     }
   },
   computed: {
     priceCalculatedFromQuantity() {
-      return Number(this.price) * this.quantity
+      return this.price * this.quantity
+    }
+  },
+  methods: {
+    ...mapActions(['changeQuantityInCart']),
+    setQuantity(quantity) {
+      this.changeQuantityInCart({ uuid: this.uuid, quantity })
     }
   }
 }
