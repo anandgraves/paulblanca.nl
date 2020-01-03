@@ -23,10 +23,14 @@ const actions = {
         {
           uuid: 'c5ea4c0-4067-11e9-8bad-9b1deb4d3b7d',
           slug: 'domestic-abuse-kristal',
-          title: 'Domestic Abuse',
+          title: 'Snow White Giullia',
+          subtitle: '8',
           series: 'Kristal',
+          medium: 'Lambda print',
+          dimensions: '42x40cm',
+          edition: '25',
           price: 550,
-          thumbnailUrl: '/images/snow-white-kristal-s.jpg',
+          thumbnailUrl: '/images/snow-white-kristal-l.jpg',
           alt: 'test',
           quantity: 1
         },
@@ -34,9 +38,13 @@ const actions = {
           uuid: '332f2a22-db76-4107-a165-ab7742bc6226',
           slug: 'test-title-kristal',
           title: 'Test title',
+          subtitle: '7',
+          medium: 'Lambda print',
+          dimensions: '42x40cm',
           series: 'Kristal',
+          edition: '25',
           price: 550,
-          thumbnailUrl: '/images/snow-white-kristal-s.jpg',
+          thumbnailUrl: '/images/snow-white-kristal-l.jpg',
           alt: 'test',
           quantity: 1
         }
