@@ -186,7 +186,9 @@ export default {
   }
 
   .cart-item__price {
-    margin-left: 24px;
+    margin-left: 12px;
+    width: 80px;
+    text-align: right;
   }
 }
 
@@ -194,7 +196,6 @@ export default {
   .cart-item__price {
     margin-left: 18%;
     width: 100px;
-    text-align: right;
   }
 }
 </style>

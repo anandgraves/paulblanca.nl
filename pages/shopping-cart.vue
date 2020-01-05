@@ -75,6 +75,10 @@ export default {
   list-style: none;
 }
 
+.shopping-cart__list-item:not(:last-child) {
+  margin-bottom: 48px;
+}
+
 .shopping-cart__title-link {
   text-decoration: none;
 }
