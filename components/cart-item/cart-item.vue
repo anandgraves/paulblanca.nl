@@ -3,7 +3,7 @@
     <article class="cart-item">
       <div class="cart-item__action">
         <button
-          @click="removeCartItem(uuid)"
+          @click="removeProductFromCart(uuid)"
           class="shopping-cart__button-remove"
         >
           Remove
@@ -89,7 +89,7 @@ export default {
     }
   },
   methods: {
-    ...mapActions(['changeQuantityInCart']),
+    ...mapActions(['changeQuantityInCart', 'removeProductFromCart']),
     setQuantity(quantity) {
       this.changeQuantityInCart({ uuid: this.uuid, quantity })
     }

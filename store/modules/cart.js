@@ -1,22 +1,22 @@
 const state = () => ({
-  productList: []
+  cartProductList: []
 })
 
 const getters = {
   cartProducts: state => {
-    return state.productList
+    return state.cartProductList
   },
   cartProductsQuantity: state => {
-    const sumOfQuantity = state.productList
+    const sumOfQuantity = state.cartProductList
       .map(product => product.quantity)
       .reduce((total, quantity) => total + quantity, 0)
     return sumOfQuantity
   },
   cartProductQuantityById: state => uuid => {
-    return state.productList.find(product => product.uuid === uuid).quantity
+    return state.cartProductList.find(product => product.uuid === uuid).quantity
   },
   cartProductsSubTotal: state => {
-    return state.productList
+    return state.cartProductList
       .map(product => product.quantity * product.price)
       .reduce((total, price) => total + price, 0)
   }
@@ -24,26 +24,35 @@ const getters = {
 
 const mutations = {
   ADD_TO_CART: (state, product) => {
-    state.productList.push(product)
+    const copyProduct = { ...product }
+    state.cartProductList.push(copyProduct)
   },
   CHANGE_QUANTITY_IN_CART: (state, { uuid, quantity }) => {
-    state.productList.map(cartProduct => {
+    const list = state.cartProductList.map(cartProduct => {
       if (cartProduct.uuid === uuid) {
         cartProduct.quantity = quantity
       }
       return cartProduct
     })
+    state.cartProductList = list
   },
   INCREMENT_CART_PRODUCT_QUANTITY: (state, { uuid }) => {
-    const cartProduct = state.productList.find(product => product.uuid === uuid)
+    const cartProduct = state.cartProductList.find(
+      product => product.uuid === uuid
+    )
     cartProduct.quantity++
+  },
+  REMOVE_FROM_CART: (state, uuid) => {
+    state.cartProductList = state.cartProductList.filter(
+      product => product.uuid !== uuid
+    )
   }
 }
 
 const actions = {
   addProductToCart({ state, commit }, product) {
     if (product.inventory > 0) {
-      const cartItem = state.productList.find(
+      const cartItem = state.cartProductList.find(
         cartProduct => cartProduct.uuid === product.uuid
       )
       if (!cartItem) {
@@ -56,6 +65,9 @@ const actions = {
   },
   changeQuantityInCart({ commit }, payload) {
     commit('CHANGE_QUANTITY_IN_CART', payload)
+  },
+  removeProductFromCart({ commit }, uuid) {
+    commit('REMOVE_FROM_CART', uuid)
   }
 }
 
