@@ -11,7 +11,7 @@ const getters = {
 }
 
 const mutations = {
-  setShopProducts(state, payload) {
+  SET_SHOP_PRODUCTS(state, payload) {
     state.shopProductList = payload
   }
 }
@@ -51,7 +51,7 @@ const actions = {
           quantity: 1
         }
       ])
-      return commit('setShopProducts', products)
+      return commit('SET_SHOP_PRODUCTS', products)
     } catch (error) {
       console.log('Er gaat iets mis met nuxtserverinit', error)
     }
