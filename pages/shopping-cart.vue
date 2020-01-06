@@ -115,7 +115,7 @@ export default {
   text-align: center;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 570px) {
   .shopping-cart__list-content {
     display: flex;
     align-items: center;

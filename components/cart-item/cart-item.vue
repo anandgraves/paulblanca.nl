@@ -6,7 +6,7 @@
           @click="removeProductFromCart(uuid)"
           class="shopping-cart__button-remove"
         >
-          Remove
+          <delete-icon class="cart-item__button-icon" />
         </button>
       </div>
       <div class="cart-item__media">
@@ -58,8 +58,10 @@
 
 <script>
 import { mapActions } from 'vuex'
+import DeleteIcon from '../../static/icons/delete.svg'
 
 export default {
+  components: { DeleteIcon },
   props: {
     uuid: {
       type: String,
@@ -99,6 +101,11 @@ export default {
 
 <style>
 @import '../app-core/settings.css';
+
+.cart-item__button-icon {
+  width: 40px;
+  height: 40px;
+}
 
 .form-select {
   width: 80px;
@@ -141,8 +148,8 @@ export default {
 }
 
 .cart-item__thumbnail {
-  width: 80px;
-  height: 80px;
+  width: 250px;
+  height: auto;
   max-width: none;
 }
 
@@ -155,7 +162,7 @@ export default {
   font-weight: 400;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 570px) {
   .cart-item {
     flex-direction: row;
     justify-content: space-between;
@@ -168,7 +175,6 @@ export default {
   }
 
   .cart-item__action {
-    margin-right: 24px;
     margin-bottom: 0;
     text-align: left;
   }
@@ -181,7 +187,12 @@ export default {
     font-weight: 500;
   }
 
+  .cart-item__thumbnail {
+    width: 80px;
+  }
+
   .cart-item__media {
+    margin-left: 24px;
     margin-bottom: 0;
   }
 
