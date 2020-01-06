@@ -23,7 +23,7 @@
 
       <hr class="shopping-cart__divider" />
 
-      <div class="shopping-cart__subtotal">
+      <div v-if="cartProducts.length" class="shopping-cart__subtotal">
         Subtotal €{{ cartProductsSubTotal }}
       </div>
 
@@ -77,26 +77,6 @@ export default {
 
 .shopping-cart__list-item:not(:last-child) {
   margin-bottom: 48px;
-}
-
-.shopping-cart__title-link {
-  text-decoration: none;
-}
-
-.shopping-cart__subtitle {
-  font-size: 1rem;
-  font-weight: 300;
-  color: #676768;
-}
-
-.shopping-cart__button-remove {
-  border: 0;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-.shopping-cart__button-remove:hover {
-  cursor: pointer;
 }
 
 .shopping-cart__link-back {

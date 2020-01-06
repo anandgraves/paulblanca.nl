@@ -2,27 +2,18 @@
   <div>
     <article class="cart-item">
       <div class="cart-item__action">
-        <button
-          @click="removeProductFromCart(uuid)"
-          class="shopping-cart__button-remove"
-        >
-          <delete-icon class="cart-item__button-icon" />
+        <button @click="removeProductFromCart(uuid)" class="cart-item__button">
+          <delete-icon class="cart-item__icon" />
         </button>
       </div>
       <div class="cart-item__media">
-        <nuxt-link to="/photo"
-          ><img :src="thumbnailUrl" class="cart-item__thumbnail" alt="..."
+        <nuxt-link to="/test"
+          ><img :src="thumbnailUrl" class="cart-item__image" alt="..."
         /></nuxt-link>
       </div>
       <div class="cart-item__title">
-        <h2>
-          <nuxt-link to="/photo" class="shopping-cart__title-link">{{
-            title
-          }}</nuxt-link>
-        </h2>
-        <span class="shopping-cart__subtitle"
-          >Edition 1/25<br />35.5 x 34 cm</span
-        >
+        <h2>{{ title }}</h2>
+        <span class="cart-item__subtitle">Edition 1/25<br />35.5 x 34 cm</span>
       </div>
       <div class="cart-item__quantity form-select">
         <select
@@ -102,9 +93,25 @@ export default {
 <style>
 @import '../app-core/settings.css';
 
-.cart-item__button-icon {
+.cart-item__button {
+  border: 0;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.cart-item__button:hover {
+  cursor: pointer;
+}
+
+.cart-item__icon {
   width: 40px;
   height: 40px;
+}
+
+.cart-item__subtitle {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #676768;
 }
 
 .form-select {
@@ -129,7 +136,7 @@ export default {
 
 .cart-item {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
 }
 
@@ -140,15 +147,16 @@ export default {
 
 .cart-item__title {
   margin-bottom: 12px;
-  text-align: center;
+  font-size: 1rem;
+  /* text-align: center; */
 }
 
 .cart-item__media {
   margin-bottom: 12px;
 }
 
-.cart-item__thumbnail {
-  width: 250px;
+.cart-item__image {
+  width: 70px;
   height: auto;
   max-width: none;
 }
@@ -187,7 +195,7 @@ export default {
     font-weight: 500;
   }
 
-  .cart-item__thumbnail {
+  .cart-item__image {
     width: 80px;
   }
 
