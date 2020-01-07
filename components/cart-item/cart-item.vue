@@ -1,48 +1,50 @@
 <template>
   <div>
     <article class="cart-item">
-      <div class="cart-item__action">
-        <button @click="removeProductFromCart(uuid)" class="cart-item__button">
-          <delete-icon class="cart-item__icon" />
-        </button>
-      </div>
       <div class="cart-item__media">
         <nuxt-link to="/test"
           ><img :src="thumbnailUrl" class="cart-item__image" alt="..."
         /></nuxt-link>
       </div>
-      <div class="cart-item__title">
-        <h2>{{ title }}</h2>
-        <span class="cart-item__subtitle">Edition 1/25<br />35.5 x 34 cm</span>
+      <div class="cart-item__info">
+        <div>
+          <h2 class="cart-item__title">{{ title }}</h2>
+          <div class="cart-item__subtitle">Edition 1/25<br />35.5 x 34 cm</div>
+          <div class="cart-item__quantity form-select">
+            <select
+              @change="setQuantity(quantity)"
+              v-model.number="quantity"
+              class="form-select__element"
+            >
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+            </select>
+          </div>
+        </div>
       </div>
-      <div class="cart-item__quantity form-select">
-        <select
-          @change="setQuantity(quantity)"
-          v-model.number="quantity"
-          class="form-select__element"
-        >
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10</option>
-          <option value="11">11</option>
-          <option value="12">12</option>
-          <option value="13">13</option>
-          <option value="14">14</option>
-          <option value="15">15</option>
-          <option value="16">16</option>
-          <option value="17">17</option>
-          <option value="18">18</option>
-          <option value="19">19</option>
-        </select>
+      <div class="cart-item__price-block">
+        <span class="cart-item__price">€{{ priceCalculatedFromQuantity }}</span>
+        <button @click="removeProductFromCart(uuid)" class="cart-item__button">
+          <delete-icon class="cart-item__icon" />
+        </button>
       </div>
-      <div class="cart-item__price">€{{ priceCalculatedFromQuantity }}</div>
     </article>
   </div>
 </template>
@@ -94,9 +96,13 @@ export default {
 @import '../app-core/settings.css';
 
 .cart-item__button {
+  margin-top: -7px;
+  margin-left: 12px;
+  line-height: 1;
   border: 0;
   background-color: transparent;
   text-decoration: underline;
+  align-self: flex-start;
 }
 
 .cart-item__button:hover {
@@ -104,11 +110,12 @@ export default {
 }
 
 .cart-item__icon {
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
 }
 
 .cart-item__subtitle {
+  margin-bottom: 6px;
   font-size: 1rem;
   font-weight: 300;
   color: #676768;
@@ -136,27 +143,24 @@ export default {
 
 .cart-item {
   display: flex;
-  /* flex-direction: column; */
-  align-items: center;
 }
 
-.cart-item__action {
-  margin-bottom: 12px;
-  text-align: center;
+.cart-item__info {
+  width: 100px;
+  margin-left: 12px;
 }
 
 .cart-item__title {
-  margin-bottom: 12px;
   font-size: 1rem;
-  /* text-align: center; */
 }
 
 .cart-item__media {
   margin-bottom: 12px;
+  align-self: flex-start;
 }
 
 .cart-item__image {
-  width: 70px;
+  width: 60px;
   height: auto;
   max-width: none;
 }
@@ -165,30 +169,27 @@ export default {
   margin-bottom: 12px;
 }
 
+.cart-item__price-block {
+  display: flex;
+  margin-left: 12px;
+}
+
 .cart-item__price {
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 400;
 }
 
-@media (min-width: 570px) {
+@media (min-width: 400px) {
   .cart-item {
     flex-direction: row;
-    justify-content: space-between;
     width: 100%;
   }
 
   .cart-item__quantity {
-    margin-left: auto;
     margin-bottom: 0;
-  }
-
-  .cart-item__action {
-    margin-bottom: 0;
-    text-align: left;
   }
 
   .cart-item__title {
-    margin-left: 16px;
     margin-bottom: 0;
     text-align: left;
     font-size: 1.25rem;
@@ -200,14 +201,25 @@ export default {
   }
 
   .cart-item__media {
-    margin-left: 24px;
     margin-bottom: 0;
   }
 
+  .cart-item__price-block {
+    margin-left: 36px;
+  }
+
   .cart-item__price {
-    margin-left: 12px;
-    width: 80px;
+    font-size: 1.3rem;
     text-align: right;
+  }
+
+  .cart-item__info {
+    width: auto;
+    margin-left: 16px;
+  }
+
+  .cart-item__button {
+    margin-top: -4px;
   }
 }
 
