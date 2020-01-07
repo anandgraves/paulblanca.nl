@@ -7,9 +7,13 @@
         /></nuxt-link>
       </div>
       <div class="cart-item__info">
-        <div>
-          <h2 class="cart-item__title">{{ title }}</h2>
-          <div class="cart-item__subtitle">Edition 1/25<br />35.5 x 34 cm</div>
+        <div class="cart-item__info-container">
+          <div>
+            <h2 class="cart-item__title">{{ title }}</h2>
+            <div class="cart-item__subtitle">
+              Edition 1/25<br />35.5 x 34 cm
+            </div>
+          </div>
           <div class="cart-item__quantity form-select">
             <select
               @change="setQuantity(quantity)"
@@ -220,6 +224,32 @@ export default {
 
   .cart-item__button {
     margin-top: -4px;
+  }
+}
+
+@media (min-width: 570px) {
+  .cart-item__info-container {
+    display: flex;
+  }
+
+  .cart-item__quantity {
+    margin-left: 36px;
+  }
+
+  .cart-item__title {
+    margin-top: 5px;
+  }
+
+  .cart-item__price {
+    margin-top: 6px;
+  }
+
+  .cart-item__price-block {
+    margin-left: auto;
+  }
+
+  .cart-item__button {
+    margin-top: 2px;
   }
 }
 
