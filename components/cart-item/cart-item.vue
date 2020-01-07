@@ -8,7 +8,7 @@
       </div>
       <div class="cart-item__info">
         <div class="cart-item__info-container">
-          <div>
+          <div class="cart-item__info-content">
             <h2 class="cart-item__title">{{ title }}</h2>
             <div class="cart-item__subtitle">
               Edition 1/25<br />35.5 x 34 cm
@@ -150,8 +150,11 @@ export default {
 }
 
 .cart-item__info {
-  width: 100px;
   margin-left: 12px;
+}
+
+.cart-item__info-content {
+  width: 100px;
 }
 
 .cart-item__title {
@@ -175,7 +178,7 @@ export default {
 
 .cart-item__price-block {
   display: flex;
-  margin-left: 12px;
+  margin-left: auto;
 }
 
 .cart-item__price {
@@ -208,18 +211,17 @@ export default {
     margin-bottom: 0;
   }
 
-  .cart-item__price-block {
-    margin-left: 36px;
-  }
-
   .cart-item__price {
     font-size: 1.3rem;
     text-align: right;
   }
 
   .cart-item__info {
-    width: auto;
     margin-left: 16px;
+  }
+
+  .cart-item__info-content {
+    width: 150px;
   }
 
   .cart-item__button {
@@ -227,13 +229,15 @@ export default {
   }
 }
 
-@media (min-width: 570px) {
+@media (min-width: 500px) {
   .cart-item__info-container {
     display: flex;
   }
+}
 
+@media (min-width: 570px) {
   .cart-item__quantity {
-    margin-left: 36px;
+    margin-left: 24px;
   }
 
   .cart-item__title {
@@ -253,10 +257,9 @@ export default {
   }
 }
 
-@media (min-width: 700px) {
-  .cart-item__price {
-    margin-left: 18%;
-    width: 100px;
+@media (min-width: 600px) {
+  .cart-item__info-content {
+    width: 225px;
   }
 }
 </style>

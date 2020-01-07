@@ -1,6 +1,6 @@
 <template>
   <div class="center-content center-content--wide">
-    <nuxt-link to="/shop/domestic-abuse-kristal" class="hero">
+    <nuxt-link to="/shop/snow-white-giulia-kristal" class="hero">
       <fixed-ratio :width="1300" :height="910">
         <picture class="hero__container">
           <img

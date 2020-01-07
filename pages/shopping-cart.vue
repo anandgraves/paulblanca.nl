@@ -56,12 +56,12 @@ export default {
 
 <style>
 .shopping-cart {
-  max-width: 680px;
+  max-width: 600px;
   margin-top: 24px;
 }
 
 .shopping-cart__divider {
-  margin-bottom: 48px;
+  margin-bottom: 36px;
 }
 
 .shopping-cart__heading {
@@ -69,7 +69,7 @@ export default {
 }
 
 .shopping-cart__list {
-  margin-bottom: 60px;
+  margin-bottom: 36px;
 }
 
 .shopping-cart__list-item {
