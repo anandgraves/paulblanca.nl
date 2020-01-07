@@ -18,7 +18,6 @@ const mutations = {
 
 const actions = {
   async nuxtServerInit({ commit }) {
-    console.log('in nuxtserverinit')
     try {
       const products = await Promise.resolve([
         {
