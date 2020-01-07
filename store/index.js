@@ -18,11 +18,12 @@ const mutations = {
 
 const actions = {
   async nuxtServerInit({ commit }) {
+    console.log('in nuxtserverinit')
     try {
       const products = await Promise.resolve([
         {
           uuid: 'c5ea4c0-4067-11e9-8bad-9b1deb4d3b7d',
-          slug: 'domestic-abuse-kristal',
+          slug: 'snow-white-giulia-kristal',
           title: 'Snow White Giullia',
           subtitle: '8',
           series: 'Kristal',
@@ -36,9 +37,39 @@ const actions = {
           quantity: 1
         },
         {
-          uuid: '332f2a22-db76-4107-a165-ab7742bc6226',
-          slug: 'test-title-kristal',
-          title: 'Test title',
+          uuid: '332f2a22-db76-4107-a165-ab7742bc6123',
+          slug: 'domestic-violence-giulia-kristal',
+          title: 'Domestic violence giulia',
+          subtitle: '7',
+          medium: 'Lambda print',
+          dimensions: '42x40cm',
+          series: 'Kristal',
+          edition: '25',
+          price: 550,
+          thumbnailUrl: '/images/snow-white-kristal-l.jpg',
+          alt: 'test',
+          inventory: 1,
+          quantity: 1
+        },
+        {
+          uuid: 'c2f161f6-28c5-4bac-8574-3995dd5ea8e0',
+          slug: 'selfportrait-mickey-mouse',
+          title: 'Selfportrait Mickey Mouse',
+          subtitle: '7',
+          medium: 'Lambda print',
+          dimensions: '42x40cm',
+          series: 'Kristal',
+          edition: '25',
+          price: 550,
+          thumbnailUrl: '/images/snow-white-kristal-l.jpg',
+          alt: 'test',
+          inventory: 1,
+          quantity: 1
+        },
+        {
+          uuid: '3ae373e1-23a7-4a85-9d3d-d8de003f1221',
+          slug: 'heroince-tic-tac-too',
+          title: 'Heroince tic tac too',
           subtitle: '7',
           medium: 'Lambda print',
           dimensions: '42x40cm',
