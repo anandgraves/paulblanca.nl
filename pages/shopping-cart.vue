@@ -16,6 +16,7 @@
             :price="product.price"
             :thumbnailUrl="product.thumbnailUrl"
             :title="product.title"
+            :slug="product.slug"
             class="shopping-cart__list-content"
           />
         </li>

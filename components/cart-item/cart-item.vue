@@ -2,7 +2,7 @@
   <div>
     <article class="cart-item">
       <div class="cart-item__media">
-        <nuxt-link to="/test"
+        <nuxt-link :to="`/shop/${slug}`"
           ><img :src="thumbnailUrl" class="cart-item__image" alt="..."
         /></nuxt-link>
       </div>
@@ -73,6 +73,10 @@ export default {
       required: true
     },
     title: {
+      type: String,
+      required: true
+    },
+    slug: {
       type: String,
       required: true
     }
