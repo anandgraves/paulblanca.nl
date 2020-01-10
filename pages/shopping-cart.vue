@@ -29,7 +29,7 @@
       </div>
 
       <div class="shopping-cart__navigation">
-        <nuxt-link class="shopping-cart__link-back" to="/"
+        <nuxt-link class="shopping-cart__link-back" to="/shop"
           >Back to shopping</nuxt-link
         >
         <nuxt-link class="shopping-cart__button-checkout button" to="/order"
