@@ -27,10 +27,4 @@ export default {
 .site-content__main {
   margin-bottom: 128px;
 }
-
-/* @media (min-width: 800px) {
-  .site-content__header {
-    margin-bottom: 48px;
-  }
-} */
 </style>
