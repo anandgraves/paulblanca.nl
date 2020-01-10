@@ -21,7 +21,7 @@ export default {
 @import '../components/app-core/settings.css';
 
 .site-content__header {
-  margin: 24px auto 48px auto;
+  margin: 24px auto 60px auto;
 }
 
 .site-content__main {
