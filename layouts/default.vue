@@ -21,16 +21,16 @@ export default {
 @import '../components/app-core/settings.css';
 
 .site-content__header {
-  margin: 24px auto 12px auto;
+  margin: 24px auto 48px auto;
 }
 
 .site-content__main {
   margin-bottom: 128px;
 }
 
-@media (min-width: 800px) {
+/* @media (min-width: 800px) {
   .site-content__header {
-    margin-bottom: 24px;
+    margin-bottom: 48px;
   }
-}
+} */
 </style>

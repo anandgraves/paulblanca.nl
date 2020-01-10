@@ -1,5 +1,5 @@
 <template>
-  <div class="center-content site-content__header--large">
+  <div class="center-content">
     <article class="shopping-cart">
       <h1 class="shopping-cart__heading heading-large">Shopping Cart</h1>
 
@@ -58,7 +58,6 @@ export default {
 <style>
 .shopping-cart {
   max-width: 600px;
-  margin-top: 24px;
 }
 
 .shopping-cart__divider {
@@ -66,7 +65,7 @@ export default {
 }
 
 .shopping-cart__heading {
-  margin-bottom: 32px;
+  margin-bottom: 12px;
 }
 
 .shopping-cart__list {
