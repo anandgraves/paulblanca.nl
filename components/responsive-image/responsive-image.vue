@@ -64,9 +64,6 @@ export default {
     alt() {
       return this.image.alt || ''
     },
-    url() {
-      return `/images/${this.image.filename}.${this.image.type}`
-    },
     fallbackUrl() {
       return `/images/${this.image.filename}-500.jpg`
     }
