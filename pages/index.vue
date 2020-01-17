@@ -1,35 +1,35 @@
 <template>
-  <div class="center-content center-content--wide">
-    <nuxt-link to="/shop/snow-white-giulia-kristal" class="hero">
-      <fixed-ratio :width="1300" :height="910">
-        <picture class="hero__container">
-          <img
-            src="/images/snow-white-kristal-xl.jpg"
-            alt="Snow White Giullia by Paul Blanca"
-            loading="lazy"
-          />
-        </picture>
-      </fixed-ratio>
+  <div class="center-content center-content--large">
+    <nuxt-link to="/shop/deformation-portrait" class="home-banner-link">
+      <responsive-image :image="image"></responsive-image>
     </nuxt-link>
   </div>
 </template>
 
 <script>
-import FixedRatio from '../components/fixed-ratio/fixed-ratio.vue'
+import ResponsiveImage from '../components/responsive-image/responsive-image.vue'
 
 export default {
-  components: { FixedRatio }
+  components: { ResponsiveImage },
+  data() {
+    return {
+      image: {
+        width: 1500,
+        height: 1802,
+        filename: 'deformation-portrait',
+        type: 'jpg',
+        url: '/images/deformation-portrait.jpg',
+        alt: 'Deformation by Paul Blanca'
+      }
+    }
+  }
 }
 </script>
 
 <style>
 @import '../components/app-core/settings.css';
 
-.hero {
-  display: block;
-}
-
-.hero__container {
+.home-banner-link {
   display: block;
 }
 </style>
