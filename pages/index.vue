@@ -1,7 +1,10 @@
 <template>
   <div class="center-content center-content--large">
     <nuxt-link to="/shop/deformation-portrait" class="home-banner-link">
-      <responsive-image :image="image"></responsive-image>
+      <responsive-image
+        :image="image"
+        sizes="(min-width: 1200px) 100vw, 1vw"
+      ></responsive-image>
     </nuxt-link>
   </div>
 </template>

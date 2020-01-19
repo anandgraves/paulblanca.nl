@@ -6,10 +6,10 @@
       :height="image.height"
     >
       <lazy-load>
-        <picture v-if="image.width">
+        <picture>
           <!--[if IE 9]><video style="display: none;"><![endif]-->
-          <source :srcset="srcSet('webp')" sizes="100vw" type="image/webp" />
-          <source :srcset="srcSet('jpg')" sizes="100vw" type="image/jpeg" />
+          <source :srcset="srcSet('webp')" :sizes="sizes" type="image/webp" />
+          <source :srcset="srcSet('jpg')" :sizes="sizes" type="image/jpeg" />
           <!--[if IE 9]></video><![endif]-->
           <transition name="fade">
             <img
@@ -36,16 +36,13 @@ export default {
     LazyLoad
   },
   props: {
-    /**
-     * Should contain the url, width, height, filename and alt properties.
-     */
     image: {
       type: Object,
       required: true
     },
-    widthStep: {
-      type: Number,
-      default: 100
+    sizes: {
+      type: String,
+      default: ''
     },
     /**
      * Color filling up the space when the image is loading.
@@ -73,9 +70,6 @@ export default {
       this.isLoaded = true
     },
     srcSet(type) {
-      if (!type) {
-        type = 'jpg'
-      }
       return `
         /images/${this.image.filename}-500.${type} 500w,
         /images/${this.image.filename}-1000.${type} 1000w,
