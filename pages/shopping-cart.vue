@@ -14,7 +14,6 @@
           <cart-item
             :uuid="product.uuid"
             :price="product.price"
-            :thumbnailUrl="product.thumbnailUrl"
             :title="product.title"
             :slug="product.slug"
             :image="product.image"

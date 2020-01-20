@@ -72,10 +72,6 @@ export default {
       type: Number,
       required: true
     },
-    thumbnailUrl: {
-      type: String,
-      required: true
-    },
     title: {
       type: String,
       required: true
