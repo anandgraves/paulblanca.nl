@@ -7,7 +7,7 @@
         </div>
 
         <span class="app-header__subtitle">
-          art photographer
+          artist - photographer
         </span>
       </nuxt-link>
     </div>
