@@ -71,6 +71,7 @@ export default {
     },
     srcSet(type) {
       return `
+        /images/${this.image.filename}-150.${type} 150w,
         /images/${this.image.filename}-500.${type} 500w,
         /images/${this.image.filename}-1000.${type} 1000w,
         /images/${this.image.filename}-1500.${type} 1500w
