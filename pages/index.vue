@@ -3,7 +3,7 @@
     <nuxt-link to="/shop/deformation-portrait" class="home-banner-link">
       <responsive-image
         :image="image"
-        sizes="(min-width: 1200px) 100vw, 1vw"
+        sizes="(min-width: 1000px) 1500px, (min-width: 600px) 1000px, (max-width: 400px): 500px, 100vw"
       ></responsive-image>
     </nuxt-link>
   </div>
