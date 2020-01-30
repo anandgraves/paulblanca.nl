@@ -2,8 +2,12 @@
   <article class="center-content">
     <h1 class="heading-large">Shop</h1>
 
-    <ul class="flat-list">
-      <li v-for="product in shopProductList" :key="product.uuid">
+    <ul class="photo-list flat-list">
+      <li
+        v-for="product in shopProductList"
+        :key="product.uuid"
+        class="photo-list__item"
+      >
         <nuxt-link :to="`/shop/${product.slug}`">
           <responsive-image :image="product.image"></responsive-image>
         </nuxt-link>
