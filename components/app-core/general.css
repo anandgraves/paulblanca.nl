@@ -100,6 +100,10 @@ section.body + section.body {
   cursor: pointer;
 }
 
+.flat-list {
+  list-style: none;
+}
+
 @media (min-width: 500px) {
   .button--order {
     max-width: 400px;

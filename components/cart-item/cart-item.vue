@@ -2,9 +2,9 @@
   <div>
     <article class="cart-item">
       <div class="cart-item__media">
-        <nuxt-link :to="`/shop/${slug}`"
-          ><img :src="thumbnailUrl" class="cart-item__image" alt="..."
-        /></nuxt-link>
+        <nuxt-link :to="`/shop/${slug}`">
+          <responsive-image :image="image" class="cart-item__image" />
+        </nuxt-link>
       </div>
       <div class="cart-item__info">
         <div class="cart-item__info-container">
@@ -56,9 +56,13 @@
 <script>
 import { mapActions } from 'vuex'
 import DeleteIcon from '../../static/icons/delete.svg'
+import ResponsiveImage from '../responsive-image/responsive-image.vue'
 
 export default {
-  components: { DeleteIcon },
+  components: {
+    DeleteIcon,
+    ResponsiveImage
+  },
   props: {
     uuid: {
       type: String,
@@ -68,16 +72,16 @@ export default {
       type: Number,
       required: true
     },
-    thumbnailUrl: {
-      type: String,
-      required: true
-    },
     title: {
       type: String,
       required: true
     },
     slug: {
       type: String,
+      required: true
+    },
+    image: {
+      type: Object,
       required: true
     }
   },

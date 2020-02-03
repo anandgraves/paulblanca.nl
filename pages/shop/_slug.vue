@@ -1,13 +1,7 @@
 <template>
   <div class="center-content center-content--large">
     <article class="photo-detail">
-      <figure class="photo-detail__image">
-        <img
-          :src="product.thumbnailUrl"
-          loading="lazy"
-          alt="Snow White Giullia by Paul Blanca"
-        />
-      </figure>
+      <responsive-image :image="product.image" class="photo-detail__image" />
 
       <div class="photo-detail__content">
         <h1 class="photo-detail__heading heading-large">{{ product.title }}</h1>
@@ -54,8 +48,12 @@
 
 <script>
 import { mapGetters, mapActions } from 'vuex'
+import ResponsiveImage from '../../components/responsive-image/responsive-image.vue'
 
 export default {
+  components: {
+    ResponsiveImage
+  },
   computed: {
     ...mapGetters(['shopProductList']),
     product() {
