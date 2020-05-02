@@ -1,5 +1,5 @@
 <template>
-  <div class="center-content center-content--large">
+  <div class="center-content">
     <nuxt-link to="/shop/deformation-portrait" class="home-banner-link">
       <responsive-image
         :image="image"
