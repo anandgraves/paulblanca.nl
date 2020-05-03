@@ -4,8 +4,8 @@
     <nuxt-link to="/about" class="app-menu__link">About</nuxt-link>
     <nuxt-link to="/contact" class="app-menu__link">Contact</nuxt-link>
     <button
-      @click="navigateToShoppingCart"
       class="app-menu__button app-menu__link"
+      @click="navigateToShoppingCart"
     >
       <bag-icon />
     </button>
@@ -17,13 +17,13 @@ import bagIcon from '../bag-icon/bag-icon'
 
 export default {
   components: {
-    bagIcon
+    bagIcon,
   },
   methods: {
     navigateToShoppingCart() {
       this.$router.replace('/shopping-cart')
-    }
-  }
+    },
+  },
 }
 </script>
 

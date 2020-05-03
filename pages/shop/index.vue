@@ -22,16 +22,16 @@ import ResponsiveImage from '../../components/responsive-image/responsive-image.
 
 export default {
   components: {
-    ResponsiveImage
+    ResponsiveImage,
   },
   data() {
     return {
-      products: []
+      products: [],
     }
   },
 
   computed: {
-    ...mapGetters(['shopProductList'])
-  }
+    ...mapGetters(['shopProductList']),
+  },
 }
 </script>

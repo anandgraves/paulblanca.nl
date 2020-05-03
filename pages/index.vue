@@ -22,10 +22,10 @@ export default {
         filename: 'deformation-portrait',
         type: 'jpg',
         url: '/images/deformation-portrait.jpg',
-        alt: 'Deformation by Paul Blanca'
-      }
+        alt: 'Deformation by Paul Blanca',
+      },
     }
-  }
+  },
 }
 </script>
 

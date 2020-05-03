@@ -22,8 +22,8 @@ import { mapGetters } from 'vuex'
 
 export default {
   computed: {
-    ...mapGetters(['cartProductsQuantity'])
-  }
+    ...mapGetters(['cartProductsQuantity']),
+  },
 }
 </script>
 

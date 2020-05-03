@@ -19,8 +19,8 @@ const state = () => ({
         width: 1300,
         height: 910,
         filename: 'snow-white-kristal',
-        alt: 'test'
-      }
+        alt: 'test',
+      },
     },
     {
       uuid: '332f2a22-db76-4107-a165-ab7742bc6123',
@@ -39,8 +39,8 @@ const state = () => ({
         width: 1300,
         height: 910,
         filename: 'snow-white-kristal',
-        alt: 'test'
-      }
+        alt: 'test',
+      },
     },
     {
       uuid: '5c61ade0-287f-4bd6-b5bd-2a5dd90e4327',
@@ -59,8 +59,8 @@ const state = () => ({
         width: 1500,
         height: 1802,
         filename: 'deformation-portrait',
-        alt: 'Deformation by Paul Blanca'
-      }
+        alt: 'Deformation by Paul Blanca',
+      },
     },
     {
       uuid: 'c2f161f6-28c5-4bac-8574-3995dd5ea8e0',
@@ -79,8 +79,8 @@ const state = () => ({
         width: 1300,
         height: 910,
         filename: 'snow-white-kristal',
-        alt: 'test'
-      }
+        alt: 'test',
+      },
     },
     {
       uuid: '3ae373e1-23a7-4a85-9d3d-d8de003f1221',
@@ -99,22 +99,22 @@ const state = () => ({
         width: 1300,
         height: 910,
         filename: 'snow-white-kristal',
-        alt: 'test'
-      }
-    }
-  ]
+        alt: 'test',
+      },
+    },
+  ],
 })
 
 const getters = {
-  shopProductList: state => {
+  shopProductList: (state) => {
     return state.shopProductList
-  }
+  },
 }
 
 const mutations = {
   SET_SHOP_PRODUCTS(state, payload) {
     state.shopProductList = payload
-  }
+  },
 }
 
 const actions = {}
@@ -125,6 +125,6 @@ export default {
   mutations,
   actions,
   modules: {
-    cart
-  }
+    cart,
+  },
 }

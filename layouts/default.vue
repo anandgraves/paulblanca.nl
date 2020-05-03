@@ -12,8 +12,8 @@ import appHeader from '../components/app-header/app-header'
 
 export default {
   components: {
-    appHeader
-  }
+    appHeader,
+  },
 }
 </script>
 

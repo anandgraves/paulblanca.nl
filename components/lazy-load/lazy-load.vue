@@ -2,7 +2,7 @@
   <div
     :style="{
       minWidth: '1px',
-      minHeight: '1px'
+      minHeight: '1px',
     }"
     class="vue-lazy-load"
   >
@@ -20,20 +20,20 @@ export default {
      */
     rootMargin: {
       type: String,
-      default: '0px 0px 0px 0px'
+      default: '0px 0px 0px 0px',
     },
     /**
      * See InetersectionOberserver treshold [docs](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API#Intersection_observer_options)
      */
     threshold: {
       type: [Number, Array],
-      default: 0
-    }
+      default: 0,
+    },
   },
   data() {
     return {
       isIntersected: false,
-      observer: null
+      observer: null,
     }
   },
   mounted() {
@@ -54,7 +54,7 @@ export default {
       this.observer.observe(this.$el)
     },
     onIntersection(entries) {
-      this.isIntersected = entries.some(entry => entry.intersectionRatio > 0)
+      this.isIntersected = entries.some((entry) => entry.intersectionRatio > 0)
       if (this.isIntersected) {
         this.unobserve()
       }
@@ -63,7 +63,7 @@ export default {
       if ('IntersectionObserver' in window) {
         this.observer.unobserve(this.$el)
       }
-    }
-  }
+    },
+  },
 }
 </script>
