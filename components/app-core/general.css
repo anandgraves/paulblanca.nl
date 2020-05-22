@@ -58,11 +58,15 @@ section.body + section.body {
 }
 
 .center-content {
-  max-width: 800px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.center-content--smaller {
+  max-width: 800px;
 }
 
 .center-content--wide {
