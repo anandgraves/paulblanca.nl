@@ -20,8 +20,8 @@ import appMenu from '../app-menu/app-menu'
 
 export default {
   components: {
-    appMenu
-  }
+    appMenu,
+  },
 }
 </script>
 

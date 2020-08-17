@@ -65,6 +65,10 @@ section.body + section.body {
   padding-right: 20px;
 }
 
+.center-content--smaller {
+  max-width: 800px;
+}
+
 .center-content--wide {
   max-width: 1300px;
 }

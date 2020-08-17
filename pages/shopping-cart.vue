@@ -47,11 +47,11 @@ import CartItem from '../components/cart-item/cart-item.vue'
 export default {
   layout: 'shopping-cart',
   components: {
-    CartItem
+    CartItem,
   },
   computed: {
-    ...mapGetters(['cartProducts', 'cartProductsSubTotal'])
-  }
+    ...mapGetters(['cartProducts', 'cartProductsSubTotal']),
+  },
 }
 </script>
 

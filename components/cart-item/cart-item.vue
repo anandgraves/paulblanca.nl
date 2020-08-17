@@ -16,9 +16,9 @@
           </div>
           <div class="cart-item__quantity form-select">
             <select
-              @change="setQuantity(quantity)"
               v-model.number="quantity"
               class="form-select__element"
+              @change="setQuantity(quantity)"
             >
               <option value="1">1</option>
               <option value="2">2</option>
@@ -45,7 +45,7 @@
       </div>
       <div class="cart-item__price-block">
         <span class="cart-item__price">€{{ priceCalculatedFromQuantity }}</span>
-        <button @click="removeProductFromCart(uuid)" class="cart-item__button">
+        <button class="cart-item__button" @click="removeProductFromCart(uuid)">
           <delete-icon class="cart-item__icon" />
         </button>
       </div>
@@ -61,46 +61,46 @@ import ResponsiveImage from '../responsive-image/responsive-image.vue'
 export default {
   components: {
     DeleteIcon,
-    ResponsiveImage
+    ResponsiveImage,
   },
   props: {
     uuid: {
       type: String,
-      required: true
+      required: true,
     },
     price: {
       type: Number,
-      required: true
+      required: true,
     },
     title: {
       type: String,
-      required: true
+      required: true,
     },
     slug: {
       type: String,
-      required: true
+      required: true,
     },
     image: {
       type: Object,
-      required: true
-    }
+      required: true,
+    },
   },
   data() {
     return {
-      quantity: this.$store.getters.cartProductQuantityById(this.uuid)
+      quantity: this.$store.getters.cartProductQuantityById(this.uuid),
     }
   },
   computed: {
     priceCalculatedFromQuantity() {
       return this.price * this.quantity
-    }
+    },
   },
   methods: {
     ...mapActions(['changeQuantityInCart', 'removeProductFromCart']),
     setQuantity(quantity) {
       this.changeQuantityInCart({ uuid: this.uuid, quantity })
-    }
-  }
+    },
+  },
 }
 </script>
 

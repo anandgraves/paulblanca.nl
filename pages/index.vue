@@ -1,5 +1,5 @@
 <template>
-  <div class="center-content center-content--large">
+  <div class="center-content center-content--smaller">
     <nuxt-link to="/shop/deformation-portrait" class="home-banner-link">
       <responsive-image
         :image="image"
@@ -22,10 +22,10 @@ export default {
         filename: 'deformation-portrait',
         type: 'jpg',
         url: '/images/deformation-portrait.jpg',
-        alt: 'Deformation by Paul Blanca'
-      }
+        alt: 'Deformation by Paul Blanca',
+      },
     }
-  }
+  },
 }
 </script>
 

@@ -16,8 +16,8 @@
               v-show="isLoaded"
               :alt="image.alt"
               :src="fallbackUrl"
-              @load="onLoad"
               class="responsive-image__img"
+              @load="onLoad"
             />
           </transition>
         </picture>
@@ -33,28 +33,28 @@ import LazyLoad from '../lazy-load/lazy-load.vue'
 export default {
   components: {
     FixedRatio,
-    LazyLoad
+    LazyLoad,
   },
   props: {
     image: {
       type: Object,
-      required: true
+      required: true,
     },
     sizes: {
       type: String,
-      default: ''
+      default: '',
     },
     /**
      * Color filling up the space when the image is loading.
      */
     placeholderColor: {
       type: String,
-      default: 'transparent'
-    }
+      default: 'transparent',
+    },
   },
   data() {
     return {
-      isLoaded: false
+      isLoaded: false,
     }
   },
   computed: {
@@ -63,7 +63,7 @@ export default {
     },
     fallbackUrl() {
       return `/images/${this.image.filename}-500.jpg`
-    }
+    },
   },
   methods: {
     onLoad() {
@@ -76,8 +76,8 @@ export default {
         /images/${this.image.filename}-1000.${type} 1000w,
         /images/${this.image.filename}-1500.${type} 1500w
       `
-    }
-  }
+    },
+  },
 }
 </script>
 

@@ -35,8 +35,8 @@
 
         <div class="order">
           <button
-            @click="addProductToCart(product)"
             class="button--order button"
+            @click="addProductToCart(product)"
           >
             Add to Cart
           </button>
@@ -52,19 +52,19 @@ import ResponsiveImage from '../../components/responsive-image/responsive-image.
 
 export default {
   components: {
-    ResponsiveImage
+    ResponsiveImage,
   },
   computed: {
     ...mapGetters(['shopProductList']),
     product() {
       return this.shopProductList.find(
-        product => product.slug === this.$route.params.slug
+        (product) => product.slug === this.$route.params.slug
       )
-    }
+    },
   },
   methods: {
-    ...mapActions(['addProductToCart'])
-  }
+    ...mapActions(['addProductToCart']),
+  },
 }
 </script>
 
