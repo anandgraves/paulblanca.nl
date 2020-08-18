@@ -1,10 +1,11 @@
 export default {
   mode: 'universal',
+  target: 'static',
   // server: {
   //   port: '8000',
   //   host: '0.0.0.0'
   // },
-  srcDir: './',
+  srcDir: 'src/client',
   /*
    ** Headers of the page
    */
@@ -23,6 +24,10 @@ export default {
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+  },
+  components: true,
+  generate: {
+    fallback: true,
   },
   /*
    ** Customize the progress-bar color
