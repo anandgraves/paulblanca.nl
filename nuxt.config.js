@@ -36,7 +36,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['./components/app-core/index.css'],
+  css: ['./src/client/components/app-core/index.css'],
   /*
    ** Plugins to load before mounting the App
    */
