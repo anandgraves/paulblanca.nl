@@ -6,19 +6,12 @@
     <button
       class="app-menu__button app-menu__link"
       @click="navigateToShoppingCart"
-    >
-      <bag-icon />
-    </button>
+    ></button>
   </nav>
 </template>
 
 <script>
-import bagIcon from '../bag-icon/bag-icon'
-
 export default {
-  components: {
-    bagIcon,
-  },
   methods: {
     navigateToShoppingCart() {
       this.$router.replace('/shopping-cart')
