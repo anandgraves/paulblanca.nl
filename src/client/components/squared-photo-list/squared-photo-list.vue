@@ -13,6 +13,9 @@
           :image="photo"
           sizes="(min-width: 600px) 1000px, (max-width: 400px): 500px, 100vw"
         ></responsive-image>
+        <div v-if="showTitle" class="squared-photo-list__title">
+          {{ photo.title }}
+        </div>
       </nuxt-link>
     </li>
   </ul>
@@ -24,6 +27,10 @@ export default {
     photos: {
       type: Array,
       required: true,
+    },
+    showTitle: {
+      type: Boolean,
+      default: false,
     },
   },
 }
@@ -37,11 +44,12 @@ export default {
 }
 
 .squared-photo-list__item {
-  margin-bottom: 20px;
+  margin-bottom: 48px;
 }
 
 .squared-photo-list__link {
   display: block;
+  text-decoration: none;
   transition: transform 0.3s ease;
 }
 
@@ -51,6 +59,12 @@ export default {
 
 .squared-photo-list__link:hover img {
   transform: scale(1.1);
+}
+
+.squared-photo-list__title {
+  margin-top: 5px;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 @media (min-width: 800px) {

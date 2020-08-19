@@ -14,6 +14,7 @@ export default {
           height: 900,
           filename: 'paulblanca-selfportrait-mother-and-son-2014-900w',
           type: 'jpg',
+          title: 'Selfportrait Mother And Son 2014',
           alt: 'Selfportrait Mother And Son 2014, by Paul Blanca',
         },
         {
@@ -21,6 +22,7 @@ export default {
           height: 627,
           filename: 'chokochoko-kristal-900w',
           type: 'jpg',
+          title: 'Chokochoko - Kristal 2008',
           alt: 'Chokochoko - Kristal 2008, by Paul Blanca',
         },
         {
@@ -28,6 +30,7 @@ export default {
           height: 787,
           filename: 'crying-girls-900w',
           type: 'jpg',
+          title: 'Par La Pluie Des Femmes 1990',
           alt: 'Par La Pluie Des Femmes - Crying Girls 1990, by Paul Blanca',
         },
         {
@@ -35,6 +38,7 @@ export default {
           height: 900,
           filename: 'deformation-900w',
           type: 'jpg',
+          title: 'Deformation 2006',
           alt: 'Deformation 2006, by Paul Blanca',
         },
       ],
