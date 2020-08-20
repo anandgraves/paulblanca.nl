@@ -8,7 +8,7 @@
       <lazy-load>
         <picture>
           <!--[if IE 9]><video style="display: none;"><![endif]-->
-          <source :srcset="srcSet('webp')" :sizes="sizes" type="image/webp" />
+          <!-- <source :srcset="srcSet('webp')" :sizes="sizes" type="image/webp" /> -->
           <source :srcset="srcSet('jpg')" :sizes="sizes" type="image/jpeg" />
           <!--[if IE 9]></video><![endif]-->
           <transition name="fade">
@@ -27,14 +27,7 @@
 </template>
 
 <script>
-import FixedRatio from '../fixed-ratio/fixed-ratio.vue'
-import LazyLoad from '../lazy-load/lazy-load.vue'
-
 export default {
-  components: {
-    FixedRatio,
-    LazyLoad,
-  },
   props: {
     image: {
       type: Object,
@@ -62,7 +55,10 @@ export default {
       return this.image.alt || ''
     },
     fallbackUrl() {
-      return `/images/${this.image.filename}-500.jpg`
+      return `/images/${this.filenameMinusWidth}-500w.jpg`
+    },
+    filenameMinusWidth() {
+      return this.image.filename.slice(0, -5)
     },
   },
   methods: {
@@ -71,10 +67,9 @@ export default {
     },
     srcSet(type) {
       return `
-        /images/${this.image.filename}-150.${type} 150w,
-        /images/${this.image.filename}-500.${type} 500w,
-        /images/${this.image.filename}-1000.${type} 1000w,
-        /images/${this.image.filename}-1500.${type} 1500w
+        /images/${this.filenameMinusWidth}-150w.${type} 150w,
+        /images/${this.filenameMinusWidth}-500w.${type} 500w,
+        /images/${this.filenameMinusWidth}-900w.${type} 900w
       `
     },
   },
