@@ -2,18 +2,15 @@
   <ul class="squared-photo-list">
     <li
       v-for="photo in photos"
-      :key="photo.filename"
+      :key="photo.slug"
       class="squared-photo-list__item"
     >
-      <nuxt-link
-        to="/shop/deformation-portrait"
-        class="squared-photo-list__link"
-      >
+      <nuxt-link :to="`/shop/${photo.slug}`" class="squared-photo-list__link">
         <responsive-image
-          :image="photo"
+          :image="photo.image"
           sizes="(min-width: 600px) 1000px, (max-width: 400px): 500px, 100vw"
         ></responsive-image>
-        <div v-if="showTitle" class="squared-photo-list__title">
+        <div v-if="hasTitle" class="squared-photo-list__title">
           {{ photo.title }}
         </div>
       </nuxt-link>
@@ -28,7 +25,7 @@ export default {
       type: Array,
       required: true,
     },
-    showTitle: {
+    hasTitle: {
       type: Boolean,
       default: false,
     },
@@ -44,7 +41,7 @@ export default {
 }
 
 .squared-photo-list__item {
-  margin-bottom: 48px;
+  margin-bottom: 20px;
 }
 
 .squared-photo-list__link {
@@ -63,6 +60,7 @@ export default {
 
 .squared-photo-list__title {
   margin-top: 5px;
+  margin-bottom: 24px;
   font-size: 1.2rem;
   text-align: center;
 }

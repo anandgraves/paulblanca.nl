@@ -13,10 +13,6 @@
         </p>
 
         <dl class="photo-info body">
-          <dt class="photo-info__term">Title</dt>
-          <dd class="photo-info__description">{{ product.title }}</dd>
-          <dt class="photo-info__term">Subtitle</dt>
-          <dd class="photo-info__description">{{ product.subtitle }}</dd>
           <dt class="photo-info__term">Medium</dt>
           <dd class="photo-info__description">{{ product.medium }}</dd>
           <dt class="photo-info__term">Dimensions</dt>

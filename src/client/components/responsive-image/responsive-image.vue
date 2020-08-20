@@ -55,7 +55,7 @@ export default {
       return this.image.alt || ''
     },
     fallbackUrl() {
-      return `/images/${this.image.filename}-500.jpg`
+      return `/images/${this.filenameMinusWidth}-500w.jpg`
     },
     filenameMinusWidth() {
       return this.image.filename.slice(0, -5)

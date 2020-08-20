@@ -1,48 +1,75 @@
 <template>
   <div class="content">
-    <squared-photo-list :photos="photos" />
+    <squared-photo-list :photos="shopProductList" />
   </div>
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
+
 export default {
   data() {
     return {
+      products: [],
       photos: [
         {
-          width: 900,
-          height: 900,
-          filename: 'paulblanca-selfportrait-mother-and-son-2014-900w',
-          type: 'jpg',
+          slug: 'selfportrait-mother-and-son-2014',
+          series: '',
+          year: 2014,
           title: 'Selfportrait Mother And Son 2014',
-          alt: 'Selfportrait Mother And Son 2014, by Paul Blanca',
+          image: {
+            width: 900,
+            height: 900,
+            filename: 'paulblanca-selfportrait-mother-and-son-2014-900w',
+            type: 'jpg',
+            alt: 'Selfportrait Mother And Son 2014, by Paul Blanca',
+          },
         },
         {
-          width: 627,
-          height: 627,
-          filename: 'chokochoko-kristal-900w',
-          type: 'jpg',
+          slug: 'mother-and-daughter-monique-v-and-anika-2008',
+          series: 'Kristal',
+          year: 2008,
           title: 'Chokochoko - Kristal 2008',
-          alt: 'Chokochoko - Kristal 2008, by Paul Blanca',
+          image: {
+            width: 627,
+            height: 627,
+            filename: 'chokochoko-kristal-900w',
+            type: 'jpg',
+            alt: 'Chokochoko - Kristal 2008, by Paul Blanca',
+          },
         },
         {
-          width: 787,
-          height: 787,
-          filename: 'crying-girls-900w',
-          type: 'jpg',
+          slug: 'par-la-pluie-des-femmes-1-1990',
+          series: 'Par La Pluie Des Femmes',
+          year: 1990,
           title: 'Par La Pluie Des Femmes 1990',
-          alt: 'Par La Pluie Des Femmes - Crying Girls 1990, by Paul Blanca',
+          image: {
+            width: 787,
+            height: 787,
+            filename: 'crying-girls-900w',
+            type: 'jpg',
+            alt: 'Par La Pluie Des Femmes - Crying Girls 1990, by Paul Blanca',
+          },
         },
         {
-          width: 900,
-          height: 900,
-          filename: 'deformation-900w',
-          type: 'jpg',
+          slug: 'deformation-1-2006',
+          series: 'Deformation',
+          year: 2006,
           title: 'Deformation 2006',
-          alt: 'Deformation 2006, by Paul Blanca',
+          image: {
+            width: 900,
+            height: 900,
+            filename: 'deformation-900w',
+            type: 'jpg',
+            alt: 'Deformation 2006, by Paul Blanca',
+          },
         },
       ],
     }
+  },
+
+  computed: {
+    ...mapGetters(['shopProductList']),
   },
 }
 </script>
