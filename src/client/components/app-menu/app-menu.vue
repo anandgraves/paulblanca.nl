@@ -36,11 +36,12 @@ export default {
   vertical-align: middle;
   text-decoration: none;
   border-bottom: 2px solid transparent;
+  transition: border 0.24s ease;
 }
 
 .app-menu__link:hover,
 .app-menu__link:focus {
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
 }
 
 .app-menu__link:not(:first-child) {
