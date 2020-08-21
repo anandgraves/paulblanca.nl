@@ -41,11 +41,12 @@ export default {
 }
 
 .squared-photo-list__item {
-  margin-bottom: 20px;
+  margin-bottom: 48px;
 }
 
 .squared-photo-list__link {
   display: block;
+  color: black;
   text-decoration: none;
   transition: transform 0.3s ease;
 }
@@ -73,6 +74,7 @@ export default {
 
   .squared-photo-list__item {
     width: 50%;
+    margin-bottom: 20px;
     padding-right: 20px;
   }
 }

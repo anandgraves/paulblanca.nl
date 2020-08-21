@@ -5,7 +5,7 @@
         <responsive-image :image="product.image" class="photo-detail__image" />
       </nuxt-link>
 
-      <div class="photo-detail__content">
+      <div class="photo-detail__content rich-text">
         <h1 class="photo-detail__heading heading-large">{{ product.title }}</h1>
         <p class="body">
           Every month Paul Blanca creates a new photo. Lorem ipsum dolor sit
@@ -26,7 +26,7 @@
                 type="radio"
                 value="30x40cm"
               />
-              <label for="30x40" class="radio-group__label">30x40 cm</label>
+              <label for="30x40" class="radio-group__label">30 x 40 cm</label>
             </div>
             <div class="radio-group__item">
               <input
@@ -37,7 +37,7 @@
                 type="radio"
                 value="40x50cm"
               />
-              <label for="40x50" class="radio-group__label">40x50 cm</label>
+              <label for="40x50" class="radio-group__label">40 x 50 cm</label>
             </div>
             <div class="radio-group__item">
               <input
@@ -48,7 +48,9 @@
                 type="radio"
                 value="100x120cm"
               />
-              <label for="100x120" class="radio-group__label">100x120 cm</label>
+              <label for="100x120" class="radio-group__label"
+                >100 x 120 cm</label
+              >
             </div>
           </div>
         </fieldset>
@@ -99,7 +101,13 @@
         <div>Edition: {{ getEdition }}</div>
         <div class="photo-detail__price">{{ formatter(getSelectedPrice) }}</div>
 
-        <button class="button button--order">Buy photo via email</button>
+        <a
+          :href="orderViaEmail"
+          class="button button--order"
+          @click="orderViaEmail"
+        >
+          Buy photo via email
+        </a>
 
         <section>
           <h2 class="heading-medium">Prints</h2>
@@ -130,31 +138,9 @@
         <section>
           <h2 class="heading-medium">Verification</h2>
           <p class="body">
-            Each photo includes a certificate of authenticity. It is an official
-            document that proves the authenticity of the photo. You'll receive:
-          </p>
-
-          <ul class="body">
-            <li>
-              Signature and current photo in the edition written on the front of
-              the photo.
-            </li>
-            <li>Holographic foil on the certificate.</li>
-            <li>A small print of the photo on the certificate.</li>
-            <li>Current photo in the edition printed on the certificate.</li>
-            <li>
-              A print ID (a uniquely generated code) written on the back of the
-              photo and printed in the certificate. This is to link the print
-              and the certificate together.
-            </li>
-          </ul>
-
-          <p class="body">
-            Eyes on Photo Art and Paul Blanca keep track of the number of
-            prints. Contact
-            <a href="mailto:info@eyesonphotoart.nl">info@eyesonphotoart.nl</a>
-            or <a href="mailto:info@paulblanca.nl">info@paulblanca.nl</a> for
-            verification.
+            Each photo includes a certificate of authenticity.
+            <nuxt-link to="/verification">Read more</nuxt-link>
+            what the certificate contains and how authenticity is ensured.
           </p>
         </section>
 
@@ -176,28 +162,6 @@ export default {
     return {
       size: '40x50cm',
       finishing: 'dibond',
-      edition: {
-        '30x40cm': '1 of 10',
-        '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
-      },
-      prices: {
-        '30x40cm': {
-          none: 1900,
-          dibond: 2800,
-          plexiglass: 3400,
-        },
-        '40x50cm': {
-          none: 3800,
-          dibond: 4000,
-          plexiglass: 4200,
-        },
-        '100x120cm': {
-          none: 8000,
-          dibond: 8200,
-          plexiglass: 8400,
-        },
-      },
     }
   },
   computed: {
@@ -208,10 +172,24 @@ export default {
       )
     },
     getSelectedPrice() {
-      return this.prices[this.size][this.finishing]
+      console.log(this.product)
+      return this.product.prices[this.size][this.finishing]
     },
     getEdition() {
-      return this.edition[this.size]
+      return this.product.edition[this.size]
+    },
+    orderViaEmail() {
+      const subject = 'Order via paulblanca.nl'
+      const intro = `I would like to order a photo on paulblanca.nl.\n\n\n`
+      const title = `Title: ${this.product.title}\n`
+      const size = `Size: ${this.size}\n`
+      const finishing = `Finishing: ${this.finishing}\n`
+
+      return `mailto:info@paulblanca?subject=${encodeURIComponent(
+        subject
+      )}&body=${encodeURIComponent(intro)}${encodeURIComponent(
+        title
+      )}${encodeURIComponent(size)}${encodeURIComponent(finishing)}`
     },
   },
   methods: {
@@ -256,7 +234,8 @@ export default {
 
 .radio-group__label {
   display: inline-block;
-  padding: 12px 8px;
+  padding: 12px 10px;
+  font-size: 1.125rem;
   font-weight: 500;
   text-align: center;
   cursor: pointer;
@@ -307,33 +286,6 @@ export default {
 
 .photo-info__description:not(:last-child) {
   margin-bottom: 12px;
-}
-
-/* Styling of HTML elements on the photo detail page */
-.photo-detail__content a:not([class]) {
-  font-weight: 600;
-}
-
-.photo-detail__content h2 {
-  margin-top: 36px;
-}
-
-.photo-detail__content p {
-  margin-bottom: 36px;
-}
-
-.photo-detail__content ul {
-  list-style: square;
-}
-
-.photo-detail__content ul,
-.photo-detail__content ol {
-  margin-bottom: 36px;
-  padding-left: 24px;
-}
-
-.photo-detail__content li:not(:last-child) {
-  margin-bottom: 8px;
 }
 
 @media (min-width: 500px) {

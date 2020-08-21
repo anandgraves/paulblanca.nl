@@ -28,9 +28,10 @@ export default {
 .app-menu__link {
   display: inline-block;
   margin-top: 2px;
-  font-family: 'Cooper Hewitt';
   font-weight: 400;
   font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
   color: #555;
   vertical-align: middle;
   text-decoration: none;
