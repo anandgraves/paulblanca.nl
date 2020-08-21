@@ -172,7 +172,6 @@ export default {
       )
     },
     getSelectedPrice() {
-      console.log(this.product)
       return this.product.prices[this.size][this.finishing]
     },
     getEdition() {
@@ -224,12 +223,26 @@ export default {
 }
 
 .radio-group__radio {
-  display: none;
+  /* display: none; */
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
 .radio-group__radio:checked + label {
   color: white;
   background: black;
+}
+
+.radio-group__radio:focus + label,
+.radio-group__radio:active + label {
+  background-color: rgb(61, 63, 65);
+  color: white;
 }
 
 .radio-group__label {
