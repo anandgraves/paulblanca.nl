@@ -14,122 +14,126 @@
           etiam animus hominis.
         </p>
 
-        <fieldset class="radio-group">
-          <legend class="radio-group__title heading-small">Size</legend>
-          <div class="radio-group__container">
-            <div class="radio-group__item">
-              <input
-                id="30x40"
-                v-model="size"
-                class="radio-group__radio"
-                name="size"
-                type="radio"
-                value="30x40cm"
-              />
-              <label for="30x40" class="radio-group__label">30 x 40 cm</label>
+        <div class="photo-detail__action">
+          <fieldset class="radio-group">
+            <legend class="radio-group__title">Size</legend>
+            <div class="radio-group__container">
+              <div class="radio-group__item">
+                <input
+                  id="30x40"
+                  v-model="size"
+                  class="radio-group__radio"
+                  name="size"
+                  type="radio"
+                  value="30x40cm"
+                />
+                <label for="30x40" class="radio-group__label">30 x 40 cm</label>
+              </div>
+              <div class="radio-group__item">
+                <input
+                  id="40x50"
+                  v-model="size"
+                  class="radio-group__radio"
+                  name="size"
+                  type="radio"
+                  value="40x50cm"
+                />
+                <label for="40x50" class="radio-group__label">40 x 50 cm</label>
+              </div>
+              <div class="radio-group__item">
+                <input
+                  id="100x120"
+                  v-model="size"
+                  class="radio-group__radio"
+                  name="size"
+                  type="radio"
+                  value="100x120cm"
+                />
+                <label for="100x120" class="radio-group__label"
+                  >100 x 120 cm</label
+                >
+              </div>
             </div>
-            <div class="radio-group__item">
-              <input
-                id="40x50"
-                v-model="size"
-                class="radio-group__radio"
-                name="size"
-                type="radio"
-                value="40x50cm"
-              />
-              <label for="40x50" class="radio-group__label">40 x 50 cm</label>
+          </fieldset>
+
+          <fieldset class="radio-group">
+            <legend class="radio-group__title">
+              Print finishing
+            </legend>
+            <div class="radio-group__container">
+              <div class="radio-group__item">
+                <input
+                  id="none"
+                  v-model="finishing"
+                  class="radio-group__radio"
+                  name="finishing"
+                  type="radio"
+                  value="none"
+                />
+                <label class="radio-group__label" for="none">None</label>
+              </div>
+              <div class="radio-group__item">
+                <input
+                  id="dibond"
+                  v-model="finishing"
+                  class="radio-group__radio"
+                  name="finishing"
+                  type="radio"
+                  value="dibond"
+                />
+                <label class="radio-group__label" for="dibond">Dibond</label>
+              </div>
+              <div class="radio-group__item">
+                <input
+                  id="plexiglass"
+                  v-model="finishing"
+                  class="radio-group__radio"
+                  name="finishing"
+                  type="radio"
+                  value="plexiglass"
+                />
+                <label class="radio-group__label" for="plexiglass"
+                  >Plexiglass</label
+                >
+              </div>
             </div>
-            <div class="radio-group__item">
-              <input
-                id="100x120"
-                v-model="size"
-                class="radio-group__radio"
-                name="size"
-                type="radio"
-                value="100x120cm"
-              />
-              <label for="100x120" class="radio-group__label"
-                >100 x 120 cm</label
-              >
-            </div>
+          </fieldset>
+
+          <div>Edition: {{ getEdition }}</div>
+          <div class="photo-detail__price">
+            {{ formatter(getSelectedPrice) }}
           </div>
-        </fieldset>
 
-        <fieldset class="radio-group">
-          <legend class="radio-group__title heading-small">
-            Print finishing
-          </legend>
-          <div class="radio-group__container">
-            <div class="radio-group__item">
-              <input
-                id="none"
-                v-model="finishing"
-                class="radio-group__radio"
-                name="finishing"
-                type="radio"
-                value="none"
-              />
-              <label class="radio-group__label" for="none">None</label>
-            </div>
-            <div class="radio-group__item">
-              <input
-                id="dibond"
-                v-model="finishing"
-                class="radio-group__radio"
-                name="finishing"
-                type="radio"
-                value="dibond"
-              />
-              <label class="radio-group__label" for="dibond">Dibond</label>
-            </div>
-            <div class="radio-group__item">
-              <input
-                id="plexiglass"
-                v-model="finishing"
-                class="radio-group__radio"
-                name="finishing"
-                type="radio"
-                value="plexiglass"
-              />
-              <label class="radio-group__label" for="plexiglass"
-                >Plexiglass</label
-              >
-            </div>
-          </div>
-        </fieldset>
+          <a
+            :href="orderViaEmail"
+            class="photo-detail__button button button--order"
+            @click="orderViaEmail"
+          >
+            Buy photo via email
+          </a>
+        </div>
 
-        <div>Edition: {{ getEdition }}</div>
-        <div class="photo-detail__price">{{ formatter(getSelectedPrice) }}</div>
-
-        <a
-          :href="orderViaEmail"
-          class="button button--order"
-          @click="orderViaEmail"
-        >
-          Buy photo via email
-        </a>
+        <hr class="photo-detail__divider" />
 
         <section>
-          <h2 class="heading-medium">Prints</h2>
+          <h2 class="photo-detail__heading heading-medium">Prints</h2>
 
           <p class="body">
             All photos can be purchased for the sizes 30 x 40 cm, 40 x 50 cm and
             100 x 120 cm.
             <nuxt-link to="/print-finishing">View information</nuxt-link> about
-            all the print finishing for these prints.
+            all the print finishing options.
           </p>
         </section>
 
         <section>
-          <h2 class="heading-medium">Verification</h2>
+          <h2 class="photo-detail__heading heading-medium">Verification</h2>
           <p class="body">
             Each photo includes a certificate of authenticity.
             <nuxt-link to="/verification">Read more</nuxt-link>
             what the certificate contains and how authenticity is ensured.
           </p>
         </section>
-
-        <hr class="photo-detail__divider" />
       </div>
     </article>
   </div>
@@ -191,7 +195,7 @@ export default {
 
 <style>
 .radio-group {
-  margin-bottom: 36px;
+  margin-bottom: 48px;
   border: none;
 }
 
@@ -205,6 +209,8 @@ export default {
 
 .radio-group__title {
   width: 100%;
+  font-size: 1.125rem;
+  margin-bottom: 12px;
 }
 
 .radio-group__radio {
@@ -238,6 +244,17 @@ export default {
   text-align: center;
   cursor: pointer;
   border: 1px solid black;
+}
+
+.photo-detail__action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.photo-detail__heading {
+  text-align: center;
 }
 
 .photo-detail__price {
@@ -274,6 +291,10 @@ export default {
 
 .photo-detail__divider {
   margin-bottom: 24px;
+}
+
+.photo-detail__button {
+  margin-bottom: 48px;
 }
 
 .photo-info {
