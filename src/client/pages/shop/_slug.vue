@@ -101,7 +101,7 @@
 
           <div>Edition: {{ getEdition }}</div>
           <div class="photo-detail__price">
-            {{ formatter(getSelectedPrice) }}
+            {{ moneyFormat(getSelectedPrice) }}
           </div>
 
           <a
@@ -167,22 +167,39 @@ export default {
       return this.product.edition[this.size]
     },
     orderViaEmail() {
-      const subject = 'Order via paulblanca.nl'
-      const intro = `I would like to order a photo on paulblanca.nl.\n\n\n`
-      const title = `Title: ${this.product.title}\n`
-      const size = `Size: ${this.size}\n`
-      const finishing = `Finishing: ${this.finishing}\n`
+      const subject = encodeURIComponent(
+        `Order "${this.product.title}" via paulblanca.nl`
+      )
+      const body = encodeURIComponent(
+        `I would like to order a photo on paulblanca.nl.
 
-      return `mailto:info@paulblanca?subject=${encodeURIComponent(
-        subject
-      )}&body=${encodeURIComponent(intro)}${encodeURIComponent(
-        title
-      )}${encodeURIComponent(size)}${encodeURIComponent(finishing)}`
+Title: ${this.product.title}
+Size: ${this.size}
+Finishing: ${this.finishing}
+Price: ${this.moneyFormat(this.getSelectedPrice)} (includes VAT)
+Quantity: 1
+
+You can send the photo to:
+(All fields are required to enter, except the optional ones)
+Full Name:
+Company (optional):
+VAT number (optional):
+Country:
+Address 1:
+Address 2:
+Postal code:
+City:
+Phone number:
+This is a residential address: [yes/no]
+
+Can you send me an online invoice?\n\n\n`
+      )
+      return `mailto:info@paulblanca?subject=${subject}&body=${body}`
     },
   },
   methods: {
     ...mapActions(['addProductToCart']),
-    formatter(amount) {
+    moneyFormat(amount) {
       const price = new Intl.NumberFormat('en-US', {
         style: 'currency',
         currency: 'EUR',
@@ -260,7 +277,7 @@ export default {
 .photo-detail__price {
   margin-bottom: 48px;
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .order {
