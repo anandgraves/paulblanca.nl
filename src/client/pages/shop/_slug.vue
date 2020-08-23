@@ -7,12 +7,7 @@
 
       <div class="photo-detail__content rich-text">
         <h1 class="photo-detail__heading heading-large">{{ product.title }}</h1>
-        <p class="body">
-          Every month Paul Blanca creates a new photo. Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit. Cum id fugiunt, re eadem defendunt,
-          quae Peripatetici, verba. Quid, si non sensus modo ei sit datus, verum
-          etiam animus hominis.
-        </p>
+        <div class="body" v-html="product.description"></div>
 
         <div class="photo-detail__action">
           <fieldset class="radio-group">
@@ -99,7 +94,6 @@
             </div>
           </fieldset>
 
-          <div>Edition: {{ getEdition }}</div>
           <div class="photo-detail__price">
             {{ moneyFormat(getSelectedPrice) }}
           </div>
@@ -109,11 +103,45 @@
             class="photo-detail__button button button--order"
             @click="orderViaEmail"
           >
-            Buy photo via email
+            <icon-base
+              width="24"
+              height="24"
+              viewbox="0 0 576 576"
+              icon-name="euro"
+            >
+              <icon-euro />
+            </icon-base>
+            <span class="euro-icon__text">Buy photo via email</span>
           </a>
         </div>
 
         <hr class="photo-detail__divider" />
+
+        <section>
+          <h2 class="photo-detail__heading heading-medium">Details</h2>
+
+          <table class="table-data body">
+            <tr v-if="product.series">
+              <td class="table-data__cell">Series</td>
+              <td class="table-data__cell">{{ product.series }}</td>
+            </tr>
+            <tr>
+              <td class="table-data__cell">Edition</td>
+              <td class="table-data__cell">{{ getEdition }}</td>
+            </tr>
+            <tr>
+              <td class="table-data__cell">Year</td>
+              <td class="table-data__cell">{{ product.year }}</td>
+            </tr>
+            <tr>
+              <td class="table-data__cell">Signature</td>
+              <td class="table-data__cell">
+                Signed in silver ink in the lower right with signature and
+                edition number.
+              </td>
+            </tr>
+          </table>
+        </section>
 
         <section>
           <h2 class="photo-detail__heading heading-medium">Prints</h2>
@@ -121,12 +149,12 @@
           <p class="body">
             All photos can be purchased for the sizes 30 x 40 cm, 40 x 50 cm and
             100 x 120 cm.
-            <nuxt-link to="/print-finishing">View information</nuxt-link> about
-            all the print finishing options.
+            <nuxt-link to="/print-finishing"
+              >View all the print finishing options</nuxt-link
+            >
+            .
           </p>
-        </section>
 
-        <section>
           <h2 class="photo-detail__heading heading-medium">Verification</h2>
           <p class="body">
             Each photo includes a certificate of authenticity.
@@ -141,11 +169,13 @@
 
 <script>
 import { mapGetters, mapActions } from 'vuex'
+import iconEuro from '../../components/icons/icon-euro.vue'
 import ResponsiveImage from '../../components/responsive-image/responsive-image.vue'
 
 export default {
   components: {
     ResponsiveImage,
+    iconEuro,
   },
   data() {
     return {
@@ -167,9 +197,7 @@ export default {
       return this.product.edition[this.size]
     },
     orderViaEmail() {
-      const subject = encodeURIComponent(
-        `Order "${this.product.title}" via paulblanca.nl`
-      )
+      const subject = encodeURIComponent(`Order "${this.product.title}"`)
       const body = encodeURIComponent(
         `I would like to order a photo on paulblanca.nl.
 
@@ -179,7 +207,7 @@ Finishing: ${this.finishing}
 Price: ${this.moneyFormat(this.getSelectedPrice)} (includes VAT)
 Quantity: 1
 
-You can send the photo to:
+You can ship the photo to:
 (All fields are required to enter, except the optional ones)
 Full Name:
 Company (optional):
@@ -211,6 +239,35 @@ Can you send me an online invoice?\n\n\n`
 </script>
 
 <style>
+.table-data {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-data__cell {
+  width: 200px;
+  padding: 12px;
+}
+
+.table-data__cell:first-child {
+  text-align: right;
+  font-weight: 500;
+}
+
+.product-details__details-row {
+  margin-bottom: 12px;
+}
+
+.product-detail__details-term {
+  margin-right: 12px;
+  font-weight: 500;
+}
+
+.euro-icon__text {
+  margin-left: 12px;
+}
+
 .radio-group {
   margin-bottom: 48px;
   border: none;
@@ -231,7 +288,6 @@ Can you send me an online invoice?\n\n\n`
 }
 
 .radio-group__radio {
-  /* display: none; */
   border: 0;
   clip: rect(0 0 0 0);
   height: 1px;
@@ -247,6 +303,7 @@ Can you send me an online invoice?\n\n\n`
   background: black;
 }
 
+.radio-group__radio:hover + label,
 .radio-group__radio:focus + label,
 .radio-group__radio:active + label {
   background-color: rgb(61, 63, 65);
@@ -315,8 +372,10 @@ Can you send me an online invoice?\n\n\n`
 }
 
 .photo-info {
+  max-width: 300px;
   margin-bottom: 12px;
   padding: 24px;
+  text-align: left;
   background-color: #e6e6e6;
 }
 

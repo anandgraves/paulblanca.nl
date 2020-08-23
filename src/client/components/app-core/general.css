@@ -23,14 +23,14 @@ section.body + section.body {
 
 .body {
   font-size: 1.125rem;
-  line-height: 1.48;
+  line-height: 1.5;
 }
 
 .heading-large {
   font-size: 2.2rem;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 12px;
+  margin-bottom: 36px;
   line-height: 1.2;
   letter-spacing: 1px;
 }
@@ -81,12 +81,10 @@ section.body + section.body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 18px 24px 12px 24px;
+  padding: 18px 24px 16px 24px;
   font-weight: 700;
-  font-size: 1rem;
-  line-height: 1;
+  font-size: 1.125rem;
   text-decoration: none;
-  text-transform: uppercase;
   letter-spacing: 0.7px;
   background-color: black;
   color: white;

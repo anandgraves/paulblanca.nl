@@ -5,6 +5,7 @@ const state = () => ({
       series: '',
       year: 2014,
       title: 'Selfportrait Mother And Son',
+      description: `<p>I regularly make selfportraits that reflect my life. This photo is a selfportrait where I carry my mother, just like I had carried her to bed for 4 years because she couldn't walk. It was taken 32 years after the first "Selfportrait Mother & Son 1982". <a href="https://www.npostart.nl/fotostudio-de-jong-6/15-02-2014/VPWON_1209690" target="_blank" rel="noopener noreferrer">Watch the episode of Dutch tv programme 'Fotostudio de Jong'</a> where the selfportrait "Mother & Son 2014" had been discussed with Wilfried de Jong.</p>`,
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',

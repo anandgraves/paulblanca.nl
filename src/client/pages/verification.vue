@@ -12,11 +12,14 @@
         Signature and current photo in the edition written on the front of the
         photo.
       </li>
-      <li>Holographic foil on the certificate.</li>
+      <li>
+        Holographic foil that contains the text 'Paul Blanca' on the
+        certificate.
+      </li>
       <li>A small print of the photo on the certificate.</li>
       <li>Current photo in the edition printed on the certificate.</li>
       <li>
-        A print ID (a uniquely generated code) written on the back of the photo
+        A print ID (a unique generated code) written on the back of the photo
         and printed in the certificate. This is to link the print and the
         certificate together.
       </li>
