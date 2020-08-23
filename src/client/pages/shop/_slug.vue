@@ -6,7 +6,7 @@
       </nuxt-link>
 
       <div class="photo-detail__content rich-text">
-        <h1 class="photo-detail__heading heading-large">{{ product.title }}</h1>
+        <h1 class="heading-large">{{ product.title }}</h1>
         <div class="body" v-html="product.description"></div>
 
         <div class="photo-detail__action">
@@ -96,6 +96,7 @@
 
           <div class="photo-detail__price">
             {{ moneyFormat(getSelectedPrice) }}
+            <span class="body-small">(including VAT)</span>
           </div>
 
           <a
@@ -120,7 +121,7 @@
         <section>
           <h2 class="photo-detail__heading heading-medium">Details</h2>
 
-          <table class="table-data body">
+          <table class="table-data table-data--center body">
             <tr v-if="product.series">
               <td class="table-data__cell">Series</td>
               <td class="table-data__cell">{{ product.series }}</td>
@@ -204,7 +205,9 @@ export default {
 Title: ${this.product.title}
 Size: ${this.size}
 Finishing: ${this.finishing}
-Price: ${this.moneyFormat(this.getSelectedPrice)} (includes VAT)
+Price: ${this.moneyFormat(
+          this.getSelectedPrice
+        )} (includes VAT, excludes shipping costs)
 Quantity: 1
 
 You can ship the photo to:
@@ -219,8 +222,9 @@ Postal code:
 City:
 Phone number:
 This is a residential address: [yes/no]
+(All shipping is sent with FedEx)
 
-Can you send me an online invoice?\n\n\n`
+Can you send me an online invoice for the photo including shipping costs?\n\n\n`
       )
       return `mailto:info@paulblanca?subject=${subject}&body=${body}`
     },
@@ -239,31 +243,6 @@ Can you send me an online invoice?\n\n\n`
 </script>
 
 <style>
-.table-data {
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.table-data__cell {
-  width: 200px;
-  padding: 12px;
-}
-
-.table-data__cell:first-child {
-  text-align: right;
-  font-weight: 500;
-}
-
-.product-details__details-row {
-  margin-bottom: 12px;
-}
-
-.product-detail__details-term {
-  margin-right: 12px;
-  font-weight: 500;
-}
-
 .euro-icon__text {
   margin-left: 12px;
 }
@@ -333,7 +312,7 @@ Can you send me an online invoice?\n\n\n`
 
 .photo-detail__price {
   margin-bottom: 48px;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.3rem;
 }
 
@@ -364,38 +343,12 @@ Can you send me an online invoice?\n\n\n`
 }
 
 .photo-detail__divider {
-  margin-bottom: 24px;
+  margin-top: 24px;
+  margin-bottom: 48px;
 }
 
 .photo-detail__button {
   margin-bottom: 48px;
-}
-
-.photo-info {
-  max-width: 300px;
-  margin-bottom: 12px;
-  padding: 24px;
-  text-align: left;
-  background-color: #e6e6e6;
-}
-
-.photo-info__description:not(:last-child) {
-  margin-bottom: 12px;
-}
-
-@media (min-width: 500px) {
-  .photo-info {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .photo-info__term {
-    width: 125px;
-  }
-
-  .photo-info__description {
-    width: calc(100% - 125px);
-  }
 }
 
 @media (min-width: 900px) {

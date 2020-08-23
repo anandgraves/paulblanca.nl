@@ -4,7 +4,7 @@
 
 html {
   font-family: var(--font-body);
-  font-weight: 300;
+  font-weight: 400;
   font-size: 100%;
   color: black;
   overflow-y: scroll;
@@ -26,26 +26,30 @@ section.body + section.body {
   line-height: 1.5;
 }
 
+.body-small {
+  font-size: 1rem;
+}
+
 .heading-large {
   font-size: 2.2rem;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 36px;
-  line-height: 1.2;
+  line-height: 1.25;
   letter-spacing: 1px;
 }
 
 .heading-medium {
   font-size: 1.8rem;
   margin-bottom: 10px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.5px;
 }
 
 .heading-small {
   font-size: 1.3rem;
   margin-bottom: 24px;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.3px;
 }
 
@@ -108,6 +112,33 @@ section.body + section.body {
 
 .flat-list {
   list-style: none;
+}
+
+.table-data {
+  max-width: 400px;
+}
+
+.table-data--center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-data--center .table-data__cell {
+  width: 200px;
+}
+
+.table-data__cell {
+  min-width: 170px;
+  padding: 12px;
+  vertical-align: top;
+}
+
+.table-data--center .table-data__cell:first-child {
+  text-align: right;
+}
+
+.table-data__cell:first-child {
+  font-weight: 500;
 }
 
 /* Styling HTML tags for content */
