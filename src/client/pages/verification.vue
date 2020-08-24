@@ -26,10 +26,7 @@
     </ul>
 
     <p class="body">
-      Eyes on PhotoArt and Paul Blanca keep track of the number of prints.
-      Contact
-      <a href="mailto:info@eyesonphotoart.nl">info@eyesonphotoart.nl</a>
-      or <a href="mailto:info@paulblanca.nl">info@paulblanca.nl</a> for
+      Contact <a href="mailto:info@paulblanca.nl">info@paulblanca.nl</a> for
       verification.
     </p>
   </article>
