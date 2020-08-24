@@ -7,6 +7,7 @@
 
       <div class="photo-detail__content rich-text">
         <h1 class="heading-large">{{ product.title }}</h1>
+        <!-- eslint-disable-next-line vue/no-v-html -->
         <div class="body" v-html="product.description"></div>
 
         <div class="photo-detail__action">
