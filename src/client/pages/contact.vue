@@ -19,8 +19,8 @@
     </p>
 
     <p class="body">
-      KvK nummer: 78493153<br />
-      BTW nummer: NL003338314B27
+      KvK number: 78493153<br />
+      VAT number: NL003338314B27
     </p>
   </article>
 </template>
