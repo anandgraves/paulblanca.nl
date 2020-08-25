@@ -45,7 +45,6 @@ export default {
 }
 
 .app-header__subtitle {
-  font-family: 'Cooper Hewitt';
   font-weight: 400;
   font-size: 0.8125rem;
   letter-spacing: 1.5px;

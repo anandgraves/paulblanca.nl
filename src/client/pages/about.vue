@@ -88,6 +88,5 @@
 <style>
 .about p {
   max-width: 64ch;
-  line-height: 1.45;
 }
 </style>
