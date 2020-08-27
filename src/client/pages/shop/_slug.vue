@@ -100,6 +100,25 @@
             <span class="body-small">(including VAT)</span>
           </div>
 
+          <ul class="photo-detail__buy-info">
+            <li>Price is exluding shipping costs.</li>
+            <li>
+              Delivery is within 29 days.
+            </li>
+            <li>
+              FedEx Express is used to make delivery.<br />
+              <icon-base
+                class="photo-detail__delivery-icon"
+                width="74"
+                height="33"
+                icon-name="fedex"
+                viewbox="0 74.535996 33.924999"
+              >
+                <icon-fedex />
+              </icon-base>
+            </li>
+          </ul>
+
           <a
             :href="orderViaEmail"
             class="photo-detail__button button button--order"
@@ -244,6 +263,16 @@ Can you send me an online invoice for the photo including shipping costs?\n\n\n`
 </script>
 
 <style>
+.photo-detail__delivery-icon {
+  margin-top: 6px;
+}
+
+.photo-detail .photo-detail__buy-info {
+  padding: 24px 48px;
+  background-color: #f7f7f7;
+  text-align: left;
+}
+
 .euro-icon__text {
   margin-left: 12px;
 }
