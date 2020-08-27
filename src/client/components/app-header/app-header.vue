@@ -2,8 +2,8 @@
   <header class="app-header">
     <div class="app-header__brand">
       <nuxt-link to="/" class="app-header__link">
-        <div class="app-header__title">
-          Paul Blanca
+        <div>
+          <img src="/images/logo.svg" alt="" />
         </div>
 
         <span class="app-header__subtitle">
@@ -26,13 +26,6 @@ export default {
 </script>
 
 <style>
-.app-header__title {
-  font-family: 'Josefin Sans', Helvetica, sans-serif;
-  font-weight: 300;
-  font-size: 2.25rem;
-  line-height: 0.9; /* aanpassen, 32.4px */
-}
-
 .app-header__brand {
   margin-bottom: 32px;
 }
