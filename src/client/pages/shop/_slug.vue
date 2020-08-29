@@ -10,7 +10,7 @@
         <!-- eslint-disable-next-line vue/no-v-html -->
         <div class="body" v-html="product.description"></div>
 
-        <div class="photo-detail__action">
+        <div class="photo-detail__selector">
           <fieldset class="radio-group">
             <legend class="radio-group__title">Size</legend>
             <div class="radio-group__container">
@@ -94,47 +94,120 @@
               </div>
             </div>
           </fieldset>
-
-          <div class="photo-detail__price">
-            {{ moneyFormat(getSelectedPrice) }}
-            <span class="body-small">(including VAT)</span>
-          </div>
-
-          <ul class="photo-detail__buy-info">
-            <li>Price is exluding shipping costs.</li>
-            <li>
-              Delivery is within 29 days.
-            </li>
-            <li>
-              FedEx Express is used to make delivery.<br />
-              <icon-base
-                class="photo-detail__delivery-icon"
-                width="74"
-                height="33"
-                icon-name="fedex"
-                viewbox="0 74.535996 33.924999"
-              >
-                <icon-fedex />
-              </icon-base>
-            </li>
-          </ul>
-
-          <a
-            :href="orderViaEmail"
-            class="photo-detail__button button button--order"
-            @click="orderViaEmail"
-          >
-            <icon-base
-              width="24"
-              height="24"
-              viewbox="0 0 576 576"
-              icon-name="euro"
-            >
-              <icon-euro />
-            </icon-base>
-            <span class="euro-icon__text">Buy photo via email</span>
-          </a>
         </div>
+
+        <div class="photo-detail__price">
+          {{ moneyFormat(getSelectedPrice) }}
+          <span class="body-small">(including VAT)</span>
+        </div>
+
+        <ul class="photo-detail__buy-info">
+          <li>Price is exluding shipping costs.</li>
+          <li>
+            Delivery is within 29 days.
+          </li>
+          <li>
+            FedEx Express is used to make delivery.<br />
+            <icon-base
+              class="photo-detail__delivery-icon"
+              width="74"
+              height="33"
+              icon-name="fedex"
+              viewbox="0 0 74.535996 33.924999"
+            >
+              <icon-fedex />
+            </icon-base>
+          </li>
+        </ul>
+
+        <a
+          :href="orderViaEmail"
+          class="photo-detail__button button button--order"
+          @click="orderViaEmail"
+        >
+          <icon-base
+            width="24"
+            height="24"
+            viewbox="0 0 576 576"
+            icon-name="euro"
+          >
+            <icon-euro />
+          </icon-base>
+          <span class="euro-icon__text">Buy photo via email</span>
+        </a>
+
+        <ul class="photo-detail__payment-icons">
+          <li class="photo-detail__payment-icon">
+            <icon-base
+              viewbox="0 0 120 80"
+              width="80"
+              height="40"
+              icon-name="ideal"
+            >
+              <icon-ideal />
+            </icon-base>
+          </li>
+          <li class="photo-detail__payment-icon">
+            <icon-base
+              viewbox="0 0 120 80"
+              width="80"
+              height="40"
+              icon-name="applepay"
+            >
+              <icon-applepay />
+            </icon-base>
+          </li>
+          <li class="photo-detail__payment-icon">
+            <icon-base
+              viewbox="0 0 120 80"
+              width="80"
+              height="40"
+              icon-name="mastercard"
+            >
+              <icon-mastercard />
+            </icon-base>
+          </li>
+          <li class="photo-detail__payment-icon">
+            <icon-base
+              viewbox="0 0 120 80"
+              width="80"
+              height="40"
+              icon-name="paypal"
+            >
+              <icon-paypal />
+            </icon-base>
+          </li>
+          <li class="photo-detail__payment-icon">
+            <icon-base
+              viewbox="0 0 120 80"
+              width="80"
+              height="40"
+              icon-name="visa"
+            >
+              <icon-visa />
+            </icon-base>
+          </li>
+          <li class="photo-detail__payment-icon">
+            <icon-base
+              viewbox="0 0 120 80"
+              width="80"
+              height="40"
+              icon-name="sofort"
+            >
+              <icon-sofort />
+            </icon-base>
+          </li>
+          <li class="photo-detail__payment-icon">
+            <icon-base
+              viewbox="0 0 120 80"
+              width="80"
+              height="40"
+              icon-name="americanexpress"
+            >
+              <icon-americanexpress />
+            </icon-base>
+          </li>
+        </ul>
 
         <hr class="photo-detail__divider" />
 
@@ -190,13 +263,11 @@
 
 <script>
 import { mapGetters, mapActions } from 'vuex'
-import iconEuro from '../../components/icons/icon-euro.vue'
 import ResponsiveImage from '../../components/responsive-image/responsive-image.vue'
 
 export default {
   components: {
     ResponsiveImage,
-    iconEuro,
   },
   data() {
     return {
@@ -263,6 +334,18 @@ Can you send me an online invoice for the photo including shipping costs?\n\n\n`
 </script>
 
 <style>
+.photo-detail .photo-detail__payment-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0;
+  list-style: none;
+}
+
+.photo-detail__payment-icon {
+  margin-left: -15px;
+}
+
 .photo-detail__delivery-icon {
   margin-top: 6px;
 }

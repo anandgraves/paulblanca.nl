@@ -141,6 +141,18 @@ section.body + section.body {
   font-weight: 500;
 }
 
+.icon-border {
+  width: 117.5px;
+  height: 77.5px;
+  stroke: rgb(171 171 171);
+  stroke-width: 1;
+  fill: rgb(255, 255, 255);
+}
+
+.icon-border--sofort {
+  fill: #FA82A0;
+}
+
 /* Styling HTML tags for content */
 .rich-text p {
   margin-bottom: 36px;
@@ -179,5 +191,12 @@ section.body + section.body {
 @media (min-width: 500px) {
   .button--order {
     max-width: 400px;
+  }
+}
+
+@media (min-width: 900px) {
+  .button--order {
+    max-width: none;
+    width: 100%;
   }
 }
