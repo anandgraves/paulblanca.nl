@@ -6,7 +6,7 @@
       </nuxt-link>
 
       <div class="photo-detail__content rich-text">
-        <h1 class="heading-large">{{ product.title }}</h1>
+        <h1 class="photo-detail__title heading-large">{{ product.title }}</h1>
         <!-- eslint-disable-next-line vue/no-v-html -->
         <div class="body" v-html="product.description"></div>
 
@@ -336,6 +336,10 @@ Can you send me an online invoice for the photo including shipping costs?\n\n\n`
 </script>
 
 <style>
+.photo-detail__title {
+  text-align: center;
+}
+
 .photo-detail .photo-detail__payment-icons {
   display: flex;
   flex-wrap: wrap;
