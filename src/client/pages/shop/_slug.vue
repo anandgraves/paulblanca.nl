@@ -215,25 +215,27 @@
           <h2 class="photo-detail__heading heading-medium">Details</h2>
 
           <table class="table-data table-data--center body">
-            <tr v-if="product.series">
-              <td class="table-data__cell">Series</td>
-              <td class="table-data__cell">{{ product.series }}</td>
-            </tr>
-            <tr>
-              <td class="table-data__cell">Edition</td>
-              <td class="table-data__cell">{{ getEdition }}</td>
-            </tr>
-            <tr>
-              <td class="table-data__cell">Year</td>
-              <td class="table-data__cell">{{ product.year }}</td>
-            </tr>
-            <tr>
-              <td class="table-data__cell">Signature</td>
-              <td class="table-data__cell">
-                Signed in silver ink in the lower right with signature and
-                edition number.
-              </td>
-            </tr>
+            <tbody>
+              <tr v-if="product.series">
+                <th class="table-data__cell">Series</th>
+                <td class="table-data__cell">{{ product.series }}</td>
+              </tr>
+              <tr>
+                <th class="table-data__cell">Edition</th>
+                <td class="table-data__cell">{{ getEdition }}</td>
+              </tr>
+              <tr>
+                <th class="table-data__cell">Year</th>
+                <td class="table-data__cell">{{ product.year }}</td>
+              </tr>
+              <tr>
+                <th class="table-data__cell">Signature</th>
+                <td class="table-data__cell">
+                  Signed in silver ink in the lower right with signature and
+                  edition number.
+                </td>
+              </tr>
+            </tbody>
           </table>
         </section>
 
