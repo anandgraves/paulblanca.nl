@@ -123,12 +123,19 @@ section.body + section.body {
   margin-right: auto;
 }
 
-.table-data--center .table-data__cell {
-  /* width: 200px; */
+.sr-only {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  overflow: hidden
 }
 
+/* Table styling */
 .table-data__cell {
-  /* min-width: 170px; */
   padding: 12px;
   vertical-align: top;
 }

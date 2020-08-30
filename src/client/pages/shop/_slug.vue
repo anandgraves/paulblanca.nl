@@ -149,6 +149,12 @@
           <h2 class="photo-detail__heading heading-medium">Details</h2>
 
           <table class="table-data table-data--center body">
+            <caption class="sr-only">
+              Details of the photo
+              {{
+                product.title
+              }}
+            </caption>
             <tbody>
               <tr v-if="product.series">
                 <th class="table-data__cell">Series</th>
