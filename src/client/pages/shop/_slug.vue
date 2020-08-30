@@ -5,12 +5,12 @@
         <responsive-image :image="product.image" class="photo-detail__image" />
       </nuxt-link>
 
-      <div class="photo-detail__content rich-text">
-        <h1 class="heading-large">{{ product.title }}</h1>
+      <div class="photo-detail__content">
+        <h1 class="photo-detail__title heading-large">{{ product.title }}</h1>
         <!-- eslint-disable-next-line vue/no-v-html -->
-        <div class="body" v-html="product.description"></div>
+        <div class="body rich-text" v-html="product.description"></div>
 
-        <div class="photo-detail__action">
+        <div class="photo-detail__selector">
           <fieldset class="radio-group">
             <legend class="radio-group__title">Size</legend>
             <div class="radio-group__container">
@@ -94,28 +94,54 @@
               </div>
             </div>
           </fieldset>
-
-          <div class="photo-detail__price">
-            {{ moneyFormat(getSelectedPrice) }}
-            <span class="body-small">(including VAT)</span>
-          </div>
-
-          <a
-            :href="orderViaEmail"
-            class="photo-detail__button button button--order"
-            @click="orderViaEmail"
-          >
-            <icon-base
-              width="24"
-              height="24"
-              viewbox="0 0 576 576"
-              icon-name="euro"
-            >
-              <icon-euro />
-            </icon-base>
-            <span class="euro-icon__text">Buy photo via email</span>
-          </a>
         </div>
+
+        <div class="photo-detail__price">
+          {{ moneyFormat(getSelectedPrice) }}
+          <span class="body-small">(including VAT)</span>
+        </div>
+
+        <ul class="photo-detail__buy-info rich-text">
+          <li>Price is exluding shipping costs.</li>
+          <li>
+            Delivery is within 29 days.
+          </li>
+          <li>
+            FedEx Express is used to make delivery.<br />
+            <icon-base
+              class="photo-detail__delivery-icon"
+              width="74"
+              height="33"
+              icon-name="fedex"
+              viewbox="0 0 74.535996 33.924999"
+            >
+              <icon-fedex />
+            </icon-base>
+          </li>
+        </ul>
+
+        <a
+          :href="orderViaEmail"
+          class="photo-detail__button button button--order"
+          @click="orderViaEmail"
+        >
+          <icon-base
+            width="24"
+            height="24"
+            viewbox="0 0 576 576"
+            icon-name="euro"
+          >
+            <icon-euro />
+          </icon-base>
+          <span class="euro-icon__text">Buy photo via email</span>
+        </a>
+
+        <nuxt-link
+          to="/payment-methods"
+          class="photo-detail__link-payment-icons"
+        >
+          <payment-icons class="photo-detail__payment-icons" />
+        </nuxt-link>
 
         <hr class="photo-detail__divider" />
 
@@ -123,25 +149,27 @@
           <h2 class="photo-detail__heading heading-medium">Details</h2>
 
           <table class="table-data table-data--center body">
-            <tr v-if="product.series">
-              <td class="table-data__cell">Series</td>
-              <td class="table-data__cell">{{ product.series }}</td>
-            </tr>
-            <tr>
-              <td class="table-data__cell">Edition</td>
-              <td class="table-data__cell">{{ getEdition }}</td>
-            </tr>
-            <tr>
-              <td class="table-data__cell">Year</td>
-              <td class="table-data__cell">{{ product.year }}</td>
-            </tr>
-            <tr>
-              <td class="table-data__cell">Signature</td>
-              <td class="table-data__cell">
-                Signed in silver ink in the lower right with signature and
-                edition number.
-              </td>
-            </tr>
+            <tbody>
+              <tr v-if="product.series">
+                <th class="table-data__cell">Series</th>
+                <td class="table-data__cell">{{ product.series }}</td>
+              </tr>
+              <tr>
+                <th class="table-data__cell">Edition</th>
+                <td class="table-data__cell">{{ getEdition }}</td>
+              </tr>
+              <tr>
+                <th class="table-data__cell">Year</th>
+                <td class="table-data__cell">{{ product.year }}</td>
+              </tr>
+              <tr>
+                <th class="table-data__cell">Signature</th>
+                <td class="table-data__cell">
+                  Signed in silver ink in the lower right with signature and
+                  edition number.
+                </td>
+              </tr>
+            </tbody>
           </table>
         </section>
 
@@ -156,7 +184,9 @@
             >
             .
           </p>
+        </section>
 
+        <section>
           <h2 class="photo-detail__heading heading-medium">Verification</h2>
           <p class="body">
             Each photo includes a certificate of authenticity.
@@ -171,13 +201,11 @@
 
 <script>
 import { mapGetters, mapActions } from 'vuex'
-import iconEuro from '../../components/icons/icon-euro.vue'
 import ResponsiveImage from '../../components/responsive-image/responsive-image.vue'
 
 export default {
   components: {
     ResponsiveImage,
-    iconEuro,
   },
   data() {
     return {
@@ -244,6 +272,28 @@ Can you send me an online invoice for the photo including shipping costs?\n\n\n`
 </script>
 
 <style>
+.photo-detail__link-payment-icons {
+  display: block;
+}
+
+.photo-detail__content > *:not(:last-child) {
+  margin-bottom: 48px;
+}
+
+.photo-detail__title {
+  text-align: center;
+}
+
+.photo-detail__delivery-icon {
+  margin-top: 6px;
+}
+
+.photo-detail .photo-detail__buy-info {
+  padding: 24px 48px;
+  background-color: #f7f7f7;
+  text-align: left;
+}
+
 .euro-icon__text {
   margin-left: 12px;
 }
@@ -312,7 +362,6 @@ Can you send me an online invoice for the photo including shipping costs?\n\n\n`
 }
 
 .photo-detail__price {
-  margin-bottom: 48px;
   font-weight: 400;
   font-size: 1.3rem;
 }
@@ -341,15 +390,6 @@ Can you send me an online invoice for the photo including shipping costs?\n\n\n`
 
 .photo-detail__shipping {
   margin-bottom: 36px;
-}
-
-.photo-detail__divider {
-  margin-top: 24px;
-  margin-bottom: 48px;
-}
-
-.photo-detail__button {
-  margin-bottom: 48px;
 }
 
 @media (min-width: 900px) {
