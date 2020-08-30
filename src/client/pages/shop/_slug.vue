@@ -136,7 +136,12 @@
           <span class="euro-icon__text">Buy photo via email</span>
         </a>
 
-        <payment-icons class="photo-detail__payment-icons" />
+        <nuxt-link
+          to="/payment-methods"
+          class="photo-detail__link-payment-icons"
+        >
+          <payment-icons class="photo-detail__payment-icons" />
+        </nuxt-link>
 
         <hr class="photo-detail__divider" />
 
@@ -267,6 +272,10 @@ Can you send me an online invoice for the photo including shipping costs?\n\n\n`
 </script>
 
 <style>
+.photo-detail__link-payment-icons {
+  display: block;
+}
+
 .photo-detail__content > *:not(:last-child) {
   margin-bottom: 48px;
 }
