@@ -48,7 +48,6 @@ export default {
 @media (min-width: 800px) {
   .app-header {
     display: flex;
-    align-items: baseline;
   }
 
   .app-header__brand {

@@ -1,7 +1,7 @@
 <template>
-  <article class="center-content rich-text">
+  <article class="center-content">
     <h1 class="heading-large">Payment Methods</h1>
-    <div class="body">
+    <div class="body rich-text">
       <p>
         With paulblanca.nl you can pay in different ways. The possibilities are:
       </p>

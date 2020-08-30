@@ -187,6 +187,13 @@ section.body + section.body {
   padding-left: 24px;
 }
 
+.rich-text ul p,
+.rich-text ol p,
+.rich-text li ul,
+.rich-text li ol {
+  margin-bottom: 12px;
+}
+
 .rich-text li:not(:last-child) {
   margin-bottom: 8px;
 }

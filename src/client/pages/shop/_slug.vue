@@ -107,7 +107,7 @@
             Delivery is within 29 days.
           </li>
           <li>
-            FedEx Express is used to make delivery.<br />
+            FedEx Express is used to make (international) delivery.<br />
             <icon-base
               class="photo-detail__delivery-icon"
               width="74"
@@ -133,8 +133,15 @@
           >
             <icon-euro />
           </icon-base>
-          <span class="euro-icon__text">Buy photo via email</span>
+          <span class="euro-icon__text">Buy photo by email</span>
         </a>
+
+        <nuxt-link
+          to="/ordering-and-shipping"
+          class="photo-detail__link-how-to-buy"
+        >
+          How do I buy a photo?
+        </nuxt-link>
 
         <nuxt-link
           to="/payment-methods"
@@ -278,18 +285,25 @@ Can you send me an online invoice for the photo including shipping costs?\n\n\n`
 </script>
 
 <style>
-.photo-detail__button {
+.photo-detail__link-how-to-buy {
+  display: block;
+  text-align: center;
+  color: black;
+}
+
+.photo-detail .photo-detail__button {
   width: 100%;
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 24px;
 }
 
 .photo-detail__link-payment-icons {
   display: block;
 }
 
-.photo-detail__content > *:not(:last-child) {
+.photo-detail__content > * {
   margin-bottom: 48px;
 }
 
