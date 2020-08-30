@@ -101,7 +101,7 @@
           <span class="body-small">(including VAT)</span>
         </div>
 
-        <ul class="photo-detail__buy-info rich-text">
+        <ul class="photo-detail__delivery-info rich-text">
           <li>Price is exluding shipping costs.</li>
           <li>
             Delivery is within 29 days.
@@ -149,6 +149,12 @@
           <h2 class="photo-detail__heading heading-medium">Details</h2>
 
           <table class="table-data table-data--center body">
+            <caption class="sr-only">
+              Details of the photo
+              {{
+                product.title
+              }}
+            </caption>
             <tbody>
               <tr v-if="product.series">
                 <th class="table-data__cell">Series</th>
@@ -173,7 +179,7 @@
           </table>
         </section>
 
-        <section>
+        <section class="rich-text">
           <h2 class="photo-detail__heading heading-medium">Prints</h2>
 
           <p class="body">
@@ -186,7 +192,7 @@
           </p>
         </section>
 
-        <section>
+        <section class="rich-text">
           <h2 class="photo-detail__heading heading-medium">Verification</h2>
           <p class="body">
             Each photo includes a certificate of authenticity.
@@ -272,6 +278,13 @@ Can you send me an online invoice for the photo including shipping costs?\n\n\n`
 </script>
 
 <style>
+.photo-detail__button {
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .photo-detail__link-payment-icons {
   display: block;
 }
@@ -288,7 +301,10 @@ Can you send me an online invoice for the photo including shipping costs?\n\n\n`
   margin-top: 6px;
 }
 
-.photo-detail .photo-detail__buy-info {
+.photo-detail .photo-detail__delivery-info {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 24px 48px;
   background-color: #f7f7f7;
   text-align: left;
@@ -305,6 +321,7 @@ Can you send me an online invoice for the photo including shipping costs?\n\n\n`
 
 .radio-group__container {
   display: flex;
+  justify-content: center;
 }
 
 .radio-group__item:not(:last-child) {
@@ -313,8 +330,9 @@ Can you send me an online invoice for the photo including shipping costs?\n\n\n`
 
 .radio-group__title {
   width: 100%;
-  font-size: 1.125rem;
   margin-bottom: 12px;
+  text-align: center;
+  font-size: 1.125rem;
 }
 
 .radio-group__radio {
@@ -364,10 +382,7 @@ Can you send me an online invoice for the photo including shipping costs?\n\n\n`
 .photo-detail__price {
   font-weight: 400;
   font-size: 1.3rem;
-}
-
-.order {
-  margin-bottom: 12px;
+  text-align: center;
 }
 
 .photos-remaining {
@@ -400,6 +415,11 @@ Can you send me an online invoice for the photo including shipping costs?\n\n\n`
 
   .photo-detail__content {
     padding-top: 12px;
+  }
+
+  .photo-detail__button {
+    max-width: none;
+    width: 100%;
   }
 
   .photo-detail__image {

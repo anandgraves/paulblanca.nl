@@ -96,10 +96,6 @@ section.body + section.body {
   transition: background-color 0.15s ease-out 0s;
 }
 
-.button--order {
-  width: 100%;
-}
-
 .button:hover,
 .button:focus,
 .button:active {
@@ -123,12 +119,19 @@ section.body + section.body {
   margin-right: auto;
 }
 
-.table-data--center .table-data__cell {
-  width: 200px;
+.sr-only {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  overflow: hidden
 }
 
+/* Table styling */
 .table-data__cell {
-  min-width: 170px;
   padding: 12px;
   vertical-align: top;
 }
@@ -165,7 +168,7 @@ section.body + section.body {
 }
 
 .rich-text strong,
-.rich-textb,
+.rich-text b,
 .rich-text dt {
   font-weight: 700;
 }
@@ -189,6 +192,10 @@ section.body + section.body {
 }
 
 @media (min-width: 500px) {
+  .table-data--center .table-data__cell {
+    width: 200px;
+  }
+
   .button--order {
     max-width: 400px;
   }

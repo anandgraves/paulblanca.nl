@@ -12,6 +12,8 @@
             href="https://www.mollie.com/en/payments/ideal"
             rel="noopener noreferrer"
             target="_blank"
+            title="View more information about iDEAL at Mollie.com"
+            aria-label="View more information about iDEAL at Mollie.com"
             >iDEAL</a
           >
         </li>
@@ -20,6 +22,8 @@
             href="https://www.mollie.com/en/payments/apple-pay"
             rel="noopener noreferrer"
             target="_blank"
+            title="View more information about Apple Pay at Mollie.com"
+            aria-label="View more information about Apple Pay at Mollie.com"
             >Apple Pay</a
           >
         </li>
@@ -28,6 +32,8 @@
             href="https://www.mollie.com/en/payments/credit-card"
             rel="noopener noreferrer"
             target="_blank"
+            title="View more information about Mastercard at Mollie.com"
+            aria-label="View more information about Mastercard at Mollie.com"
             >Mastercard</a
           >
         </li>
@@ -36,6 +42,8 @@
             href="https://www.mollie.com/en/payments/credit-card"
             rel="noopener noreferrer"
             target="_blank"
+            title="View more information about VISA at Mollie.com"
+            aria-label="View more information about VISA at Mollie.com"
             >VISA</a
           >
         </li>
@@ -44,6 +52,8 @@
             href="https://www.mollie.com/en/payments/credit-card"
             rel="noopener noreferrer"
             target="_blank"
+            title="View more information about American Express at Mollie.com"
+            aria-label="View more information about American Express at Mollie.com"
             >American Express</a
           >
         </li>
@@ -52,6 +62,8 @@
             href="https://www.mollie.com/en/payments/paypal"
             rel="noopener noreferrer"
             target="_blank"
+            title="View more information about PayPal at Mollie.com"
+            aria-label="View more information about PayPal at Mollie.com"
             >PayPal</a
           >
         </li>
@@ -60,13 +72,15 @@
             href="https://www.mollie.com/en/payments/sofort"
             rel="noopener noreferrer"
             target="_blank"
+            title="View more information about SOFORT Banking at Mollie.com"
+            aria-label="View more information about SOFORT Banking at Mollie.com"
             >SOFORT Banking</a
           >
         </li>
       </ul>
 
       <p>
-        Alll payments are processed by
+        All payments are processed by
         <a
           href="https://www.mollie.com/en/consumers"
           rel="noopener noreferrer"

@@ -54,7 +54,7 @@
       <tr>
         <td class="table-data__cell">Photo finishing</td>
         <td class="table-data__cell">
-          Glued on 3mm Dibond: with 20mm suspension profile
+          Glued on 3mm Dibond with 20mm suspension profile
         </td>
       </tr>
       <tr>
@@ -90,7 +90,7 @@
       <tr>
         <td class="table-data__cell">Photo finishing</td>
         <td class="table-data__cell">
-          Glued behind 3mm clear plexiglass: on 3mm Dibond: with 20mm suspension
+          Glued behind 3mm clear plexiglass on 3mm Dibond with 20mm suspension
           profile
         </td>
       </tr>
