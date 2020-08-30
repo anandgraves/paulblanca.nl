@@ -80,7 +80,7 @@
       </ul>
 
       <p>
-        Alll payments are processed by
+        All payments are processed by
         <a
           href="https://www.mollie.com/en/consumers"
           rel="noopener noreferrer"
