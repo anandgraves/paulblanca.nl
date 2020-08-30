@@ -96,10 +96,6 @@ section.body + section.body {
   transition: background-color 0.15s ease-out 0s;
 }
 
-.button--order {
-  width: 100%;
-}
-
 .button:hover,
 .button:focus,
 .button:active {
