@@ -5,10 +5,10 @@
         <responsive-image :image="product.image" class="photo-detail__image" />
       </nuxt-link>
 
-      <div class="photo-detail__content rich-text">
+      <div class="photo-detail__content">
         <h1 class="photo-detail__title heading-large">{{ product.title }}</h1>
         <!-- eslint-disable-next-line vue/no-v-html -->
-        <div class="body" v-html="product.description"></div>
+        <div class="body rich-text" v-html="product.description"></div>
 
         <div class="photo-detail__selector">
           <fieldset class="radio-group">
@@ -101,7 +101,7 @@
           <span class="body-small">(including VAT)</span>
         </div>
 
-        <ul class="photo-detail__buy-info">
+        <ul class="photo-detail__buy-info rich-text">
           <li>Price is exluding shipping costs.</li>
           <li>
             Delivery is within 29 days.
@@ -136,78 +136,7 @@
           <span class="euro-icon__text">Buy photo via email</span>
         </a>
 
-        <ul class="photo-detail__payment-icons">
-          <li class="photo-detail__payment-icon">
-            <icon-base
-              viewbox="0 0 120 80"
-              width="80"
-              height="40"
-              icon-name="ideal"
-            >
-              <icon-ideal />
-            </icon-base>
-          </li>
-          <li class="photo-detail__payment-icon">
-            <icon-base
-              viewbox="0 0 120 80"
-              width="80"
-              height="40"
-              icon-name="applepay"
-            >
-              <icon-applepay />
-            </icon-base>
-          </li>
-          <li class="photo-detail__payment-icon">
-            <icon-base
-              viewbox="0 0 120 80"
-              width="80"
-              height="40"
-              icon-name="mastercard"
-            >
-              <icon-mastercard />
-            </icon-base>
-          </li>
-          <li class="photo-detail__payment-icon">
-            <icon-base
-              viewbox="0 0 120 80"
-              width="80"
-              height="40"
-              icon-name="paypal"
-            >
-              <icon-paypal />
-            </icon-base>
-          </li>
-          <li class="photo-detail__payment-icon">
-            <icon-base
-              viewbox="0 0 120 80"
-              width="80"
-              height="40"
-              icon-name="visa"
-            >
-              <icon-visa />
-            </icon-base>
-          </li>
-          <li class="photo-detail__payment-icon">
-            <icon-base
-              viewbox="0 0 120 80"
-              width="80"
-              height="40"
-              icon-name="sofort"
-            >
-              <icon-sofort />
-            </icon-base>
-          </li>
-          <li class="photo-detail__payment-icon">
-            <icon-base
-              viewbox="0 0 120 80"
-              width="80"
-              height="40"
-              icon-name="americanexpress"
-            >
-              <icon-americanexpress />
-            </icon-base>
-          </li>
-        </ul>
+        <payment-icons class="photo-detail__payment-icons" />
 
         <hr class="photo-detail__divider" />
 
@@ -250,7 +179,9 @@
             >
             .
           </p>
+        </section>
 
+        <section>
           <h2 class="photo-detail__heading heading-medium">Verification</h2>
           <p class="body">
             Each photo includes a certificate of authenticity.
@@ -336,20 +267,12 @@ Can you send me an online invoice for the photo including shipping costs?\n\n\n`
 </script>
 
 <style>
+.photo-detail__content > *:not(:last-child) {
+  margin-bottom: 48px;
+}
+
 .photo-detail__title {
   text-align: center;
-}
-
-.photo-detail .photo-detail__payment-icons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-left: 0;
-  list-style: none;
-}
-
-.photo-detail__payment-icon {
-  margin-left: -15px;
 }
 
 .photo-detail__delivery-icon {
@@ -430,7 +353,6 @@ Can you send me an online invoice for the photo including shipping costs?\n\n\n`
 }
 
 .photo-detail__price {
-  margin-bottom: 48px;
   font-weight: 400;
   font-size: 1.3rem;
 }
@@ -459,15 +381,6 @@ Can you send me an online invoice for the photo including shipping costs?\n\n\n`
 
 .photo-detail__shipping {
   margin-bottom: 36px;
-}
-
-.photo-detail__divider {
-  margin-top: 24px;
-  margin-bottom: 48px;
-}
-
-.photo-detail__button {
-  margin-bottom: 48px;
 }
 
 @media (min-width: 900px) {
