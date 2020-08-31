@@ -1,9 +1,15 @@
 <template>
-  <article class="center-content rich-text">
+  <article class="center-content">
     <h1 class="heading-large">Payment Methods</h1>
-    <div class="body">
+    <div class="body rich-text">
       <p>
-        With paulblanca.nl you can pay in different ways. The possibilities are:
+        With paulblanca.nl all payments are processed by
+        <a
+          href="https://www.mollie.com/en/consumers"
+          rel="noopener noreferrer"
+          target="_blank"
+          >Mollie</a
+        >. Payments can be done in different ways:
       </p>
 
       <ul>
@@ -80,13 +86,16 @@
       </ul>
 
       <p>
-        All payments are processed by
-        <a
-          href="https://www.mollie.com/en/consumers"
-          rel="noopener noreferrer"
-          target="_blank"
-          >Mollie B.V.</a
-        >. Payments in Bitcoin will be accepted soon.
+        Payments in
+        <icon-base
+          width="24"
+          height="24"
+          viewbox="0 0 64 64"
+          icon-name="bitcoin"
+        >
+          <icon-bitcoin
+        /></icon-base>
+        Bitcoin will be accepted soon.
       </p>
     </div>
   </article>

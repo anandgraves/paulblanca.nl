@@ -31,24 +31,24 @@ section.body + section.body {
 }
 
 .heading-large {
+  margin-bottom: 36px;
   font-size: 2.2rem;
   font-weight: 400;
   text-transform: uppercase;
-  margin-bottom: 36px;
   line-height: 1.25;
   letter-spacing: 1px;
 }
 
 .heading-medium {
+  margin-bottom: 24px;
   font-size: 1.8rem;
-  margin-bottom: 10px;
   font-weight: 400;
   letter-spacing: 0.5px;
 }
 
 .heading-small {
+  margin-bottom: 12px;
   font-size: 1.3rem;
-  margin-bottom: 24px;
   font-weight: 400;
   letter-spacing: 0.3px;
 }
@@ -187,8 +187,19 @@ section.body + section.body {
   padding-left: 24px;
 }
 
+.rich-text ul p,
+.rich-text ol p,
+.rich-text li ul,
+.rich-text li ol {
+  margin-bottom: 24px;
+}
+
+.rich-text figure {
+  border: 1px solid #666;
+}
+
 .rich-text li:not(:last-child) {
-  margin-bottom: 8px;
+  margin-bottom: 24px;
 }
 
 @media (min-width: 500px) {

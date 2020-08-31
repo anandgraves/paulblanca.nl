@@ -66,8 +66,12 @@ export default {
       this.isLoaded = true
     },
     srcSet(type) {
+      if (this.image.width < 900) {
+        return `
+        /images/${this.filenameMinusWidth}-500w.${type} 500w
+      `
+      }
       return `
-        /images/${this.filenameMinusWidth}-150w.${type} 150w,
         /images/${this.filenameMinusWidth}-500w.${type} 500w,
         /images/${this.filenameMinusWidth}-900w.${type} 900w
       `
