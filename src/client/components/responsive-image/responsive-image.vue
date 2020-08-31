@@ -8,7 +8,7 @@
       <lazy-load>
         <picture>
           <!--[if IE 9]><video style="display: none;"><![endif]-->
-          <source :srcset="srcSet('webp')" :sizes="sizes" type="image/webp" />
+          <!-- <source :srcset="srcSet('webp')" :sizes="sizes" type="image/webp" /> -->
           <source :srcset="srcSet('jpg')" :sizes="sizes" type="image/jpeg" />
           <!--[if IE 9]></video><![endif]-->
           <transition name="fade">
@@ -66,6 +66,11 @@ export default {
       this.isLoaded = true
     },
     srcSet(type) {
+      if (this.image.width < 900) {
+        return `
+        /images/${this.filenameMinusWidth}-500w.${type} 500w
+      `
+      }
       return `
         /images/${this.filenameMinusWidth}-500w.${type} 500w,
         /images/${this.filenameMinusWidth}-900w.${type} 900w
