@@ -62,7 +62,7 @@
               aria-label="View more information about Plink at useplink.com"
               >Plink</a
             >
-            is an initiative of Mollie B.V., which processes all payments.
+            is an initiative of Mollie, which processes all payments.
           </p>
           <p>
             <a

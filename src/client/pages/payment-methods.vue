@@ -3,7 +3,13 @@
     <h1 class="heading-large">Payment Methods</h1>
     <div class="body rich-text">
       <p>
-        With paulblanca.nl you can pay in different ways. The possibilities are:
+        With paulblanca.nl all payments are processed by
+        <a
+          href="https://www.mollie.com/en/consumers"
+          rel="noopener noreferrer"
+          target="_blank"
+          >Mollie</a
+        >. Payments can be done in different ways:
       </p>
 
       <ul>
@@ -78,16 +84,6 @@
           >
         </li>
       </ul>
-
-      <p>
-        All payments are processed by
-        <a
-          href="https://www.mollie.com/en/consumers"
-          rel="noopener noreferrer"
-          target="_blank"
-          >Mollie B.V.</a
-        >.
-      </p>
 
       <p>
         Payments in
