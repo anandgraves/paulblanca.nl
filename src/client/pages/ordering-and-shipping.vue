@@ -81,6 +81,18 @@
 
       <h2 id="shipping" class="heading-medium">Shipping</h2>
 
+      <div class="ordering-shipping__fedex">
+        <icon-base
+          class="delivery-icon"
+          width="74"
+          height="33"
+          icon-name="fedex"
+          viewbox="0 0 74.535996 33.924999"
+        >
+          <icon-fedex />
+        </icon-base>
+      </div>
+
       <p>
         FedEx Express is used to make (international) delivery. Delivery is
         within 29 days. Shipping is possible to these
@@ -96,6 +108,12 @@
         A complete street address and valid phone number are required for
         shipping. Partial or incorrect addresses may result in additional
         charges.
+      </p>
+
+      <p>
+        If you are not available to accept delivery of your shipment, your
+        courier leaves a delivery attempt notice with information on when the
+        next delivery attempt will be made.
       </p>
 
       <p>
@@ -141,5 +159,9 @@ export default {
 <style>
 .ordering-shipping__screenshot {
   max-width: 499px;
+}
+
+.ordering-shipping__fedex {
+  margin-bottom: 12px;
 }
 </style>
