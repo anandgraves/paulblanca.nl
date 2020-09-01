@@ -101,24 +101,7 @@
           <span class="body-small">(including VAT)</span>
         </div>
 
-        <ul class="photo-detail__delivery-info rich-text">
-          <li>Price is exluding shipping costs.</li>
-          <li>
-            Delivery is within 29 days.
-          </li>
-          <li>
-            FedEx Express is used to make (international) delivery.<br />
-            <icon-base
-              class="photo-detail__delivery-icon"
-              width="74"
-              height="33"
-              icon-name="fedex"
-              viewbox="0 0 74.535996 33.924999"
-            >
-              <icon-fedex />
-            </icon-base>
-          </li>
-        </ul>
+        <delivery-info />
 
         <a
           :href="orderViaEmail"
@@ -169,7 +152,9 @@
               </tr>
               <tr>
                 <th class="table-data__cell">Edition</th>
-                <td class="table-data__cell">{{ getEdition }}</td>
+                <td class="table-data__cell">
+                  {{ getEdition }} + 2 Artist's Proof
+                </td>
               </tr>
               <tr>
                 <th class="table-data__cell">Year</th>
@@ -313,15 +298,6 @@ Can you send me an online invoice for the photo including shipping costs?\n\n\n`
 
 .photo-detail__delivery-icon {
   margin-top: 6px;
-}
-
-.photo-detail .photo-detail__delivery-info {
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 24px 48px;
-  background-color: #f7f7f7;
-  text-align: left;
 }
 
 .euro-icon__text {

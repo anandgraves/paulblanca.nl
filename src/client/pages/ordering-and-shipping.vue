@@ -2,7 +2,7 @@
   <article class="center-content">
     <h1 class="heading-large">Ordering and Shipping</h1>
     <div class="body rich-text">
-      <h2 class="heading-medium">Ordering</h2>
+      <h2 id="ordering" class="heading-medium">Ordering</h2>
       <p>
         To place an order with paulblanca.nl you have to go through the
         following steps:
@@ -62,7 +62,15 @@
               aria-label="View more information about Plink at useplink.com"
               >Plink</a
             >
-            is an initiative of Mollie, which processes all payments.
+            is an initiative of
+            <a
+              href="https://mollie.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+              title="View more information about Mollie at mollie.com"
+              aria-label="View more information about Mollie at mollie.com"
+              >Mollie</a
+            >, which processes all payments.
           </p>
           <p>
             <a
@@ -79,49 +87,41 @@
         </li>
       </ol>
 
-      <h2 class="heading-medium">Shipping</h2>
+      <h2 id="shipping" class="heading-medium">Shipping</h2>
+
+      <div class="ordering-shipping__fedex">
+        <icon-base
+          class="delivery-icon"
+          width="74"
+          height="33"
+          icon-name="fedex"
+          viewbox="0 0 74.535996 33.924999"
+        >
+          <icon-fedex />
+        </icon-base>
+      </div>
 
       <p>
         FedEx Express is used to make (international) delivery. Delivery is
-        within 29 days.
+        within 29 days. Shipping is possible to these
         <a
           href="http://www.fedex.com/sz/contact/served-countries.html"
           rel="noopener noreferrer"
           target="_blank"
-          >View the list of countries</a
-        >
-        FedEx Express ships to.
+          >countries</a
+        >.
       </p>
 
       <p>
-        Within
-        <a
-          href="https://www.fedex.com/en-nl/shipping.html#domestic"
-          rel="noopener noreferrer"
-          target="_blank"
-          title="Using FedEx for shipping within The Netherlands"
-          aria-label="Using FedEx for shipping within The Netherlands"
-          >The Netherlands</a
-        >, FedEx Express uses FedEx Priority Overnight® to deliver your order
-        the next day before noon or before end of the business day. See the
-        FedEx Express services available for
-        <a
-          href="https://www.fedex.com/en-nl/shipping.html#europe"
-          rel="noopener noreferrer"
-          target="_blank"
-          title="Using FedEx for shipping within Europe"
-          aria-label="Using FedEx for shipping within Europe"
-          >Europe</a
-        >
-        and
-        <a
-          href="https://www.fedex.com/en-nl/shipping.html#worldwide"
-          rel="noopener noreferrer"
-          target="_blank"
-          title="Using FedEx for worldwide shipping"
-          aria-label="Using FedEx for worldwide shipping"
-          >Worldwide</a
-        >.
+        A complete street address and valid phone number are required for
+        shipping. Partial or incorrect addresses may result in additional
+        charges.
+      </p>
+
+      <p>
+        If you are not available to accept delivery of your shipment, your
+        courier leaves a delivery attempt notice with information on when the
+        next delivery attempt will be made.
       </p>
 
       <p>
@@ -167,5 +167,9 @@ export default {
 <style>
 .ordering-shipping__screenshot {
   max-width: 499px;
+}
+
+.ordering-shipping__fedex {
+  margin-bottom: 12px;
 }
 </style>

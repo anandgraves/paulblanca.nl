@@ -7,7 +7,18 @@
       a few hours up to a day, when possible.
     </p>
 
-    <p class="body">The webshop at paulblanca.nl is managed by 21 Bits:</p>
+    <p class="body">
+      <a
+        href="https://21bits.nl"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View more information about 21 Bits at 21bits.nl"
+        aria-label="View more information about 21 Bits at 21bits.nl"
+        >21 Bits</a
+      >
+      develops and manages paulblanca.nl, manages all payments, shipping and
+      customer support in partnership with Paul Blanca.
+    </p>
 
     <p class="body">
       21 Bits<br />
