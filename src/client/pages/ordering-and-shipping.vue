@@ -2,7 +2,7 @@
   <article class="center-content">
     <h1 class="heading-large">Ordering and Shipping</h1>
     <div class="body rich-text">
-      <h2 class="heading-medium">Ordering</h2>
+      <h2 id="ordering" class="heading-medium">Ordering</h2>
       <p>
         To place an order with paulblanca.nl you have to go through the
         following steps:
@@ -79,7 +79,7 @@
         </li>
       </ol>
 
-      <h2 class="heading-medium">Shipping</h2>
+      <h2 id="shipping" class="heading-medium">Shipping</h2>
 
       <p>
         FedEx Express is used to make (international) delivery. Delivery is
@@ -91,37 +91,6 @@
           >View the list of countries</a
         >
         FedEx Express ships to.
-      </p>
-
-      <p>
-        Within
-        <a
-          href="https://www.fedex.com/en-nl/shipping.html#domestic"
-          rel="noopener noreferrer"
-          target="_blank"
-          title="Using FedEx for shipping within The Netherlands"
-          aria-label="Using FedEx for shipping within The Netherlands"
-          >The Netherlands</a
-        >, FedEx Express uses FedEx Priority Overnight® to deliver your order
-        the next day before noon or before end of the business day. See the
-        FedEx Express services available for
-        <a
-          href="https://www.fedex.com/en-nl/shipping.html#europe"
-          rel="noopener noreferrer"
-          target="_blank"
-          title="Using FedEx for shipping within Europe"
-          aria-label="Using FedEx for shipping within Europe"
-          >Europe</a
-        >
-        and
-        <a
-          href="https://www.fedex.com/en-nl/shipping.html#worldwide"
-          rel="noopener noreferrer"
-          target="_blank"
-          title="Using FedEx for worldwide shipping"
-          aria-label="Using FedEx for worldwide shipping"
-          >Worldwide</a
-        >.
       </p>
 
       <p>
