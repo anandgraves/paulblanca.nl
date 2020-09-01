@@ -62,7 +62,15 @@
               aria-label="View more information about Plink at useplink.com"
               >Plink</a
             >
-            is an initiative of Mollie, which processes all payments.
+            is an initiative of
+            <a
+              href="https://mollie.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+              title="View more information about Mollie at mollie.com"
+              aria-label="View more information about Mollie at mollie.com"
+              >Mollie</a
+            >, which processes all payments.
           </p>
           <p>
             <a
