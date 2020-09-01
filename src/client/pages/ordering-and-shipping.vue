@@ -83,14 +83,19 @@
 
       <p>
         FedEx Express is used to make (international) delivery. Delivery is
-        within 29 days.
+        within 29 days. Shipping is possible to these
         <a
           href="http://www.fedex.com/sz/contact/served-countries.html"
           rel="noopener noreferrer"
           target="_blank"
-          >View the list of countries</a
-        >
-        FedEx Express ships to.
+          >countries</a
+        >.
+      </p>
+
+      <p>
+        A complete street address and valid phone number are required for
+        shipping. Partial or incorrect addresses may result in additional
+        charges.
       </p>
 
       <p>

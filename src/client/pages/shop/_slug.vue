@@ -152,7 +152,9 @@
               </tr>
               <tr>
                 <th class="table-data__cell">Edition</th>
-                <td class="table-data__cell">{{ getEdition }}</td>
+                <td class="table-data__cell">
+                  {{ getEdition }} + 2 Artist's Proof
+                </td>
               </tr>
               <tr>
                 <th class="table-data__cell">Year</th>

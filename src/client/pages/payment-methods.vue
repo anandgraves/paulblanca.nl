@@ -15,71 +15,71 @@
       <ul>
         <li>
           <a
-            href="https://www.mollie.com/en/payments/ideal"
+            href="https://www.ideal.nl/en/consumers/"
             rel="noopener noreferrer"
             target="_blank"
-            title="View more information about iDEAL at Mollie.com"
-            aria-label="View more information about iDEAL at Mollie.com"
+            title="View more information about iDEAL at ideal.nl"
+            aria-label="View more information about iDEAL at ideal.nl"
             >iDEAL</a
           >
         </li>
         <li>
           <a
-            href="https://www.mollie.com/en/payments/apple-pay"
+            href="https://www.apple.com/apple-pay/"
             rel="noopener noreferrer"
             target="_blank"
-            title="View more information about Apple Pay at Mollie.com"
-            aria-label="View more information about Apple Pay at Mollie.com"
+            title="View more information about Apple Pay at apple.com"
+            aria-label="View more information about Apple Pay at apple.com"
             >Apple Pay</a
           >
         </li>
         <li>
           <a
-            href="https://www.mollie.com/en/payments/credit-card"
+            href="https://mastercard.com/"
             rel="noopener noreferrer"
             target="_blank"
-            title="View more information about Mastercard at Mollie.com"
-            aria-label="View more information about Mastercard at Mollie.com"
+            title="View more information about Mastercard at mastercard.com"
+            aria-label="View more information about Mastercard at mastercard.com"
             >Mastercard</a
           >
         </li>
         <li>
           <a
-            href="https://www.mollie.com/en/payments/credit-card"
+            href="https://visa.com/"
             rel="noopener noreferrer"
             target="_blank"
-            title="View more information about VISA at Mollie.com"
-            aria-label="View more information about VISA at Mollie.com"
+            title="View more information about VISA at visa.com"
+            aria-label="View more information about VISA at visa.com"
             >VISA</a
           >
         </li>
         <li>
           <a
-            href="https://www.mollie.com/en/payments/credit-card"
+            href="https://americanexpress.com/"
             rel="noopener noreferrer"
             target="_blank"
-            title="View more information about American Express at Mollie.com"
-            aria-label="View more information about American Express at Mollie.com"
+            title="View more information about American Express at americanexpress.com"
+            aria-label="View more information about American Express at americanexpress.com"
             >American Express</a
           >
         </li>
         <li>
           <a
-            href="https://www.mollie.com/en/payments/paypal"
+            href="https://paypal.com/"
             rel="noopener noreferrer"
             target="_blank"
-            title="View more information about PayPal at Mollie.com"
-            aria-label="View more information about PayPal at Mollie.com"
+            title="View more information about PayPal at paypal"
+            aria-label="View more information about PayPal at paypal.com"
             >PayPal</a
           >
         </li>
         <li>
           <a
-            href="https://www.mollie.com/en/payments/sofort"
+            href="https://www.klarna.com/sofort/"
             rel="noopener noreferrer"
             target="_blank"
-            title="View more information about SOFORT Banking at Mollie.com"
-            aria-label="View more information about SOFORT Banking at Mollie.com"
+            title="View more information about SOFORT Banking at klarna.com"
+            aria-label="View more information about SOFORT Banking at klarna.com"
             >SOFORT Banking</a
           >
         </li>
