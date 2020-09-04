@@ -64,6 +64,8 @@ export default {
   }
 
   .app-header__menu {
+    display: flex;
+    align-items: center;
     margin-left: auto;
   }
 }
