@@ -3,7 +3,7 @@
     <div class="app-header__brand">
       <nuxt-link to="/" class="app-header__link">
         <div>
-          <img src="/images/logo.svg" alt="" />
+          <img class="app-header__logo" src="/images/logo-black.svg" alt="" />
         </div>
 
         <span class="app-header__subtitle">
@@ -30,6 +30,10 @@ export default {
   margin-bottom: 32px;
 }
 
+.app-header__logo {
+  height: 40px;
+}
+
 .app-header__link {
   color: black;
   text-transform: uppercase;
@@ -50,12 +54,18 @@ export default {
     display: flex;
   }
 
+  .app-header__logo {
+    height: 60px;
+  }
+
   .app-header__brand {
     display: flex;
     margin-bottom: 0;
   }
 
   .app-header__menu {
+    display: flex;
+    align-items: center;
     margin-left: auto;
   }
 }

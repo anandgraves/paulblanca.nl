@@ -4,6 +4,7 @@
     <main class="site-content__main">
       <nuxt />
     </main>
+    <app-footer />
   </div>
 </template>
 
@@ -26,5 +27,11 @@ export default {
 
 .site-content__main {
   margin-bottom: 128px;
+}
+
+@media (min-width: 800px) {
+  .site-content__header {
+    margin-bottom: 72px;
+  }
 }
 </style>

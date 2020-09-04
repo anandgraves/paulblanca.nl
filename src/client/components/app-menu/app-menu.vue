@@ -28,7 +28,7 @@ export default {
 .app-menu__link {
   display: inline-block;
   margin-top: 2px;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.5px;
