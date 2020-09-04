@@ -321,6 +321,7 @@ Can you send me an online invoice for the photo including shipping costs?\n\n\n`
 .radio-group__title {
   width: 100%;
   margin-bottom: 12px;
+  text-transform: uppercase;
   text-align: center;
   font-size: 1.125rem;
 }
