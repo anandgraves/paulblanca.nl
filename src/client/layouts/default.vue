@@ -4,6 +4,7 @@
     <main class="site-content__main">
       <nuxt />
     </main>
+    <app-footer />
   </div>
 </template>
 
