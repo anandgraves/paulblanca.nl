@@ -59,17 +59,6 @@
             <div class="radio-group__container">
               <div class="radio-group__item">
                 <input
-                  id="none"
-                  v-model="finishing"
-                  class="radio-group__radio"
-                  name="finishing"
-                  type="radio"
-                  value="none"
-                />
-                <label class="radio-group__label" for="none">None</label>
-              </div>
-              <div class="radio-group__item">
-                <input
                   id="dibond"
                   v-model="finishing"
                   class="radio-group__radio"
