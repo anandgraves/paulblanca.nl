@@ -54,20 +54,9 @@
 
           <fieldset class="radio-group">
             <legend class="radio-group__title">
-              Print finishing
+              Finish
             </legend>
             <div class="radio-group__container">
-              <div class="radio-group__item">
-                <input
-                  id="none"
-                  v-model="finishing"
-                  class="radio-group__radio"
-                  name="finishing"
-                  type="radio"
-                  value="none"
-                />
-                <label class="radio-group__label" for="none">None</label>
-              </div>
               <div class="radio-group__item">
                 <input
                   id="dibond"
@@ -153,7 +142,10 @@
               <tr>
                 <th class="table-data__cell">Edition</th>
                 <td class="table-data__cell">
-                  {{ getEdition }} + 2 Artist's Proof
+                  {{ getEdition }}
+                  <div>
+                    incl. 2 Artist's Proof
+                  </div>
                 </td>
               </tr>
               <tr>
@@ -172,15 +164,14 @@
         </section>
 
         <section class="rich-text">
-          <h2 class="photo-detail__heading heading-medium">Prints</h2>
+          <h2 class="photo-detail__heading heading-medium">Finish</h2>
 
           <p class="body">
-            All photos can be purchased for the sizes 30 x 40 cm, 40 x 50 cm and
-            100 x 120 cm.
-            <nuxt-link to="/print-finishing"
-              >View all the print finishing options</nuxt-link
-            >
-            .
+            All photos can be purchased for the sizes 30x40 cm, 40x50 cm and
+            100x120 cm.
+            <nuxt-link to="/photo-finish"
+              >View all the photo finish options</nuxt-link
+            >.
           </p>
         </section>
 

@@ -13,17 +13,14 @@ const state = () => ({
       },
       prices: {
         '30x40cm': {
-          none: 1900,
           dibond: 2800,
           plexiglass: 3400,
         },
         '40x50cm': {
-          none: 3800,
           dibond: 4000,
           plexiglass: 4200,
         },
         '100x120cm': {
-          none: 8000,
           dibond: 8200,
           plexiglass: 8400,
         },
@@ -48,17 +45,14 @@ const state = () => ({
       },
       prices: {
         '30x40cm': {
-          none: 1900,
           dibond: 2800,
           plexiglass: 3400,
         },
         '40x50cm': {
-          none: 3800,
           dibond: 4000,
           plexiglass: 4200,
         },
         '100x120cm': {
-          none: 8000,
           dibond: 8200,
           plexiglass: 8400,
         },
@@ -83,17 +77,14 @@ const state = () => ({
       },
       prices: {
         '30x40cm': {
-          none: 1900,
           dibond: 2800,
           plexiglass: 3400,
         },
         '40x50cm': {
-          none: 3800,
           dibond: 4000,
           plexiglass: 4200,
         },
         '100x120cm': {
-          none: 8000,
           dibond: 8200,
           plexiglass: 8400,
         },
@@ -118,17 +109,14 @@ const state = () => ({
       },
       prices: {
         '30x40cm': {
-          none: 1900,
           dibond: 2800,
           plexiglass: 3400,
         },
         '40x50cm': {
-          none: 3800,
           dibond: 4000,
           plexiglass: 4200,
         },
         '100x120cm': {
-          none: 8000,
           dibond: 8200,
           plexiglass: 8400,
         },
