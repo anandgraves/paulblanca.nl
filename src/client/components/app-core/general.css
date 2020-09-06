@@ -189,7 +189,7 @@ section.body + section.body {
 .rich-text ol p,
 .rich-text li ul,
 .rich-text li ol {
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }
 
 .rich-text figure {
