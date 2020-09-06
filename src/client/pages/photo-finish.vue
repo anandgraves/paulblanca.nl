@@ -13,7 +13,7 @@
       Dibond is made up of a 3mm-thick black polyethylene panel covered with two
       white-coated aluminum plates on each side. The aluminum plates make sure
       the Dibond will not bend, arch or curve. The photo is printed on high
-      quality Lambda photo print and then laminated onto the aluminum. A thin
+      quality Lambda photo print and then laminated onto the Dibond. A thin
       UV-protective laminate layer is added to protect the surface of the
       picture.
     </p>
@@ -21,15 +21,18 @@
     <p class="body">Dibond has several benefits:</p>
 
     <ul class="body">
-      <li>It's low weight makes it also ideal for large size photos</li>
-      <li>Maintenance-free and long-lasting</li>
-      <li>UV-protective layer to protect the photo</li>
-      <li>No extra photo frame necessary</li>
-      <li>Highly accurate detail representation</li>
+      <li>It's low weight makes it also ideal for large size photos.</li>
+      <li>Maintenance-free and long-lasting.</li>
+      <li>UV-protective layer to protect the photo.</li>
+      <li>No extra photo frame necessary.</li>
+      <li>Highly accurate detail representation.</li>
       <li>
-        Can be mounted “floating” on the wall
+        Can be mounted "floating" on the wall.
       </li>
-      <li>Resistant to harsh weather and environment conditions</li>
+      <li>
+        Extremely durable and lightweight anodized aluminum suspension profile.
+      </li>
+      <li>Resistant to harsh weather and environment conditions.</li>
     </ul>
 
     <p class="body">
@@ -62,16 +65,23 @@
       </tr>
     </table>
 
-    <h2 class="heading-medium">Dibond Plexiglass</h2>
+    <h2 class="heading-medium">Plexiglass</h2>
     <p class="body">
-      Een geplexte foto is een duurzaam product; onder optimale omstandigheden
-      gaat het levenslang mee. Hierdoor is plexen bij uitstek geschikt voor
-      fotowerken in musea, galeries, kunstexposities en voor kunstenaars en
-      fotografen die hun werken zo lang mogelijk optimaal willen conserveren.<br /><br />
-
-      The highest quality to preserve a photo as leading museums and galleries
-      do.
+      The photo is printed on high quality Lambda photo print and then laminated
+      onto the Dibond behind plexiglass.
     </p>
+
+    <p class="body">Benefits for a photo behind plexiglass:</p>
+
+    <ul class="body">
+      <li>Photos get optimal contrast.</li>
+      <li>Highly durable and can last a lifetime.</li>
+      <li>
+        Ideally suited for photographic works in museums, galleries, art
+        exhibitions and for artists and photographers who want to conserve their
+        works for as long as possible.
+      </li>
+    </ul>
 
     <table class="print-finishing__table-data table-data body">
       <tr>
