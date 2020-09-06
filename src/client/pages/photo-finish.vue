@@ -1,6 +1,6 @@
 <template>
   <article class="print-finishing center-content rich-text">
-    <h1 class="heading-large">Photo finishing</h1>
+    <h1 class="heading-large">Photo finish</h1>
     <p class="body">
       All photos can be purchased for the sizes <strong>30x40 cm</strong>,
       <strong>40x50 cm</strong> and <strong>100x120 cm</strong>. Photo finishing

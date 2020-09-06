@@ -169,8 +169,8 @@
           <p class="body">
             All photos can be purchased for the sizes 30x40 cm, 40x50 cm and
             100x120 cm.
-            <nuxt-link to="/print-finishing"
-              >View all the finish options</nuxt-link
+            <nuxt-link to="/photo-finish"
+              >View all the photo finish options</nuxt-link
             >.
           </p>
         </section>
