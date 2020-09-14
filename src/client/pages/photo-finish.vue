@@ -18,6 +18,11 @@
       picture.
     </p>
 
+    <p class="body">
+      Dibond is popular with artists, photographers, museums, galleries,
+      exhibitions and art collectors.
+    </p>
+
     <p class="body">Dibond has several benefits:</p>
 
     <ul class="body">
@@ -27,6 +32,10 @@
       <li>No extra photo frame necessary.</li>
       <li>Highly accurate detail representation.</li>
       <li>
+        No stains or marks on your walls thanks to the felt pads on the anodized
+        aluminum suspension profile.
+      </li>
+      <li>
         Can be mounted "floating" on the wall.
       </li>
       <li>
@@ -34,11 +43,6 @@
       </li>
       <li>Resistant to harsh weather and environment conditions.</li>
     </ul>
-
-    <p class="body">
-      Because all these benefits, Dibond is popular with professional artists,
-      gallery owners, photo exhibitions and art collectors.
-    </p>
 
     <table class="print-finishing__table-data table-data body">
       <tr>
@@ -50,7 +54,7 @@
         <td class="table-data__cell">Semi-Matt photo paper</td>
       </tr>
       <tr>
-        <td class="table-data__cell">Photo finishing</td>
+        <td class="table-data__cell">Photo finish</td>
         <td class="table-data__cell">
           Glued on 3mm Dibond with 20mm anodized aluminum suspension profile
         </td>
@@ -74,12 +78,13 @@
     <p class="body">Benefits for a photo behind plexiglass:</p>
 
     <ul class="body">
+      <li>All the benefits of Dibond.</li>
       <li>Photos get optimal contrast.</li>
       <li>Highly durable and can last a lifetime.</li>
       <li>
-        Ideally suited for photographic works in museums, galleries, art
-        exhibitions and for artists and photographers who want to conserve their
-        works for as long as possible.
+        Ideally suited for photographic works in museums, art galleries, art
+        exhibitions and for artists, art collectors photographers who want to
+        conserve their works for as long as possible.
       </li>
     </ul>
 
@@ -93,7 +98,7 @@
         <td class="table-data__cell">Semi-Matt photo paper</td>
       </tr>
       <tr>
-        <td class="table-data__cell">Photo finishing</td>
+        <td class="table-data__cell">Photo finish</td>
         <td class="table-data__cell">
           Glued behind 3mm clear plexiglass on 3mm Dibond with 20mm anodized
           aluminum suspension profile
@@ -112,7 +117,7 @@
     <h2 class="heading-medium">Anodized aluminum suspension profile</h2>
 
     <p class="body">
-      All photo finishing options have an anodized aluminum suspension profile.
+      All photo finish options have an anodized aluminum suspension profile.
       <strong>Anodized aluminum</strong> is aluminum that has been treated to
       develop an exceptionally durable finish.
     </p>

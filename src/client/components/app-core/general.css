@@ -28,6 +28,7 @@ section.body + section.body {
 
 .body-small {
   font-size: 1rem;
+  line-height: 1.35;
 }
 
 .heading-large {

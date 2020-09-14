@@ -92,6 +92,13 @@
 
         <delivery-info />
 
+        <nuxt-link
+          to="/ordering-and-shipping"
+          class="photo-detail__link-how-to-buy"
+        >
+          How do I buy a photo?
+        </nuxt-link>
+
         <a
           :href="orderViaEmail"
           class="photo-detail__button button button--order"
@@ -108,12 +115,12 @@
           <span class="euro-icon__text">Buy photo by email</span>
         </a>
 
-        <nuxt-link
-          to="/ordering-and-shipping"
-          class="photo-detail__link-how-to-buy"
-        >
-          How do I buy a photo?
-        </nuxt-link>
+        <p class="photo-detail__privacy body-small">
+          By clicking "Buy photo by email" you agree with the
+          <nuxt-link to="/privacy-policy" class="photo-detail__link-privacy"
+            >privacy policy </nuxt-link
+          >.
+        </p>
 
         <nuxt-link
           to="/payment-methods"
@@ -264,6 +271,16 @@ Can you send me an online invoice for the photo including shipping costs?\n\n\n`
 .photo-detail__link-how-to-buy {
   display: block;
   text-align: center;
+  color: black;
+}
+
+.photo-detail__privacy {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photo-detail__link-privacy {
   color: black;
 }
 
