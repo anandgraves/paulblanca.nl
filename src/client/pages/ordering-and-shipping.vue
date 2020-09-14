@@ -1,7 +1,7 @@
 <template>
   <article class="center-content">
     <h1 class="heading-large">Ordering and Shipping</h1>
-    <div class="body rich-text">
+    <section class="body rich-text">
       <h2 id="ordering" class="heading-medium">Ordering</h2>
       <p>
         To place an order with paulblanca.nl you have to go through the
@@ -9,10 +9,8 @@
       </p>
 
       <ol>
-        <li>Select a <strong>size</strong> (30x40, 40x50, 100x120 cm).</li>
-        <li>
-          Select a <strong>print finishing</strong>: none, dibond or plexiglass.
-        </li>
+        <li>Select a <strong>size</strong>: 30x40, 40x50, 100x120 cm.</li>
+        <li>Select a <strong>finish</strong>: Dibond or Plexiglass.</li>
         <li>Click on the button "<strong>Buy photo by e-mail</strong>".</li>
         <li>
           <p>
@@ -27,14 +25,13 @@
         </li>
         <li>
           <p>
-            Within a day you'll receive a reply from info@paulblanca.nl. Check
-            your spam/junk folder if you didn't receive an email. The email
-            contains:
+            Within one or two days you'll receive a reply from
+            info@paulblanca.nl. The email contains:
           </p>
           <ul>
             <li>Payment request as a link.</li>
-            <li>Price including shipping costs.</li>
-            <li>Estimated date of delivery.</li>
+            <li>Invoice from 21 Bits.</li>
+            <li>Estimated date of delivery of an express delivery service.</li>
           </ul>
 
           <p>
@@ -86,31 +83,30 @@
           </p>
         </li>
       </ol>
+    </section>
 
+    <section class="body rich-text">
       <h2 id="shipping" class="heading-medium">Shipping</h2>
 
-      <div class="ordering-shipping__fedex">
-        <icon-base
-          class="delivery-icon"
-          width="74"
-          height="33"
-          icon-name="fedex"
-          viewbox="0 0 74.535996 33.924999"
-        >
-          <icon-fedex />
-        </icon-base>
-      </div>
+      <p>Express delivery services are used to ship your package:</p>
 
-      <p>
-        FedEx Express is used to make (international) delivery. Delivery is
-        within 29 days. Shipping is possible to these
-        <a
-          href="http://www.fedex.com/sz/contact/served-countries.html"
-          rel="noopener noreferrer"
-          target="_blank"
-          >countries</a
-        >.
-      </p>
+      <ul class="delivery-icons">
+        <li class="delivery-icons__item">
+          <img src="/images/logo-fedex.png" alt="FedEx logo" loading="lazy" />
+        </li>
+        <li class="delivery-icons__item">
+          <img src="/images/logo-dhl.png" alt="DHL logo" loading="lazy" />
+        </li>
+        <li class="delivery-icons__item">
+          <img src="/images/logo-tnt.png" alt="TNT logo" loading="lazy" />
+        </li>
+        <li class="delivery-icons__item">
+          <img src="/images/logo-dpd.png" alt="DPD logo" loading="lazy" />
+        </li>
+        <li class="delivery-icons__item">
+          <img src="/images/logo-skynet.png" alt="Skynet logo" loading="lazy" />
+        </li>
+      </ul>
 
       <p>
         A complete street address and valid phone number are required for
@@ -118,22 +114,8 @@
         charges.
       </p>
 
-      <p>
-        If you are not available to accept delivery of your shipment, your
-        courier leaves a delivery attempt notice with information on when the
-        next delivery attempt will be made.
-      </p>
-
-      <p>
-        FedEx will send a notification via email and/or SMS including the
-        planned delivery day. If the proposed date is not convenient, the
-        recipient can access a secure website link provided in the notification
-        and request a change of the planned delivery date and/or location. Any
-        changes requested are confirmed via an email and/or SMS. On the day of
-        the delivery, you will be reminded that the shipment is on its way for
-        delivery.
-      </p>
-    </div>
+      <p>Delivery is within 29 days.</p>
+    </section>
   </article>
 </template>
 
@@ -165,11 +147,26 @@ export default {
 </script>
 
 <style>
-.ordering-shipping__screenshot {
-  max-width: 499px;
+.delivery-icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
 }
 
-.ordering-shipping__fedex {
-  margin-bottom: 12px;
+.rich-text .delivery-icons {
+  list-style: none;
+}
+
+.delivery-icons__item:not(:last-child) {
+  margin-right: 48px;
+}
+
+.delivery-icons__item {
+  flex-basis: 125px;
+}
+
+.ordering-shipping__screenshot {
+  max-width: 499px;
 }
 </style>

@@ -6,9 +6,7 @@
           <img class="app-header__logo" src="/images/logo-black.svg" alt="" />
         </div>
 
-        <span class="app-header__subtitle">
-          artist - photographer
-        </span>
+        <span class="app-header__subtitle"> artist - photographer </span>
       </nuxt-link>
     </div>
     <app-menu class="app-header__menu" />

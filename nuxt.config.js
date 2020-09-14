@@ -1,5 +1,4 @@
 export default {
-  mode: 'universal',
   target: 'static',
   // server: {
   //   port: '8000',

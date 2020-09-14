@@ -84,19 +84,6 @@
           >
         </li>
       </ul>
-
-      <p>
-        Payments in
-        <icon-base
-          width="24"
-          height="24"
-          viewbox="0 0 64 64"
-          icon-name="bitcoin"
-        >
-          <icon-bitcoin
-        /></icon-base>
-        Bitcoin will be accepted soon.
-      </p>
     </div>
   </article>
 </template>

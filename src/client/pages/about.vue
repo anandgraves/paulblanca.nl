@@ -41,18 +41,14 @@
         Kooning and Keith Haring.[citation needed] Mapplethorpe said of Blanca,
       </p>
 
-      <blockquote>
-        "Paul Blanca is my only competitor.".
-      </blockquote>
+      <blockquote>"Paul Blanca is my only competitor.".</blockquote>
 
       <p>
         In "True Colors – The Real Life of the Art World" by Anthony Haden, an
         art collector says,
       </p>
 
-      <blockquote>
-        "He reaches a kind of poetry few artists have."
-      </blockquote>
+      <blockquote>"He reaches a kind of poetry few artists have."</blockquote>
 
       <p>
         In 1991, Blanca collaborated with Hans Gieles and Francis Boeske of the
