@@ -2,9 +2,8 @@
   <article class="center-content rich-text">
     <h1 class="heading-large">Contact</h1>
     <p class="body">
-      You can contact me at
-      <a href="mailto:info@paulblanca.nl">info@paulblanca.nl</a>. I reply within
-      a few hours up to a day, when possible.
+      You can contact us at
+      <a href="mailto:info@paulblanca.nl">info@paulblanca.nl</a>.
     </p>
 
     <p class="body">

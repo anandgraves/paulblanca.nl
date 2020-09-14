@@ -18,6 +18,11 @@
       picture.
     </p>
 
+    <p class="body">
+      Dibond is popular with artists, photographers, museums, galleries,
+      exhibitions and art collectors.
+    </p>
+
     <p class="body">Dibond has several benefits:</p>
 
     <ul class="body">
@@ -27,6 +32,10 @@
       <li>No extra photo frame necessary.</li>
       <li>Highly accurate detail representation.</li>
       <li>
+        No stains or marks on your walls thanks to the felt pads on the anodized
+        aluminum suspension profile.
+      </li>
+      <li>
         Can be mounted "floating" on the wall.
       </li>
       <li>
@@ -34,11 +43,6 @@
       </li>
       <li>Resistant to harsh weather and environment conditions.</li>
     </ul>
-
-    <p class="body">
-      Dibond is popular with artists, photographers, museums, galleries,
-      exhibitions and art collectors.
-    </p>
 
     <table class="print-finishing__table-data table-data body">
       <tr>
