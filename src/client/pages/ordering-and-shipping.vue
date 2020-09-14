@@ -25,14 +25,13 @@
         </li>
         <li>
           <p>
-            Within one or maximum two days you'll receive a reply from
-            info@paulblanca.nl. Check your spam/junk folder if you didn't
-            receive an email. The email contains:
+            Within one or two days you'll receive a reply from
+            info@paulblanca.nl. The email contains:
           </p>
           <ul>
             <li>Payment request as a link.</li>
-            <li>Price.</li>
-            <li>Estimated date of delivery.</li>
+            <li>Invoice from 21 Bits.</li>
+            <li>Estimated date of delivery of an express delivery service.</li>
           </ul>
 
           <p>

@@ -232,27 +232,32 @@ export default {
 
 Title: ${this.product.title}
 Size: ${this.size}
-Finishing: ${this.finishing}
+Finish: ${this.finishing}
 Price: ${this.moneyFormat(
           this.getSelectedPrice
-        )} (includes VAT, excludes shipping costs)
+        )} (includes VAT and shipping costs)
 Quantity: 1
 
-You can ship the photo to:
-(All fields are required to enter, except the optional ones)
+You can ship the photo to (all fields are required):
 Full Name:
-Company (optional):
-VAT number (optional):
-Country:
-Address 1:
-Address 2:
-Postal code:
-City:
+Delivery address
+  Address 1:
+  Address 2:
+  Postal code:
+  City/State:
+  Country:
 Phone number:
 This is a residential address: [yes/no]
-(All shipping is sent with FedEx)
+If you want to order for a company, then also enter the following:
+Company name:
+VAT number:
 
-Can you send me an online invoice for the photo including shipping costs?\n\n\n`
+Billing address
+  Address 1:
+  Address 2:
+  Postal code:
+  City/State:
+  Country:`
       )
       return `mailto:info@paulblanca?subject=${subject}&body=${body}`
     },
