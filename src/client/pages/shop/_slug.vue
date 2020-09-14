@@ -11,14 +11,12 @@
             class="photo-detail__link-back-icon"
             width="24"
             height="24"
-            viewbox="0 0 24 24"
+            viewbox="8 0 24 24"
             icon-name="back"
           >
             <icon-back />
           </icon-base>
-          <span class="photo-detail__link-back-text"
-            >Back to Shop</span
-          ></nuxt-link
+          <span>Back to Shop</span></nuxt-link
         >
         <h1 class="photo-detail__title heading-large">{{ product.title }}</h1>
         <!-- eslint-disable-next-line vue/no-v-html -->
@@ -285,12 +283,8 @@ Billing address
   font-weight: 600;
 }
 
-.photo-detail__link-back-icon {
+.photo-detail__content .photo-detail__link-back-icon {
   margin-bottom: 0;
-}
-
-.photo-detail__link-back-text {
-  margin-left: 8px;
 }
 
 .photo-detail__link-how-to-buy {
