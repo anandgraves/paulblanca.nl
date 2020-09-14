@@ -52,11 +52,11 @@ export default {
 }
 
 .squared-photo-list__link img {
-  transition: transform 0.3s ease;
+  transition: transform 0.6s ease;
 }
 
 .squared-photo-list__link:hover img {
-  transform: scale(1.1);
+  transform: scale(1.03);
 }
 
 .squared-photo-list__title {

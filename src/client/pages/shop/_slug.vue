@@ -6,6 +6,20 @@
       </nuxt-link>
 
       <div class="photo-detail__content">
+        <nuxt-link to="/shop" class="photo-detail__link-back">
+          <icon-base
+            class="photo-detail__link-back-icon"
+            width="24"
+            height="24"
+            viewbox="0 0 24 24"
+            icon-name="back"
+          >
+            <icon-back />
+          </icon-base>
+          <span class="photo-detail__link-back-text"
+            >Back to Shop</span
+          ></nuxt-link
+        >
         <h1 class="photo-detail__title heading-large">{{ product.title }}</h1>
         <!-- eslint-disable-next-line vue/no-v-html -->
         <div class="body rich-text" v-html="product.description"></div>
@@ -53,9 +67,7 @@
           </fieldset>
 
           <fieldset class="radio-group">
-            <legend class="radio-group__title">
-              Finish
-            </legend>
+            <legend class="radio-group__title">Finish</legend>
             <div class="radio-group__container">
               <div class="radio-group__item">
                 <input
@@ -92,13 +104,6 @@
 
         <delivery-info />
 
-        <nuxt-link
-          to="/ordering-and-shipping"
-          class="photo-detail__link-how-to-buy"
-        >
-          How do I buy a photo?
-        </nuxt-link>
-
         <a
           :href="orderViaEmail"
           class="photo-detail__button button button--order"
@@ -115,12 +120,12 @@
           <span class="euro-icon__text">Buy photo by email</span>
         </a>
 
-        <p class="photo-detail__privacy body-small">
-          By clicking "Buy photo by email" you agree with the
-          <nuxt-link to="/privacy-policy" class="photo-detail__link-privacy"
-            >privacy policy </nuxt-link
-          >.
-        </p>
+        <nuxt-link
+          to="/ordering-and-shipping"
+          class="photo-detail__link-how-to-buy"
+        >
+          How do I buy a photo?
+        </nuxt-link>
 
         <nuxt-link
           to="/payment-methods"
@@ -150,9 +155,7 @@
                 <th class="table-data__cell">Edition</th>
                 <td class="table-data__cell">
                   {{ getEdition }}
-                  <div>
-                    incl. 2 Artist's Proof
-                  </div>
+                  <div>incl. 2 Artist's Proof</div>
                 </td>
               </tr>
               <tr>
@@ -268,19 +271,26 @@ Can you send me an online invoice for the photo including shipping costs?\n\n\n`
 </script>
 
 <style>
+.photo-detail__link-back {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.photo-detail__link-back-icon {
+  margin-bottom: 0;
+}
+
+.photo-detail__link-back-text {
+  margin-left: 8px;
+}
+
 .photo-detail__link-how-to-buy {
   display: block;
   text-align: center;
-  color: black;
-}
-
-.photo-detail__privacy {
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.photo-detail__link-privacy {
   color: black;
 }
 
@@ -298,10 +308,6 @@ Can you send me an online invoice for the photo including shipping costs?\n\n\n`
 
 .photo-detail__content > * {
   margin-bottom: 48px;
-}
-
-.photo-detail__title {
-  text-align: center;
 }
 
 .photo-detail__delivery-icon {

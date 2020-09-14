@@ -35,9 +35,7 @@
         No stains or marks on your walls thanks to the felt pads on the anodized
         aluminum suspension profile.
       </li>
-      <li>
-        Can be mounted "floating" on the wall.
-      </li>
+      <li>Can be mounted "floating" on the wall.</li>
       <li>
         Extremely durable and lightweight anodized aluminum suspension profile.
       </li>
@@ -123,12 +121,8 @@
     </p>
 
     <ul class="body">
-      <li>
-        Three times harder than the aluminum itself.
-      </li>
-      <li>
-        Much more durable than any other similar material on the market.
-      </li>
+      <li>Three times harder than the aluminum itself.</li>
+      <li>Much more durable than any other similar material on the market.</li>
       <li>
         One of the toughest and most versatile metal products in the market.
       </li>

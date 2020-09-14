@@ -2,19 +2,13 @@
   <div class="delivery-info rich-text">
     <ul class="delivery-info__list">
       <li class="delivery-info__item">
-        FedEx Express is used to make (international) delivery.
+        Only <strong>express delivery services</strong> are used.
       </li>
       <li class="delivery-info__item">
-        Delivery is within 29 days.
+        Worldwide <strong>free</strong> shipping.
       </li>
       <li class="delivery-info__item">
-        Shipping is possible to these
-        <a
-          href="http://www.fedex.com/sz/contact/served-countries.html"
-          rel="noopener noreferrer"
-          target="_blank"
-          >countries</a
-        >.
+        Worldwide <strong>Track&Trace</strong>.
       </li>
     </ul>
 
