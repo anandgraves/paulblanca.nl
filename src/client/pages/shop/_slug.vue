@@ -417,10 +417,6 @@ Billing address
     justify-content: space-between;
   }
 
-  .photo-detail__content {
-    padding-top: 12px;
-  }
-
   .photo-detail__button {
     max-width: none;
     width: 100%;
