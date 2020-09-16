@@ -84,8 +84,8 @@
         <li>
           <p>
             After you've paid for your order, you'll receive an email from
-            info@paulblanca.nl with Track&Trace. We use one of the express
-            delivery services listed below.
+            info@paulblanca.nl with Track&Trace as soon as possible. We use one
+            of the express delivery services listed below.
           </p>
         </li>
       </ol>
