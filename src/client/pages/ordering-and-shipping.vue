@@ -31,7 +31,6 @@
           <ul>
             <li>Payment request as a link.</li>
             <li>Invoice from 21 Bits.</li>
-            <li>Estimated date of delivery of an express delivery service.</li>
           </ul>
 
           <p>
@@ -80,6 +79,13 @@
             >
             develops and manages paulblanca.nl, manages all payments, shipping
             and customer support in partnership with Paul Blanca.
+          </p>
+        </li>
+        <li>
+          <p>
+            After you've paid for your order, you'll receive an email from
+            info@paulblanca.nl with Track&Trace. We use one of the express
+            delivery services listed below.
           </p>
         </li>
       </ol>
