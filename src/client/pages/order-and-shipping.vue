@@ -1,8 +1,8 @@
 <template>
   <article class="center-content">
-    <h1 class="heading-large">Ordering and Shipping</h1>
+    <h1 class="heading-large">Order and Shipping</h1>
     <section class="body rich-text">
-      <h2 id="ordering" class="heading-medium">Ordering</h2>
+      <h2 id="order" class="heading-medium">Order</h2>
       <p>
         To place an order with paulblanca.nl you have to go through the
         following steps:
@@ -84,8 +84,8 @@
         <li>
           <p>
             After you've paid for your order, you'll receive an email from
-            info@paulblanca.nl with Track&Trace. We use one of the express
-            delivery services listed below.
+            info@paulblanca.nl with Track&Trace as soon as possible. We use one
+            of the express delivery services listed below.
           </p>
         </li>
       </ol>
