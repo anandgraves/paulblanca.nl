@@ -119,7 +119,7 @@
         </a>
 
         <nuxt-link
-          to="/ordering-and-shipping"
+          to="/order-and-shipping"
           class="photo-detail__link-how-to-buy"
         >
           How do I buy a photo?

@@ -9,8 +9,8 @@
         <h2 class="app-footer__title heading-small">Need help?</h2>
         <ul class="app-footer__list">
           <li class="app-footer__list-item">
-            <nuxt-link class="app-footer__link" to="/ordering-and-shipping">
-              Ordering and Shipping
+            <nuxt-link class="app-footer__link" to="/order-and-shipping">
+              Order and Shipping
             </nuxt-link>
           </li>
           <li class="app-footer__list-item">
