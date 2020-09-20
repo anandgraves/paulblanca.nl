@@ -35,7 +35,7 @@
                   type="radio"
                   value="30x40cm"
                 />
-                <label for="30x40" class="radio-group__label">30 x 40 cm</label>
+                <label for="30x40" class="radio-group__label">30x40 cm</label>
               </div>
               <div class="radio-group__item">
                 <input
@@ -46,7 +46,7 @@
                   type="radio"
                   value="40x50cm"
                 />
-                <label for="40x50" class="radio-group__label">40 x 50 cm</label>
+                <label for="40x50" class="radio-group__label">40x50 cm</label>
               </div>
               <div class="radio-group__item">
                 <input
@@ -58,7 +58,7 @@
                   value="100x120cm"
                 />
                 <label for="100x120" class="radio-group__label"
-                  >100 x 120 cm</label
+                  >100x120 cm</label
                 >
               </div>
             </div>
@@ -70,9 +70,9 @@
               <div class="radio-group__item">
                 <input
                   id="dibond"
-                  v-model="finishing"
+                  v-model="finish"
                   class="radio-group__radio"
-                  name="finishing"
+                  name="finish"
                   type="radio"
                   value="dibond"
                 />
@@ -81,14 +81,27 @@
               <div class="radio-group__item">
                 <input
                   id="plexiglass"
-                  v-model="finishing"
+                  v-model="finish"
                   class="radio-group__radio"
-                  name="finishing"
+                  name="finish"
                   type="radio"
                   value="plexiglass"
                 />
                 <label class="radio-group__label" for="plexiglass"
                   >Plexiglass</label
+                >
+              </div>
+              <div class="radio-group__item">
+                <input
+                  id="trulife"
+                  v-model="finish"
+                  class="radio-group__radio"
+                  name="finish"
+                  type="radio"
+                  value="trulife"
+                />
+                <label class="radio-group__label" for="trulife"
+                  >TruLife<sup>TM</sup> Plexiglass</label
                 >
               </div>
             </div>
@@ -177,9 +190,7 @@
           <p class="body">
             All photos can be purchased for the sizes 30x40 cm, 40x50 cm and
             100x120 cm.
-            <nuxt-link to="/photo-finish"
-              >View all the photo finish options</nuxt-link
-            >.
+            <nuxt-link to="/finish">View all the finish options</nuxt-link>.
           </p>
         </section>
 
@@ -207,7 +218,7 @@ export default {
   data() {
     return {
       size: '40x50cm',
-      finishing: 'dibond',
+      finish: 'dibond',
     }
   },
   computed: {
@@ -218,7 +229,7 @@ export default {
       )
     },
     getSelectedPrice() {
-      return this.product.prices[this.size][this.finishing]
+      return this.product.prices[this.size][this.finish]
     },
     getEdition() {
       return this.product.edition[this.size]
@@ -230,7 +241,7 @@ export default {
 
 Title: ${this.product.title}
 Size: ${this.size}
-Finish: ${this.finishing}
+Finish: ${this.finish}
 Price: ${this.moneyFormat(
           this.getSelectedPrice
         )} (includes VAT and shipping costs)
@@ -283,6 +294,10 @@ Billing address
   font-weight: 600;
 }
 
+.photo-detail__link-back:hover {
+  color: rgb(61, 63, 65);
+}
+
 .photo-detail__content .photo-detail__link-back-icon {
   margin-bottom: 0;
 }
@@ -324,7 +339,12 @@ Billing address
 
 .radio-group__container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+}
+
+.radio-group__item:nth-child(-n + 2) {
+  margin-bottom: 12px;
 }
 
 .radio-group__item:not(:last-child) {
@@ -350,16 +370,12 @@ Billing address
   width: 1px;
 }
 
-.radio-group__radio:checked + label {
-  color: white;
-  background: black;
-}
-
-.radio-group__radio:hover + label,
+.radio-group__radio:checked + label,
 .radio-group__radio:focus + label,
-.radio-group__radio:active + label {
-  background-color: rgb(61, 63, 65);
+.radio-group__radio:active + label,
+.radio-group__radio:hover + label {
   color: white;
+  background-color: black;
 }
 
 .radio-group__label {
@@ -409,6 +425,12 @@ Billing address
 
 .photo-detail__shipping {
   margin-bottom: 36px;
+}
+
+@media (min-width: 447px) {
+  .radio-group__item:nth-child(-n + 2) {
+    margin-bottom: 0;
+  }
 }
 
 @media (min-width: 900px) {

@@ -21,6 +21,11 @@ section.body + section.body {
   margin-top: 48px;
 }
 
+sup {
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+
 .body {
   font-size: 1.125rem;
   line-height: 1.6;

@@ -1,10 +1,13 @@
 <template>
   <article class="print-finishing center-content rich-text">
-    <h1 class="heading-large">Photo finish</h1>
+    <h1 class="heading-large">Finish options</h1>
     <p class="body">
       All photos can be purchased for the sizes <strong>30x40 cm</strong>,
-      <strong>40x50 cm</strong> and <strong>100x120 cm</strong>. Photo finishing
-      options are: <strong>Dibond</strong> and <strong>Plexiglass</strong>.
+      <strong>40x50 cm</strong> and <strong>100x120 cm</strong>. Finish options
+      are: <strong>Dibond</strong>, <strong>Plexiglass</strong> and TruLife<sup
+        >TM</sup
+      >
+      Plexiglass.
     </p>
 
     <h2 class="heading-medium">Dibond</h2>

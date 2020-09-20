@@ -35,7 +35,7 @@
         <h2 class="app-footer__title heading-small">Explore</h2>
         <ul class="app-footer__list">
           <li class="app-footer__list-item">
-            <nuxt-link class="app-footer__link" to="/about"> About </nuxt-link>
+            <nuxt-link class="app-footer__link" to="/about">About</nuxt-link>
           </li>
           <li class="app-footer__list-item">
             <nuxt-link class="app-footer__link" to="/contact">
@@ -43,8 +43,8 @@
             </nuxt-link>
           </li>
           <li class="app-footer__list-item">
-            <nuxt-link class="app-footer__link" to="/print-finishing">
-              Print Finishing
+            <nuxt-link class="app-footer__link" to="/finish">
+              Finish
             </nuxt-link>
           </li>
           <li class="app-footer__list-item">

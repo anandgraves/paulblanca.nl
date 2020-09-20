@@ -13,16 +13,19 @@ const state = () => ({
       },
       prices: {
         '30x40cm': {
-          dibond: 2800,
-          plexiglass: 3400,
-        },
-        '40x50cm': {
           dibond: 4000,
           plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
         },
         '100x120cm': {
-          dibond: 8200,
-          plexiglass: 8400,
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
         },
       },
       image: {
