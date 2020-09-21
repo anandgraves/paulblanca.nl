@@ -218,7 +218,7 @@ export default {
   data() {
     return {
       size: '40x50cm',
-      finish: 'dibond',
+      finish: 'plexiglass',
     }
   },
   computed: {
