@@ -1,6 +1,6 @@
 <template>
   <article class="center-content">
-    <h1 class="heading-large">Payment Statement of 21 Bits</h1>
+    <h1 class="heading-large">Privacy Statement of 21 Bits</h1>
     <div class="body rich-text">
       <p>1 October 2020</p>
 
@@ -56,7 +56,7 @@
 
       <p>
         If you have any questions regarding the processing of personal data, you
-        can find the contactdetails of 21 Bits at the end of this privacy
+        can find the contact details of 21 Bits at the end of this privacy
         statement.
       </p>
 
@@ -85,9 +85,9 @@
       </p>
 
       <p>
-        For this purpose, we use your name and address details and email
-        address. We do this on the basis of your consent. We store this
-        information until you cancel your subscription.
+        For this purpose, we use your first name and email address. We do this
+        on the basis of your consent. We store this information until you cancel
+        your subscription.
       </p>
 
       <p>
@@ -112,20 +112,6 @@
         block us or use the cancellation option.
       </p>
 
-      <h2 class="heading-medium">Location data</h2>
-      <p>
-        If necessary, we may collect your location data (GPS). If that is the
-        case, you will be asked to grant consent beforehand.
-      </p>
-
-      <p>
-        This location data and other data can also be stored and processed by
-        the provider of the navigation/mapping software, such as Google Maps,
-        but the data could also be used by, for example, Google or Apple itself.
-        We have no control over their actions. We recommend thatyou read the
-        applicable privacy statement of the provider in question.
-      </p>
-
       <h2 class="heading-medium">Providing data to third parties</h2>
       <p>
         Except for the parties necessary to deliver the above mentioned
@@ -141,7 +127,7 @@
         anonymous at all times.
       </p>
 
-      <h2 class="heading-me">Security</h2>
+      <h2 class="heading-medium">Security</h2>
       <p>
         We take security measures to reduce misuse of and unauthorized access to
         personal data. We take responsibility in the security of your personal
