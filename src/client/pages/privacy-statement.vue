@@ -209,9 +209,10 @@
       </p>
 
       <h2 class="heading-medium">Contact Details</h2>
-      21 Bits<br />
-      Keurenplein 41, Unit E6060<br />
-      1069CD Amsterdam<br />
+      <a href="https://21bits.nl/">21 Bits</a><br />
+      Keurenplein 41<br />
+      Unit E6060<br />
+      1069 CD Amsterdam<br />
       <a href="mailto:info@paulblanca.nl">info@paulblanca.nl</a>
     </div>
   </article>
