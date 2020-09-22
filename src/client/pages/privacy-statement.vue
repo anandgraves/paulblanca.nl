@@ -1,6 +1,6 @@
 <template>
   <article class="center-content">
-    <h1 class="heading-large">Privacy Statement of 21 Bits</h1>
+    <h1 class="heading-large">Privacy Statement</h1>
     <div class="body rich-text">
       <p>1 October 2020</p>
 
