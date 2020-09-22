@@ -21,13 +21,12 @@
           Bits.
         </li>
         <li>
-          1.2 <strong>Website</strong>: the Website of 21 Bits, to be found on
-          paulblanca.nl and all of its subdomains.
+          1.2 <strong>Website</strong>: one of the websites of 21 Bits, to be
+          found on paulblanca.nl and all of its subdomains.
         </li>
         <li>
           1.3 <strong>Customer</strong>: the natural person or corporation who
-          enters into an agreement with 21 Bits and/or is registered on the
-          Website.
+          enters into an agreement with 21 Bits.
         </li>
         <li>
           1.4 <strong>Agreement</strong>: any arrangement or agreement between
@@ -135,7 +134,7 @@
         </li>
         <li>
           5.6. The risks associated with the products will transfer to Consumer
-          as soon as the productsare delivered at the agreed delivery address.
+          as soon as the products are delivered at the agreed delivery address.
         </li>
       </ol>
 
@@ -167,7 +166,7 @@
               Consumer, received the last product;
             </li>
             <li>
-              f Consumer has ordered several products: the day on which
+              if Consumer has ordered several products: the day on which
               Consumer, or a third party designated by Consumer, received the
               last product.
             </li>
@@ -176,9 +175,9 @@
         <li>
           6.4. Only the direct costs incurred for the return shipment are for
           Consumer’s account. This means that Consumer will have to pay the
-          costs of returning the product. Any shipping costspaid by Consumer and
-          the purchase price paid for the product will be refunded to Consumerif
-          the entire order is returned.
+          costs of returning the product. Any shipping costs paid by Consumer
+          and the purchase price paid for the product will be refunded to
+          Consumer if the entire order is returned.
         </li>
         <li>
           6.5. During the withdrawal period referred to in paragraph 1, Consumer
@@ -203,12 +202,12 @@
         <li>
           <p>
             6.8. As quickly as possible, but no later than 14 days after the day
-            of reporting as referred toin paragraph 1, Consumer shall return the
-            product, or hand it over to (a representative of) 21 Bits. Consumer
-            can send the product directly to 21 Bits without a notice of
-            withdrawal in advance within the period as mentioned in paragraph 1.
-            Consumer must, in this case, include a written notice of withdrawal,
-            such as the model form.
+            of reporting as referred to in paragraph 1, Consumer shall return
+            the product, or hand it over to (a representative of) 21 Bits.
+            Consumer can send the product directly to 21 Bits without a notice
+            of withdrawal in advance within the period as mentioned in paragraph
+            1. Consumer must, in this case, include a written notice of
+            withdrawal, such as the model form.
           </p>
 
           <p>Products can be returned to the following address:</p>
@@ -290,12 +289,12 @@
           statutory provisions and/or government regulations that are in force
           from the date of entering into the Agreement. If specifically agreed,
           21 Bits also guarantees that the product is suitable for other than
-          normal use. Otherwise, it applies that the productis suitable for
+          normal use. Otherwise, it applies that the product is suitable for
           normal use.
         </li>
         <li>
           9.2. If the delivered product is not in conformity with the Agreement,
-          Customer must inform21 Bits within a maximum period of 14 days after
+          Customer must inform 21 Bits within a maximum period of 14 days after
           delivery. Should the Customer fail to do so, then the Business
           Consumer is no longer entitled to have the product repaired, replaced
           or (partially) refunded.
