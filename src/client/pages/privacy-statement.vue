@@ -1,6 +1,6 @@
 <template>
   <article class="center-content">
-    <h1 class="heading-large">Privacy Statement of 21 Bits</h1>
+    <h1 class="heading-large">Privacy Statement</h1>
     <div class="body rich-text">
       <p>1 October 2020</p>
 
@@ -209,9 +209,10 @@
       </p>
 
       <h2 class="heading-medium">Contact Details</h2>
-      21 Bits<br />
-      Keurenplein 41, Unit E6060<br />
-      1069CD Amsterdam<br />
+      <a href="https://21bits.nl/">21 Bits</a><br />
+      Keurenplein 41<br />
+      Unit E6060<br />
+      1069 CD Amsterdam<br />
       <a href="mailto:info@paulblanca.nl">info@paulblanca.nl</a>
     </div>
   </article>

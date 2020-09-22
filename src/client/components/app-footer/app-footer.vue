@@ -25,7 +25,7 @@
           </li>
           <li class="app-footer__list-item">
             <nuxt-link class="app-footer__link" to="/terms-and-conditions">
-              Terms and conditions
+              Terms and Conditions
             </nuxt-link>
           </li>
         </ul>
