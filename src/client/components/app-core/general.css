@@ -199,6 +199,7 @@ sup {
 }
 
 .rich-text figure {
+  margin-bottom: 12px;
   border: 1px solid #666;
 }
 
