@@ -115,6 +115,13 @@
       </ul>
 
       <p>
+        All orders on paulblanca.nl have
+        <strong>free worldwide</strong> shipping. Shipping destinations depend
+        on the availability of destinations of the express delivery services:
+        FedEx, DHL, TNT, DPD and Skynet.
+      </p>
+
+      <p>
         A complete street address and valid phone number are required for
         shipping. Partial or incorrect addresses may result in additional
         charges.
