@@ -43,12 +43,12 @@
             When you click on the payment request link in the email you received
             in step 5, a page on useplink.com will open and handle the payment.
           </p>
-          <p>
-            <responsive-image
-              :image="payment.image"
-              class="ordering-shipping__screenshot"
-            />
-          </p>
+
+          <responsive-image
+            :image="payment.image"
+            class="ordering-shipping__screenshot"
+          />
+
           <p>
             <a
               href="https://useplink.com/en/"

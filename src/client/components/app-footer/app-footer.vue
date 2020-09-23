@@ -1,8 +1,8 @@
 <template>
-  <footer role="contentinfo" class="app-footer">
-    <header class="app-footer__header">
+  <footer class="app-footer">
+    <div class="app-footer__header">
       <img class="app-footer__logo" src="/images/logo-white.svg" alt="" />
-    </header>
+    </div>
 
     <div class="app-footer__content">
       <section class="app-footer__column">
