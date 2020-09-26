@@ -1,28 +1,22 @@
 export default {
   target: 'static',
-  // server: {
-  //   port: '8000',
-  //   host: '0.0.0.0'
-  // },
   srcDir: 'src/client',
   /*
-   ** Headers of the page
+   ** Nuxt PWA module
    */
-  head: {
-    title: process.env.npm_package_name || '',
-    htmlAttrs: {
+  pwa: {
+    meta: {
+      description:
+        'Paul Blanca is an artist/photographer. His work is a voyage through the landscape of emotions.',
+    },
+    manifest: {
+      name: 'Paul Blanca | Artist and Photographer',
+      short_name: 'Blanca',
       lang: 'en',
     },
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      {
-        hid: 'description',
-        name: 'description',
-        content: process.env.npm_package_description || '',
-      },
-    ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    icon: {
+      source: 'src/client/static/images/icon.png',
+    },
   },
   components: true,
   generate: {
@@ -51,6 +45,7 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
+    '@nuxtjs/pwa',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
   ],
