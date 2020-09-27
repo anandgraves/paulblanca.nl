@@ -2,6 +2,7 @@ const state = () => ({
   shopProductList: [
     {
       slug: 'selfportrait-mother-and-son-2014',
+      sitePhotoID: 'selfportrait-a49ea3f4',
       series: '',
       year: 2014,
       title: 'Selfportrait Mother And Son',
@@ -38,6 +39,7 @@ const state = () => ({
     },
     {
       slug: 'mother-and-daughter-monique-v-and-anika-2008',
+      sitePhotoID: 'kristal-f5d99f0e',
       series: 'Kristal',
       year: 2008,
       title: 'Mother and Daughter Monique & Anika',
@@ -70,6 +72,7 @@ const state = () => ({
     },
     {
       slug: 'par-la-pluie-des-femmes-1-1990',
+      sitePhotoID: 'par-la-pluie-des-femmes-af6b4185',
       series: 'Par La Pluie Des Femmes',
       year: 1990,
       title: 'Par La Pluie Des Femmes',
@@ -102,6 +105,7 @@ const state = () => ({
     },
     {
       slug: 'deformation-1-2006',
+      sitePhotoID: 'deformation-f661029a',
       series: 'Deformation',
       year: 2006,
       title: 'Deformation',
@@ -136,8 +140,13 @@ const state = () => ({
 })
 
 const getters = {
-  shopProductList: (state) => {
-    return state.shopProductList
+  shopProductList: (state) => state.shopProductList,
+  homepageProductList: (state) => {
+    return state.shopProductList.filter(
+      (product) =>
+        product.sitePhotoID === 'par-la-pluie-des-femmes-af6b4185' ||
+        product.sitePhotoID === 'kristal-f5d99f0e'
+    )
   },
 }
 
