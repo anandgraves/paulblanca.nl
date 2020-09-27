@@ -5,7 +5,7 @@
       :key="photo.slug"
       class="squared-photo-list__item"
     >
-      <nuxt-link :to="`/shop/${photo.slug}`" class="squared-photo-list__link">
+      <nuxt-link :to="photoLink(photo)" class="squared-photo-list__link">
         <responsive-image
           :image="photo.image"
           sizes="(min-width: 600px) 1000px, (max-width: 400px): 500px, 100vw"
@@ -28,6 +28,14 @@ export default {
     hasTitle: {
       type: Boolean,
       default: false,
+    },
+  },
+  methods: {
+    photoLink(photo) {
+      if (photo.series) {
+        return `/shop/${photo.seriesSlug}`
+      }
+      return `/shop/${photo.slug}`
     },
   },
 }
