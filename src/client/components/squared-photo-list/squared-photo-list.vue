@@ -29,9 +29,17 @@ export default {
       type: Boolean,
       default: false,
     },
+    detailLinkOnly: {
+      type: Boolean,
+      default: false,
+    },
   },
   methods: {
     photoLink(photo) {
+      if (this.detailLinkOnly) {
+        return `/shop/${photo.slug}`
+      }
+
       if (photo.series) {
         return `/shop/${photo.seriesSlug}`
       }
