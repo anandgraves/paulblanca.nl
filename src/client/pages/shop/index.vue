@@ -10,12 +10,6 @@
 import { mapGetters } from 'vuex'
 
 export default {
-  data() {
-    return {
-      products: [],
-    }
-  },
-
   computed: {
     ...mapGetters(['shopProductList']),
   },

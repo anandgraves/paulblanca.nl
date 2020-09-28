@@ -4,6 +4,7 @@ const state = () => ({
       slug: 'selfportrait-mother-and-son-2014',
       sitePhotoID: 'selfportrait-a49ea3f4',
       series: '',
+      seriesSlug: '',
       year: 2014,
       title: 'Selfportrait Mother And Son',
       description: `<p>I regularly make selfportraits that reflect my life. This photo is a selfportrait where I carry my mother, just like I had carried her to bed for 4 years because she couldn't walk. It was taken 32 years after the first "Selfportrait Mother & Son 1982". <a href="https://www.npostart.nl/fotostudio-de-jong-6/15-02-2014/VPWON_1209690" target="_blank" rel="noopener noreferrer">Watch the episode of Dutch tv programme 'Fotostudio de Jong'</a> where the selfportrait "Mother & Son 2014" had been discussed with Wilfried de Jong.</p>`,
@@ -41,6 +42,7 @@ const state = () => ({
       slug: 'mother-and-daughter-monique-v-and-anika-2008',
       sitePhotoID: 'kristal-f5d99f0e',
       series: 'Kristal',
+      seriesSlug: 'kristal',
       year: 2008,
       title: 'Mother and Daughter Monique & Anika',
       edition: {
@@ -74,6 +76,7 @@ const state = () => ({
       slug: 'par-la-pluie-des-femmes-1-1990',
       sitePhotoID: 'par-la-pluie-des-femmes-af6b4185',
       series: 'Par La Pluie Des Femmes',
+      seriesSlug: 'par-la-pluie-des-femmes',
       year: 1990,
       title: 'Par La Pluie Des Femmes',
       edition: {
@@ -107,6 +110,7 @@ const state = () => ({
       slug: 'deformation-1-2006',
       sitePhotoID: 'deformation-f661029a',
       series: 'Deformation',
+      seriesSlug: 'deformation',
       year: 2006,
       title: 'Deformation',
       edition: {
