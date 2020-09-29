@@ -10,7 +10,12 @@
 
       <ol>
         <li>Select a <strong>size</strong>: 30x40, 40x50, 100x120 cm.</li>
-        <li>Select a <strong>finish</strong>: Dibond or Plexiglass.</li>
+        <li>
+          Select a <strong>finish</strong>: Dibond, Plexiglass or TruLife<sup
+            >TM</sup
+          >
+          Plexiglass.
+        </li>
         <li>Click on the button "<strong>Buy photo by e-mail</strong>".</li>
         <li>
           <p>
@@ -26,12 +31,10 @@
         <li>
           <p>
             Within one or two days you'll receive a reply from
-            info@paulblanca.nl. The email contains:
+            info@paulblanca.nl with a payment request as a link. All products
+            are excluded from the right of withdrawal, because all products
+            delivered are custom-made.
           </p>
-          <ul>
-            <li>Payment request as a link.</li>
-            <li>Invoice from 21 Bits.</li>
-          </ul>
 
           <p>
             You can pay with the following
