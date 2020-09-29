@@ -47,7 +47,6 @@ export default {
   modules: [
     '@nuxtjs/pwa',
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
   ],
   /*
    ** Build configuration
