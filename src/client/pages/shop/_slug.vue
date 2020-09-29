@@ -272,7 +272,6 @@ Billing address
     },
   },
   methods: {
-    ...mapActions(['addProductToCart']),
     moneyFormat(amount) {
       const price = new Intl.NumberFormat('en-US', {
         style: 'currency',
