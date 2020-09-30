@@ -1,16 +1,25 @@
 export default {
   target: 'static',
   srcDir: 'src/client',
+  head: {
+    titleTemplate: '%s | Paul Blanca | Artist and Photographer',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: `Paul Blanca\'s work is a voyage through the landscape of emotions.`,
+      },
+    ],
+  },
+
   /*
    ** Nuxt PWA module
    */
   pwa: {
-    meta: {
-      description:
-        'Paul Blanca is an artist/photographer. His work is a voyage through the landscape of emotions.',
-    },
     manifest: {
-      name: 'Paul Blanca | Artist and Photographer',
+      name: 'Paul Blanca',
       short_name: 'Blanca',
       lang: 'en',
     },
@@ -22,18 +31,22 @@ export default {
   generate: {
     fallback: true,
   },
+
   /*
    ** Customize the progress-bar color
    */
   loading: { color: '#fff' },
+
   /*
    ** Global CSS
    */
   css: ['./src/client/components/app-core/index.css'],
+
   /*
    ** Plugins to load before mounting the App
    */
   plugins: [],
+
   /*
    ** Nuxt.js dev-modules
    */
@@ -41,6 +54,7 @@ export default {
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
   ],
+
   /*
    ** Nuxt.js modules
    */
@@ -48,6 +62,7 @@ export default {
     '@nuxtjs/pwa',
     // Doc: https://axios.nuxtjs.org/usage
   ],
+
   /*
    ** Build configuration
    */
