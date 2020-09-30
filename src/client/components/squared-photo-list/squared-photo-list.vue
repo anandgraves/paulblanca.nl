@@ -37,13 +37,13 @@ export default {
   methods: {
     photoLink(photo) {
       if (this.detailLinkOnly) {
-        return `/shop/${photo.slug}`
+        return `/shop/${photo.seriesSlug}/${photo.slug}`
       }
 
       if (photo.series) {
         return `/shop/${photo.seriesSlug}`
       }
-      return `/shop/${photo.slug}`
+      return '/'
     },
   },
 }
