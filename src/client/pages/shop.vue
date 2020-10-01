@@ -1,7 +1,10 @@
 <template>
   <article
-    class="center-content"
-    :class="{ 'center-content--large': hasDetailPage }"
+    class="content"
+    :class="{
+      'center-content': hasDetailPage,
+      'center-content--large': hasDetailPage,
+    }"
   >
     <h1 class="heading-large">Shop</h1>
     <nuxt-child />
