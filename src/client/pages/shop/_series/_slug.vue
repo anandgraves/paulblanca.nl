@@ -269,10 +269,6 @@ Billing address
       return `mailto:info@paulblanca?subject=${subject}&body=${body}`
     },
   },
-  created() {
-    console.log('store', this.shopProductList)
-    console.log('this.$route.params.', this.$route.params)
-  },
   methods: {
     moneyFormat(amount) {
       const price = new Intl.NumberFormat('en-US', {
