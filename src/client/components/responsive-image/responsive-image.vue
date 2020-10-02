@@ -2,13 +2,13 @@
   <figure class="responsive-image">
     <fixed-ratio
       :style="{ backgroundColor: placeholderColor }"
-      :width="image.width"
-      :height="image.height"
+      :width="imageDimensions.width"
+      :height="imageDimensions.height"
     >
       <lazy-load>
-        <picture>
+        <picture v-if="width">
           <!--[if IE 9]><video style="display: none;"><![endif]-->
-          <!-- <source :srcset="srcSet('webp')" :sizes="sizes" type="image/webp" /> -->
+          <source :srcset="srcSet('webp')" :sizes="sizes" type="image/webp" />
           <source :srcset="srcSet('jpg')" :sizes="sizes" type="image/jpeg" />
           <!--[if IE 9]></video><![endif]-->
           <transition name="fade">
@@ -28,6 +28,10 @@
 
 <script>
 export default {
+  /**
+   * This component is modified from https://github.com/voorhoede/vue-dato-image/blob/master/src/vue-dato-image.vue
+   */
+
   props: {
     image: {
       type: Object,
@@ -47,7 +51,9 @@ export default {
   },
   data() {
     return {
+      width: undefined,
       isLoaded: false,
+      widthStep: 100,
     }
   },
   computed: {
@@ -55,26 +61,31 @@ export default {
       return this.image.alt || ''
     },
     fallbackUrl() {
-      return `/images/${this.filenameMinusWidth}-500w.jpg`
+      return '/images/test.jpg'
     },
-    filenameMinusWidth() {
-      return this.image.filename.slice(0, -5)
+    imageDimensions() {
+      const imageType = this.image.formats.find((item) => item.type === 'webp')
+      return imageType.widths[0]
     },
+  },
+  mounted() {
+    const pixelRatio = window.devicePixelRatio || 1
+    const cssWidth = this.$el.getBoundingClientRect().width
+    const width =
+      Math.ceil((cssWidth * pixelRatio) / this.widthStep) * this.widthStep
+    this.width = Math.min(width, this.imageDimensions.width)
   },
   methods: {
     onLoad() {
       this.isLoaded = true
     },
     srcSet(type) {
-      if (this.image.width < 900) {
-        return `
-        /images/${this.filenameMinusWidth}-500w.${type} 500w
-      `
-      }
-      return `
-        /images/${this.filenameMinusWidth}-500w.${type} 500w,
-        /images/${this.filenameMinusWidth}-900w.${type} 900w
-      `
+      const imageType = this.image.formats.find((item) => item.type === type)
+      const imageWidths = imageType.widths.map(
+        (item) => `${item.filename} ${item.size}`
+      )
+      console.log('return srcset', imageWidths.join(','))
+      return imageWidths.join(',')
     },
   },
 }
