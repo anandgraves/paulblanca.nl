@@ -13,6 +13,9 @@
         <div v-if="hasTitle" class="squared-photo-list__title">
           {{ photo.title }}
         </div>
+        <div v-if="showSeriesTitle" class="squared-photo-list__title">
+          {{ photo.series }} {{ photo.year }}
+        </div>
       </nuxt-link>
     </li>
   </ul>
@@ -30,6 +33,10 @@ export default {
       default: false,
     },
     detailLinkOnly: {
+      type: Boolean,
+      default: false,
+    },
+    showSeriesTitle: {
       type: Boolean,
       default: false,
     },

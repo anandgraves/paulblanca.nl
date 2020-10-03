@@ -445,10 +445,10 @@ const state = () => ({
 
 const getters = {
   shopProductList: (state) => state.shopProductList,
-  homepageProductList: (state) => {
+  seriesList: (state) => {
     return state.shopProductList.filter(
       (product) =>
-        product.id === 'par-la-pluie-des-femmes-af6b4185' ||
+        product.id === 'd720956c-f08a-454b-b9e3-139d1030a48f' || // Juliette from Wit en Bruin
         product.id === 'kristal-f5d99f0e'
     )
   },
