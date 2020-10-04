@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <squared-photo-list :photos="homepageProductList" />
+    <squared-photo-list :photos="seriesList" />
   </div>
 </template>
 
@@ -9,7 +9,7 @@ import { mapGetters } from 'vuex'
 
 export default {
   computed: {
-    ...mapGetters(['homepageProductList']),
+    ...mapGetters(['seriesList']),
   },
 }
 </script>

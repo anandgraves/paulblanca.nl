@@ -23,7 +23,9 @@
         </icon-base>
         <span>Back to {{ getProductSeries }}</span></nuxt-link
       >
-      <h1 class="photo-detail__title heading-large">{{ product.title }}</h1>
+      <h1 class="photo-detail__title heading-large">
+        {{ product.titleDetail }}
+      </h1>
       <!-- eslint-disable-next-line vue/no-v-html -->
       <div class="body rich-text" v-html="product.description"></div>
 

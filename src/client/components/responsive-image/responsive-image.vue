@@ -84,7 +84,6 @@ export default {
       const imageWidths = imageType.widths.map(
         (item) => `${item.filename} ${item.size}`
       )
-      console.log('return srcset', imageWidths.join(','))
       return imageWidths.join(',')
     },
   },
