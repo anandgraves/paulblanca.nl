@@ -11,7 +11,7 @@
           sizes="(min-width: 600px) 1000px, (max-width: 400px): 500px, 100vw"
         ></responsive-image>
         <div v-if="hasTitle" class="squared-photo-list__title">
-          {{ photo.title }}
+          {{ photo.titleList }}
         </div>
         <div v-if="showSeriesTitle" class="squared-photo-list__title">
           {{ photo.series }} {{ photo.year }}
