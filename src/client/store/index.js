@@ -440,18 +440,195 @@ const state = () => ({
         ],
       },
     },
+    {
+      slug: 'nora-kimball-crying',
+      id: 'e1cb77f1-ccc3-4938-97ca-4c65ac00455c',
+      series: 'Par La Pluie Des Femmes',
+      seriesSlug: 'par-la-pluie-des-femmes',
+      year: 1990,
+      title: 'Nora Kimball Crying',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt:
+          'Nora Kimball Crying from the series Par La Pluie Des Femmes 1990, by Paul Blanca',
+        formats: [
+          {
+            type: 'webp',
+            widths: [
+              {
+                width: 1181,
+                height: 1532,
+                size: '1500w',
+                filename:
+                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-nora-kimball-crying-1500w.webp',
+              },
+              {
+                width: 1000,
+                height: 1297,
+                size: '1000w',
+                filename:
+                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-nora-kimball-crying-1000w.webp',
+              },
+              {
+                width: 500,
+                height: 649,
+                size: '500w',
+                filename:
+                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-nora-kimball-crying-500w.webp',
+              },
+            ],
+          },
+          {
+            type: 'jpg',
+            widths: [
+              {
+                width: 1378,
+                height: 1378,
+                size: '1500w',
+                filename:
+                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-nora-kimball-crying-1500w.jpg',
+              },
+              {
+                width: 1000,
+                height: 1000,
+                size: '1000w',
+                filename:
+                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-nora-kimball-crying-1000w.jpg',
+              },
+              {
+                width: 500,
+                height: 500,
+                size: '500w',
+                filename:
+                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-nora-kimball-crying-500w.jpg',
+              },
+            ],
+          },
+        ],
+      },
+    },
+    {
+      slug: 'eva-crying',
+      id: 'b7d73ca3-4e6c-4603-9c75-4143b97b6107',
+      series: 'Par La Pluie Des Femmes',
+      seriesSlug: 'par-la-pluie-des-femmes',
+      year: 1990,
+      title: 'Eva Crying',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt:
+          'Eva Crying from the series Par La Pluie Des Femmes 1990, by Paul Blanca',
+        formats: [
+          {
+            type: 'webp',
+            widths: [
+              {
+                width: 1378,
+                height: 1378,
+                size: '1500w',
+                filename:
+                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-eva-crying-1500w.webp',
+              },
+              {
+                width: 1000,
+                height: 1000,
+                size: '1000w',
+                filename:
+                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-eva-crying-1000w.webp',
+              },
+              {
+                width: 500,
+                height: 500,
+                size: '500w',
+                filename:
+                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-eva-crying-500w.webp',
+              },
+            ],
+          },
+          {
+            type: 'jpg',
+            widths: [
+              {
+                width: 1378,
+                height: 1378,
+                size: '1500w',
+                filename:
+                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-eva-crying-1500w.jpg',
+              },
+              {
+                width: 1000,
+                height: 1000,
+                size: '1000w',
+                filename:
+                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-eva-crying-1000w.jpg',
+              },
+              {
+                width: 500,
+                height: 500,
+                size: '500w',
+                filename:
+                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-eva-crying-500w.jpg',
+              },
+            ],
+          },
+        ],
+      },
+    },
   ],
 })
 
 const getters = {
   shopProductList: (state) => state.shopProductList,
-  seriesList: (state) => {
-    return state.shopProductList.filter(
+  seriesList: (state) =>
+    state.shopProductList.filter(
       (product) =>
         product.id === 'd720956c-f08a-454b-b9e3-139d1030a48f' || // Juliette from Wit en Bruin
-        product.id === 'kristal-f5d99f0e'
-    )
-  },
+        product.id === 'e1cb77f1-ccc3-4938-97ca-4c65ac00455c' // Nora Kimball Crying from Par La Pluie Des Femmes
+    ),
 }
 
 const mutations = {

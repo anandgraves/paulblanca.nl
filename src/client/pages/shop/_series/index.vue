@@ -1,6 +1,6 @@
 <template>
   <squared-photo-list
-    :photos="seriesList"
+    :photos="photos"
     :detail-link-only="true"
     :has-title="true"
   />
@@ -11,7 +11,7 @@ import { mapGetters } from 'vuex'
 
 export default {
   computed: {
-    ...mapGetters(['seriesList']),
+    ...mapGetters(['shopProductList']),
     photos() {
       return this.shopProductList.filter(
         (product) => product.seriesSlug === this.$route.params.series
