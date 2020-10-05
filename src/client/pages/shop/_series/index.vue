@@ -11,21 +11,37 @@ import { mapGetters } from 'vuex'
 
 export default {
   computed: {
-    ...mapGetters(['shopProductList', 'seriesDescription']),
+    ...mapGetters(['shopProductList', 'seriesPageIndex']),
     photos() {
       return this.shopProductList.filter(
         (product) => product.seriesSlug === this.$route.params.series
       )
     },
     description() {
-      const result = this.seriesDescription.filter(
-        (serie) => serie.seriesSlug === this.$route.params.series
+      const result = this.seriesPageIndex.filter(
+        (serie) => serie.slug === this.$route.params.series
       )
       if (result.length === 1) {
         return result[0].description
       }
       return ''
     },
+  },
+
+  head() {
+    const seriesHead = this.seriesPageIndex.filter(
+      (serie) => serie.slug === this.$route.params.series
+    )
+    return {
+      title: seriesHead[0].head.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: seriesHead[0].head.description,
+        },
+      ],
+    }
   },
 }
 </script>

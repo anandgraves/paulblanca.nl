@@ -1,15 +1,20 @@
 const state = () => ({
-  seriesDescription: [
+  seriesPageIndex: [
     {
-      seriesSlug: 'par-la-pluie-des-femmes',
+      slug: 'par-la-pluie-des-femmes',
       description: `<p>In the late eighties I became fascinated by the basic human emotions: crying, laughing, orgasm, sadness, anger. I started with Nora Kimbell and I asked Nora to concentrate on her greatest sorrow and to start crying. Nora did it very convincingly. But one photograph of a woman crying is not a series and certainly not an exhibition.</p>
 
       <p>So I invited a large number of women to my studio in front of my camera to concentrate on their greatest grief. That was sometimes more confrontational than I had thought. Some girls/women had hidden their grief so deeply that when it came up they literally couldn‘t stop crying. The photos speak for themselves.</p>
 
       <p>Since selfportraits are an important part of my photography, the first crying picture is one of a crying man and that‘s me.</p>`,
+      head: {
+        title: 'Par La Pluie Des Femmes 1990',
+        description:
+          'Women captured in tears by thinking of their most traumatic experience.',
+      },
     },
     {
-      seriesSlug: 'wit-en-bruin',
+      slug: 'wit-en-bruin',
       description: `<p>One evening I walked along the FEBO in the Amsterdam red light district or the neighborhood of prostitutes and porn shops. At that time, the FEBO was busy at night with drug users, drug-related prostitutes and drug dealers. My name was called as I walked by: “Paul, Paul, do you still recognize me?”. I looked and didn‘t recognise anyone. Until a girl separated from the group of people and walked in my direction.  “It‘s me, Sascha, your ex-girlfriend‘s sister. Paul, can you help me with 25 guilders?”, she continued. “25 guilders? What are you going to do with it?” I asked. “I'm going to setup a speedball”, she said. “Setting up a speedball? What is that?” I asked. ”Well”, she replied, ”that‘s a combination of cocaine and heroin and you inject it into a vein and then you get a flash. That‘s better than cumming”, she says. ”I would like to give you that 25 guilders, but then I would like to make a portrait of you in my studio on the Herengracht, if you setup that speedball”.</p>
 
       <p>We bought her cocaine and heroin, walked to my studio on the Herengracht and there she prepared a speedball. I set up my camera and light up in front of a black studio background. My idea was to photograph the expression on her face without the needle visible in her vein. She sat down on a stool, I focused, she pushed the needle into a vein in her arm, and I printed. The result was phenomenal. It seemed as if she was entering a completely different dimension of time. As if she was lifted up and was completely somewhere else, in a different reality.</p>
@@ -17,6 +22,11 @@ const state = () => ({
       <p>The next morning I developed the film, made the print and thought, ”Shit, I've never seen this”. One photo is not a series, so I have to photograph more speedball whores. The speedball whores turned out to be active behind the central station. There their customers drove by in cars and picked them up for a cheap shag.</p>
 
       <p>After living abroad for some time, including New York, I came back to Amsterdam after 10 years. I met one of the speedball whores, Monica. (in the photo with a cigarette). I asked Monica how it went. Monica had stopped using speedball for a while. She had met a Surinamese friend (pimp) and worked for him as a prostitute. After an argument with her pimp, she went back to downtown Amsterdam and started using speedball again. I ran into her again by chance and invited her home. I interviewed her for a story of De Nieuwe Revu. It was a sad thing. All the girls I photographed were dead.</p>`,
+      head: {
+        title: 'Wit en Bruin 1992',
+        description:
+          'The expression on the face of speedball hookers was photographed, without the needle visible in their vein.',
+      },
     },
   ],
   shopProductList: [
@@ -27,7 +37,7 @@ const state = () => ({
       seriesSlug: 'wit-en-bruin',
       year: 1992,
       titleList: 'Alpha',
-      titleDetail: 'Alpha from the series "Wit en Bruin" 1992',
+      titleDetail: 'Alpha from the series "Wit en Bruin"',
       description: '',
       edition: {
         '30x40cm': '1 of 10',
@@ -116,7 +126,7 @@ const state = () => ({
       seriesSlug: 'wit-en-bruin',
       year: 1992,
       titleList: 'Juliette',
-      titleDetail: 'Juliette from the series "Wit en Bruin" 1992',
+      titleDetail: 'Juliette from the series "Wit en Bruin"',
       description: '',
       edition: {
         '30x40cm': '1 of 10',
@@ -205,7 +215,7 @@ const state = () => ({
       seriesSlug: 'wit-en-bruin',
       year: 1992,
       titleList: 'Madison',
-      titleDetail: 'Madison from the series "Wit en Bruin" 1992',
+      titleDetail: 'Madison from the series "Wit en Bruin"',
       description: '',
       edition: {
         '30x40cm': '1 of 10',
@@ -294,7 +304,7 @@ const state = () => ({
       seriesSlug: 'wit-en-bruin',
       year: 1992,
       titleList: 'Maria',
-      titleDetail: 'Maria from the series "Wit en Bruin" 1992',
+      titleDetail: 'Maria from the series "Wit en Bruin"',
       description: '',
       edition: {
         '30x40cm': '1 of 10',
@@ -383,7 +393,7 @@ const state = () => ({
       seriesSlug: 'wit-en-bruin',
       year: 1992,
       titleList: 'Monica',
-      titleDetail: 'Monica from the series "Wit en Bruin" 1992',
+      titleDetail: 'Monica from the series "Wit en Bruin"',
       description: '',
       edition: {
         '30x40cm': '1 of 10',
@@ -473,7 +483,7 @@ const state = () => ({
       year: 1990,
       titleList: 'Nora Kimball Crying',
       titleDetail:
-        'Nora Kimball Crying from the series "Par La Pluie Des Femmes" 1990',
+        'Nora Kimball Crying from the series "Par La Pluie Des Femmes"',
       description: '',
       edition: {
         '30x40cm': '1 of 10',
@@ -563,7 +573,7 @@ const state = () => ({
       seriesSlug: 'par-la-pluie-des-femmes',
       year: 1990,
       titleList: 'Eva Crying',
-      titleDetail: 'Eva Crying from the series "Par La Pluie Des Femmes" 1990',
+      titleDetail: 'Eva Crying from the series "Par La Pluie Des Femmes"',
       description: '',
       edition: {
         '30x40cm': '1 of 10',
@@ -653,8 +663,7 @@ const state = () => ({
       seriesSlug: 'par-la-pluie-des-femmes',
       year: 1990,
       titleList: 'Julienne Crying',
-      titleDetail:
-        'Julienne Crying from the series "Par La Pluie Des Femmes" 1990',
+      titleDetail: 'Julienne Crying from the series "Par La Pluie Des Femmes"',
       description: '',
       edition: {
         '30x40cm': '1 of 10',
@@ -744,8 +753,7 @@ const state = () => ({
       seriesSlug: 'par-la-pluie-des-femmes',
       year: 1990,
       titleList: 'Natalie Crying 1',
-      titleDetail:
-        'Natalie Crying from the series "Par La Pluie Des Femmes" 1990',
+      titleDetail: 'Natalie Crying from the series "Par La Pluie Des Femmes"',
       description: '',
       edition: {
         '30x40cm': '1 of 10',
@@ -835,8 +843,7 @@ const state = () => ({
       seriesSlug: 'par-la-pluie-des-femmes',
       year: 1990,
       titleList: 'Natalie Crying 2',
-      titleDetail:
-        'Natalie Crying from the series "Par La Pluie Des Femmes" 1990',
+      titleDetail: 'Natalie Crying from the series "Par La Pluie Des Femmes"',
       description: '',
       edition: {
         '30x40cm': '1 of 10',
@@ -926,8 +933,7 @@ const state = () => ({
       seriesSlug: 'par-la-pluie-des-femmes',
       year: 1990,
       titleList: 'Natalie Crying 3',
-      titleDetail:
-        'Natalie Crying from the series "Par La Pluie Des Femmes" 1990',
+      titleDetail: 'Natalie Crying from the series "Par La Pluie Des Femmes"',
       description: '',
       edition: {
         '30x40cm': '1 of 10',
@@ -1017,8 +1023,7 @@ const state = () => ({
       seriesSlug: 'par-la-pluie-des-femmes',
       year: 1990,
       titleList: 'Untitled Crying',
-      titleDetail:
-        'Untitled Crying from the series "Par La Pluie Des Femmes" 1990',
+      titleDetail: 'Untitled Crying from the series "Par La Pluie Des Femmes"',
       description: '',
       edition: {
         '30x40cm': '1 of 10',
@@ -1108,8 +1113,7 @@ const state = () => ({
       seriesSlug: 'par-la-pluie-des-femmes',
       year: 1990,
       titleList: 'Wilma Crying',
-      titleDetail:
-        'Wilma Crying from the series "Par La Pluie Des Femmes" 1990',
+      titleDetail: 'Wilma Crying from the series "Par La Pluie Des Femmes"',
       description: '',
       edition: {
         '30x40cm': '1 of 10',
@@ -1196,7 +1200,7 @@ const state = () => ({
 })
 
 const getters = {
-  seriesDescription: (state) => state.seriesDescription,
+  seriesPageIndex: (state) => state.seriesPageIndex,
   shopProductList: (state) => state.shopProductList,
   seriesList: (state) =>
     state.shopProductList.filter(
