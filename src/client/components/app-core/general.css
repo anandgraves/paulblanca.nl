@@ -218,6 +218,10 @@ sup {
 }
 
 @media (min-width: 900px) {
+  .body {
+    font-size: 1.25rem;
+  }
+
   .button--order {
     max-width: none;
     width: 100%;
