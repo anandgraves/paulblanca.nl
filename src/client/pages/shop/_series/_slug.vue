@@ -24,7 +24,7 @@
         <span>Back to {{ getProductSeries }}</span></nuxt-link
       >
       <h1 class="photo-detail__title heading-large">
-        {{ product.titleDetail }}
+        {{ product.titleDetail }} {{ product.year }}
       </h1>
       <!-- eslint-disable-next-line vue/no-v-html -->
       <div class="body rich-text" v-html="product.description"></div>
@@ -216,7 +216,7 @@ export default {
     }
   },
   computed: {
-    ...mapGetters(['shopProductList']),
+    ...mapGetters(['shopProductList', 'seriesPageIndex']),
     product() {
       return this.shopProductList.find(
         (product) => product.slug === this.$route.params.slug
@@ -271,6 +271,7 @@ Billing address
       return `mailto:info@paulblanca?subject=${subject}&body=${body}`
     },
   },
+
   methods: {
     moneyFormat(amount) {
       const price = new Intl.NumberFormat('en-US', {
@@ -279,6 +280,22 @@ Billing address
       })
       return price.format(amount)
     },
+  },
+
+  head() {
+    const seriesHead = this.seriesPageIndex.filter(
+      (serie) => serie.slug === this.$route.params.series
+    )
+    return {
+      title: `${this.product.titleDetail} ${this.product.year}`,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: seriesHead[0].head.description,
+        },
+      ],
+    }
   },
 }
 </script>

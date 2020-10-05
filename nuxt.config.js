@@ -9,7 +9,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: `Paul Blanca\'s work is a voyage through the landscape of emotions.`,
+        content: `Paul Blanca‘s work is a voyage through the landscape of emotions.`,
       },
     ],
   },
