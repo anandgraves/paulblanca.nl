@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <squared-photo-list :photos="seriesList" />
+    <photo-list :photos="seriesList" />
   </div>
 </template>
 
