@@ -541,22 +541,22 @@ const state = () => ({
             type: 'jpg',
             widths: [
               {
-                width: 1378,
-                height: 1378,
+                width: 1181,
+                height: 1532,
                 size: '1500w',
                 filename:
                   '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-nora-kimball-crying-1500w.jpg',
               },
               {
                 width: 1000,
-                height: 1000,
+                height: 1297,
                 size: '1000w',
                 filename:
                   '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-nora-kimball-crying-1000w.jpg',
               },
               {
                 width: 500,
-                height: 500,
+                height: 649,
                 size: '500w',
                 filename:
                   '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-nora-kimball-crying-500w.jpg',
@@ -1205,8 +1205,8 @@ const getters = {
   seriesList: (state) =>
     state.shopProductList.filter(
       (product) =>
-        product.id === 'd720956c-f08a-454b-b9e3-139d1030a48f' || // Juliette from Wit en Bruin
-        product.id === 'e1cb77f1-ccc3-4938-97ca-4c65ac00455c' // Nora Kimball Crying from Par La Pluie Des Femmes
+        product.id === 'e1cb77f1-ccc3-4938-97ca-4c65ac00455c' || // Nora Kimball Crying from Par La Pluie Des Femmes
+        product.id === 'd720956c-f08a-454b-b9e3-139d1030a48f' // Juliette from Wit en Bruin
     ),
 }
 

@@ -1,5 +1,5 @@
 <template>
-  <figure class="responsive-image">
+  <figure class="responsive-art">
     <fixed-ratio
       :style="{ backgroundColor: placeholderColor }"
       :width="imageDimensions.width"
@@ -58,10 +58,10 @@ export default {
   },
   computed: {
     alt() {
-      return this.image.alt || ''
+      return this.image.alt || 'Photo by artist and photographer Paul Blanca'
     },
     fallbackUrl() {
-      return '/images/test.jpg'
+      return this.image.formats[1].widths[0].filename
     },
     imageDimensions() {
       const imageType = this.image.formats.find((item) => item.type === 'webp')
@@ -91,7 +91,7 @@ export default {
 </script>
 
 <style>
-.responsive-image__img {
+.responsive-art__img {
   width: 100%;
 }
 </style>
