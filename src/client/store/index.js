@@ -25,7 +25,7 @@ const state = () => ({
       head: {
         title: 'Wit en Bruin 1992',
         description:
-          'The expression on the face of speedball hookers was photographed, without the needle visible in their vein.',
+          'The expression on the face of speedball hookers was photographed.',
       },
     },
   ],
