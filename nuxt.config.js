@@ -2,7 +2,11 @@ export default {
   target: 'static',
   srcDir: 'src/client',
   head: {
-    titleTemplate: '%s | Paul Blanca | Artist and Photographer',
+    titleTemplate: (titleChunk) => {
+      return titleChunk
+        ? `'${titleChunk} | Paul Blanca | Artist | Photographer'`
+        : 'Paul Blanca | Artist | Photographer'
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
