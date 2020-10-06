@@ -194,10 +194,10 @@
       </section>
 
       <section class="rich-text">
-        <h2 class="photo-detail__heading heading-medium">Verification</h2>
+        <h2 class="photo-detail__heading heading-medium">Certificate</h2>
         <p class="body">
           Each photo includes a certificate of authenticity.
-          <nuxt-link to="/verification">Read more</nuxt-link>
+          <nuxt-link to="/certificate">Read more</nuxt-link>
           what the certificate contains and how authenticity is ensured.
         </p>
       </section>
