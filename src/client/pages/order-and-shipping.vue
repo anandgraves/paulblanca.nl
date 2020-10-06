@@ -141,20 +141,60 @@ export default {
     return {
       email: {
         image: {
-          width: 504,
-          height: 619,
-          filename: 'buy-photo-by-email-500w',
-          type: 'jpg',
-          alt: '',
+          alt: 'How to buy a photo on paulblanca.nl',
+          formats: [
+            {
+              type: 'webp',
+              widths: [
+                {
+                  width: 504,
+                  height: 619,
+                  size: '500w',
+                  filename: '/images/buy-photo-by-email-500w.webp',
+                },
+              ],
+            },
+            {
+              type: 'jpg',
+              widths: [
+                {
+                  width: 504,
+                  height: 619,
+                  size: '500w',
+                  filename: '/images/buy-photo-by-email-500w.jpg',
+                },
+              ],
+            },
+          ],
         },
       },
       payment: {
         image: {
-          width: 620,
-          height: 704,
-          filename: 'payment-request-500w',
-          type: 'jpg',
           alt: '',
+          formats: [
+            {
+              type: 'webp',
+              widths: [
+                {
+                  width: 620,
+                  height: 704,
+                  size: '500w',
+                  filename: '/images/payment-request-500w.webp',
+                },
+              ],
+            },
+            {
+              type: 'jpg',
+              widths: [
+                {
+                  width: 620,
+                  height: 704,
+                  size: '500w',
+                  filename: '/images/payment-request-500w.jpg',
+                },
+              ],
+            },
+          ],
         },
       },
     }

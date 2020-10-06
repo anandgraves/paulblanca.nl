@@ -24,7 +24,7 @@
         <span>Back to {{ getProductSeries }}</span></nuxt-link
       >
       <h1 class="photo-detail__title heading-large">
-        {{ product.titleDetail }} {{ product.year }}
+        {{ productTitle }}
       </h1>
       <!-- eslint-disable-next-line vue/no-v-html -->
       <div class="body rich-text" v-html="product.description"></div>
@@ -234,12 +234,15 @@ export default {
     getEdition() {
       return this.product.edition[this.size]
     },
+    productTitle() {
+      return `${this.product.titleDetail} ${this.product.year}`
+    },
     orderViaEmail() {
-      const subject = encodeURIComponent(`Order "${this.product.title}"`)
+      const subject = encodeURIComponent(`Order ${this.productTitle}`)
       const body = encodeURIComponent(
         `I would like to order a photo on paulblanca.nl.
 
-Title: ${this.product.title}
+Title: ${this.productTitle}
 Size: ${this.size}
 Finish: ${this.finish}
 Price: ${this.moneyFormat(
