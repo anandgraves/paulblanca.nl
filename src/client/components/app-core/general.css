@@ -169,6 +169,11 @@ sup {
   color: #333;
   text-decoration: underline;
   font-weight: 600;
+  transition: color 0.15s ease-out 0s;
+}
+
+.rich-text a:not(.button):hover {
+  color: #555;
 }
 
 .rich-text strong,

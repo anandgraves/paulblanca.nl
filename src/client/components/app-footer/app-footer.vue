@@ -48,8 +48,8 @@
             </nuxt-link>
           </li>
           <li class="app-footer__list-item">
-            <nuxt-link class="app-footer__link" to="/verification">
-              Verification
+            <nuxt-link class="app-footer__link" to="/certificate">
+              Certificate
             </nuxt-link>
           </li>
         </ul>
