@@ -26,7 +26,7 @@
         </li>
         <li>
           <p>
-            Within a day you'll receive a reply from info@paulblanca.nl with a
+            Within a day you‘ll receive a reply from info@paulblanca.nl with a
             payment request as a link. You can pay with the following
             <nuxt-link to="/payment-methods"> payment methods</nuxt-link>.
           </p>
@@ -76,7 +76,7 @@
         </li>
         <li>
           <p>
-            After you've paid for your order, you'll receive an email from
+            After you‘ve paid for your order, you‘'ll receive an email from
             info@paulblanca.nl with Track&Trace as soon as possible. We use one
             of the express delivery services listed below.
           </p>
