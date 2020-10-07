@@ -27,7 +27,7 @@
     <p class="body">Dibond has several benefits:</p>
 
     <ul class="body">
-      <li>It's low weight makes it also ideal for large size photos.</li>
+      <li>It‘s low weight makes it also ideal for large size photos.</li>
       <li>Maintenance-free and long-lasting.</li>
       <li>UV-protective layer to protect the photo.</li>
       <li>No extra photo frame necessary.</li>

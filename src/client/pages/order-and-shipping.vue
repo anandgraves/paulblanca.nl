@@ -23,22 +23,17 @@
             <strong>prefilled</strong>
             with text.
           </p>
-          <responsive-image
-            :image="email.image"
-            class="ordering-shipping__screenshot"
-          />
         </li>
         <li>
           <p>
-            Within one or two days you'll receive a reply from
-            info@paulblanca.nl with a payment request as a link. All products
-            are excluded from the right of withdrawal, because all products
-            delivered are custom-made.
+            Within a day you‘ll receive a reply from info@paulblanca.nl with a
+            payment request as a link. You can pay with the following
+            <nuxt-link to="/payment-methods"> payment methods</nuxt-link>.
           </p>
 
           <p>
-            You can pay with the following
-            <nuxt-link to="/payment-methods"> payment methods</nuxt-link>.
+            All products are excluded from the right of withdrawal, because all
+            products delivered are custom-made.
           </p>
         </li>
         <li>
@@ -46,11 +41,6 @@
             When you click on the payment request link in the email you received
             in step 5, a page on useplink.com will open and handle the payment.
           </p>
-
-          <responsive-image
-            :image="payment.image"
-            class="ordering-shipping__screenshot"
-          />
 
           <p>
             <a
@@ -86,7 +76,7 @@
         </li>
         <li>
           <p>
-            After you've paid for your order, you'll receive an email from
+            After you‘ve paid for your order, you‘'ll receive an email from
             info@paulblanca.nl with Track&Trace as soon as possible. We use one
             of the express delivery services listed below.
           </p>
@@ -119,9 +109,9 @@
 
       <p>
         All orders on paulblanca.nl have
-        <strong>free worldwide</strong> shipping. Shipping destinations depend
-        on the availability of destinations of the express delivery services:
-        FedEx, DHL, TNT, DPD and SkyNet.
+        <strong>free worldwide</strong> shipping. Shipping depends on the
+        availability of destinations of these express delivery services: FedEx,
+        DHL, TNT, DPD and SkyNet.
       </p>
 
       <p>
@@ -136,70 +126,7 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      email: {
-        image: {
-          alt: 'How to buy a photo on paulblanca.nl',
-          formats: [
-            {
-              type: 'webp',
-              widths: [
-                {
-                  width: 504,
-                  height: 619,
-                  size: '500w',
-                  filename: '/images/buy-photo-by-email-500w.webp',
-                },
-              ],
-            },
-            {
-              type: 'jpg',
-              widths: [
-                {
-                  width: 504,
-                  height: 619,
-                  size: '500w',
-                  filename: '/images/buy-photo-by-email-500w.jpg',
-                },
-              ],
-            },
-          ],
-        },
-      },
-      payment: {
-        image: {
-          alt: '',
-          formats: [
-            {
-              type: 'webp',
-              widths: [
-                {
-                  width: 620,
-                  height: 704,
-                  size: '500w',
-                  filename: '/images/payment-request-500w.webp',
-                },
-              ],
-            },
-            {
-              type: 'jpg',
-              widths: [
-                {
-                  width: 620,
-                  height: 704,
-                  size: '500w',
-                  filename: '/images/payment-request-500w.jpg',
-                },
-              ],
-            },
-          ],
-        },
-      },
-    }
-  },
-}
+export default {}
 </script>
 
 <style>
