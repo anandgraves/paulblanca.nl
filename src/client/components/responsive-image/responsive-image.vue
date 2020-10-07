@@ -1,5 +1,5 @@
 <template>
-  <figure class="responsive-art">
+  <figure class="responsive-image">
     <fixed-ratio
       :style="{ backgroundColor: placeholderColor }"
       :width="imageDimensions.width"
@@ -91,7 +91,7 @@ export default {
 </script>
 
 <style>
-.responsive-art__img {
+.responsive-image__img {
   width: 100%;
 }
 </style>
