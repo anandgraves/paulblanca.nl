@@ -20,7 +20,7 @@ export default {
      */
     rootMargin: {
       type: String,
-      default: '0px 0px 0px 0px',
+      default: '-100px 0px 0px 0px',
     },
     /**
      * See InetersectionOberserver treshold [docs](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API#Intersection_observer_options)
