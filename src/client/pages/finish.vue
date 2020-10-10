@@ -19,13 +19,6 @@
       picture.
     </p>
 
-    <p class="body">
-      Dibond is popular with artists, photographers, museums, galleries,
-      exhibitions and art collectors.
-    </p>
-
-    <p class="body">Dibond has several benefits:</p>
-
     <ul class="body">
       <li>It‘s low weight makes it also ideal for large size photos.</li>
       <li>Maintenance-free and long-lasting.</li>
@@ -36,7 +29,7 @@
         No stains or marks on your walls thanks to the felt pads on the anodized
         aluminum suspension profile.
       </li>
-      <li>Can be mounted "floating" on the wall.</li>
+      <li>Can be mounted “floating” on the wall.</li>
       <li>
         Extremely durable and lightweight anodized aluminum suspension profile.
       </li>
@@ -53,9 +46,12 @@
         <td class="table-data__cell">Semi-Matt photo paper</td>
       </tr>
       <tr>
-        <td class="table-data__cell">Photo finish</td>
+        <td class="table-data__cell">Finish</td>
         <td class="table-data__cell">
-          Glued on 3mm Dibond with 20mm anodized aluminum suspension profile
+          Glued on 3mm Dibond with 20mm
+          <a href="#anodized-aluminium-suspension-profile"
+            >anodized aluminum suspension profile</a
+          >
         </td>
       </tr>
       <tr>
@@ -74,10 +70,7 @@
       onto the Dibond behind plexiglass.
     </p>
 
-    <p class="body">Benefits for a photo behind plexiglass:</p>
-
     <ul class="body">
-      <li>All the benefits of Dibond.</li>
       <li>Photos get optimal contrast.</li>
       <li>Highly durable and can last a lifetime.</li>
       <li>
@@ -97,10 +90,12 @@
         <td class="table-data__cell">Semi-Matt photo paper</td>
       </tr>
       <tr>
-        <td class="table-data__cell">Photo finish</td>
+        <td class="table-data__cell">Finish</td>
         <td class="table-data__cell">
-          Glued behind 3mm clear plexiglass on 3mm Dibond with 20mm anodized
-          aluminum suspension profile
+          Glued behind 3mm clear plexiglass on 3mm Dibond with 20mm
+          <a href="#anodized-aluminium-suspension-profile"
+            >anodized aluminum suspension profile</a
+          >
         </td>
       </tr>
       <tr>
@@ -113,10 +108,67 @@
       </tr>
     </table>
 
-    <h2 class="heading-medium">Anodized aluminum suspension profile</h2>
+    <h2 class="heading-medium">TruLife<sup>TM</sup> Plexiglass</h2>
+    <p class="body">
+      TruLife<sup>TM</sup> is an innovative single sided, anti-reflective,
+      abrasion resistant acrylic, developed specifically for direct print and
+      face mount applications. It captures details with lifelike colors,
+      incredible depth, and clarity for the highest-resolution viewing
+      experience possible.
+    </p>
+
+    <ul class="body">
+      <li>
+        Achieves the most vibrant colors, depth and clarity by transmitting 98%
+        of light.
+      </li>
+      <li>
+        Has a unique patented anti-reflective coating which virtually eliminates
+        distracting reflections and annoying glare associated with other
+        acrylics.
+      </li>
+      <li>
+        Is antistatic, scratch-resistant, shatter resistant and virtually
+        wear-resistant.
+      </li>
+      <li>Blocks up to 99% of UV rays.</li>
+    </ul>
+
+    <table class="print-finishing__table-data table-data body">
+      <tr>
+        <td class="table-data__cell">Print</td>
+        <td class="table-data__cell">Durst Lambda photo print</td>
+      </tr>
+      <tr>
+        <td class="table-data__cell">Material</td>
+        <td class="table-data__cell">Semi-Matt photo paper</td>
+      </tr>
+      <tr>
+        <td class="table-data__cell">Finish</td>
+        <td class="table-data__cell">
+          Glued behind 3mm clear TruLife<sup>TM</sup> plexiglass on 3mm Dibond
+          with 20mm
+          <a href="#anodized-aluminium-suspension-profile"
+            >anodized aluminum suspension profile</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <td class="table-data__cell">Sizes</td>
+        <td class="table-data__cell">
+          30 x 40 cm<br />
+          40 x 50 cm<br />
+          100 x 120 cm
+        </td>
+      </tr>
+    </table>
+
+    <h2 id="anodized-aluminium-suspension-profile" class="heading-medium">
+      Anodized aluminum suspension profile
+    </h2>
 
     <p class="body">
-      All photo finish options have an anodized aluminum suspension profile.
+      All finish options have an anodized aluminum suspension profile.
       <strong>Anodized aluminum</strong> is aluminum that has been treated to
       develop an exceptionally durable finish.
     </p>
