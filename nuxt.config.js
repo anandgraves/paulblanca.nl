@@ -27,6 +27,7 @@ export default {
       name: 'Paul Blanca',
       short_name: 'Blanca',
       lang: 'en',
+      theme_color: '#ffffff',
     },
     icon: {
       source: 'src/client/static/images/icon.png',
