@@ -7,7 +7,7 @@ export default {
   head: {
     titleTemplate: (titleChunk) => {
       return titleChunk
-        ? `'${titleChunk} | Paul Blanca | Artist | Photographer'`
+        ? `${titleChunk} | Paul Blanca | Artist | Photographer`
         : 'Paul Blanca | Artist | Photographer'
     },
     meta: [
@@ -17,10 +17,49 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Paul Blanca‘s work is a voyage through the landscape of emotions.',
+          'Paul Blanca‘s fine art photography is a voyage through the landscape of emotions.',
+      },
+      /**
+       * https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/samples/dn455106(v=vs.85)?redirectedfrom=MSDN
+       */
+      {
+        hid: 'msapplication-config',
+        name: 'msapplication-config',
+        content: `/favicons/browserconfig.xml?v=${urlHash}`,
       },
     ],
-    link: [{ rel: 'shortcut icon', href: `/favicon.ico?v=${urlHash}` }],
+    /**
+     * Favicons and code by https://realfavicongenerator.net
+     */
+
+    link: [
+      {
+        rel: 'shortcut icon',
+        href: `/favicons/favicon.ico?v=${urlHash}`,
+      },
+      {
+        rel: 'mask-icon',
+        href: `/favicons/safari-pinned-tab.svg?v=${urlHash}`,
+        color: '#000000',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        href: `/favicons/favicon-32x32.png?v=${urlHash}`,
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        href: `/favicons/favicon-16x16.png?v=${urlHash}`,
+      },
+      {
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
+        href: `/favicons/apple-touch-icon.png?v=${urlHash}`,
+      },
+    ],
   },
 
   /*
@@ -29,12 +68,27 @@ export default {
   pwa: {
     manifest: {
       name: 'Paul Blanca',
-      short_name: 'Blanca',
+      short_name: 'Paul Blanca',
       lang: 'en',
       theme_color: '#ffffff',
+      description:
+        'Paul Blanca‘s fine art photography is a voyage through the landscape of emotions.',
+      orientation: 'portrait',
+      icons: [
+        {
+          src: '/favicons/android-chrome-192x192.png',
+          sizes: '192x192',
+          type: 'image/png',
+        },
+        {
+          src: '/favicons/android-chrome-512x512.png',
+          sizes: '512x512',
+          type: 'image/png',
+        },
+      ],
     },
     icon: {
-      source: 'src/client/static/images/icon.png',
+      source: `src/client/static/favicons/icon.png?v=${urlHash}`,
     },
   },
   components: true,

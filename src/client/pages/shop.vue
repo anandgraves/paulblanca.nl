@@ -42,7 +42,7 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-            'Buy photos from artist/photographer Paul Blanca. Available in 30x40, 40x50, 100x120cm on Dibond, Plexiglass and TruLife Plexiglass.',
+            'Fine art photography prints available, limited edition only, in 30x40, 40x50, 100x120cm on Dibond, Plexiglass and TruLife Plexiglass.',
         },
       ],
     }
