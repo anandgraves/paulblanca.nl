@@ -1,3 +1,6 @@
+import createMd5Hash from './src/client/lib/create-md5-hash'
+const urlHash = createMd5Hash()
+
 export default {
   target: 'static',
   srcDir: 'src/client',
@@ -17,6 +20,7 @@ export default {
           'Paul Blanca‘s work is a voyage through the landscape of emotions.',
       },
     ],
+    link: [{ rel: 'shortcut icon', href: `/favicon.ico?v=${urlHash}` }],
   },
 
   /*
