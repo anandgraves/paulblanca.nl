@@ -8,7 +8,7 @@ const state = () => ({
 
       <p>Since selfportraits are an important part of my photography, the first crying picture is one of a crying man and that‘s me.</p>`,
       head: {
-        title: 'Par La Pluie Des Femmes 1990',
+        title: 'Par La Pluie Des Femmes, 1990',
         description:
           'Women captured in tears by thinking of their most traumatic experience.',
       },
@@ -23,7 +23,7 @@ const state = () => ({
 
       <p>After living abroad for some time, including New York, I came back to Amsterdam after 10 years. I met one of the speedball whores, Monica. (in the photo with a cigarette). I asked Monica how it went. Monica had stopped using speedball for a while. She had met a Surinamese friend (pimp) and worked for him as a prostitute. After an argument with her pimp, she went back to downtown Amsterdam and started using speedball again. I ran into her again by chance and invited her home. I interviewed her for a story of De Nieuwe Revu. It was a sad thing. All the girls I photographed were dead.</p>`,
       head: {
-        title: 'Wit en Bruin 1992',
+        title: 'Wit en Bruin, 1992',
         description:
           'The expression on the face of speedball hookers was photographed.',
       },
@@ -37,7 +37,7 @@ const state = () => ({
       seriesSlug: 'wit-en-bruin',
       year: 1992,
       titleList: 'Alpha',
-      titleDetail: 'Alpha from the series "Wit en Bruin"',
+      titleDetail: 'Alpha from the series “Wit en Bruin”',
       description: '',
       edition: {
         '30x40cm': '1 of 10',
@@ -62,7 +62,7 @@ const state = () => ({
         },
       },
       image: {
-        alt: 'Alpha from the series Wit en Bruin 1992, by Paul Blanca',
+        alt: 'Alpha from the series “Wit en Bruin”, 1992, by Paul Blanca',
         formats: [
           {
             type: 'webp',
@@ -126,7 +126,7 @@ const state = () => ({
       seriesSlug: 'wit-en-bruin',
       year: 1992,
       titleList: 'Juliette',
-      titleDetail: 'Juliette from the series "Wit en Bruin"',
+      titleDetail: 'Juliette from the series “Wit en Bruin”',
       description: '',
       edition: {
         '30x40cm': '1 of 10',
@@ -151,7 +151,7 @@ const state = () => ({
         },
       },
       image: {
-        alt: 'Juliette from the series Wit en Bruin 1992, by Paul Blanca',
+        alt: 'Juliette from the series “Wit en Bruin”, 1992, by Paul Blanca',
         formats: [
           {
             type: 'webp',
@@ -215,7 +215,7 @@ const state = () => ({
       seriesSlug: 'wit-en-bruin',
       year: 1992,
       titleList: 'Madison',
-      titleDetail: 'Madison from the series "Wit en Bruin"',
+      titleDetail: 'Madison from the series “Wit en Bruin”',
       description: '',
       edition: {
         '30x40cm': '1 of 10',
@@ -240,7 +240,7 @@ const state = () => ({
         },
       },
       image: {
-        alt: 'Madison from the series Wit en Bruin 1992, by Paul Blanca',
+        alt: 'Madison from the series “Wit en Bruin”, 1992, by Paul Blanca',
         formats: [
           {
             type: 'webp',
@@ -304,7 +304,7 @@ const state = () => ({
       seriesSlug: 'wit-en-bruin',
       year: 1992,
       titleList: 'Maria',
-      titleDetail: 'Maria from the series "Wit en Bruin"',
+      titleDetail: 'Maria from the series “Wit en Bruin”',
       description: '',
       edition: {
         '30x40cm': '1 of 10',
