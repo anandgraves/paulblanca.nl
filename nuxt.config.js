@@ -74,9 +74,6 @@ export default {
       description:
         'Paul Blanca‘s fine art photography is a voyage through the landscape of emotions.',
       orientation: 'portrait',
-    },
-    icon: {
-      source: `src/client/static/favicons/icon.png?v=${urlHash}`,
       icons: [
         {
           src: '/favicons/android-chrome-192x192.png',
@@ -89,6 +86,9 @@ export default {
           type: 'image/png',
         },
       ],
+    },
+    icon: {
+      source: `src/client/static/favicons/icon.png?v=${urlHash}`,
     },
   },
   components: true,
