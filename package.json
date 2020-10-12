@@ -1,7 +1,7 @@
 {
-  "name": "frontend-paulblanca",
+  "name": "paul-blanca",
   "version": "1.0.0",
-  "description": "Paul Blanca‘s work is a voyage through the landscape of emotions.",
+  "description": "Paul Blanca‘s fine art photography is a voyage through the landscape of emotions.",
   "private": true,
   "engines": {
     "node": "10.17.0"
