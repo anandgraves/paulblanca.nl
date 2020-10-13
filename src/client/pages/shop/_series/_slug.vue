@@ -10,7 +10,7 @@
     <div class="photo-detail__content">
       <nuxt-link
         :to="`/shop/${getProductSeriesSlug}`"
-        class="photo-detail__link-back"
+        class="photo-detail__link-back body"
       >
         <icon-base
           class="photo-detail__link-back-icon"
