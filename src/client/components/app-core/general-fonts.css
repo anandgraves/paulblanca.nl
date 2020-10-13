@@ -4,6 +4,7 @@
   font-family: var(--font-body);
   src: url('/fonts/avenir-next-regular-300.woff2') format('woff2'),
     url('/fonts/avenir-next-regular-300.woff') format('woff');
+  font-display: swap;
   font-style: normal;
   font-weight: 400;
 }
@@ -12,6 +13,7 @@
   font-family: var(--font-body);
   src: url('/fonts/avenir-next-medium-500.woff2') format('woff2'),
     url('/fonts/avenir-next-medium-500.woff') format('woff');
+  font-display: swap;
   font-style: normal;
   font-weight: 500;
 }
@@ -20,6 +22,7 @@
   font-family: var(--font-body);
   src: url('/fonts/avenir-next-demibold-700.woff2') format('woff2'),
     url('/fonts/avenir-next-demibold-700.woff') format('woff');
+  font-display: swap;
   font-style: normal;
   font-weight: 700;
 }
@@ -28,6 +31,7 @@
   font-family: 'Josefin Sans';
   src: url('/fonts/josefin-sans-300.woff2') format('woff2'),
     url('/fonts/josefin-sans-300.woff') format('woff');
+  font-display: swap;
   font-style: normal;
   font-weight: 300;
 }
@@ -36,6 +40,7 @@
   font-family: 'Josefin Sans';
   src: url('/fonts/josefin-sans-v14-latin-regular.woff2') format('woff2'),
     url('/fonts/josefin-sans-v14-latin-regular.woff') format('woff');
+  font-display: swap;
   font-style: normal;
   font-weight: normal;
 }
@@ -44,22 +49,16 @@
   font-family: 'Josefin Sans';
   src: url('/fonts/josefin-sans-v14-latin-600.woff2') format('woff2'),
     url('/fonts/josefin-sans-v14-latin-600.woff') format('woff');
+  font-display: swap;
   font-style: normal;
   font-weight: 600;
 }
 
 @font-face {
-  font-family: 'Cooper Hewitt';
-  src: url('/fonts/cooper-hewitt-book-400.woff2') format('woff2'),
-    url('/fonts/cooper-hewitt-book-400.woff') format('woff');
+  font-family: 'Nunito Sans';
+  src: url('/fonts/nunito-sans-v6-latin-regular.woff2') format('woff2'),
+    url('/fonts/nunito-sans-v6-latin-regular.woff') format('woff');
+  font-display: swap;
   font-style: normal;
   font-weight: normal;
-}
-
-@font-face {
-  font-family: 'Cooper Hewitt';
-  src: url('/fonts/cooper-hewitt-medium-500.woff2') format('woff2'),
-    url('/fonts/cooper-hewitt-medium-500.woff') format('woff');
-  font-style: normal;
-  font-weight: 500;
 }
