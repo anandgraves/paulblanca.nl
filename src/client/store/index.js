@@ -1017,13 +1017,13 @@ const state = () => ({
       },
     },
     {
-      slug: 'untitled-crying',
+      slug: 'ellen-crying',
       id: 'b7144265-a57b-4488-895e-b20b506a302f',
       series: 'Par La Pluie Des Femmes',
       seriesSlug: 'par-la-pluie-des-femmes',
       year: 1990,
-      titleList: 'Untitled Crying',
-      titleDetail: 'Untitled Crying from the series “Par La Pluie Des Femmes”',
+      titleList: 'Ellen Crying',
+      titleDetail: 'Ellen Crying from the series “Par La Pluie Des Femmes”',
       description: '',
       edition: {
         '30x40cm': '1 of 10',
@@ -1049,7 +1049,7 @@ const state = () => ({
       },
       image: {
         alt:
-          'Untitled Crying from the series “Par La Pluie Des Femmes”, 1990, by Paul Blanca',
+          'Ellen Crying from the series “Par La Pluie Des Femmes”, 1990, by Paul Blanca',
         formats: [
           {
             type: 'webp',
@@ -1059,21 +1059,21 @@ const state = () => ({
                 height: 1378,
                 size: '1500w',
                 filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-untitled-crying-1500w.webp',
+                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-ellen-crying-1500w.webp',
               },
               {
                 width: 1000,
                 height: 1000,
                 size: '1000w',
                 filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-untitled-crying-1000w.webp',
+                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-ellen-crying-1000w.webp',
               },
               {
                 width: 500,
                 height: 500,
                 size: '500w',
                 filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-untitled-crying-500w.webp',
+                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-ellen-crying-500w.webp',
               },
             ],
           },
@@ -1085,21 +1085,21 @@ const state = () => ({
                 height: 1378,
                 size: '1500w',
                 filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-untitled-crying-1500w.jpg',
+                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-ellen-crying-1500w.jpg',
               },
               {
                 width: 1000,
                 height: 1000,
                 size: '1000w',
                 filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-untitled-crying-1000w.jpg',
+                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-ellen-crying-1000w.jpg',
               },
               {
                 width: 500,
                 height: 500,
                 size: '500w',
                 filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-untitled-crying-500w.jpg',
+                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-ellen-crying-500w.jpg',
               },
             ],
           },
