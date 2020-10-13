@@ -7,7 +7,7 @@ export default {
   head: {
     titleTemplate: (titleChunk) => {
       return titleChunk
-        ? `${titleChunk} | Paul Blanca | Artist | Photographer`
+        ? `"${titleChunk} | Paul Blanca | Artist | Photographer"`
         : 'Paul Blanca | Artist | Photographer'
     },
     meta: [
