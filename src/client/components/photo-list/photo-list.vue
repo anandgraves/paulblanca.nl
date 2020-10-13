@@ -11,7 +11,7 @@
           {{ photo.titleList }}
         </div>
         <div v-if="showSeriesTitle" class="photo-list__title">
-          {{ photo.series }} {{ photo.year }}
+          {{ photo.series }}, {{ photo.year }}
         </div>
       </nuxt-link>
     </li>

@@ -6,7 +6,7 @@
       'center-content--large': hasDetailPage,
     }"
   >
-    <h1 class="heading-large">
+    <h1 v-if="!hasDetailPage" class="heading-large">
       <span v-if="title">{{ title }} – </span>Shop
     </h1>
     <nuxt-child />

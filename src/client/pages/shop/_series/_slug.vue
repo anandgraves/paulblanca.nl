@@ -223,7 +223,7 @@ export default {
       )
     },
     getProductSeries() {
-      return this.product.series
+      return `${this.product.series}, ${this.product.year}`
     },
     getProductSeriesSlug() {
       return this.product.seriesSlug
@@ -235,7 +235,7 @@ export default {
       return this.product.edition[this.size]
     },
     productTitle() {
-      return `${this.product.titleDetail} ${this.product.year}`
+      return `${this.product.titleDetail}, ${this.product.year}`
     },
     orderViaEmail() {
       const subject = encodeURIComponent(`Order ${this.productTitle}`)
