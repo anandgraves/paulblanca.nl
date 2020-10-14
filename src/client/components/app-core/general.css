@@ -23,7 +23,7 @@ section.body + section.body {
 
 sup {
   font-size: 0.7rem;
-  font-weight: 300;
+  /* font-weight: 300; */
 }
 
 .body {
@@ -90,7 +90,7 @@ sup {
   justify-content: center;
   align-items: center;
   padding: 18px 24px 16px 24px;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 1.125rem;
   text-decoration: none;
   letter-spacing: 0.7px;
@@ -168,7 +168,7 @@ sup {
 .rich-text a:not(.button) {
   color: #333;
   text-decoration: underline;
-  font-weight: 600;
+  font-weight: 500;
   transition: color 0.15s ease-out 0s;
 }
 
@@ -179,7 +179,7 @@ sup {
 .rich-text strong,
 .rich-text b,
 .rich-text dt {
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .rich-text h2 {

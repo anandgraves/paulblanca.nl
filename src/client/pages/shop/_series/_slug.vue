@@ -310,7 +310,7 @@ Billing address
   margin-bottom: 24px;
   color: black;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .photo-detail__link-back:hover {

@@ -1,64 +1,23 @@
-@import './settings.css';
-
 @font-face {
-  font-family: var(--font-body);
-  src: url('/fonts/avenir-next-regular-300.woff2') format('woff2'),
-    url('/fonts/avenir-next-regular-300.woff') format('woff');
+  font-family: 'Avenir Next';
+  src: url('/fonts/avenir-next-regular-400.woff2') format('woff2'),
+       url('/fonts/avenir-next-regular-400.woff') format('woff');
   font-display: swap;
-  font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
-  font-family: var(--font-body);
+  font-family: 'Avenir Next';
   src: url('/fonts/avenir-next-medium-500.woff2') format('woff2'),
-    url('/fonts/avenir-next-medium-500.woff') format('woff');
+       url('/fonts/avenir-next-medium-500.woff') format('woff');
   font-display: swap;
-  font-style: normal;
   font-weight: 500;
 }
 
 @font-face {
-  font-family: var(--font-body);
-  src: url('/fonts/avenir-next-demibold-700.woff2') format('woff2'),
-    url('/fonts/avenir-next-demibold-700.woff') format('woff');
-  font-display: swap;
-  font-style: normal;
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: 'Josefin Sans';
-  src: url('/fonts/josefin-sans-300.woff2') format('woff2'),
-    url('/fonts/josefin-sans-300.woff') format('woff');
-  font-display: swap;
-  font-style: normal;
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: 'Josefin Sans';
-  src: url('/fonts/josefin-sans-v14-latin-regular.woff2') format('woff2'),
-    url('/fonts/josefin-sans-v14-latin-regular.woff') format('woff');
-  font-display: swap;
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: 'Josefin Sans';
-  src: url('/fonts/josefin-sans-v14-latin-600.woff2') format('woff2'),
-    url('/fonts/josefin-sans-v14-latin-600.woff') format('woff');
-  font-display: swap;
-  font-style: normal;
-  font-weight: 600;
-}
-
-@font-face {
   font-family: 'Nunito Sans';
-  src: url('/fonts/nunito-sans-v6-latin-regular.woff2') format('woff2'),
-    url('/fonts/nunito-sans-v6-latin-regular.woff') format('woff');
+  src: url('/fonts/nunito-sans-v6-latin-300.woff2') format('woff2'),
+       url('/fonts/nunito-sans-v6-latin-300.woff') format('woff');
   font-display: swap;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 300;
 }
