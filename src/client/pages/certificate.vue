@@ -9,7 +9,7 @@
     </p>
 
     <ul class="body">
-      <li>Artist‘ signature</li>
+      <li>Artist‘ signature.</li>
       <li>An embossed seal.</li>
       <li>Photo details and a small print of the photo.</li>
       <li>
