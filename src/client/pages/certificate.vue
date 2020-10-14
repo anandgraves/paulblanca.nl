@@ -1,27 +1,34 @@
 <template>
   <article class="center-content rich-text">
     <h1 class="heading-large">Certificate</h1>
+    <p class="body">Each photo print sold on paulblanca.nl includes:</p>
+    <ul class="body">
+      <li>Artist‘ signature on the front of the photo print.</li>
+      <li>
+        Current number in the edition written on the front of the photo print.
+      </li>
+      <li>Certificate of authenticity.</li>
+    </ul>
+
     <p class="body">
-      Each photo sold on paulblanca.nl includes a signature and current photo in
-      the edition written on the front of the photo and a certificate of
-      authenticity. This is an official document that proves the authenticity of
-      the photo. This certificate contains:
+      A certificate of authenticity is an official document that proves the
+      authenticity of the photo print. This certificate contains:
     </p>
 
     <ul class="body">
       <li>Artist‘ signature.</li>
       <li>An embossed seal.</li>
-      <li>Photo details and a small print of the photo.</li>
+      <li>Photo print details and a small print of the photo.</li>
       <li>
-        ART ID, a unique generated code on the back of the photo and on the
-        certificate. This is to link the photo and the certificate together and
-        to uniquely identify the photo.
+        <strong>ART ID</strong>, a unique generated code located on the back of
+        the photo print and on the certificate. This is to link the photo print
+        and the certificate together and to uniquely identify the photo print.
       </li>
     </ul>
 
     <p class="body">
       Contact <a href="mailto:info@paulblanca.nl">info@paulblanca.nl</a> for
-      more information or to verify your photo.
+      more information or to verify your photo print.
     </p>
   </article>
 </template>

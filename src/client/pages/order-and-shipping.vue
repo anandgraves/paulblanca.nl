@@ -3,10 +3,7 @@
     <h1 class="heading-large">Order and Shipping</h1>
     <section class="body rich-text">
       <h2 id="order" class="heading-medium">Order</h2>
-      <p>
-        To place an order with paulblanca.nl you have to go through the
-        following steps:
-      </p>
+      <p>To place an order with paulblanca.nl:</p>
 
       <ol>
         <li>Select a <strong>size</strong>: 30x40, 40x50, 100x120 cm.</li>
@@ -16,7 +13,9 @@
           >
           Plexiglass.
         </li>
-        <li>Click on the button "<strong>Buy photo by e-mail</strong>".</li>
+        <li>
+          Click on the button "<strong>Buy photo print by e-mail</strong>".
+        </li>
         <li>
           <p>
             Your email program will open with a new email created and
@@ -32,8 +31,10 @@
           </p>
 
           <p>
-            All products are excluded from the right of withdrawal, because all
-            products delivered are custom-made.
+            <strong
+              >All prints are excluded from the right of withdrawal, because
+              each print is custom-made</strong
+            >.
           </p>
         </li>
         <li>

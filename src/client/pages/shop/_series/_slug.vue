@@ -137,7 +137,7 @@
       </a>
 
       <nuxt-link to="/order-and-shipping" class="photo-detail__link-how-to-buy">
-        How do I buy a photo?
+        How do I buy a photo print?
       </nuxt-link>
 
       <nuxt-link to="/payment-methods" class="photo-detail__link-payment-icons">
@@ -151,7 +151,7 @@
 
         <table class="table-data table-data--center body">
           <caption class="sr-only">
-            Details of the photo
+            Details of the photo print
             {{
               product.title
             }}
@@ -187,16 +187,18 @@
         <h2 class="photo-detail__heading heading-medium">Finish</h2>
 
         <p class="body">
-          All photos can be purchased for the sizes 30x40 cm, 40x50 cm and
+          All photo prints can be purchased for the sizes 30x40 cm, 40x50 cm and
           100x120 cm.
-          <nuxt-link to="/finish">View all the finish options</nuxt-link>.
+          <nuxt-link to="/print-finishing"
+            >View all the print finishing options</nuxt-link
+          >.
         </p>
       </section>
 
       <section class="rich-text">
         <h2 class="photo-detail__heading heading-medium">Certificate</h2>
         <p class="body">
-          Each photo includes a certificate of authenticity.
+          Each photo print includes a certificate of authenticity.
           <nuxt-link to="/certificate">Read more</nuxt-link>
           what the certificate contains and how authenticity is ensured.
         </p>
@@ -240,7 +242,7 @@ export default {
     orderViaEmail() {
       const subject = encodeURIComponent(`Order ${this.productTitle}`)
       const body = encodeURIComponent(
-        `I would like to order a photo on paulblanca.nl.
+        `I would like to order a photo print on paulblanca.nl.
 
 Title: ${this.productTitle}
 Size: ${this.size}
@@ -250,7 +252,7 @@ Price: ${this.moneyFormat(
         )} (includes VAT and shipping costs)
 Quantity: 1
 
-You can ship the photo to (all fields are required):
+You can ship the photo print to (all fields are required):
 Full Name:
 Delivery address
   Address 1:
