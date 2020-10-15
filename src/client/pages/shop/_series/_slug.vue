@@ -133,7 +133,7 @@
         >
           <icon-euro />
         </icon-base>
-        <span class="euro-icon__text">Buy photo by email</span>
+        <span class="euro-icon__text">Buy photo print by email</span>
       </a>
 
       <nuxt-link to="/order-and-shipping" class="photo-detail__link-how-to-buy">
