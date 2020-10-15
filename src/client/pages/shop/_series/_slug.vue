@@ -29,6 +29,32 @@
       <!-- eslint-disable-next-line vue/no-v-html -->
       <div class="body rich-text" v-html="product.description"></div>
 
+      <table class="photo-detail__table table-data table-data--center body">
+        <caption class="sr-only">
+          Details of the photo print
+          {{
+            product.title
+          }}
+        </caption>
+        <tbody>
+          <tr>
+            <th class="table-data__cell">Edition</th>
+            <td class="table-data__cell">
+              {{ getEdition }}
+              <div>incl. 2 Artist Proof</div>
+            </td>
+          </tr>
+          <tr v-if="product.series">
+            <th class="table-data__cell">Series</th>
+            <td class="table-data__cell">{{ product.series }}</td>
+          </tr>
+          <tr>
+            <th class="table-data__cell">Year</th>
+            <td class="table-data__cell">{{ product.year }}</td>
+          </tr>
+        </tbody>
+      </table>
+
       <div class="photo-detail__selector">
         <fieldset class="radio-group">
           <legend class="radio-group__title">Size</legend>
@@ -70,7 +96,7 @@
         </fieldset>
 
         <fieldset class="radio-group">
-          <legend class="radio-group__title">Finish</legend>
+          <legend class="radio-group__title">Print Finishing</legend>
           <div class="radio-group__container">
             <div class="radio-group__item">
               <input
@@ -146,45 +172,8 @@
 
       <hr class="photo-detail__divider" />
 
-      <section>
-        <h2 class="photo-detail__heading heading-medium">Details</h2>
-
-        <table class="table-data table-data--center body">
-          <caption class="sr-only">
-            Details of the photo print
-            {{
-              product.title
-            }}
-          </caption>
-          <tbody>
-            <tr v-if="product.series">
-              <th class="table-data__cell">Series</th>
-              <td class="table-data__cell">{{ product.series }}</td>
-            </tr>
-            <tr>
-              <th class="table-data__cell">Edition</th>
-              <td class="table-data__cell">
-                {{ getEdition }}
-                <div>incl. 2 Artist's Proof</div>
-              </td>
-            </tr>
-            <tr>
-              <th class="table-data__cell">Year</th>
-              <td class="table-data__cell">{{ product.year }}</td>
-            </tr>
-            <tr>
-              <th class="table-data__cell">Signature</th>
-              <td class="table-data__cell">
-                Signed in silver ink in the lower right with signature and
-                edition number.
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
-
       <section class="rich-text">
-        <h2 class="photo-detail__heading heading-medium">Finish</h2>
+        <h2 class="photo-detail__heading heading-medium">Print Finishing</h2>
 
         <p class="body">
           All photo prints can be purchased for the sizes 30x40 cm, 40x50 cm and
@@ -321,6 +310,14 @@ Billing address
 
 .photo-detail__content .photo-detail__link-back-icon {
   margin-bottom: 0;
+}
+
+.photo-detail__title {
+  text-align: center;
+}
+
+.photo-detail__table.table-data--center .table-data__cell:first-child {
+  width: 100px;
 }
 
 .photo-detail__link-how-to-buy {
