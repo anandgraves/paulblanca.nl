@@ -40,8 +40,8 @@
             </nuxt-link>
           </li>
           <li class="app-footer__list-item">
-            <nuxt-link class="app-footer__link" to="/finish">
-              Finish
+            <nuxt-link class="app-footer__link" to="/print-finishing">
+              Print Finishing
             </nuxt-link>
           </li>
           <li class="app-footer__list-item">
