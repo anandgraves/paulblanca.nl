@@ -4,6 +4,9 @@ const urlHash = createMd5Hash()
 export default {
   target: 'static',
   srcDir: 'src/client',
+  env: {
+    googleAnalyticsTrackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || '',
+  },
   head: {
     titleTemplate: (titleChunk) => {
       return titleChunk
@@ -117,7 +120,14 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
+    '@nuxtjs/google-analytics',
   ],
+
+  publicRuntimeConfig: {
+    googleAnalytics: {
+      id: process.env.GOOGLE_ANALYTICS_ID,
+    },
+  },
 
   /*
    ** Nuxt.js modules
