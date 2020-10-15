@@ -3,4 +3,4 @@
   publish = "dist"
 
 [build.environment]
-GOOGLE_ANALYTICS_ID=UA-180689539-1
+  GOOGLE_ANALYTICS_ID=UA-180689539-1
