@@ -23,7 +23,6 @@ section.body + section.body {
 
 sup {
   font-size: 0.7rem;
-  /* font-weight: 300; */
 }
 
 .body {
@@ -114,15 +113,6 @@ sup {
   list-style: none;
 }
 
-.table-data {
-  max-width: 400px;
-}
-
-.table-data--center {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .sr-only {
   border: 0;
   clip: rect(0 0 0 0);
@@ -135,6 +125,15 @@ sup {
 }
 
 /* Table styling */
+.table-data {
+  max-width: 400px;
+}
+
+.table-data--center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .table-data__cell {
   padding: 12px;
   vertical-align: top;
