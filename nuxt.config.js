@@ -122,10 +122,21 @@ export default {
     '@nuxtjs/eslint-module',
     '@nuxtjs/google-analytics',
   ],
-
+  /**
+   * Use as fallback if no runtime config is provide
+   */
+  googleAnalytics: {
+    id: process.env.GOOGLE_ANALYTICS_ID,
+    debug: {
+      sendHitTask: process.env.NODE_ENV === 'production',
+    },
+  },
   publicRuntimeConfig: {
     googleAnalytics: {
       id: process.env.GOOGLE_ANALYTICS_ID,
+      debug: {
+        sendHitTask: process.env.NODE_ENV === 'production',
+      },
     },
   },
 
