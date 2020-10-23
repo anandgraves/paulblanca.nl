@@ -1,5 +1,5 @@
 <template>
-  <nav class-="app-menu">
+  <nav class="app-menu">
     <nuxt-link to="/shop" class="app-menu__link">Shop</nuxt-link>
     <nuxt-link to="/contact" class="app-menu__link">Contact</nuxt-link>
   </nav>
@@ -29,7 +29,8 @@ export default {}
 }
 
 .app-menu__link:hover,
-.app-menu__link:focus {
+.app-menu__link:focus,
+.app-menu .nuxt-link-active {
   border-bottom: 1px solid black;
 }
 
