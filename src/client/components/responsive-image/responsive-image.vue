@@ -16,6 +16,7 @@
             :alt="image.alt"
             :src="fallbackUrl"
             class="responsive-image__img"
+            loading="lazy"
             @load="onLoad"
           />
         </transition>
