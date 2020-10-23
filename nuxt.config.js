@@ -28,7 +28,7 @@ export default {
       {
         hid: 'msapplication-config',
         name: 'msapplication-config',
-        content: `/favicons/browserconfig.xml?v=${urlHash}`,
+        content: `/assets/favicons/browserconfig.xml?v=${urlHash}`,
       },
     ],
     /**
@@ -38,29 +38,29 @@ export default {
     link: [
       {
         rel: 'shortcut icon',
-        href: `/favicons/favicon.ico?v=${urlHash}`,
+        href: `/assets/favicons/favicon.ico?v=${urlHash}`,
       },
       {
         rel: 'mask-icon',
-        href: `/favicons/safari-pinned-tab.svg?v=${urlHash}`,
+        href: `/assets/favicons/safari-pinned-tab.svg?v=${urlHash}`,
         color: '#000000',
       },
       {
         rel: 'icon',
         type: 'image/png',
         sizes: '32x32',
-        href: `/favicons/favicon-32x32.png?v=${urlHash}`,
+        href: `/assets/favicons/favicon-32x32.png?v=${urlHash}`,
       },
       {
         rel: 'icon',
         type: 'image/png',
         sizes: '16x16',
-        href: `/favicons/favicon-16x16.png?v=${urlHash}`,
+        href: `/assets/favicons/favicon-16x16.png?v=${urlHash}`,
       },
       {
         rel: 'apple-touch-icon',
         sizes: '180x180',
-        href: `/favicons/apple-touch-icon.png?v=${urlHash}`,
+        href: `/assets/favicons/apple-touch-icon.png?v=${urlHash}`,
       },
     ],
   },
@@ -79,19 +79,19 @@ export default {
       orientation: 'portrait',
       icons: [
         {
-          src: '/favicons/android-chrome-192x192.png',
+          src: '/assets/favicons/android-chrome-192x192.png',
           sizes: '192x192',
           type: 'image/png',
         },
         {
-          src: '/favicons/android-chrome-512x512.png',
+          src: '/assets/favicons/android-chrome-512x512.png',
           sizes: '512x512',
           type: 'image/png',
         },
       ],
     },
     icon: {
-      source: `src/client/static/favicons/icon.png?v=${urlHash}`,
+      source: `src/client/assets/favicons/icon.png?v=${urlHash}`,
     },
   },
   components: true,
