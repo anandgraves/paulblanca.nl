@@ -1,6 +1,8 @@
 <template>
   <article class="center-content rich-text">
     <h1 class="heading-large">Contact</h1>
+    <p>{{ width }}</p>
+    <p>cloudinary image <img :src="src" alt="" /></p>
     <p class="body">
       You can contact us at
       <a href="mailto:info@paulblanca.nl">info@paulblanca.nl</a>.
@@ -34,3 +36,26 @@
     </p>
   </article>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      width: undefined,
+      src: this.$cloudinary.image.url(
+        'paulblanca/par-la-pluie-des-femmes-1990-ellen-crying-1500w_enqlck.jpg',
+        {
+          fetchFormat: 'auto',
+          responsive: true,
+        }
+      ),
+    }
+  },
+  mounted() {
+    const pixelRatio = window.devicePixelRatio || 1
+    const cssWidth = this.$el.getBoundingClientRect().width
+    const width = Math.ceil((cssWidth * pixelRatio) / 100) * 100
+    this.width = Math.min(width, 1378)
+  },
+}
+</script>

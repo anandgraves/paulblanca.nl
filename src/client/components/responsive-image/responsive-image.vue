@@ -5,21 +5,15 @@
       :width="imageDimensions.width"
       :height="imageDimensions.height"
     >
-      <picture v-if="width">
-        <!--[if IE 9]><video style="display: none;"><![endif]-->
-        <source :srcset="srcSet('webp')" :sizes="sizes" type="image/webp" />
-        <source :srcset="srcSet('jpg')" :sizes="sizes" type="image/jpeg" />
-        <!--[if IE 9]></video><![endif]-->
-        <transition name="fade">
-          <img
-            v-show="isLoaded"
-            :alt="image.alt"
-            :src="fallbackUrl"
-            class="responsive-image__img"
-            @load="onLoad"
-          />
-        </transition>
-      </picture>
+      <transition v-if="width" name="fade">
+        <img
+          v-show="isLoaded"
+          :alt="image.alt"
+          :src="fallbackUrl"
+          class="responsive-image__img"
+          @load="onLoad"
+        />
+      </transition>
     </fixed-ratio>
   </figure>
 </template>

@@ -143,7 +143,11 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/pwa'],
+  modules: ['@nuxtjs/pwa', '@nuxtjs/cloudinary'],
+
+  cloudinary: {
+    cloudName: 'dvzdkibo3',
+  },
 
   /*
    ** Build configuration
