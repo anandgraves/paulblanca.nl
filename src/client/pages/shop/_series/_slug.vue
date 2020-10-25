@@ -162,7 +162,7 @@
         <span class="euro-icon__text">Buy photo print by email</span>
       </a>
 
-      <nuxt-link to="/order-and-shipping" class="photo-detail__link-how-to-buy">
+      <nuxt-link to="/order-shipping" class="photo-detail__link-how-to-buy">
         How do I buy a photo print?
       </nuxt-link>
 

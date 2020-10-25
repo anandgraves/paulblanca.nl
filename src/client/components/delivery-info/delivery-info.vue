@@ -12,7 +12,7 @@
       </li>
     </ul>
 
-    <nuxt-link to="/order-and-shipping#shipping" class="delivery-info__link">
+    <nuxt-link to="/order-shipping#shipping" class="delivery-info__link">
       More shipping info
     </nuxt-link>
   </div>
