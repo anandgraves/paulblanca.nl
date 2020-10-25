@@ -1,5 +1,7 @@
+import index from './src/client/store/index.js'
 import createMd5Hash from './src/client/lib/create-md5-hash'
 const urlHash = createMd5Hash()
+const state = index.state().shopProductList
 
 export default {
   target: 'static',
@@ -143,7 +145,23 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/pwa'],
+  modules: ['@nuxtjs/pwa', '@nuxtjs/sitemap'],
+
+  /**
+   * https://github.com/nuxt-community/sitemap-module
+   */
+  sitemap: {
+    hostname: 'https://paulblanca.nl',
+    routes: state.map(
+      (product) => `/shop/${product.seriesSlug}/${product.slug}/`
+    ),
+    filter({ routes }) {
+      return routes.map((route) => {
+        route.url = `${route.url}/`
+        return route
+      })
+    },
+  },
 
   /*
    ** Build configuration

@@ -9,7 +9,7 @@
         <h2 class="app-footer__title heading-small">Need help?</h2>
         <ul class="app-footer__list">
           <li class="app-footer__list-item">
-            <nuxt-link class="app-footer__link" to="/order-and-shipping">
+            <nuxt-link class="app-footer__link" to="/order-shipping">
               Order and Shipping
             </nuxt-link>
           </li>
@@ -24,7 +24,7 @@
             </nuxt-link>
           </li>
           <li class="app-footer__list-item">
-            <nuxt-link class="app-footer__link" to="/terms-and-conditions">
+            <nuxt-link class="app-footer__link" to="/terms-conditions">
               Terms and Conditions
             </nuxt-link>
           </li>
