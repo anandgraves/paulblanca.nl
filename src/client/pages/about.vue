@@ -30,7 +30,7 @@
 
       <p>
         In the series ‘Deformation’ he was inspired by Japanese bondage. Models
-        mutualated by fishline and hanging in the air, supported by the same
+        mutulated by fishline and hanging in the air, supported by the same
         fishline. This series was made for Amsterdam fashionweek in 2005 and
         exposed in Apart Gallery Amsterdam.
       </p>
@@ -45,9 +45,9 @@
       </p>
 
       <p>
-        In 2014 he created a selfportrait ‘Mother and Son’, 32 years after the
-        first selfportrait, where he carries his mother, just like he carried
-        her to bed for 4 years because she could't walk.
+        In 2014 he created a self-portrait ‘Mother and Son’, 32 years after the
+        first self-portrait, where he carries his mother, just like he carried
+        her to bed for 4 years because she couldn‘t walk.
       </p>
     </section>
   </article>
