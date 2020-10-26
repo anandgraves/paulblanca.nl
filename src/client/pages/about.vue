@@ -5,12 +5,12 @@
     <section class="body rich-text">
       <p>
         Paul Blanca is a Dutch self-taught photographer who started with a Canon
-        F1 and later switched to a 6x6 cm Haselblad camera for black and white
-        photos. In the 80s he created a series of violent self-portraits
-        inspired by Robert Mapplethorpe (1946 - 1989) and Andres Serrano.
-        Mapplethorpe introduced Blanca into the art world to artists like Grace
-        Jones and Keith Haring stating “Paul Blanca is my only competitor”.
-        Mapplethorpe's favourite was Blanca's selfportrait ‘Mother and Son’.
+        F1 and later switched to a 6x6 cm Haselblad camera. In the 80s he
+        created a series of violent self-portraits inspired by Robert
+        Mapplethorpe (1946 - 1989) and Andres Serrano. Mapplethorpe introduced
+        Blanca into the art world to artists like Grace Jones and Keith Haring
+        stating “Paul Blanca is my only competitor”. Mapplethorpe's favourite
+        was Blanca's self-portrait ‘Mother and Son’.
       </p>
 
       <p>
@@ -24,7 +24,8 @@
       <p>
         In the beginning of the 90s he photographed the facial expression of
         speedball hookers for the series ‘Wit en Bruin’. Speedball is a very
-        dangerous mixture of cocaine with heroin or morphine.
+        dangerous mixture of cocaine with heroin or morphine and has a
+        substantial risk of overdose.
       </p>
 
       <p>
