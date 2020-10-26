@@ -15,10 +15,16 @@
 
       <p>
         For his series ‘Par la Pluie des Femmes’ women were captured in tears by
-        thinking of their most traumatic experience. When he lived in Spain he
-        created the series ‘Sangre de Toro’, photos of a bullfight printed with
-        bull blood. In the beginning of the 90s he photographed the facial
-        expression of speedball hookers for the series ‘Wit en Bruin’.
+        thinking of their most traumatic experience. When he lived in Spain for
+        2 years, he stood with his camera at the front of the Spanish
+        bullfighting arena. This resulted in the portfolio Sangre de Toro (Blood
+        of the Bull): silk-screen prints with Bull’s blood.
+      </p>
+
+      <p>
+        In the beginning of the 90s he photographed the facial expression of
+        speedball hookers for the series ‘Wit en Bruin’. Speedball is a very
+        dangerous mixture of cocaine with heroin or morphine.
       </p>
 
       <p>
