@@ -2,80 +2,45 @@
   <article class="about center-content">
     <h1 class="heading-large">About</h1>
 
-    <section class="body">
+    <section class="body rich-text">
       <p>
-        Blanca’s interest in photography began after he met his contemporary,
-        Eva Veldhoen. She was the daughter of painter Aat Veldhoen. Blanca began
-        using a small, colour camera. He then took black and white photographs
-        using a 6 x 6 cm Hasselblad camera. In the 1980s Blanca received
-        recognition for his violent self-portraits inspired by the works of
-        Andres Serrano and Robert Mapplethorpe.
+        Paul Blanca is a Dutch self-taught photographer who started with a Canon
+        F1 and later switched to a 6x6 cm Haselblad camera for black and white
+        photos. In the 80s he created a series of violent self-portraits
+        inspired by Robert Mapplethorpe (1946 - 1989) and Andres Serrano.
+        Mapplethorpe introduced Blanca into the art world to artists like Grace
+        Jones and Keith Haring stating “Paul Blanca is my only competitor”.
+        Mapplethorpe's favourite was Blanca's selfportrait ‘Mother and Son’.
       </p>
 
       <p>
-        In 1986, Blanca's book Timing, was published. It recorded upcoming Dutch
-        artists of the 1980s, complemented by the poems of Koos Dalstra.
+        For his series ‘Par la Pluie des Femmes’ women were captured in tears by
+        thinking of their most traumatic experience. When he lived in Spain he
+        created the series ‘Sangre de Toro’, photos of a bullfight printed with
+        bull blood. In the beginning of the 90s he photographed the facial
+        expression of speedball hookers for the series ‘Wit en Bruin’.
       </p>
 
       <p>
-        In the 1990s, Blanca became a journalist the Amsterdam Weekly; the
-        Nieuwe Revu and the Het Parool. In 1995, Blanca wrote an article for
-        Nieuwe Revu which discussed the use of grenades and then became linked
-        to an attack on Rob Scholte.
-      </p>
-    </section>
-
-    <section class="body">
-      <h2 class="heading-medium">Influences</h2>
-
-      <p>
-        Blanca was influenced by the choreographer, photographer and
-        photographic studio owner Hans van Manen. In van Manen’s work, Pose,
-        Blanca played a kickboxer (Blanca had been a kickboxer in his teens)
-        surrounded by ten ballerinas.
+        In the series ‘Deformation’ he was inspired by Japanese bondage. Models
+        mutualated by fishline and hanging in the air, supported by the same
+        fishline. This series was made for Amsterdam fashionweek in 2005 and
+        exposed in Apart Gallery Amsterdam.
       </p>
 
       <p>
-        Mapplethorpe mentored Blanca, introducing him to New York high
-        society,including artists such as Grace Jones, Jasper Johns, Willem de
-        Kooning and Keith Haring.[citation needed] Mapplethorpe said of Blanca,
-      </p>
-
-      <blockquote>"Paul Blanca is my only competitor.".</blockquote>
-
-      <p>
-        In "True Colors – The Real Life of the Art World" by Anthony Haden, an
-        art collector says,
-      </p>
-
-      <blockquote>"He reaches a kind of poetry few artists have."</blockquote>
-
-      <p>
-        In 1991, Blanca collaborated with Hans Gieles and Francis Boeske of the
-        gallery "Vous Etes Ici", to produce the series "Sangre de Toro"
-        depicting the Spanish bullfights.
+        With the series ‘Kristal’ and ‘Mi Matties’ he had a double exhibition at
+        Witzenhausen Gallery in 2008. Kristal is a series about the sweet and
+        the bitter in relation with women. Presented in Witzenhausen Gallery
+        Amsterdam in 2008. Mi Matties (my friends) is a series made in one of
+        the neighborhoods of old Amsterdam. The portraits show young men who are
+        presenting themselves as a group, sort of a gang.
       </p>
 
       <p>
-        In the late 1990s, Blanca shot a series called "Mi Mattes", which
-        depicts gang members hanging around his studio.
-      </p>
-    </section>
-
-    <section class="body">
-      <h2 class="heading-medium">Themes</h2>
-
-      <p>
-        Blanca’s self-portraits reveal strong emotions and violence expressed
-        through fear, aggression, pain, sadness and sexuality. However, a more
-        sensitive side is shown in the nudes, "Mother and Son" and "Father and
-        Son".[citation needed]
-      </p>
-
-      <p>
-        The theme of strong emotion is also revealed in Blanca's series "Par la
-        Pluie des Femmes", in which he captures women in tears by letting them
-        think about their most traumatic experiences.
+        In 2014 he created a selfportrait ‘Mother and Son’, 32 years after the
+        first selfportrait, where he carries his mother, just like he carried
+        her to bed for 4 years because she could't walk.
       </p>
     </section>
   </article>
