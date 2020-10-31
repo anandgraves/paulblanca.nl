@@ -9,22 +9,31 @@
         <h2 class="app-footer__title heading-small">Need help?</h2>
         <ul class="app-footer__list">
           <li class="app-footer__list-item">
-            <nuxt-link class="app-footer__link" to="/order-shipping">
+            <nuxt-link class="app-footer__link" :to="pageUrl('order-shipping')">
               Order and Shipping
             </nuxt-link>
           </li>
           <li class="app-footer__list-item">
-            <nuxt-link class="app-footer__link" to="/payment-methods">
+            <nuxt-link
+              class="app-footer__link"
+              :to="pageUrl('payment-methods')"
+            >
               Payment Methods
             </nuxt-link>
           </li>
           <li class="app-footer__list-item">
-            <nuxt-link class="app-footer__link" to="/privacy-statement">
+            <nuxt-link
+              class="app-footer__link"
+              :to="pageUrl('privacy-statement')"
+            >
               Privacy Statement
             </nuxt-link>
           </li>
           <li class="app-footer__list-item">
-            <nuxt-link class="app-footer__link" to="/terms-conditions">
+            <nuxt-link
+              class="app-footer__link"
+              :to="pageUrl('terms-conditions')"
+            >
               Terms and Conditions
             </nuxt-link>
           </li>
@@ -35,15 +44,20 @@
         <h2 class="app-footer__title heading-small">Explore</h2>
         <ul class="app-footer__list">
           <li class="app-footer__list-item">
-            <nuxt-link class="app-footer__link" to="/about"> About </nuxt-link>
+            <nuxt-link class="app-footer__link" :to="pageUrl('about')">
+              About
+            </nuxt-link>
           </li>
           <li class="app-footer__list-item">
-            <nuxt-link class="app-footer__link" to="/print-finishing">
+            <nuxt-link
+              class="app-footer__link"
+              :to="pageUrl('print-finishing')"
+            >
               Print Finishing
             </nuxt-link>
           </li>
           <li class="app-footer__list-item">
-            <nuxt-link class="app-footer__link" to="/certificate">
+            <nuxt-link class="app-footer__link" :to="pageUrl('certificate')">
               Certificate
             </nuxt-link>
           </li>
@@ -51,6 +65,8 @@
             <a
               class="app-footer__link"
               href="https://instagram.com/paulblancanl/"
+              target="_blank"
+              rel="noopener noreferrer"
               >Instagram</a
             >
           </li>
@@ -61,37 +77,40 @@
         <h2 class="app-footer__title heading-small">Payment methods</h2>
         <ul class="app-footer__list">
           <li class="app-footer__list-item">
-            <nuxt-link to="/payment-methods" class="app-footer__link">
+            <nuxt-link
+              :to="pageUrl('payment-methods')"
+              class="app-footer__link"
+            >
               iDEAL
             </nuxt-link>
           </li>
           <li class="app-footer__list-item">
-            <nuxt-link to="/payment-methods" class="app-footer__link"
+            <nuxt-link :to="pageUrl('payment-methods')" class="app-footer__link"
               >PayPal</nuxt-link
             >
           </li>
           <li class="app-footer__list-item">
-            <nuxt-link to="/payment-methods" class="app-footer__link"
+            <nuxt-link :to="pageUrl('payment-methods')" class="app-footer__link"
               >VISA</nuxt-link
             >
           </li>
           <li class="app-footer__list-item">
-            <nuxt-link to="/payment-methods" class="app-footer__link"
+            <nuxt-link :to="pageUrl('payment-methods')" class="app-footer__link"
               >Apple Pay</nuxt-link
             >
           </li>
           <li class="app-footer__list-item">
-            <nuxt-link to="/payment-methods" class="app-footer__link"
+            <nuxt-link :to="pageUrl('payment-methods')" class="app-footer__link"
               >Mastercard</nuxt-link
             >
           </li>
           <li class="app-footer__list-item">
-            <nuxt-link to="/payment-methods" class="app-footer__link"
+            <nuxt-link :to="pageUrl('payment-methods')" class="app-footer__link"
               >SOFORT</nuxt-link
             >
           </li>
           <li class="app-footer__list-item">
-            <nuxt-link to="/payment-methods" class="app-footer__link"
+            <nuxt-link :to="pageUrl('payment-methods')" class="app-footer__link"
               >American Express</nuxt-link
             >
           </li>
@@ -102,7 +121,14 @@
 </template>
 
 <script>
-export default {}
+import getPageUrl from '~/lib/get-page-url'
+export default {
+  methods: {
+    pageUrl(query) {
+      return getPageUrl(query)
+    },
+  },
+}
 </script>
 
 <style>

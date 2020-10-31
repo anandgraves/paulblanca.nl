@@ -27,7 +27,9 @@
           <p>
             Within a day you‘ll receive a reply from info@paulblanca.nl with a
             payment request as a link. You can pay with the following
-            <nuxt-link to="/payment-methods"> payment methods</nuxt-link>.
+            <nuxt-link :to="pageUrl('payment-methods')">
+              payment methods</nuxt-link
+            >.
           </p>
 
           <p>
@@ -127,7 +129,14 @@
 </template>
 
 <script>
-export default {}
+import getPageUrl from '~/lib/get-page-url'
+export default {
+  methods: {
+    pageUrl(query) {
+      return getPageUrl(query)
+    },
+  },
+}
 </script>
 
 <style>
