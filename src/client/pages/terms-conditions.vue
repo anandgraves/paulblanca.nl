@@ -327,7 +327,7 @@
         <li>
           13.1. 21 Bits will process the Consumer’s personal details in
           accordance with the privacy statement, which can be found at
-          <nuxt-link to="/privacy-statement">
+          <nuxt-link :to="pageUrl('privacy-statement')">
             https://paulblanca.nl/privacy-statement</nuxt-link
           >.
         </li>
@@ -383,5 +383,12 @@
 </template>
 
 <script>
-export default {}
+import getPageUrl from '~/lib/get-page-url'
+export default {
+  methods: {
+    pageUrl(query) {
+      return getPageUrl(query)
+    },
+  },
+}
 </script>
