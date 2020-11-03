@@ -1,10 +1,9 @@
 <template>
   <ul class="photo-list">
-    <li v-for="photo in photos" :key="photo.slug" class="photo-list__item">
+    <li v-for="photo in photos" :key="photo.id" class="photo-list__item">
       <nuxt-link :to="photoLink(photo)" class="photo-list__link">
         <responsive-image
           :image="photo.image"
-          sizes="(min-width: 600px) 1000px, (max-width: 400px): 500px, 100vw"
           class="photo-list__photo"
         ></responsive-image>
         <div v-if="hasTitle" class="photo-list__title">
@@ -72,7 +71,7 @@ export default {
 }
 
 .photo-list__link img {
-  transition: transform 0.6s ease;
+  transition: transform 0.8s ease;
 }
 
 .photo-list__link:hover img {

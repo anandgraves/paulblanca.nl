@@ -1,7 +1,6 @@
 <template>
   <article class="center-content rich-text">
     <h1 class="heading-large">Contact</h1>
-    <img :src="src" loading="lazy" alt="test alt tag for image" />
     <p class="body">
       You can contact us at
       <a href="mailto:info@paulblanca.nl">info@paulblanca.nl</a>.
@@ -37,18 +36,5 @@
 </template>
 
 <script>
-export default {
-  computed: {
-    src() {
-      return this.$cloudinary.image.url(
-        'paulblanca/par-la-pluie-des-femmes-1990-ellen-crying-1500w_enqlck',
-        {
-          width: 'auto',
-          crop: 'scale',
-          client_hints: 'true',
-        }
-      )
-    },
-  },
-}
+export default {}
 </script>

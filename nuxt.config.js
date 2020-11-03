@@ -8,6 +8,7 @@ export default {
   srcDir: 'src/client',
   env: {
     googleAnalyticsTrackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || '',
+    cloudinaryCloudName: process.env.CLOUDINARY_CLOUDNAME,
   },
   head: {
     titleTemplate: (titleChunk) => {

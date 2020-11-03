@@ -2,16 +2,17 @@
   <figure class="responsive-image">
     <fixed-ratio
       :style="{ backgroundColor: placeholderColor }"
-      :width="imageDimensions.width"
-      :height="imageDimensions.height"
+      :width="1000"
+      :height="1000"
     >
-      <transition v-if="width" name="fade">
-        <img
-          v-show="isLoaded"
-          :alt="image.alt"
-          :src="fallbackUrl"
+      <transition name="fade">
+        <cld-image
+          :cloud-name="cloudName"
+          :public-id="image.id"
+          loading="lazy"
+          responsive
+          alt="test alt tag for responsive image"
           class="responsive-image__img"
-          @load="onLoad"
         />
       </transition>
     </fixed-ratio>
@@ -19,19 +20,20 @@
 </template>
 
 <script>
+import { CldImage } from 'cloudinary-vue'
+
 export default {
   /**
    * This component is modified from https://github.com/voorhoede/vue-dato-image/blob/master/src/vue-dato-image.vue
    */
 
+  components: {
+    CldImage,
+  },
   props: {
     image: {
       type: Object,
       required: true,
-    },
-    sizes: {
-      type: String,
-      default: '',
     },
     /**
      * Color filling up the space when the image is loading.
@@ -41,42 +43,18 @@ export default {
       default: 'transparent',
     },
   },
-  data() {
-    return {
-      width: undefined,
-      isLoaded: false,
-      widthStep: 100,
-    }
-  },
   computed: {
+    cloudName() {
+      return process.env.cloudinaryCloudName
+    },
     alt() {
       return this.image.alt || 'Photo by artist and photographer Paul Blanca'
     },
-    fallbackUrl() {
-      return this.image.formats[1].widths[0].filename
-    },
-    imageDimensions() {
-      const imageType = this.image.formats.find((item) => item.type === 'webp')
-      return imageType.widths[0]
-    },
   },
-  mounted() {
-    const pixelRatio = window.devicePixelRatio || 1
-    const cssWidth = this.$el.getBoundingClientRect().width
-    const width =
-      Math.ceil((cssWidth * pixelRatio) / this.widthStep) * this.widthStep
-    this.width = Math.min(width, this.imageDimensions.width)
-  },
+
   methods: {
     onLoad() {
       this.isLoaded = true
-    },
-    srcSet(type) {
-      const imageType = this.image.formats.find((item) => item.type === type)
-      const imageWidths = imageType.widths.map(
-        (item) => `${item.filename} ${item.size}`
-      )
-      return imageWidths.join(',')
     },
   },
 }
