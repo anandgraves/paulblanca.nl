@@ -16,13 +16,17 @@ export default {
         : 'Paul Blanca | Artist | Photographer'
     },
     meta: [
-      { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
         content:
           'Paul Blanca‘s fine art photography is a voyage through the landscape of emotions.',
+      },
+      {
+        hid: 'client-hints',
+        'http-equiv': 'Accept-CH',
+        content: 'DPR, Viewport-Width, Width',
       },
       /**
        * https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/samples/dn455106(v=vs.85)?redirectedfrom=MSDN

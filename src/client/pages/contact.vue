@@ -45,6 +45,7 @@ export default {
         {
           width: 'auto',
           crop: 'scale',
+          client_hints: 'true',
         }
       )
     },
