@@ -1,17 +1,11 @@
 <template>
   <article class="photo-detail">
-    <nuxt-link
-      :to="`/shop/${getProductSeriesSlug}`"
-      class="photo-detail__back-link"
-    >
+    <nuxt-link :to="productSlug" class="photo-detail__back-link">
       <responsive-image :image="product.image" class="photo-detail__image" />
     </nuxt-link>
 
     <div class="photo-detail__content">
-      <nuxt-link
-        :to="`/shop/${getProductSeriesSlug}`"
-        class="photo-detail__link-back body"
-      >
+      <nuxt-link :to="productSlug" class="photo-detail__link-back body">
         <icon-base
           class="photo-detail__link-back-icon"
           width="24"
@@ -162,11 +156,17 @@
         <span class="euro-icon__text">Buy photo print by email</span>
       </a>
 
-      <nuxt-link to="/order-and-shipping" class="photo-detail__link-how-to-buy">
+      <nuxt-link
+        :to="pageUrl('order-shipping')"
+        class="photo-detail__link-how-to-buy"
+      >
         How do I buy a photo print?
       </nuxt-link>
 
-      <nuxt-link to="/payment-methods" class="photo-detail__link-payment-icons">
+      <nuxt-link
+        :to="pageUrl('payment-methods')"
+        class="photo-detail__link-payment-icons"
+      >
         <payment-icons class="photo-detail__payment-icons" />
       </nuxt-link>
 
@@ -178,7 +178,7 @@
         <p class="body">
           All photo prints can be purchased for the sizes 30x40 cm, 40x50 cm and
           100x120 cm.
-          <nuxt-link to="/print-finishing"
+          <nuxt-link :to="pageUrl('print-finishing')"
             >View all the print finishing options</nuxt-link
           >.
         </p>
@@ -188,7 +188,7 @@
         <h2 class="photo-detail__heading heading-medium">Certificate</h2>
         <p class="body">
           Each photo print includes a certificate of authenticity.
-          <nuxt-link to="/certificate">Read more</nuxt-link>
+          <nuxt-link :to="pageUrl('certificate')">Read more</nuxt-link>
           what the certificate contains and how authenticity is ensured.
         </p>
       </section>
@@ -198,6 +198,7 @@
 
 <script>
 import { mapGetters } from 'vuex'
+import getPageUrl from '../../../lib/get-page-url.js'
 
 export default {
   data() {
@@ -227,6 +228,9 @@ export default {
     },
     productTitle() {
       return `${this.product.titleDetail}, ${this.product.year}`
+    },
+    productSlug() {
+      return `/shop/${this.getProductSeriesSlug}/`
     },
     orderViaEmail() {
       const subject = encodeURIComponent(`Order ${this.productTitle}`)
@@ -273,6 +277,9 @@ Billing address
         currency: 'EUR',
       })
       return price.format(amount)
+    },
+    pageUrl(query) {
+      return getPageUrl(query)
     },
   },
 
