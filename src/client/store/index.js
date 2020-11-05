@@ -62,8 +62,10 @@ const state = () => ({
         },
       },
       image: {
-        alt: 'Alpha from the series “Wit en Bruin”, 1992, by Paul Blanca',
+        alt: 'Alpha from the series “Wit en Bruin” (1992) by Paul Blanca',
         id: 'wit-en-bruin/alpha-paul-blanca_ku0mll',
+        width: 1181,
+        height: 1484,
       },
     },
     {
@@ -98,8 +100,10 @@ const state = () => ({
         },
       },
       image: {
-        alt: 'Juliette from the series “Wit en Bruin”, 1992, by Paul Blanca',
+        alt: 'Juliette from the series “Wit en Bruin” (1992) by Paul Blanca',
         id: 'wit-en-bruin/juliette-paul-blanca_owdrmz',
+        width: 1378,
+        height: 1378,
       },
     },
     {
@@ -134,8 +138,10 @@ const state = () => ({
         },
       },
       image: {
-        alt: 'Madison from the series “Wit en Bruin”, 1992, by Paul Blanca',
+        alt: 'Madison from the series “Wit en Bruin” (1992) by Paul Blanca',
         id: 'wit-en-bruin/madison-paul-blanca_znof55',
+        width: 1181,
+        height: 1449,
       },
     },
     {
@@ -170,8 +176,10 @@ const state = () => ({
         },
       },
       image: {
-        alt: 'Maria from the series “Wit en Bruin”, 1992, by Paul Blanca',
+        alt: 'Maria from the series “Wit en Bruin” (1992) by Paul Blanca',
         id: 'wit-en-bruin/maria-paul-blanca_sh2tpe',
+        width: 1378,
+        height: 1378,
       },
     },
     {
@@ -206,8 +214,10 @@ const state = () => ({
         },
       },
       image: {
-        alt: 'Monica from the series “Wit en Bruin”, 1992, by Paul Blanca',
+        alt: 'Monica from the series “Wit en Bruin” (1992) by Paul Blanca',
         id: 'wit-en-bruin/monica-paul-blanca_umn4zq',
+        width: 1378,
+        height: 1378,
       },
     },
     {
@@ -244,8 +254,10 @@ const state = () => ({
       },
       image: {
         alt:
-          'Nora Kimball Crying from the series “Par La Pluie Des Femmes”, 1990, by Paul Blanca',
+          'Nora Kimball Crying from the series “Par La Pluie Des Femmes” (1990) by Paul Blanca',
         id: 'par-la-pluie-des-femmes/nora-kimball-crying-paul-blanca_aui9cz',
+        width: 1181,
+        height: 1532,
       },
     },
     {
@@ -281,8 +293,10 @@ const state = () => ({
       },
       image: {
         alt:
-          'Eva Crying from the series “Par La Pluie Des Femmes”, 1990, by Paul Blanca',
+          'Eva Crying from the series “Par La Pluie Des Femmes” (1990) by Paul Blanca',
         id: 'par-la-pluie-des-femmes/eva-crying-paul-blanca_k8v1b2',
+        width: 1378,
+        height: 1378,
       },
     },
     {
@@ -318,8 +332,10 @@ const state = () => ({
       },
       image: {
         alt:
-          'Julienne Crying from the series “Par La Pluie Des Femmes”, 1990, by Paul Blanca',
+          'Julienne Crying from the series “Par La Pluie Des Femmes” (1990) by Paul Blanca',
         id: 'par-la-pluie-des-femmes/julienne-crying-paul-blanca_zoavd0',
+        width: 1378,
+        height: 1378,
       },
     },
     {
@@ -355,8 +371,10 @@ const state = () => ({
       },
       image: {
         alt:
-          'Natalie Crying from the series “Par La Pluie Des Femmes”, 1990, by Paul Blanca',
+          'Natalie Crying from the series “Par La Pluie Des Femmes” (1990) by Paul Blanca',
         id: 'par-la-pluie-des-femmes/natalie1-crying-paul-blanca_d9okaf',
+        width: 1378,
+        height: 1378,
       },
     },
     {
@@ -392,8 +410,10 @@ const state = () => ({
       },
       image: {
         alt:
-          'Natalie Crying from the series “Par La Pluie Des Femmes”, 1990, by Paul Blanca',
+          'Natalie Crying from the series “Par La Pluie Des Femmes” (1990) by Paul Blanca',
         id: 'par-la-pluie-des-femmes/natalie2-crying-paul-blanca_kuljji',
+        width: 1378,
+        height: 1378,
       },
     },
     {
@@ -429,8 +449,10 @@ const state = () => ({
       },
       image: {
         alt:
-          'Natalie Crying from the series “Par La Pluie Des Femmes”, 1990, by Paul Blanca',
+          'Natalie Crying from the series “Par La Pluie Des Femmes” (1990) by Paul Blanca',
         id: 'par-la-pluie-des-femmes/natalie3-crying-paul-blanca_yq9xzz',
+        width: 1378,
+        height: 1378,
       },
     },
     {
@@ -466,8 +488,10 @@ const state = () => ({
       },
       image: {
         alt:
-          'Ellen Crying from the series “Par La Pluie Des Femmes”, 1990, by Paul Blanca',
+          'Ellen Crying from the series “Par La Pluie Des Femmes” (1990) by Paul Blanca',
         id: 'par-la-pluie-des-femmes/ellen-crying-paul-blanca_lfafze',
+        width: 1378,
+        height: 1378,
       },
     },
     {
@@ -503,8 +527,10 @@ const state = () => ({
       },
       image: {
         alt:
-          'Wilma Crying from the series “Par La Pluie Des Femmes”, 1990, by Paul Blanca',
+          'Wilma Crying from the series “Par La Pluie Des Femmes” (1990) by Paul Blanca',
         id: 'par-la-pluie-des-femmes/wilma-crying-paul-blanca_x4twvm',
+        width: 1378,
+        height: 1378,
       },
     },
   ],
@@ -516,7 +542,7 @@ const getters = {
   seriesList: (state) =>
     state.shopProductList.filter(
       (product) =>
-        product.id === 'e1cb77f1-ccc3-4938-97ca-4c65ac00455c' || // Nora Kimball Crying from Par La Pluie Des Femmes
+        product.id === 'd3fc901b-67a5-439c-a7c4-495a5d1b282c' || // Nora Kimball Crying from Par La Pluie Des Femmes
         product.id === 'd720956c-f08a-454b-b9e3-139d1030a48f' // Juliette from Wit en Bruin
     ),
 }

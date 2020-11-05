@@ -2,8 +2,8 @@
   <figure class="responsive-image">
     <fixed-ratio
       :style="{ backgroundColor: placeholderColor }"
-      :width="1"
-      :height="1"
+      :width="image.width"
+      :height="image.height"
     >
       <transition name="fade">
         <cld-image
