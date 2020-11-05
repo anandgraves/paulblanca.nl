@@ -71,7 +71,7 @@ export default {
 }
 
 .photo-list__link img {
-  transition: transform 0.8s ease;
+  transition: transform 0.8s ease-in-out;
 }
 
 .photo-list__link:hover img {
