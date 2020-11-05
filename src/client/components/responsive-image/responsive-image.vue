@@ -8,7 +8,7 @@
       <transition name="fade">
         <cld-image
           :cloud-name="cloudName"
-          public-id="1"
+          :public-id="image.id"
           loading="lazy"
           responsive
           :alt="image.alt"
@@ -62,11 +62,14 @@ export default {
 .responsive-image__img img {
   display: block;
   position: relative;
-  height: 100%;
-  font-family: 'Helvetica';
-  font-weight: 300;
+  height: auto;
+  font-weight: 500;
   line-height: 2;
   text-align: center;
+}
+
+.responsive-image__img img:not([src]) {
+  height: 100%;
 }
 
 .responsive-image__img img:before {
