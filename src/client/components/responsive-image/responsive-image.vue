@@ -2,42 +2,37 @@
   <figure class="responsive-image">
     <fixed-ratio
       :style="{ backgroundColor: placeholderColor }"
-      :width="imageDimensions.width"
-      :height="imageDimensions.height"
+      :width="image.width"
+      :height="image.height"
     >
-      <picture v-if="width">
-        <!--[if IE 9]><video style="display: none;"><![endif]-->
-        <source :srcset="srcSet('webp')" :sizes="sizes" type="image/webp" />
-        <source :srcset="srcSet('jpg')" :sizes="sizes" type="image/jpeg" />
-        <!--[if IE 9]></video><![endif]-->
-        <transition name="fade">
-          <img
-            v-show="isLoaded"
-            :alt="image.alt"
-            :src="fallbackUrl"
-            class="responsive-image__img"
-            @load="onLoad"
-          />
-        </transition>
-      </picture>
+      <transition name="fade">
+        <cld-image
+          :cloud-name="cloudName"
+          :public-id="image.id"
+          loading="lazy"
+          responsive
+          :alt="image.alt"
+          class="responsive-image__img"
+        />
+      </transition>
     </fixed-ratio>
   </figure>
 </template>
 
 <script>
-export default {
-  /**
-   * This component is modified from https://github.com/voorhoede/vue-dato-image/blob/master/src/vue-dato-image.vue
-   */
+/**
+ * This component is modified from https://github.com/voorhoede/vue-dato-image/blob/master/src/vue-dato-image.vue
+ */
+import { CldImage } from 'cloudinary-vue'
 
+export default {
+  components: {
+    CldImage,
+  },
   props: {
     image: {
       type: Object,
       required: true,
-    },
-    sizes: {
-      type: String,
-      default: '',
     },
     /**
      * Color filling up the space when the image is loading.
@@ -47,42 +42,12 @@ export default {
       default: 'transparent',
     },
   },
-  data() {
-    return {
-      width: undefined,
-      isLoaded: false,
-      widthStep: 100,
-    }
-  },
   computed: {
+    cloudName() {
+      return process.env.cloudinaryCloudName
+    },
     alt() {
       return this.image.alt || 'Photo by artist and photographer Paul Blanca'
-    },
-    fallbackUrl() {
-      return this.image.formats[1].widths[0].filename
-    },
-    imageDimensions() {
-      const imageType = this.image.formats.find((item) => item.type === 'webp')
-      return imageType.widths[0]
-    },
-  },
-  mounted() {
-    const pixelRatio = window.devicePixelRatio || 1
-    const cssWidth = this.$el.getBoundingClientRect().width
-    const width =
-      Math.ceil((cssWidth * pixelRatio) / this.widthStep) * this.widthStep
-    this.width = Math.min(width, this.imageDimensions.width)
-  },
-  methods: {
-    onLoad() {
-      this.isLoaded = true
-    },
-    srcSet(type) {
-      const imageType = this.image.formats.find((item) => item.type === type)
-      const imageWidths = imageType.widths.map(
-        (item) => `${item.filename} ${item.size}`
-      )
-      return imageWidths.join(',')
     },
   },
 }
@@ -91,5 +56,42 @@ export default {
 <style>
 .responsive-image__img {
   width: 100%;
+  height: 100%;
+}
+
+.responsive-image__img img {
+  display: block;
+  position: relative;
+  height: auto;
+  font-weight: 500;
+  line-height: 2;
+  text-align: center;
+}
+
+.responsive-image__img img:not([src]) {
+  height: 100%;
+}
+
+.responsive-image__img img:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  display: block;
+}
+
+.responsive-image__img img:after {
+  content: attr(alt);
+  position: absolute;
+  z-index: 1;
+  display: block;
+  width: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 1.2rem;
 }
 </style>

@@ -62,61 +62,10 @@ const state = () => ({
         },
       },
       image: {
-        alt: 'Alpha from the series “Wit en Bruin”, 1992, by Paul Blanca',
-        formats: [
-          {
-            type: 'webp',
-            widths: [
-              {
-                width: 1181,
-                height: 1484,
-                size: '1500w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-alpha-1500w.webp',
-              },
-              {
-                width: 1000,
-                height: 1257,
-                size: '1000w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-alpha-1000w.webp',
-              },
-              {
-                width: 500,
-                height: 628,
-                size: '500w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-alpha-500w.webp',
-              },
-            ],
-          },
-          {
-            type: 'jpg',
-            widths: [
-              {
-                width: 1181,
-                height: 1484,
-                size: '1500w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-alpha-1500w.jpg',
-              },
-              {
-                width: 1000,
-                height: 1257,
-                size: '1000w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-alpha-1000w.jpg',
-              },
-              {
-                width: 500,
-                height: 628,
-                size: '500w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-alpha-500w.jpg',
-              },
-            ],
-          },
-        ],
+        alt: 'Alpha from the series “Wit en Bruin” (1992) by Paul Blanca',
+        id: 'wit-en-bruin/alpha-paul-blanca_ku0mll',
+        width: 1181,
+        height: 1484,
       },
     },
     {
@@ -151,61 +100,10 @@ const state = () => ({
         },
       },
       image: {
-        alt: 'Juliette from the series “Wit en Bruin”, 1992, by Paul Blanca',
-        formats: [
-          {
-            type: 'webp',
-            widths: [
-              {
-                width: 1378,
-                height: 1378,
-                size: '1500w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-juliette-1500w.webp',
-              },
-              {
-                width: 1000,
-                height: 1000,
-                size: '1000w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-juliette-1000w.webp',
-              },
-              {
-                width: 500,
-                height: 500,
-                size: '500w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-juliette-500w.webp',
-              },
-            ],
-          },
-          {
-            type: 'jpg',
-            widths: [
-              {
-                width: 1378,
-                height: 1378,
-                size: '1500w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-juliette-1500w.jpg',
-              },
-              {
-                width: 1000,
-                height: 1000,
-                size: '1000w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-juliette-1000w.jpg',
-              },
-              {
-                width: 500,
-                height: 500,
-                size: '500w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-juliette-500w.jpg',
-              },
-            ],
-          },
-        ],
+        alt: 'Juliette from the series “Wit en Bruin” (1992) by Paul Blanca',
+        id: 'wit-en-bruin/juliette-paul-blanca_owdrmz',
+        width: 1378,
+        height: 1378,
       },
     },
     {
@@ -240,61 +138,10 @@ const state = () => ({
         },
       },
       image: {
-        alt: 'Madison from the series “Wit en Bruin”, 1992, by Paul Blanca',
-        formats: [
-          {
-            type: 'webp',
-            widths: [
-              {
-                width: 1181,
-                height: 1449,
-                size: '1500w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-madison-1500w.webp',
-              },
-              {
-                width: 1000,
-                height: 1227,
-                size: '1000w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-madison-1000w.webp',
-              },
-              {
-                width: 500,
-                height: 500,
-                size: '500w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-madison-500w.webp',
-              },
-            ],
-          },
-          {
-            type: 'jpg',
-            widths: [
-              {
-                width: 1181,
-                height: 1449,
-                size: '1500w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-madison-1500w.jpg',
-              },
-              {
-                width: 1000,
-                height: 1227,
-                size: '1000w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-madison-1000w.jpg',
-              },
-              {
-                width: 500,
-                height: 613,
-                size: '500w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-madison-500w.jpg',
-              },
-            ],
-          },
-        ],
+        alt: 'Madison from the series “Wit en Bruin” (1992) by Paul Blanca',
+        id: 'wit-en-bruin/madison-paul-blanca_znof55',
+        width: 1181,
+        height: 1449,
       },
     },
     {
@@ -329,61 +176,10 @@ const state = () => ({
         },
       },
       image: {
-        alt: 'Maria from the series “Wit en Bruin”, 1992, by Paul Blanca',
-        formats: [
-          {
-            type: 'webp',
-            widths: [
-              {
-                width: 1378,
-                height: 1378,
-                size: '1500w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-maria-1500w.webp',
-              },
-              {
-                width: 1000,
-                height: 1000,
-                size: '1000w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-maria-1000w.webp',
-              },
-              {
-                width: 500,
-                height: 500,
-                size: '500w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-maria-500w.webp',
-              },
-            ],
-          },
-          {
-            type: 'jpg',
-            widths: [
-              {
-                width: 1378,
-                height: 1378,
-                size: '1500w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-maria-1500w.jpg',
-              },
-              {
-                width: 1000,
-                height: 1000,
-                size: '1000w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-maria-1000w.jpg',
-              },
-              {
-                width: 500,
-                height: 500,
-                size: '500w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-maria-500w.jpg',
-              },
-            ],
-          },
-        ],
+        alt: 'Maria from the series “Wit en Bruin” (1992) by Paul Blanca',
+        id: 'wit-en-bruin/maria-paul-blanca_sh2tpe',
+        width: 1378,
+        height: 1378,
       },
     },
     {
@@ -418,66 +214,15 @@ const state = () => ({
         },
       },
       image: {
-        alt: 'Monica from the series “Wit en Bruin”, 1992, by Paul Blanca',
-        formats: [
-          {
-            type: 'webp',
-            widths: [
-              {
-                width: 1378,
-                height: 1378,
-                size: '1500w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-monica-1500w.webp',
-              },
-              {
-                width: 1000,
-                height: 1000,
-                size: '1000w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-monica-1000w.webp',
-              },
-              {
-                width: 500,
-                height: 500,
-                size: '500w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-monica-500w.webp',
-              },
-            ],
-          },
-          {
-            type: 'jpg',
-            widths: [
-              {
-                width: 1378,
-                height: 1378,
-                size: '1500w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-monica-1500w.jpg',
-              },
-              {
-                width: 1000,
-                height: 1000,
-                size: '1000w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-monica-1000w.jpg',
-              },
-              {
-                width: 500,
-                height: 500,
-                size: '500w',
-                filename:
-                  '/images/wit-en-bruin/wit-en-bruin-1992-monica-500w.jpg',
-              },
-            ],
-          },
-        ],
+        alt: 'Monica from the series “Wit en Bruin” (1992) by Paul Blanca',
+        id: 'wit-en-bruin/monica-paul-blanca_umn4zq',
+        width: 1378,
+        height: 1378,
       },
     },
     {
       slug: 'nora-kimball-crying',
-      id: 'e1cb77f1-ccc3-4938-97ca-4c65ac00455c',
+      id: 'd3fc901b-67a5-439c-a7c4-495a5d1b282c',
       series: 'Par La Pluie Des Femmes',
       seriesSlug: 'par-la-pluie-des-femmes',
       year: 1990,
@@ -509,61 +254,10 @@ const state = () => ({
       },
       image: {
         alt:
-          'Nora Kimball Crying from the series “Par La Pluie Des Femmes”, 1990, by Paul Blanca',
-        formats: [
-          {
-            type: 'webp',
-            widths: [
-              {
-                width: 1181,
-                height: 1532,
-                size: '1500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-nora-kimball-crying-1500w.webp',
-              },
-              {
-                width: 1000,
-                height: 1297,
-                size: '1000w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-nora-kimball-crying-1000w.webp',
-              },
-              {
-                width: 500,
-                height: 649,
-                size: '500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-nora-kimball-crying-500w.webp',
-              },
-            ],
-          },
-          {
-            type: 'jpg',
-            widths: [
-              {
-                width: 1181,
-                height: 1532,
-                size: '1500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-nora-kimball-crying-1500w.jpg',
-              },
-              {
-                width: 1000,
-                height: 1297,
-                size: '1000w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-nora-kimball-crying-1000w.jpg',
-              },
-              {
-                width: 500,
-                height: 649,
-                size: '500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-nora-kimball-crying-500w.jpg',
-              },
-            ],
-          },
-        ],
+          'Nora Kimball Crying from the series “Par La Pluie Des Femmes” (1990) by Paul Blanca',
+        id: 'par-la-pluie-des-femmes/nora-kimball-crying-paul-blanca_aui9cz',
+        width: 1181,
+        height: 1532,
       },
     },
     {
@@ -599,61 +293,10 @@ const state = () => ({
       },
       image: {
         alt:
-          'Eva Crying from the series “Par La Pluie Des Femmes”, 1990, by Paul Blanca',
-        formats: [
-          {
-            type: 'webp',
-            widths: [
-              {
-                width: 1378,
-                height: 1378,
-                size: '1500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-eva-crying-1500w.webp',
-              },
-              {
-                width: 1000,
-                height: 1000,
-                size: '1000w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-eva-crying-1000w.webp',
-              },
-              {
-                width: 500,
-                height: 500,
-                size: '500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-eva-crying-500w.webp',
-              },
-            ],
-          },
-          {
-            type: 'jpg',
-            widths: [
-              {
-                width: 1378,
-                height: 1378,
-                size: '1500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-eva-crying-1500w.jpg',
-              },
-              {
-                width: 1000,
-                height: 1000,
-                size: '1000w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-eva-crying-1000w.jpg',
-              },
-              {
-                width: 500,
-                height: 500,
-                size: '500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-eva-crying-500w.jpg',
-              },
-            ],
-          },
-        ],
+          'Eva Crying from the series “Par La Pluie Des Femmes” (1990) by Paul Blanca',
+        id: 'par-la-pluie-des-femmes/eva-crying-paul-blanca_k8v1b2',
+        width: 1378,
+        height: 1378,
       },
     },
     {
@@ -689,61 +332,10 @@ const state = () => ({
       },
       image: {
         alt:
-          'Julienne Crying from the series “Par La Pluie Des Femmes”, 1990, by Paul Blanca',
-        formats: [
-          {
-            type: 'webp',
-            widths: [
-              {
-                width: 1378,
-                height: 1378,
-                size: '1500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-julienne-crying-1500w.webp',
-              },
-              {
-                width: 1000,
-                height: 1000,
-                size: '1000w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-julienne-crying-1000w.webp',
-              },
-              {
-                width: 500,
-                height: 500,
-                size: '500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-julienne-crying-500w.webp',
-              },
-            ],
-          },
-          {
-            type: 'jpg',
-            widths: [
-              {
-                width: 1378,
-                height: 1378,
-                size: '1500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-julienne-crying-1500w.jpg',
-              },
-              {
-                width: 1000,
-                height: 1000,
-                size: '1000w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-julienne-crying-1000w.jpg',
-              },
-              {
-                width: 500,
-                height: 500,
-                size: '500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-julienne-crying-500w.jpg',
-              },
-            ],
-          },
-        ],
+          'Julienne Crying from the series “Par La Pluie Des Femmes” (1990) by Paul Blanca',
+        id: 'par-la-pluie-des-femmes/julienne-crying-paul-blanca_zoavd0',
+        width: 1378,
+        height: 1378,
       },
     },
     {
@@ -779,61 +371,10 @@ const state = () => ({
       },
       image: {
         alt:
-          'Natalie Crying from the series “Par La Pluie Des Femmes”, 1990, by Paul Blanca',
-        formats: [
-          {
-            type: 'webp',
-            widths: [
-              {
-                width: 1378,
-                height: 1378,
-                size: '1500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-natalie1-crying-1500w.webp',
-              },
-              {
-                width: 1000,
-                height: 1000,
-                size: '1000w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-natalie1-crying-1000w.webp',
-              },
-              {
-                width: 500,
-                height: 500,
-                size: '500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-natalie1-crying-500w.webp',
-              },
-            ],
-          },
-          {
-            type: 'jpg',
-            widths: [
-              {
-                width: 1378,
-                height: 1378,
-                size: '1500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-natalie1-crying-1500w.jpg',
-              },
-              {
-                width: 1000,
-                height: 1000,
-                size: '1000w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-natalie1-crying-1000w.jpg',
-              },
-              {
-                width: 500,
-                height: 500,
-                size: '500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-natalie1-crying-500w.jpg',
-              },
-            ],
-          },
-        ],
+          'Natalie Crying from the series “Par La Pluie Des Femmes” (1990) by Paul Blanca',
+        id: 'par-la-pluie-des-femmes/natalie1-crying-paul-blanca_d9okaf',
+        width: 1378,
+        height: 1378,
       },
     },
     {
@@ -869,61 +410,10 @@ const state = () => ({
       },
       image: {
         alt:
-          'Natalie Crying from the series “Par La Pluie Des Femmes”, 1990, by Paul Blanca',
-        formats: [
-          {
-            type: 'webp',
-            widths: [
-              {
-                width: 1378,
-                height: 1378,
-                size: '1500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-natalie2-crying-1500w.webp',
-              },
-              {
-                width: 1000,
-                height: 1000,
-                size: '1000w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-natalie2-crying-1000w.webp',
-              },
-              {
-                width: 500,
-                height: 500,
-                size: '500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-natalie2-crying-500w.webp',
-              },
-            ],
-          },
-          {
-            type: 'jpg',
-            widths: [
-              {
-                width: 1378,
-                height: 1378,
-                size: '1500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-natalie2-crying-1500w.jpg',
-              },
-              {
-                width: 1000,
-                height: 1000,
-                size: '1000w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-natalie2-crying-1000w.jpg',
-              },
-              {
-                width: 500,
-                height: 500,
-                size: '500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-natalie2-crying-500w.jpg',
-              },
-            ],
-          },
-        ],
+          'Natalie Crying from the series “Par La Pluie Des Femmes” (1990) by Paul Blanca',
+        id: 'par-la-pluie-des-femmes/natalie2-crying-paul-blanca_kuljji',
+        width: 1378,
+        height: 1378,
       },
     },
     {
@@ -959,61 +449,10 @@ const state = () => ({
       },
       image: {
         alt:
-          'Natalie Crying from the series “Par La Pluie Des Femmes”, 1990, by Paul Blanca',
-        formats: [
-          {
-            type: 'webp',
-            widths: [
-              {
-                width: 1378,
-                height: 1378,
-                size: '1500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-natalie3-crying-1500w.webp',
-              },
-              {
-                width: 1000,
-                height: 1000,
-                size: '1000w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-natalie3-crying-1000w.webp',
-              },
-              {
-                width: 500,
-                height: 500,
-                size: '500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-natalie3-crying-500w.webp',
-              },
-            ],
-          },
-          {
-            type: 'jpg',
-            widths: [
-              {
-                width: 1378,
-                height: 1378,
-                size: '1500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-natalie3-crying-1500w.jpg',
-              },
-              {
-                width: 1000,
-                height: 1000,
-                size: '1000w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-natalie3-crying-1000w.jpg',
-              },
-              {
-                width: 500,
-                height: 500,
-                size: '500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-natalie3-crying-500w.jpg',
-              },
-            ],
-          },
-        ],
+          'Natalie Crying from the series “Par La Pluie Des Femmes” (1990) by Paul Blanca',
+        id: 'par-la-pluie-des-femmes/natalie3-crying-paul-blanca_yq9xzz',
+        width: 1378,
+        height: 1378,
       },
     },
     {
@@ -1049,61 +488,10 @@ const state = () => ({
       },
       image: {
         alt:
-          'Ellen Crying from the series “Par La Pluie Des Femmes”, 1990, by Paul Blanca',
-        formats: [
-          {
-            type: 'webp',
-            widths: [
-              {
-                width: 1378,
-                height: 1378,
-                size: '1500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-ellen-crying-1500w.webp',
-              },
-              {
-                width: 1000,
-                height: 1000,
-                size: '1000w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-ellen-crying-1000w.webp',
-              },
-              {
-                width: 500,
-                height: 500,
-                size: '500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-ellen-crying-500w.webp',
-              },
-            ],
-          },
-          {
-            type: 'jpg',
-            widths: [
-              {
-                width: 1378,
-                height: 1378,
-                size: '1500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-ellen-crying-1500w.jpg',
-              },
-              {
-                width: 1000,
-                height: 1000,
-                size: '1000w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-ellen-crying-1000w.jpg',
-              },
-              {
-                width: 500,
-                height: 500,
-                size: '500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-ellen-crying-500w.jpg',
-              },
-            ],
-          },
-        ],
+          'Ellen Crying from the series “Par La Pluie Des Femmes” (1990) by Paul Blanca',
+        id: 'par-la-pluie-des-femmes/ellen-crying-paul-blanca_lfafze',
+        width: 1378,
+        height: 1378,
       },
     },
     {
@@ -1139,61 +527,10 @@ const state = () => ({
       },
       image: {
         alt:
-          'Wilma Crying from the series “Par La Pluie Des Femmes”, 1990, by Paul Blanca',
-        formats: [
-          {
-            type: 'webp',
-            widths: [
-              {
-                width: 1378,
-                height: 1378,
-                size: '1500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-wilma-crying-1500w.webp',
-              },
-              {
-                width: 1000,
-                height: 1000,
-                size: '1000w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-wilma-crying-1000w.webp',
-              },
-              {
-                width: 500,
-                height: 500,
-                size: '500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-wilma-crying-500w.webp',
-              },
-            ],
-          },
-          {
-            type: 'jpg',
-            widths: [
-              {
-                width: 1378,
-                height: 1378,
-                size: '1500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-wilma-crying-1500w.jpg',
-              },
-              {
-                width: 1000,
-                height: 1000,
-                size: '1000w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-wilma-crying-1000w.jpg',
-              },
-              {
-                width: 500,
-                height: 500,
-                size: '500w',
-                filename:
-                  '/images/par-la-pluie-des-femmes/par-la-pluie-des-femmes-1990-wilma-crying-500w.jpg',
-              },
-            ],
-          },
-        ],
+          'Wilma Crying from the series “Par La Pluie Des Femmes” (1990) by Paul Blanca',
+        id: 'par-la-pluie-des-femmes/wilma-crying-paul-blanca_x4twvm',
+        width: 1378,
+        height: 1378,
       },
     },
   ],
@@ -1205,7 +542,7 @@ const getters = {
   seriesList: (state) =>
     state.shopProductList.filter(
       (product) =>
-        product.id === 'e1cb77f1-ccc3-4938-97ca-4c65ac00455c' || // Nora Kimball Crying from Par La Pluie Des Femmes
+        product.id === 'd3fc901b-67a5-439c-a7c4-495a5d1b282c' || // Nora Kimball Crying from Par La Pluie Des Femmes
         product.id === 'd720956c-f08a-454b-b9e3-139d1030a48f' // Juliette from Wit en Bruin
     ),
 }

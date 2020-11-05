@@ -440,6 +440,11 @@ Billing address
   margin-bottom: 24px;
 }
 
+.photo-detail__image img {
+  transform: scale(1.1);
+  animation: slightmovement 40s ease-in-out infinite;
+}
+
 .photo-detail__heading {
   margin-bottom: 24px;
 }
@@ -480,6 +485,16 @@ Billing address
 
   .photo-detail__content {
     width: 40%;
+  }
+}
+
+@keyframes slightmovement {
+  0%,
+  100% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
   }
 }
 </style>

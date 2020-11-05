@@ -8,6 +8,7 @@ export default {
   srcDir: 'src/client',
   env: {
     googleAnalyticsTrackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || '',
+    cloudinaryCloudName: process.env.CLOUDINARY_CLOUDNAME,
   },
   head: {
     titleTemplate: (titleChunk) => {
@@ -16,13 +17,17 @@ export default {
         : 'Paul Blanca | Artist | Photographer'
     },
     meta: [
-      { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
         content:
           'Paul Blanca‘s fine art photography is a voyage through the landscape of emotions.',
+      },
+      {
+        hid: 'client-hints',
+        'http-equiv': 'Accept-CH',
+        content: 'DPR, Viewport-Width, Width',
       },
       /**
        * https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/samples/dn455106(v=vs.85)?redirectedfrom=MSDN
@@ -142,10 +147,11 @@ export default {
     },
   },
 
-  /*
-   ** Nuxt.js modules
-   */
-  modules: ['@nuxtjs/pwa', '@nuxtjs/sitemap'],
+  cloudinary: {
+    cloudName: process.env.CLOUDINARY_CLOUDNAME,
+  },
+
+  modules: ['@nuxtjs/pwa', '@nuxtjs/sitemap', '@nuxtjs/cloudinary'],
 
   /**
    * https://github.com/nuxt-community/sitemap-module
