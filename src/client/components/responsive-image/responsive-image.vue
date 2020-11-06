@@ -11,6 +11,8 @@
           :public-id="image.id"
           loading="lazy"
           responsive
+          fetch-format="auto"
+          quality="auto"
           :alt="image.alt"
           class="responsive-image__img"
         />
