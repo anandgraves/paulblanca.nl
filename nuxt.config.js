@@ -44,6 +44,14 @@ export default {
 
     link: [
       {
+        rel: 'preconnect',
+        href: 'https://res.cloudinary.com/',
+      },
+      {
+        rel: 'dns-prefetch',
+        href: 'https://res.cloudinary.com/',
+      },
+      {
         rel: 'shortcut icon',
         href: `/favicons/favicon.ico?v=${urlHash}`,
       },
