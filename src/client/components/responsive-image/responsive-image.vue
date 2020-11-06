@@ -9,13 +9,17 @@
         <cld-image
           :cloud-name="cloudName"
           :public-id="image.id"
-          loading="lazy"
-          responsive
-          fetch-format="auto"
-          quality="auto"
           :alt="image.alt"
+          secure="true"
+          responsive
           class="responsive-image__img"
-        />
+        >
+          <cld-transformation
+            loading="lazy"
+            fetch-format="auto"
+            quality="auto"
+          />
+        </cld-image>
       </transition>
     </fixed-ratio>
   </figure>
@@ -25,11 +29,12 @@
 /**
  * This component is modified from https://github.com/voorhoede/vue-dato-image/blob/master/src/vue-dato-image.vue
  */
-import { CldImage } from 'cloudinary-vue'
+import { CldImage, CldTransformation } from 'cloudinary-vue'
 
 export default {
   components: {
     CldImage,
+    CldTransformation,
   },
   props: {
     image: {
