@@ -3,7 +3,11 @@
     <div class="app-header__brand">
       <nuxt-link to="/" class="app-header__link">
         <div>
-          <img class="app-header__logo" src="/images/logo-black.svg" alt="" />
+          <img
+            class="app-header__logo"
+            alt="Fine Art Photography of Paul Blanca | Artist | Photographer"
+            src="/images/logo-black.svg"
+          />
         </div>
 
         <span class="app-header__subtitle"> artist - photographer </span>
