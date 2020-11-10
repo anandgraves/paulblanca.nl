@@ -158,7 +158,7 @@ export default {
    * https://github.com/nuxt-community/sitemap-module
    */
   sitemap: {
-    hostname: `${process.env.baseUrl}`,
+    hostname: `${process.env.BASE_URL}`,
     gzip: true,
     routes: state.map(
       (product) => `/shop/${product.seriesSlug}/${product.slug}/`
