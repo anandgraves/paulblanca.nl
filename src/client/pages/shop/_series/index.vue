@@ -8,6 +8,7 @@
 
 <script>
 import { mapGetters } from 'vuex'
+import setCanonicalForSeo from '../../../lib/set-canonical-for-seo.js'
 
 export default {
   computed: {
@@ -41,6 +42,7 @@ export default {
           content: seriesHead[0].head.description,
         },
       ],
+      ...setCanonicalForSeo(this.$route),
     }
   },
 }

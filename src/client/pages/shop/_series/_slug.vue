@@ -198,6 +198,7 @@
 
 <script>
 import { mapGetters } from 'vuex'
+import setCanonicalForSeo from '../../../lib/set-canonical-for-seo.js'
 import getPageUrl from '../../../lib/get-page-url.js'
 
 export default {
@@ -293,6 +294,7 @@ Billing address
           content: this.product.image.alt,
         },
       ],
+      ...setCanonicalForSeo(this.$route),
     }
   },
 }

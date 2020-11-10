@@ -6,6 +6,7 @@
 
 <script>
 import { mapGetters } from 'vuex'
+import setCanonicalForSeo from '../lib/set-canonical-for-seo.js'
 
 export default {
   computed: {
@@ -21,6 +22,7 @@ export default {
           content: 'Known for using basic human emotions in his artworks.',
         },
       ],
+      ...setCanonicalForSeo(this.$route),
     }
   },
 }

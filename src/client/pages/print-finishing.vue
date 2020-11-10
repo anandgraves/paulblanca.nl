@@ -186,6 +186,8 @@
 </template>
 
 <script>
+import setCanonicalForSeo from '../lib/set-canonical-for-seo.js'
+
 export default {
   head() {
     return {
@@ -198,6 +200,7 @@ export default {
             'Comprehensive info for the print finishing options of all the artworks from artist and photographer Paul Blanca.',
         },
       ],
+      ...setCanonicalForSeo(this.$route),
     }
   },
 }

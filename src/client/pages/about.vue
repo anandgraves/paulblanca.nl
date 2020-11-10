@@ -59,96 +59,12 @@
         her to bed for 4 years because she couldn‘t walk.
       </p>
     </section>
-
-    <section class="body rich-text">
-      <h2 class="heading-medium">Curriculum Vitae</h2>
-
-      <table class="body">
-        <tr>
-          <th class="table-data__head table-data__cell" rowspan="2">
-            2021/2022
-          </th>
-          <td class="table-data__cell">
-            Overzichtstentoonstelling in Fotomuseum Den Haag
-          </td>
-        </tr>
-        <tr>
-          <td class="table-data__cell">
-            Dribtal, Dreutel en Reis tentoonstelling
-          </td>
-        </tr>
-        <tr>
-          <th class="table-data__cell">2019</th>
-          <td class="table-data__cell">Fotofestival Naarden</td>
-        </tr>
-        <tr>
-          <th class="table-data__cell" rowspan="4">2018</th>
-          <td class="table-data__cell">
-            Serie zelfportretten Gallerie De IJssalon, Den Helder
-          </td>
-        </tr>
-        <tr>
-          <td class="table-data__cell">
-            Tentoonstelling gallerie Grabriel Rolt
-          </td>
-        </tr>
-        <tr>
-          <td class="table-data__cell">
-            Interview in Parool voor tentoonstelling bij gallerie Gabriel Rolt
-          </td>
-        </tr>
-        <tr>
-          <td class="table-data__cell">
-            Expositie van mijn werk tijdens tentoonstelling Erwin Olaf Den Haag
-          </td>
-        </tr>
-        <tr>
-          <th class="table-data__cell">2014</th>
-          <td class="table-data__cell">
-            <a
-              href="https://www.npostart.nl/fotostudio-de-jong-6/15-02-2014/VPWON_1209690"
-              >Interview in het programma "Fotostudio De Jong" op NPO</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <th class="table-data__cell">2011</th>
-          <td class="table-data__cell">
-            Rechtbankportretten. Museum de Fundatie, Zwolle
-          </td>
-        </tr>
-        <tr>
-          <th class="table-data__cell" rowspan="2">2010</th>
-          <td class="table-data__cell">
-            <a href="https://www.youtube.com/watch?v=Dcevb3BOXQI"
-              >Interview door De Jakhalzen</a
-            >
-            (De Wereld Draait Door)
-          </td>
-        </tr>
-        <tr>
-          <td class="table-data__cell">
-            Cooperation with Joost Zwagerman, Museum Meermanno, Den Haag
-          </td>
-        </tr>
-        <tr>
-          <th class="table-data__cell" rowspan="2">2009</th>
-          <td class="table-data__cell">
-            Presentatie Borstkankerproject. Twee panelen van 2 x 2 meter in
-            openbare ruimte. Museumplein, Amsterdam
-          </td>
-        </tr>
-        <tr>
-          <td class="table-data__cell">
-            Presentatie De Paus, samenwerking met Arnold Grunberg.
-          </td>
-        </tr>
-      </table>
-    </section>
   </article>
 </template>
 
 <script>
+import setCanonicalForSeo from '../lib/set-canonical-for-seo.js'
+
 export default {
   head() {
     return {
@@ -160,6 +76,7 @@ export default {
           content: 'Biography of artist and photographer Paul Blanca.',
         },
       ],
+      ...setCanonicalForSeo(this.$route),
     }
   },
 }

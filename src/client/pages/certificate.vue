@@ -34,6 +34,8 @@
 </template>
 
 <script>
+import setCanonicalForSeo from '../lib/set-canonical-for-seo.js'
+
 export default {
   head() {
     return {
@@ -46,6 +48,7 @@ export default {
             'A comprehensive description what the certificate contains when you buy an artwork from Paul Blanca.',
         },
       ],
+      ...setCanonicalForSeo(this.$route),
     }
   },
 }

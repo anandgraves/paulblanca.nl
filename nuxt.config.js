@@ -9,6 +9,7 @@ export default {
   env: {
     googleAnalyticsTrackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || '',
     cloudinaryCloudName: process.env.CLOUDINARY_CLOUDNAME,
+    baseUrl: process.env.BASE_URL,
   },
   head: {
     meta: [

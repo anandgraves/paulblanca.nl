@@ -33,19 +33,5 @@ export default {
       return ''
     },
   },
-
-  head() {
-    return {
-      title: 'Shop',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content:
-            'Fine art photography prints available, limited edition only, in 30x40, 40x50, 100x120cm on Dibond, Plexiglass and TruLife Plexiglass.',
-        },
-      ],
-    }
-  },
 }
 </script>

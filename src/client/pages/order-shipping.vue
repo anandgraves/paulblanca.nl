@@ -129,7 +129,9 @@
 </template>
 
 <script>
+import setCanonicalForSeo from '../lib/set-canonical-for-seo.js'
 import getPageUrl from '~/lib/get-page-url'
+
 export default {
   methods: {
     pageUrl(query) {
@@ -147,6 +149,7 @@ export default {
             'A step-by-step explanation how to order an artwork from artist and photographer Paul Blanca, including shipping information.',
         },
       ],
+      ...setCanonicalForSeo(this.$route),
     }
   },
 }
