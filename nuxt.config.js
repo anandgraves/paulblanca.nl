@@ -148,13 +148,18 @@ export default {
     cloudName: process.env.CLOUDINARY_CLOUDNAME,
   },
 
-  modules: ['@nuxtjs/pwa', '@nuxtjs/sitemap', '@nuxtjs/cloudinary'],
+  /**
+   * If you use other modules (eg. nuxt-i18n), always declare the sitemap module at end of array
+   *
+   */
+  modules: ['@nuxtjs/pwa', '@nuxtjs/cloudinary', '@nuxtjs/sitemap'],
 
   /**
    * https://github.com/nuxt-community/sitemap-module
    */
   sitemap: {
-    hostname: 'https://paulblanca.nl',
+    hostname: `${process.env.baseUrl}`,
+    gzip: true,
     routes: state.map(
       (product) => `/shop/${product.seriesSlug}/${product.slug}/`
     ),
