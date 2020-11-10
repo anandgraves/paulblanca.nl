@@ -89,5 +89,19 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      title: 'Payment Methods',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'List of all the payment methods available when you buy an artwork from artist and photographer Paul Blanca.',
+        },
+      ],
+    }
+  },
+}
 </script>

@@ -11,23 +11,12 @@ export default {
     cloudinaryCloudName: process.env.CLOUDINARY_CLOUDNAME,
   },
   head: {
-    titleTemplate: (titleChunk) => {
-      return titleChunk
-        ? `${titleChunk} | Paul Blanca | Artist | Photographer`
-        : 'Paul Blanca | Artist | Photographer'
-    },
     meta: [
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content:
-          'Paul Blanca‘s fine art photography is a voyage through the landscape of emotions.',
-      },
-      {
-        hid: 'client-hints',
-        'http-equiv': 'Accept-CH',
-        content: 'DPR, Viewport-Width, Width',
+        content: 'A voyage through the landscape of emotions.',
       },
       /**
        * https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/samples/dn455106(v=vs.85)?redirectedfrom=MSDN
@@ -89,8 +78,7 @@ export default {
       short_name: 'Paul Blanca',
       lang: 'en',
       theme_color: '#ffffff',
-      description:
-        'Paul Blanca‘s fine art photography is a voyage through the landscape of emotions.',
+      description: 'Known for using basic human emotions in his artworks.',
       orientation: 'portrait',
       icons: [
         {

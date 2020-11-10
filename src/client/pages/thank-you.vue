@@ -4,9 +4,8 @@
     <p class="body">Thank you for your order and your interest in my work.</p>
 
     <p class="body">
-      You will receive an email from info@paulblanca.nl with Track&Trace for
-      <a href="/order-shipping#shipping">express delivery service</a> as soon as
-      possible.
+      You will receive an email from info@paulblanca.nl with payment details as
+      soon as possible.
     </p>
 
     <p class="body"><strong>Paul Blanca</strong></p>
@@ -14,5 +13,18 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      title: 'Thank you for your order',
+      meta: [
+        {
+          hid: 'robots',
+          name: 'robots',
+          content: 'noindex',
+        },
+      ],
+    }
+  },
+}
 </script>

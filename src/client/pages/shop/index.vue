@@ -11,7 +11,15 @@ export default {
   },
   head() {
     return {
-      title: 'Shop',
+      title: 'Buy Fine Art Photography Online',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Framed, signed and limited prints only. Available in 30x40, 40x50, 100x120cm on Dibond, Plexiglass and TruLife (museum) Plexiglass.',
+        },
+      ],
     }
   },
 }

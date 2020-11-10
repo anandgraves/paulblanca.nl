@@ -390,5 +390,17 @@ export default {
       return getPageUrl(query)
     },
   },
+  head() {
+    return {
+      title: 'Terms and Conditions',
+      meta: [
+        {
+          hid: 'robots',
+          name: 'robots',
+          content: 'noindex',
+        },
+      ],
+    }
+  },
 }
 </script>

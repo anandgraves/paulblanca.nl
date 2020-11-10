@@ -6,7 +6,7 @@ const state = () => ({
 
       <p>So I invited a large number of women to my studio in front of my camera to concentrate on their greatest grief. That was sometimes more confrontational than I had thought. Some girls/women had hidden their grief so deeply that when it came up they literally couldn‘t stop crying. The photos speak for themselves.</p>
 
-      <p>Since selfportraits are an important part of my photography, the first crying picture is one of a crying man and that‘s me.</p>`,
+      <p>Since self-portraits are an important part of my photography, the first crying picture is one of a crying man and that‘s me.</p>`,
       head: {
         title: 'Par La Pluie Des Femmes, 1990',
         description:

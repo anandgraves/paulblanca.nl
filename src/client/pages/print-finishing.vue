@@ -38,15 +38,15 @@
 
     <table class="print-finishing__table-data table-data body">
       <tr>
-        <td class="table-data__cell">Print</td>
+        <th class="table-data__head table-data__cell" scope="row">Print</th>
         <td class="table-data__cell">Durst Lambda photo print</td>
       </tr>
       <tr>
-        <td class="table-data__cell">Material</td>
+        <th class="table-data__head table-data__cell" scope="row">Material</th>
         <td class="table-data__cell">Semi-Matt photo paper</td>
       </tr>
       <tr>
-        <td class="table-data__cell">Finish</td>
+        <th class="table-data__head table-data__cell" scope="row">Finish</th>
         <td class="table-data__cell">
           Glued on 3mm Dibond with 20mm
           <a href="#anodized-aluminium-suspension-profile"
@@ -55,7 +55,7 @@
         </td>
       </tr>
       <tr>
-        <td class="table-data__cell">Sizes</td>
+        <th class="table-data__head table-data__cell" scope="row">Sizes</th>
         <td class="table-data__cell">
           30 x 40 cm<br />
           40 x 50 cm<br />
@@ -82,15 +82,15 @@
 
     <table class="print-finishing__table-data table-data body">
       <tr>
-        <td class="table-data__cell">Print</td>
+        <th class="table-data__head table-data__cell" scope="row">Print</th>
         <td class="table-data__cell">Durst Lambda photo print</td>
       </tr>
       <tr>
-        <td class="table-data__cell">Material</td>
+        <th class="table-data__head table-data__cell" scope="row">Material</th>
         <td class="table-data__cell">Semi-Matt photo paper</td>
       </tr>
       <tr>
-        <td class="table-data__cell">Finish</td>
+        <th class="table-data__head table-data__cell" scope="row">Finish</th>
         <td class="table-data__cell">
           Glued behind 3mm clear plexiglass on 3mm Dibond with 20mm
           <a href="#anodized-aluminium-suspension-profile"
@@ -99,7 +99,7 @@
         </td>
       </tr>
       <tr>
-        <td class="table-data__cell">Sizes</td>
+        <th class="table-data__head table-data__cell" scope="row">Sizes</th>
         <td class="table-data__cell">
           30 x 40 cm<br />
           40 x 50 cm<br />
@@ -136,15 +136,15 @@
 
     <table class="print-finishing__table-data table-data body">
       <tr>
-        <td class="table-data__cell">Print</td>
+        <th class="table-data__head table-data__cell" scope="row">Print</th>
         <td class="table-data__cell">Durst Lambda photo print</td>
       </tr>
       <tr>
-        <td class="table-data__cell">Material</td>
+        <th class="table-data__head table-data__cell" scope="row">Material</th>
         <td class="table-data__cell">Semi-Matt photo paper</td>
       </tr>
       <tr>
-        <td class="table-data__cell">Finish</td>
+        <th class="table-data__head table-data__cell" scope="row">Finish</th>
         <td class="table-data__cell">
           Glued behind 3mm clear TruLife<sup>TM</sup> plexiglass on 3mm Dibond
           with 20mm
@@ -154,7 +154,7 @@
         </td>
       </tr>
       <tr>
-        <td class="table-data__cell">Sizes</td>
+        <th class="table-data__head table-data__cell" scope="row">Sizes</th>
         <td class="table-data__cell">
           30 x 40 cm<br />
           40 x 50 cm<br />
@@ -184,6 +184,24 @@
     </ul>
   </article>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: 'Print Finishing',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Comprehensive info for the print finishing options of all the artworks from artist and photographer Paul Blanca.',
+        },
+      ],
+    }
+  },
+}
+</script>
 
 <style>
 @media (min-width: 600px) {

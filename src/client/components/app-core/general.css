@@ -139,12 +139,13 @@ sup {
   vertical-align: top;
 }
 
-.table-data--center .table-data__cell:first-child {
-  text-align: right;
+.table-data__head {
+  font-weight: 500;
+  text-align: left;
 }
 
-.table-data__cell:first-child {
-  font-weight: 500;
+.table-data--center .table-data__cell:first-child {
+  text-align: right;
 }
 
 .icon-border {
