@@ -136,6 +136,19 @@ export default {
       return getPageUrl(query)
     },
   },
+  head() {
+    return {
+      title: 'Order and Shipping',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'A step-by-step explanation how to order an artwork from artist and photographer Paul Blanca, including shipping information.',
+        },
+      ],
+    }
+  },
 }
 </script>
 

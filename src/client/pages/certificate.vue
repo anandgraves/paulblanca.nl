@@ -32,3 +32,21 @@
     </p>
   </article>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: 'Certificate of Authenticity (COA)',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'A comprehensive description what the certificate contains when you buy an artwork from Paul Blanca.',
+        },
+      ],
+    }
+  },
+}
+</script>

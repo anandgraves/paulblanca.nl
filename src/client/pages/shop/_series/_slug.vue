@@ -235,7 +235,7 @@ export default {
     orderViaEmail() {
       const subject = encodeURIComponent(`Order ${this.productTitle}`)
       const body = encodeURIComponent(
-        `I would like to order a photo print on paulblanca.nl.
+        `I would like to order an artwork on paulblanca.nl.
 
 Title: ${this.productTitle}
 Size: ${this.size}
@@ -245,7 +245,7 @@ Price: ${this.moneyFormat(
         )} (includes VAT and shipping costs)
 Quantity: 1
 
-You can ship the photo print to (all fields are required):
+You can ship the artwork to (all fields are required):
 Full Name:
 Delivery address
   Address 1:
@@ -284,16 +284,13 @@ Billing address
   },
 
   head() {
-    const seriesHead = this.seriesPageIndex.filter(
-      (serie) => serie.slug === this.$route.params.series
-    )
     return {
       title: `${this.product.titleDetail} ${this.product.year}`,
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: seriesHead[0].head.description,
+          content: this.product.image.alt,
         },
       ],
     }

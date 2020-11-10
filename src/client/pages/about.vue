@@ -4,13 +4,22 @@
 
     <section class="body rich-text">
       <p>
-        Paul Blanca is a Dutch self-taught photographer who started with a Canon
-        F1 and later switched to a 6x6 cm Haselblad camera. In the 80s he
-        created a series of violent self-portraits inspired by Robert
+        Paul Blanca (1958) is a Dutch self-taught photographer who started with
+        a Canon F1 and later switched to a 6x6 cm Haselblad camera. In the 80s
+        he created a series of violent self-portraits inspired by Robert
         Mapplethorpe (1946 - 1989) and Andres Serrano. Mapplethorpe introduced
         Blanca into the art world to artists like Grace Jones and Keith Haring
         stating “Paul Blanca is my only competitor”. Mapplethorpe's favourite
         was Blanca's self-portrait ‘Mother and Son’.
+      </p>
+
+      <p>
+        Hans van Maanen and Erwin Olaf call Paul Blanca the photographer of
+        emotion. That ties in with his work. His self-portraits run like a
+        thread through his overall work. For some things you can't ask a model.
+        For example, to hit a nail through someone's hand. And like the
+        self-portrait Mickey Mouse. In which a smiling Mickey Mouse is carved
+        into his back with a thumb up.
       </p>
 
       <p>
@@ -50,8 +59,111 @@
         her to bed for 4 years because she couldn‘t walk.
       </p>
     </section>
+
+    <section class="body rich-text">
+      <h2 class="heading-medium">Curriculum Vitae</h2>
+
+      <table class="body">
+        <tr>
+          <th class="table-data__head table-data__cell" rowspan="2">
+            2021/2022
+          </th>
+          <td class="table-data__cell">
+            Overzichtstentoonstelling in Fotomuseum Den Haag
+          </td>
+        </tr>
+        <tr>
+          <td class="table-data__cell">
+            Dribtal, Dreutel en Reis tentoonstelling
+          </td>
+        </tr>
+        <tr>
+          <th class="table-data__cell">2019</th>
+          <td class="table-data__cell">Fotofestival Naarden</td>
+        </tr>
+        <tr>
+          <th class="table-data__cell" rowspan="4">2018</th>
+          <td class="table-data__cell">
+            Serie zelfportretten Gallerie De IJssalon, Den Helder
+          </td>
+        </tr>
+        <tr>
+          <td class="table-data__cell">
+            Tentoonstelling gallerie Grabriel Rolt
+          </td>
+        </tr>
+        <tr>
+          <td class="table-data__cell">
+            Interview in Parool voor tentoonstelling bij gallerie Gabriel Rolt
+          </td>
+        </tr>
+        <tr>
+          <td class="table-data__cell">
+            Expositie van mijn werk tijdens tentoonstelling Erwin Olaf Den Haag
+          </td>
+        </tr>
+        <tr>
+          <th class="table-data__cell">2014</th>
+          <td class="table-data__cell">
+            <a
+              href="https://www.npostart.nl/fotostudio-de-jong-6/15-02-2014/VPWON_1209690"
+              >Interview in het programma "Fotostudio De Jong" op NPO</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <th class="table-data__cell">2011</th>
+          <td class="table-data__cell">
+            Rechtbankportretten. Museum de Fundatie, Zwolle
+          </td>
+        </tr>
+        <tr>
+          <th class="table-data__cell" rowspan="2">2010</th>
+          <td class="table-data__cell">
+            <a href="https://www.youtube.com/watch?v=Dcevb3BOXQI"
+              >Interview door De Jakhalzen</a
+            >
+            (De Wereld Draait Door)
+          </td>
+        </tr>
+        <tr>
+          <td class="table-data__cell">
+            Cooperation with Joost Zwagerman, Museum Meermanno, Den Haag
+          </td>
+        </tr>
+        <tr>
+          <th class="table-data__cell" rowspan="2">2009</th>
+          <td class="table-data__cell">
+            Presentatie Borstkankerproject. Twee panelen van 2 x 2 meter in
+            openbare ruimte. Museumplein, Amsterdam
+          </td>
+        </tr>
+        <tr>
+          <td class="table-data__cell">
+            Presentatie De Paus, samenwerking met Arnold Grunberg.
+          </td>
+        </tr>
+      </table>
+    </section>
   </article>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: 'About',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Biography of artist and photographer Paul Blanca.',
+        },
+      ],
+    }
+  },
+}
+</script>
 
 <style>
 .about p {

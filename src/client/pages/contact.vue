@@ -36,5 +36,18 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      title: 'Contact',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Contactdetails for customer support.',
+        },
+      ],
+    }
+  },
+}
 </script>
