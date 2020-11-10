@@ -160,6 +160,7 @@ export default {
   sitemap: {
     hostname: `${process.env.BASE_URL}`,
     gzip: true,
+    exclude: ['/privacy-statement', '/terms-conditions', '/thank-you'],
     routes: state.map(
       (product) => `/shop/${product.seriesSlug}/${product.slug}/`
     ),
