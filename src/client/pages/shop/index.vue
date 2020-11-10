@@ -4,6 +4,7 @@
 
 <script>
 import { mapGetters } from 'vuex'
+import setCanonicalForSeo from '../../lib/set-canonical-for-seo.js'
 
 export default {
   computed: {
@@ -20,6 +21,7 @@ export default {
             'Framed, signed and limited prints only. Available in 30x40, 40x50, 100x120cm on Dibond, Plexiglass and TruLife (museum) Plexiglass.',
         },
       ],
+      ...setCanonicalForSeo(this.$route),
     }
   },
 }

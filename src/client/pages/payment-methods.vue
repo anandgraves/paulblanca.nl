@@ -89,6 +89,8 @@
 </template>
 
 <script>
+import setCanonicalForSeo from '../lib/set-canonical-for-seo.js'
+
 export default {
   head() {
     return {
@@ -101,6 +103,7 @@ export default {
             'List of all the payment methods available when you buy an artwork from artist and photographer Paul Blanca.',
         },
       ],
+      ...setCanonicalForSeo(this.$route),
     }
   },
 }

@@ -36,6 +36,8 @@
 </template>
 
 <script>
+import setCanonicalForSeo from '../lib/set-canonical-for-seo.js'
+
 export default {
   head() {
     return {
@@ -47,6 +49,7 @@ export default {
           content: 'Contactdetails for customer support.',
         },
       ],
+      ...setCanonicalForSeo(this.$route),
     }
   },
 }
