@@ -11,6 +11,7 @@
           :public-id="image.id"
           loading="lazy"
           responsive
+          secure="true"
           :alt="image.alt"
           class="responsive-image__img"
         />
