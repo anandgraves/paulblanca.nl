@@ -1,7 +1,11 @@
 <template>
   <footer class="app-footer">
     <div class="app-footer__header">
-      <img class="app-footer__logo" src="/images/logo-white.svg" alt="" />
+      <img
+        class="app-footer__logo"
+        src="/images/logo-white.svg"
+        alt="Fine Art Photography of Paul Blanca | Artist | Photographer"
+      />
     </div>
 
     <div class="app-footer__content">
