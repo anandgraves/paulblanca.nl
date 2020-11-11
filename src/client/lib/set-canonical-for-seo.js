@@ -1,5 +1,8 @@
 export default function (route) {
-  const canonicalUrl = `${process.env.baseUrl}${route.fullPath}`
+  const routeWithTrailingSlash = route.fullPath.endsWith('/')
+    ? route.fullPath
+    : `${route.fullPath}/`
+  const canonicalUrl = `${process.env.baseUrl}${routeWithTrailingSlash}`
 
   return {
     link: [
