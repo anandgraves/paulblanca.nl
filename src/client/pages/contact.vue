@@ -1,5 +1,5 @@
 <template>
-  <article class="contact center-content rich-text">
+  <article class="center-content rich-text">
     <h1 class="heading-large">Contact</h1>
     <p class="body">
       You can contact us at

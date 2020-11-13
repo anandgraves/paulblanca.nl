@@ -1,5 +1,5 @@
 <template>
-  <photo-list :photos="seriesList" :show-series-title="true" class="shop" />
+  <photo-list :photos="seriesList" :show-series-title="true" />
 </template>
 
 <script>
