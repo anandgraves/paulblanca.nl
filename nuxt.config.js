@@ -10,6 +10,8 @@ export default {
     googleAnalyticsTrackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || '',
     cloudinaryCloudName: process.env.CLOUDINARY_CLOUDNAME,
     baseUrl: process.env.BASE_URL,
+    convertKitApiUrl: process.env.CONVERTKIT_EMAIL_SUBSCRIPTION_URL,
+    emailSubscriptionCompletedUrl: process.env.EMAIL_SUBSCRIPTION_COMPLETED_URL,
   },
   head: {
     meta: [
@@ -152,7 +154,12 @@ export default {
    * If you use other modules (eg. nuxt-i18n), always declare the sitemap module at end of array
    *
    */
-  modules: ['@nuxtjs/pwa', '@nuxtjs/cloudinary', '@nuxtjs/sitemap'],
+  modules: [
+    '@nuxtjs/axios',
+    '@nuxtjs/pwa',
+    '@nuxtjs/cloudinary',
+    '@nuxtjs/sitemap',
+  ],
 
   /**
    * https://github.com/nuxt-community/sitemap-module
@@ -160,7 +167,12 @@ export default {
   sitemap: {
     hostname: `${process.env.BASE_URL}`,
     gzip: true,
-    exclude: ['/privacy-statement', '/terms-conditions', '/thank-you'],
+    exclude: [
+      '/privacy-statement',
+      '/terms-conditions',
+      '/thank-you',
+      '/thank-you-subscribing',
+    ],
     routes: state.map(
       (product) => `/shop/${product.seriesSlug}/${product.slug}/`
     ),

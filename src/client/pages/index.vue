@@ -1,5 +1,5 @@
 <template>
-  <div class="content">
+  <div class="homepage content">
     <photo-list :photos="seriesList" />
   </div>
 </template>

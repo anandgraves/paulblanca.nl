@@ -3,6 +3,7 @@
     <app-header class="site-content__header center-content" />
     <main class="site-content__main">
       <nuxt />
+      <newsletter-form v-if="isConvertKitLoaded" />
     </main>
     <app-footer />
   </div>
@@ -14,6 +15,23 @@ import appHeader from '../components/app-header/app-header'
 export default {
   components: {
     appHeader,
+  },
+  data() {
+    return {
+      isConvertKitLoaded: false,
+    }
+  },
+  head() {
+    return {
+      script: [
+        {
+          hid: 'convertkit',
+          src: 'https://f.convertkit.com/ckjs/ck.5.js',
+          defer: true,
+          callback: () => (this.isConvertKitLoaded = true),
+        },
+      ],
+    }
   },
 }
 </script>
