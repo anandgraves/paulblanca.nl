@@ -1,7 +1,7 @@
 <template>
   <article class="center-content rich-text">
-    <h1 class="heading-large">Thank You</h1>
-    <p class="body">Thank you for your order and your interest in my work.</p>
+    <h1 class="heading-large">Thank You For Your Order</h1>
+    <p class="body">Thank you for your interest in my work.</p>
 
     <p class="body">
       You will receive an email from info@paulblanca.nl with payment details as
