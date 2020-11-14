@@ -48,8 +48,11 @@
         <h2 class="app-footer__title heading-small">Explore</h2>
         <ul class="app-footer__list">
           <li class="app-footer__list-item">
-            <nuxt-link class="app-footer__link" :to="pageUrl('about')">
-              About
+            <nuxt-link
+              class="app-footer__link"
+              :to="pageUrl('about/curriculum-vitae')"
+            >
+              Cuririculum Vitae
             </nuxt-link>
           </li>
           <li class="app-footer__list-item">
