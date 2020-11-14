@@ -1,11 +1,8 @@
 <template>
-  <article class="center-content rich-text">
-    <h1 class="heading-large">Thank You</h1>
-    <p class="body">Thank you for your order and your interest in my work.</p>
-
+  <article class="center-content rich-text body">
+    <h1 class="heading-large">Your email address has been confirmed</h1>
     <p class="body">
-      You will receive an email from info@paulblanca.nl with payment details as
-      soon as possible.
+      Thank you for subscribing to my newsletter and your interest in my work.
     </p>
 
     <p class="body"><strong>Paul Blanca</strong></p>
@@ -14,9 +11,10 @@
 
 <script>
 export default {
+  layout: 'default-without-newsletter',
   head() {
     return {
-      title: 'Thank you for your order',
+      title: 'Thank you for your email confirmation',
       meta: [
         {
           hid: 'robots',
