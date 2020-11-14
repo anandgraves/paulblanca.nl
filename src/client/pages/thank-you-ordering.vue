@@ -14,6 +14,7 @@
 
 <script>
 export default {
+  layout: 'default-without-newsletter',
   head() {
     return {
       title: 'Thank you for your order',

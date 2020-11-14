@@ -170,8 +170,9 @@ export default {
     exclude: [
       '/privacy-statement',
       '/terms-conditions',
-      '/thank-you',
+      '/thank-you-ordering',
       '/thank-you-subscribing',
+      '/email-subscription-confirmed',
     ],
     routes: state.map(
       (product) => `/shop/${product.seriesSlug}/${product.slug}/`

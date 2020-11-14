@@ -1,7 +1,9 @@
 <template>
   <article class="center-content rich-text body">
-    <h1 class="heading-large">Thank You</h1>
-    <p class="body">Your email address has been confirmed.</p>
+    <h1 class="heading-large">Your email address has been confirmed</h1>
+    <p class="body">
+      Thank you for subscribing to my newsletter and your interest in my work.
+    </p>
 
     <p class="body"><strong>Paul Blanca</strong></p>
   </article>
@@ -9,6 +11,7 @@
 
 <script>
 export default {
+  layout: 'default-without-newsletter',
   head() {
     return {
       title: 'Thank you for your email confirmation',
