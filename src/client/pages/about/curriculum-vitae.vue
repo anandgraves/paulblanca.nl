@@ -4,6 +4,15 @@
 
     <table class="body">
       <tr>
+        <th class="table-data__head table-data__cell" scope="row">2020</th>
+        <td class="table-data__cell">
+          Website paulblanca.nl live in partnership with
+          <a href="https://21bits.nl/" target="_blank" rel="noreferrer noopener"
+            >21 Bits</a
+          >.
+        </td>
+      </tr>
+      <tr>
         <th class="table-data__head table-data__cell" scope="row">2019</th>
         <td class="table-data__cell">Fotofestival Naarden</td>
       </tr>
