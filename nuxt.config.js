@@ -44,6 +44,22 @@ export default {
         href: 'https://res.cloudinary.com/',
       },
       {
+        rel: 'preconnect',
+        href: 'https://f.convertkit.com/',
+      },
+      {
+        rel: 'dns-prefetch',
+        href: 'https://f.convertkit.com',
+      },
+      {
+        rel: 'preconnect',
+        href: 'https://res.cloudinary.com/',
+      },
+      {
+        rel: 'dns-prefetch',
+        href: 'https://res.cloudinary.com/',
+      },
+      {
         rel: 'shortcut icon',
         href: `/favicons/favicon.ico?v=${urlHash}`,
       },
