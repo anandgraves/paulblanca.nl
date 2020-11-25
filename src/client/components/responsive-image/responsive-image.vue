@@ -5,17 +5,15 @@
       :width="image.width"
       :height="image.height"
     >
-      <transition name="fade">
-        <cld-image
-          :cloud-name="cloudName"
-          :public-id="image.id"
-          loading="lazy"
-          responsive
-          secure="true"
-          :alt="image.alt"
-          class="responsive-image__img"
-        />
-      </transition>
+      <cld-image
+        :cloud-name="cloudName"
+        :public-id="image.id"
+        loading="lazy"
+        responsive
+        secure="true"
+        :alt="image.alt"
+        class="responsive-image__img"
+      />
     </fixed-ratio>
   </figure>
 </template>
