@@ -7,14 +7,7 @@
           Sign up and receive updates about new projects, work and events.
         </p>
 
-        <form
-          method="post"
-          data-sv-form="1456774"
-          data-uid="ddb2188bd3"
-          data-format="inline"
-          data-version="5"
-          @submit.prevent="onSubmit"
-        >
+        <form method="post" @submit.prevent="onSubmit">
           <div>
             <div>
               <input
