@@ -1,6 +1,14 @@
 const state = () => ({
   seriesPageIndex: [
     {
+      slug: 'kristal',
+      description: `<p>TODO: long description</p>`,
+      head: {
+        title: 'Kristal, 2008',
+        description: 'TODO: short description',
+      },
+    },
+    {
       slug: 'par-la-pluie-des-femmes',
       description: `<p>In the late eighties I became fascinated by the basic human emotions: crying, laughing, orgasm, sadness, anger. I started with Nora Kimbell and I asked Nora to concentrate on her greatest sorrow and to start crying. Nora did it very convincingly. But one photograph of a woman crying is not a series and certainly not an exhibition.</p>
 
@@ -30,6 +38,45 @@ const state = () => ({
     },
   ],
   shopProductList: [
+    {
+      slug: 'anonymous-torso-monique',
+      id: '7c4614c8-5881-4eef-a2bc-961c4aaedf5b',
+      series: 'Kristal',
+      seriesSlug: 'kristal',
+      year: 2008,
+      titleList: 'anonymous-torso-monique',
+      titleDetail: 'Anonymous Torso Monique from the series “Kristal”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt:
+          'Anonymous Torso Monique from the series “Kristal” (2008) by Paul Blanca',
+        id: 'kristal/anonymous-torso-monique_gpv0cr',
+        width: 1181,
+        height: 1513,
+      },
+    },
     {
       slug: 'alpha',
       id: '0c2f58d1-c2bc-46f5-a18c-db5d1cb43dc7',
@@ -543,7 +590,8 @@ const getters = {
     state.shopProductList.filter(
       (product) =>
         product.id === 'd3fc901b-67a5-439c-a7c4-495a5d1b282c' || // Nora Kimball Crying from Par La Pluie Des Femmes
-        product.id === 'd720956c-f08a-454b-b9e3-139d1030a48f' // Juliette from Wit en Bruin
+        product.id === 'd720956c-f08a-454b-b9e3-139d1030a48f' || // Juliette from Wit en Bruin
+        product.id === '7c4614c8-5881-4eef-a2bc-961c4aaedf5b' // from Kristal
     ),
 }
 
