@@ -8,6 +8,16 @@
       <strong>TruLife<sup>TM</sup> Plexiglass</strong>.
     </p>
 
+    <p class="body">
+      All Lambda photo prints are printed at
+      <a
+        href="https://eyesonphotoart.nl/"
+        target="_blank"
+        rel="noreferrer noopener"
+        >Eyes On Photoart</a
+      >.
+    </p>
+
     <h2 class="heading-medium">Dibond</h2>
 
     <p class="body">

@@ -46,6 +46,14 @@
             <th class="table-data__cell">Year</th>
             <td class="table-data__cell">{{ product.year }}</td>
           </tr>
+          <tr>
+            <th class="table-data__cell">Print</th>
+            <td class="table-data__cell">Durst Lambda photo print</td>
+          </tr>
+          <tr>
+            <th class="table-data__cell">Material</th>
+            <td class="table-data__cell">Semi-Matt photo paper</td>
+          </tr>
         </tbody>
       </table>
 
