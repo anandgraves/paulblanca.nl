@@ -8,7 +8,6 @@
       <cld-image
         :cloud-name="cloudName"
         :public-id="image.id"
-        loading="lazy"
         responsive
         secure="true"
         :alt="image.alt"
