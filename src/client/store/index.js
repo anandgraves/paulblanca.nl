@@ -39,12 +39,362 @@ const state = () => ({
   ],
   shopProductList: [
     {
+      slug: 'sugartree-giullia',
+      id: 'c29d94f3-f977-4b7e-91ac-4c305f9850e1',
+      series: 'Kristal',
+      seriesSlug: 'kristal',
+      year: 2008,
+      titleList: 'Sugartree Giullia',
+      titleDetail: 'Sugartree Giullia from the series “Kristal”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt:
+          'Sugartree Giullia from the series “Kristal” (2008) by Paul Blanca',
+        id: 'kristal/sugartree-giullia_b4hvdn',
+        width: 1575,
+        height: 1579,
+      },
+    },
+    {
+      slug: 'commitment-giullia',
+      id: '470ac76e-23f6-44ae-8fba-8be734a59621',
+      series: 'Kristal',
+      seriesSlug: 'kristal',
+      year: 2008,
+      titleList: 'Commitment Giullia',
+      titleDetail: 'Commitment Giullia from the series “Kristal”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt:
+          'Commitment Giullia from the series “Kristal” (2008) by Paul Blanca',
+        id: 'kristal/commitment-giullia_f1ikoh',
+        width: 1711,
+        height: 1575,
+      },
+    },
+    {
+      slug: 'storm-giullia',
+      id: 'd2924c23-a533-45fa-afbe-96a9860e4e27',
+      series: 'Kristal',
+      seriesSlug: 'kristal',
+      year: 2008,
+      titleList: 'Storm Giullia',
+      titleDetail: 'Storm Giullia from the series “Kristal”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt: 'Storm Giullia from the series “Kristal” (2008) by Paul Blanca',
+        id: 'kristal/storm-giullia_is2sdq',
+        width: 1181,
+        height: 1358,
+      },
+    },
+    {
+      slug: 'domestic-violence-giullia',
+      id: '35815923-597f-40d5-a4f7-abced9d9bc63',
+      series: 'Kristal',
+      seriesSlug: 'kristal',
+      year: 2008,
+      titleList: 'Domestic Violence Giullia',
+      titleDetail: 'Domestic Violence Giullia from the series “Kristal”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt:
+          'Domestic Violence Giullia from the series “Kristal” (2008) by Paul Blanca',
+        id: 'kristal/domestic-violence-giullia_tgviig',
+        width: 1811,
+        height: 1575,
+      },
+    },
+    {
+      slug: 'Snowhite Giullia',
+      id: 'a18d97ee-f0c6-4e09-9d12-4ec52f056d9e',
+      series: 'Kristal',
+      seriesSlug: 'kristal',
+      year: 2008,
+      titleList: 'Snowhite Giullia',
+      titleDetail: 'Snowhite Giullia from the series “Kristal”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt: 'Snowhite Giullia from the series “Kristal” (2008) by Paul Blanca',
+        id: 'kristal/snowwhite-giullia_ohuwjj',
+        width: 1181,
+        height: 1358,
+      },
+    },
+    {
+      slug: 'sticky-fingers-claudia',
+      id: '3fa935e7-cb34-49ae-a16e-8503bb5e2207',
+      series: 'Kristal',
+      seriesSlug: 'kristal',
+      year: 2008,
+      titleList: 'Sticky Fingers Claudia',
+      titleDetail: 'Sticky Fingers Claudia from the series “Kristal”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt:
+          'Sticky Fingers Claudia from the series “Kristal” (2008) by Paul Blanca',
+        id: 'kristal/sticky-fingers-claudia_f1e47p',
+        width: 984,
+        height: 1449,
+      },
+    },
+    {
+      slug: 'mother-and-daughter-monique-v-and-anika',
+      id: '64ac5b25-7aca-4c7c-bf8a-09182da8c020',
+      series: 'Kristal',
+      seriesSlug: 'kristal',
+      year: 2008,
+      titleList: 'Mother and Daughter Monique V and Anika',
+      titleDetail:
+        'Mother and Daughter Monique V and Anika from the series “Kristal”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt:
+          'Mother And Daughter aonique V And Anika arom the series “Kristal” (2008) by Paul Blanca',
+        id: 'kristal/mother-and-daughter-monique-v-and-anika_fn1eyx',
+        width: 1181,
+        height: 1505,
+      },
+    },
+    {
+      slug: 'dancers-feet-giullia',
+      id: 'a4316eca-91ca-4ecd-bb25-00454783fa31',
+      series: 'Kristal',
+      seriesSlug: 'kristal',
+      year: 2008,
+      titleList: 'Dancers Feet Giullia',
+      titleDetail: 'Dancers Feet Giullia from the series “Kristal”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt:
+          'Dancers Feet Giullia from the series “Kristal” (2008) by Paul Blanca',
+        id: 'kristal/dancers-feet-giullia_ta6eoq',
+        width: 1181,
+        height: 1555,
+      },
+    },
+    {
+      slug: 'princesse-glace-monique',
+      id: '19abc3ce-16ba-4b08-825b-e500f04a9c24',
+      series: 'Kristal',
+      seriesSlug: 'kristal',
+      year: 2008,
+      titleList: 'Princess Glace Monique',
+      titleDetail: 'Princess Glace Monique from the series “Kristal”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt:
+          'Princess Glace Monique from the series “Kristal” (2008) by Paul Blanca',
+        id: 'kristal/princesse-glace-monique_lumpa3',
+        width: 1575,
+        height: 1575,
+      },
+    },
+    {
       slug: 'anonymous-torso-monique',
       id: '7c4614c8-5881-4eef-a2bc-961c4aaedf5b',
       series: 'Kristal',
       seriesSlug: 'kristal',
       year: 2008,
-      titleList: 'anonymous-torso-monique',
+      titleList: 'Anonymous Torso Monique',
       titleDetail: 'Anonymous Torso Monique from the series “Kristal”',
       description: '',
       edition: {
@@ -75,6 +425,83 @@ const state = () => ({
         id: 'kristal/anonymous-torso-monique_gpv0cr',
         width: 1181,
         height: 1513,
+      },
+    },
+    {
+      slug: 'girl-on-crystal-anika',
+      id: 'a5ac4d6d-e556-4600-bc3b-64252826d424',
+      series: 'Kristal',
+      seriesSlug: 'kristal',
+      year: 2008,
+      titleList: 'Girl On Crystal Anika',
+      titleDetail: 'Girl On Crystal Anika from the series “Kristal”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt:
+          'Girl On Crystal Anika from the series “Kristal” (2008) by Paul Blanca',
+        id: 'kristal/girl-on-crystal-anika_r2ocyw',
+        width: 1969,
+        height: 1378,
+      },
+    },
+    {
+      slug: 'unknown',
+      id: '1af32ad5-145c-4b65-91e3-8ec6198f773d',
+      series: 'Kristal',
+      seriesSlug: 'kristal',
+      year: 2008,
+      titleList: 'Unknown',
+      titleDetail: 'Unknown from the series “Kristal”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt: 'Unknown from the series “Kristal” (2008) by Paul Blanca',
+        id: 'kristal/unknown_nehrh5',
+        width: 1736,
+        height: 1575,
       },
     },
     {
@@ -591,7 +1018,7 @@ const getters = {
       (product) =>
         product.id === 'd3fc901b-67a5-439c-a7c4-495a5d1b282c' || // Nora Kimball Crying from Par La Pluie Des Femmes
         product.id === 'd720956c-f08a-454b-b9e3-139d1030a48f' || // Juliette from Wit en Bruin
-        product.id === '7c4614c8-5881-4eef-a2bc-961c4aaedf5b' // from Kristal
+        product.id === 'a4316eca-91ca-4ecd-bb25-00454783fa31' // Dancers Feet Giullia from Kristal
     ),
 }
 

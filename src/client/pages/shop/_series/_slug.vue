@@ -32,26 +32,26 @@
         </caption>
         <tbody>
           <tr>
-            <th class="table-data__cell">Edition</th>
+            <th class="table-data__head table-data__cell">Edition</th>
             <td class="table-data__cell">
               {{ getEdition }}
               <div>incl. 2 Artist Proof</div>
             </td>
           </tr>
           <tr v-if="product.series">
-            <th class="table-data__cell">Series</th>
+            <th class="table-data__head table-data__cell">Series</th>
             <td class="table-data__cell">{{ product.series }}</td>
           </tr>
           <tr>
-            <th class="table-data__cell">Year</th>
+            <th class="table-data__head table-data__cell">Year</th>
             <td class="table-data__cell">{{ product.year }}</td>
           </tr>
           <tr>
-            <th class="table-data__cell">Print</th>
+            <th class="table-data__head table-data__cell">Print</th>
             <td class="table-data__cell">Durst Lambda photo print</td>
           </tr>
           <tr>
-            <th class="table-data__cell">Material</th>
+            <th class="table-data__head table-data__cell">Material</th>
             <td class="table-data__cell">Semi-Matt photo paper</td>
           </tr>
         </tbody>
@@ -187,7 +187,7 @@
           All photo prints can be purchased for the sizes 30x40 cm, 40x50 cm and
           100x120 cm.
           <nuxt-link :to="pageUrl('print-finishing')"
-            >View all the print finishing options</nuxt-link
+            >Read more about the print finishing options</nuxt-link
           >.
         </p>
       </section>
@@ -224,7 +224,7 @@ export default {
       )
     },
     getProductSeries() {
-      return `${this.product.series}, ${this.product.year}`
+      return `${this.product.series}`
     },
     getProductSeriesSlug() {
       return this.product.seriesSlug
