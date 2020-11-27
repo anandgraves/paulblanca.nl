@@ -7,6 +7,15 @@
 
       <ul class="list">
         <li class="list__item">
+          Tribute from photographer Koos Breukel, who was the guest editor, in
+          <a
+            href="https://focusmagazine.nl/product/focus-12-2020/"
+            target="_blank"
+            rel="noreferrer noopener"
+            >Focus Magazine, 2020</a
+          >.
+        </li>
+        <li class="list__item">
           <a
             href="https://www.facebook.com/fotofestivalnaarden/photos/in-bastion-oranje-fotos-van-paul-blanca/2335881489822915/
         "

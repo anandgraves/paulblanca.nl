@@ -2,10 +2,11 @@ const state = () => ({
   seriesPageIndex: [
     {
       slug: 'kristal',
-      description: `<p>TODO: long description</p>`,
+      description: `<p>Kristal is a series about the sweet and the bitter in relation with women. Models were immersed in chocolate, icing or icing sugar.</p>`,
       head: {
         title: 'Kristal, 2008',
-        description: 'TODO: short description',
+        description:
+          'Kristal is a series about the sweet and the bitter in relation with women. Models were immersed in chocolate, icing or icing sugar.',
       },
     },
     {
