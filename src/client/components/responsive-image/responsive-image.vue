@@ -9,6 +9,9 @@
         :cloud-name="cloudName"
         :public-id="image.id"
         responsive
+        fetch-format="auto"
+        quality="auto"
+        loading="lazy"
         secure="true"
         :alt="image.alt"
         class="responsive-image__img"
