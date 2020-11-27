@@ -41,6 +41,14 @@
           >
         </li>
         <li class="list__item">
+          <a
+            href="https://www.vice.com/nl/article/5g7n3q/een-gesprek-met-paul-blanca-over-stierenvechten-herone-en-lekkere-wijven-293"
+            target="_blank"
+            rel="noreferrer noopener"
+            >Interview VICE magazine</a
+          >, 2010
+        </li>
+        <li class="list__item">
           <a href="https://www.youtube.com/watch?v=Dcevb3BOXQI"
             >Interview door De Jakhalzen, De Wereld Draait Door, 2010</a
           >
@@ -125,6 +133,18 @@
         <tr>
           <td class="table-data__cell">
             Expositie van mijn werk tijdens tentoonstelling Erwin Olaf, Den Haag
+          </td>
+        </tr>
+        <tr>
+          <th class="table-data__head table-data__cell" scope="row">2017</th>
+          <td class="table-data__cell">
+            Expositie met werken van Barbara van Ittersum e.a.,
+            <a
+              href="https://www.kunstinzicht.nl/kunst/tentoonstelling/10054/e17395/arti-et-amicitiae-mijn-collectie-uncut-2-barbara-van-ittersum.html"
+              target="_blank"
+              rel="noreferrer noopener"
+              >Arti et Amicitiae</a
+            >, Amsterdam.
           </td>
         </tr>
         <tr>

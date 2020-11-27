@@ -5,11 +5,14 @@
       :width="image.width"
       :height="image.height"
     >
+      <!-- prettier-ignore -->
       <cld-image
         :cloud-name="cloudName"
         :public-id="image.id"
-        loading="lazy"
         responsive
+        fetchFormat="auto"
+        quality="auto"
+        loading="lazy"
         secure="true"
         :alt="image.alt"
         class="responsive-image__img"
