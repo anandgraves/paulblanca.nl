@@ -5,11 +5,12 @@
       :width="image.width"
       :height="image.height"
     >
+      <!-- prettier-ignore -->
       <cld-image
         :cloud-name="cloudName"
         :public-id="image.id"
         responsive
-        fetch-format="auto"
+        fetchFormat="auto"
         quality="auto"
         loading="lazy"
         secure="true"
