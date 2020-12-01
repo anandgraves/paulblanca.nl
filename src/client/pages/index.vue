@@ -14,7 +14,7 @@ export default {
   },
   head() {
     return {
-      title: 'Fine Art Photography of Paul Blanca | Artist | Photographer',
+      title: 'Fine Art Photography of Paul Blanca',
       meta: [
         {
           hid: 'description',
