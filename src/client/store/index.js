@@ -6,7 +6,8 @@ const state = () => ({
       head: {
         title: 'Kristal, 2008',
         description:
-          'Kristal is a series about the sweet and the bitter in relation with women. Models were immersed in chocolate, icing or icing sugar.',
+          'Kristal is a series about the sweet and the bitter in relation with women. Models were immersed in chocolate, sugar glaze or powdered sugar.',
+        imageId: 'kristal/dancers-feet-giullia_ta6eoq',
       },
     },
     {
@@ -20,6 +21,8 @@ const state = () => ({
         title: 'Par La Pluie Des Femmes, 1990',
         description:
           'Women captured in tears by thinking of their most traumatic experience.',
+        imageId:
+          'par-la-pluie-des-femmes/nora-kimball-crying-paul-blanca_aui9cz',
       },
     },
     {
@@ -35,6 +38,7 @@ const state = () => ({
         title: 'Wit en Bruin, 1992',
         description:
           'The expression on the face of speedball hookers was photographed.',
+        imageId: 'wit-en-bruin/juliette-paul-blanca_owdrmz',
       },
     },
   ],

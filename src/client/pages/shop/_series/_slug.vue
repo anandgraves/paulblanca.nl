@@ -218,6 +218,14 @@ export default {
   },
   computed: {
     ...mapGetters(['shopProductList', 'seriesPageIndex']),
+
+    getSeriesDescription() {
+      const item = this.seriesPageIndex.find(
+        (serie) => serie.slug === this.$route.params.series
+      )
+
+      return item.head.description
+    },
     product() {
       return this.shopProductList.find(
         (product) => product.slug === this.$route.params.slug
@@ -300,6 +308,19 @@ Billing address
           hid: 'description',
           name: 'description',
           content: this.product.image.alt,
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.product.image.alt,
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: this.$cloudinary.image.url(this.product.image.id, {
+            crop: 'scale',
+            width: 600,
+          }),
         },
       ],
       ...setCanonicalForSeo(this.$route),
