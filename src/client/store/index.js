@@ -6,7 +6,8 @@ const state = () => ({
       head: {
         title: 'Kristal, 2008',
         description:
-          'Kristal is a series about the sweet and the bitter in relation with women. Models were immersed in chocolate, icing or icing sugar.',
+          'Kristal is a series about the sweet and the bitter in relation with women. Models were immersed in chocolate, sugar glaze or powdered sugar.',
+        imageId: 'kristal/dancers-feet-giullia_ta6eoq',
       },
     },
     {

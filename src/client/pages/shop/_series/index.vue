@@ -1,5 +1,6 @@
 <template>
   <div>
+    {{ getSeriesMasterPhoto }}
     <!-- eslint-disable-next-line vue/no-v-html -->
     <div class="series-description rich-text body" v-html="description" />
     <photo-list :photos="photos" :detail-link-only="true" :has-title="true" />
@@ -27,6 +28,12 @@ export default {
       }
       return ''
     },
+    getSeriesMasterPhoto() {
+      const result = this.seriesPageIndex.find(
+        (serie) => serie.slug === this.$route.params.series
+      )
+      return result.head.imageId
+    },
   },
 
   head() {
@@ -40,6 +47,19 @@ export default {
           hid: 'description',
           name: 'description',
           content: seriesHead[0].head.description,
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: seriesHead[0].head.description,
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: this.$cloudinary.image.url(this.getSeriesMasterPhoto, {
+            crop: 'scale',
+            width: 600,
+          }),
         },
       ],
       ...setCanonicalForSeo(this.$route),
