@@ -21,6 +21,8 @@ const state = () => ({
         title: 'Par La Pluie Des Femmes, 1990',
         description:
           'Women captured in tears by thinking of their most traumatic experience.',
+        imageId:
+          'par-la-pluie-des-femmes/nora-kimball-crying-paul-blanca_aui9cz',
       },
     },
     {
@@ -36,6 +38,7 @@ const state = () => ({
         title: 'Wit en Bruin, 1992',
         description:
           'The expression on the face of speedball hookers was photographed.',
+        imageId: 'wit-en-bruin/juliette-paul-blanca_owdrmz',
       },
     },
   ],
