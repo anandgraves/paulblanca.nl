@@ -1,6 +1,5 @@
 <template>
   <div>
-    {{ getSeriesMasterPhoto }}
     <!-- eslint-disable-next-line vue/no-v-html -->
     <div class="series-description rich-text body" v-html="description" />
     <photo-list :photos="photos" :detail-link-only="true" :has-title="true" />
