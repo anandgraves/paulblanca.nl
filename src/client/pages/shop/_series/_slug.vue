@@ -54,6 +54,10 @@
             <th class="table-data__head table-data__cell">Material</th>
             <td class="table-data__cell">Semi-Matt photo paper</td>
           </tr>
+          <tr>
+            <th class="table-data__head table-data__cell">Printer</th>
+            <td class="table-data__cell">Eyes on Photoart</td>
+          </tr>
         </tbody>
       </table>
 
