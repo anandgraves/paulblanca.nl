@@ -93,6 +93,52 @@
     </section>
 
     <section>
+      <h2 class="heading-medium">Collections</h2>
+      <ul class="list">
+        <li class="list__item">
+          <a
+            href="https://www.stedelijk.nl/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Stedelijk Museum Amsterdam</a
+          >
+        </li>
+        <li class="list__item">
+          <a
+            href="https://www.centraalmuseum.nl/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Centraal Museum Utrecht</a
+          >
+        </li>
+        <li class="list__item">
+          <a
+            href="https://www.museumdefundatie.nl"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Museum De Fundatie, Zwolle</a
+          >
+        </li>
+        <li class="list__item">
+          <a
+            href="https://www.groningermuseum.nl/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Groninger Museum</a
+          >
+        </li>
+        <li class="list__item">
+          <a
+            href="https://www.coda-apeldoorn.nl/nl/museum/van-reekum"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Van Reekum Museum, CODA, Apeldoorn</a
+          >
+        </li>
+      </ul>
+    </section>
+
+    <section>
       <h2 class="heading-medium">History</h2>
 
       <table class="body">
@@ -626,7 +672,7 @@ import setCanonicalForSeo from '../../lib/set-canonical-for-seo.js'
 export default {
   head() {
     return {
-      title: 'Curriculum Vitae',
+      title: 'Curriculum Vitae (CV)',
       meta: [
         {
           hid: 'description',
