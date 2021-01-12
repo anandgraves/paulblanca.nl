@@ -26,7 +26,18 @@
         </li>
         <li class="list__item">
           <a
+            href="https://www.parool.nl/nieuws/kunstenaar-paul-blanca-ik-loop-altijd-richting-de-prikkels-en-het-onbekende~b47436af/"
+            target="_blank"
+            rel="noreferrer noopener"
+            >Kunstenaar Paul Blanca: 'Ik loop altijd richting de prikkels en het
+            onbekende', Het Parool, 2017</a
+          >
+        </li>
+        <li class="list__item">
+          <a
             href="https://www.npostart.nl/fotostudio-de-jong-6/15-02-2014/VPWON_1209690"
+            target="_blank"
+            rel="noreferrer noopener"
             >Interview in het programma "Fotostudio De Jong" op NPO, 2014</a
           >
           (video)
@@ -241,7 +252,7 @@
               href="/paul-blanca-azart-photographie-magazine-2009-kristal.pdf"
               target="_blank"
               rel="noreferrer noopener"
-              >Featured in AZART Photographie magazine, 2009 (pdf)</a
+              >AZART Photographie magazine, 2009 (pdf)</a
             >
           </td>
         </tr>
