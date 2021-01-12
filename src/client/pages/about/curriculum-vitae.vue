@@ -79,7 +79,7 @@
             href="/paul-blanca-azart-photographie-magazine-2009-kristal.pdf"
             target="_blank"
             rel="noreferrer noopener"
-            >Featured in AZART Photographie magazine, 2009 (pdf)</a
+            >AZART Photographie magazine, 2009 (pdf)</a
           >
         </li>
         <li class="list__item">
@@ -174,16 +174,35 @@
         "
               target="_blank"
               rel="noreferrer noopener"
-              >20 foto‘s exposeren op Fotofestival Naarden</a
+              >Expositie 20 foto‘s, Fotofestival Naarden</a
             >
           </td>
         </tr>
         <tr>
-          <th class="table-data__head table-data__cell" scope="row" rowspan="4">
+          <th class="table-data__head table-data__cell" scope="row" rowspan="2">
             2018
           </th>
           <td class="table-data__cell">
+            Expositie van mijn werk tijdens tentoonstelling Erwin Olaf, Den Haag
+          </td>
+        </tr>
+        <tr>
+          <td class="table-data__cell">
             Serie zelfportretten. Gallerie De IJssalon, Den Helder
+          </td>
+        </tr>
+        <tr>
+          <th class="table-data__head table-data__cell" scope="row" rowspan="3">
+            2017
+          </th>
+          <td class="table-data__cell">
+            <a
+              href="https://www.parool.nl/nieuws/kunstenaar-paul-blanca-ik-loop-altijd-richting-de-prikkels-en-het-onbekende~b47436af/"
+              target="_blank"
+              rel="noreferrer noopener"
+              >Interview in Parool voor tentoonstelling Closer</a
+            >
+            bij gallerie Gabriel Rolt
           </td>
         </tr>
         <tr>
@@ -192,17 +211,6 @@
           </td>
         </tr>
         <tr>
-          <td class="table-data__cell">
-            Interview in Parool voor tentoonstelling bij gallerie Gabriel Rolt
-          </td>
-        </tr>
-        <tr>
-          <td class="table-data__cell">
-            Expositie van mijn werk tijdens tentoonstelling Erwin Olaf, Den Haag
-          </td>
-        </tr>
-        <tr>
-          <th class="table-data__head table-data__cell" scope="row">2017</th>
           <td class="table-data__cell">
             Expositie met werken van Barbara van Ittersum e.a.,
             <a
@@ -252,7 +260,7 @@
               href="/paul-blanca-azart-photographie-magazine-2009-kristal.pdf"
               target="_blank"
               rel="noreferrer noopener"
-              >AZART Photographie magazine, 2009 (pdf)</a
+              >AZART Photographie magazine (pdf)</a
             >
           </td>
         </tr>
