@@ -2,11 +2,10 @@ const state = () => ({
   seriesPageIndex: [
     {
       slug: 'kristal',
-      description: `<p>Kristal is a series about the sweet and the bitter in relation with women. Models were immersed in chocolate, icing or icing sugar.</p>`,
+      description: `<p>Someone within the art world felt that my photographs always had a certain negative undertone. “Is that necessary?”, she concluded her argument. My response to her was: “What do you mean? My photos are like sugar”. In reality, nothing could be further from the truth. Although I dared to claim that much of my work with women exudes poetry.</p>`,
       head: {
         title: 'Kristal, 2008',
-        description:
-          'Kristal is a series about the sweet and the bitter in relation with women. Models were immersed in chocolate, sugar glaze or powdered sugar.',
+        description: 'My photos are like sugar.',
         imageId: 'kristal/dancers-feet-giullia_ta6eoq',
       },
     },
