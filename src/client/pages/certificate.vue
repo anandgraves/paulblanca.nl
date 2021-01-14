@@ -20,9 +20,19 @@
       <li>An embossed seal.</li>
       <li>Photo print details and a small print of the photo.</li>
       <li>
-        <strong>ART ID</strong>, a unique generated code located on the back of
-        the photo print and on the certificate. This is to link the photo print
-        and the certificate together and to uniquely identify the photo print.
+        <p>
+          <strong>ART ID</strong>, a unique generated code located on the back
+          of the photo print and on the certificate. This is to link the photo
+          print and the certificate together and to uniquely identify the photo
+          print.
+        </p>
+        <p>
+          The ART ID is a Universally Unique Identifier also known as a
+          <a href="https://en.wikipedia.org/wiki/Universally_unique_identifier"
+            >UUID</a
+          >. You can <a href="https://www.uuidgenerator.net/">generate</a> your
+          own UUID.
+        </p>
       </li>
     </ul>
 
