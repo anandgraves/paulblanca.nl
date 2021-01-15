@@ -160,6 +160,10 @@ sup {
   text-align: right;
 }
 
+.table-data__link {
+  color: black;
+}
+
 .icon-border {
   width: 117.5px;
   height: 77.5px;

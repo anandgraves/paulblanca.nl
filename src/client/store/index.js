@@ -1,6 +1,21 @@
 const state = () => ({
   seriesPageIndex: [
     {
+      slug: 'deformation',
+      description: `<p>In the early 1980s, I received a call from Rob Leer. Rob Leer is a phenomenon in the sadomasochistic leather, gay world. Rob called me and asked if I would be interested in doing a portrait of a hairdresser. Rob did not need a percentage of the portrait assignment to be made. The reason why became clearer to me later.</p>
+
+      <p>So I joined Rob Leer one evening and was immediately taken to the basement. An inspirational space for the enthusiast with deep black walls, ceiling and floor. A wide range of attributes indispensable to SM such as face masks, penis and nipple clamps and a crucifix. To these, a person could be tied with leather straps and then spin the crucifix like a wheel at different speeds. Also a wide range of whips and barred dungeons. One such that a small but adult human being has to be squeezed in completely double.</p>
+
+      <p>I was introduced to the hairdresser. He was, to make the atmosphere more lighthearted, crammed into a dungeon. Perhaps Rob had been the one to pull a leather face mask over his head and tighten the leather straps so tightly that the facial flesh popped out on all sides. The barber couldn't talk. Rob introduced to then release him from his bars. This was accompanied by some violence of being dragged across the floor by chains attached around testicles.</p>
+
+      <p>The funny thing is that more than 40 years after the fact, the scene Rob Leer inspired me to exhibit ‘Deformation’ at Amsterdam International Fashion Week (AIFW) <a href="https://www.trendalert.nl/artikel/157039-aifw-deformation">in collaboration with fashion designer Hester Slaman</a>, among others.</p>`,
+      head: {
+        title: 'Deformation, 2006',
+        description: 'My photos are like sugar.',
+        imageId: 'deformation/1_inb7dz',
+      },
+    },
+    {
       slug: 'kristal',
       description: `<p>Someone within the art world felt that my photographs always had a certain negative undertone. “Is that necessary?”, she concluded her argument. My response to her was: “What do you mean? My photos are like sugar”. In reality, nothing could be further from the truth. Although I dared to claim that much of my work with women exudes poetry.</p>`,
       head: {
@@ -42,6 +57,728 @@ const state = () => ({
     },
   ],
   shopProductList: [
+    {
+      slug: '1',
+      id: '76b89cfc-de28-4565-9a64-f32a3cc1a259',
+      series: 'Deformation',
+      seriesSlug: 'deformation',
+      year: 2006,
+      titleList: '1',
+      titleDetail: '1 from the series “Deformation”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt: 'Photo #1 from the series “Deformation (2006) by Paul Blanca',
+        id: 'deformation/1_inb7dz',
+        width: 1528,
+        height: 1181,
+      },
+    },
+    {
+      slug: '2',
+      id: '9157cd67-3134-4a9a-aa75-6e0817800294',
+      series: 'Deformation',
+      seriesSlug: 'deformation',
+      year: 2006,
+      titleList: '2',
+      titleDetail: '2 from the series “Deformation”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt: 'Photo #2 from the series “Deformation (2006) by Paul Blanca',
+        id: 'deformation/2_z5szsi',
+        width: 1583,
+        height: 1181,
+      },
+    },
+    {
+      slug: '3',
+      id: '3c5d8654-b63d-4553-8e03-b43c43229878',
+      series: 'Deformation',
+      seriesSlug: 'deformation',
+      year: 2006,
+      titleList: '3',
+      titleDetail: '3 from the series “Deformation”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt: 'Photo #3 from the series “Deformation (2006) by Paul Blanca',
+        id: 'deformation/3_mifhjb',
+        width: 1375,
+        height: 1181,
+      },
+    },
+    {
+      slug: '4',
+      id: '96802eef-311c-4f93-9c53-370074591af5',
+      series: 'Deformation',
+      seriesSlug: 'deformation',
+      year: 2006,
+      titleList: '4',
+      titleDetail: '4 from the series “Deformation”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt: 'Photo #4 from the series “Deformation (2006) by Paul Blanca',
+        id: 'deformation/4_kjuxnm',
+        width: 1356,
+        height: 1181,
+      },
+    },
+    {
+      slug: '5',
+      id: 'b5db740c-3cb6-45d5-b1dc-beb50b56411b',
+      series: 'Deformation',
+      seriesSlug: 'deformation',
+      year: 2006,
+      titleList: '5',
+      titleDetail: '5 from the series “Deformation”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt: 'Photo #5 from the series “Deformation (2006) by Paul Blanca',
+        id: 'deformation/5_xai4nn',
+        width: 1181,
+        height: 1417,
+      },
+    },
+    {
+      slug: '6',
+      id: '52042d5c-068b-4cb1-a3b6-b101fe594b7f',
+      series: 'Deformation',
+      seriesSlug: 'deformation',
+      year: 2006,
+      titleList: '6',
+      titleDetail: '6 from the series “Deformation”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt: 'Photo #6 from the series “Deformation (2006) by Paul Blanca',
+        id: 'deformation/6_p2p2no',
+        width: 1417,
+        height: 1181,
+      },
+    },
+    {
+      slug: '7',
+      id: 'd5fb7f2f-bcd1-4eb8-8295-0788862b1648',
+      series: 'Deformation',
+      seriesSlug: 'deformation',
+      year: 2006,
+      titleList: '7',
+      titleDetail: '7 from the series “Deformation”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt: 'Photo #7 from the series “Deformation (2006) by Paul Blanca',
+        id: 'deformation/7_f85qgn',
+        width: 1417,
+        height: 1181,
+      },
+    },
+    {
+      slug: '8',
+      id: 'c3af25a4-3352-45c3-b5ee-dec2835530c4',
+      series: 'Deformation',
+      seriesSlug: 'deformation',
+      year: 2006,
+      titleList: '8',
+      titleDetail: '8 from the series “Deformation”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt: 'Photo #8 from the series “Deformation (2006) by Paul Blanca',
+        id: 'deformation/8_zdqckd',
+        width: 1417,
+        height: 1181,
+      },
+    },
+    {
+      slug: '9',
+      id: '7236b41f-f404-46ff-81e7-3fc7b46c71a8',
+      series: 'Deformation',
+      seriesSlug: 'deformation',
+      year: 2006,
+      titleList: '9',
+      titleDetail: '9 from the series “Deformation”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt: 'Photo #9 from the series “Deformation (2006) by Paul Blanca',
+        id: 'deformation/9_pe8jyn',
+        width: 1417,
+        height: 1181,
+      },
+    },
+    {
+      slug: '10',
+      id: 'a70dd6e5-22ef-48e3-b64e-e9c92c668bbb',
+      series: 'Deformation',
+      seriesSlug: 'deformation',
+      year: 2006,
+      titleList: '10',
+      titleDetail: '10 from the series “Deformation”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt: 'Photo #10 from the series “Deformation (2006) by Paul Blanca',
+        id: 'deformation/10_jvsbci',
+        width: 1417,
+        height: 1181,
+      },
+    },
+    {
+      slug: '11',
+      id: '901aa490-390f-4445-8529-85c558392cf5',
+      series: 'Deformation',
+      seriesSlug: 'deformation',
+      year: 2006,
+      titleList: '11',
+      titleDetail: '11 from the series “Deformation”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt: 'Photo #11 from the series “Deformation (2006) by Paul Blanca',
+        id: 'deformation/11_sirxfm',
+        width: 1417,
+        height: 1181,
+      },
+    },
+    {
+      slug: '12',
+      id: 'c9bf22c7-8719-4354-89e8-4d947eecc263',
+      series: 'Deformation',
+      seriesSlug: 'deformation',
+      year: 2006,
+      titleList: '12',
+      titleDetail: '12 from the series “Deformation”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt: 'Photo #12 from the series “Deformation (2006) by Paul Blanca',
+        id: 'deformation/12_f2gje8',
+        width: 1417,
+        height: 1181,
+      },
+    },
+    {
+      slug: '13',
+      id: '25bc9de7-2959-49f7-924e-41b0412e1637',
+      series: 'Deformation',
+      seriesSlug: 'deformation',
+      year: 2006,
+      titleList: '13',
+      titleDetail: '13 from the series “Deformation”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt: 'Photo #13 from the series “Deformation (2006) by Paul Blanca',
+        id: 'deformation/13_oorxdg',
+        width: 1181,
+        height: 1417,
+      },
+    },
+    {
+      slug: '14',
+      id: 'a84df528-92dc-40cd-ba9e-b3803b7899ac',
+      series: 'Deformation',
+      seriesSlug: 'deformation',
+      year: 2006,
+      titleList: '14',
+      titleDetail: '14 from the series “Deformation”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt: 'Photo #14 from the series “Deformation (2006) by Paul Blanca',
+        id: 'deformation/14_fjocec',
+        width: 1181,
+        height: 1417,
+      },
+    },
+    {
+      slug: '15',
+      id: 'bcbcb4c4-cd51-450d-9cb4-904f8a9eb570',
+      series: 'Deformation',
+      seriesSlug: 'deformation',
+      year: 2006,
+      titleList: '15',
+      titleDetail: '15 from the series “Deformation”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt: 'Photo #15 from the series “Deformation (2006) by Paul Blanca',
+        id: 'deformation/15_yb6hpo',
+        width: 1417,
+        height: 1181,
+      },
+    },
+    {
+      slug: '16',
+      id: '30f7d2d4-2653-4670-ba22-a154373f888a',
+      series: 'Deformation',
+      seriesSlug: 'deformation',
+      year: 2006,
+      titleList: '16',
+      titleDetail: '16 from the series “Deformation”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt: 'Photo #16 from the series “Deformation (2006) by Paul Blanca',
+        id: 'deformation/16_lxikin',
+        width: 1417,
+        height: 1181,
+      },
+    },
+    {
+      slug: '17',
+      id: '9f6066e5-a682-48bd-97c2-a0fe1c094807',
+      series: 'Deformation',
+      seriesSlug: 'deformation',
+      year: 2006,
+      titleList: '17',
+      titleDetail: '17 from the series “Deformation”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt: 'Photo #17 from the series “Deformation (2006) by Paul Blanca',
+        id: 'deformation/17_hrqwyl',
+        width: 1417,
+        height: 1181,
+      },
+    },
+    {
+      slug: '18',
+      id: 'ea13d2d6-ed01-4534-b31f-0b388b767761',
+      series: 'Deformation',
+      seriesSlug: 'deformation',
+      year: 2006,
+      titleList: '18',
+      titleDetail: '18 from the series “Deformation”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt: 'Photo #18 from the series “Deformation (2006) by Paul Blanca',
+        id: 'deformation/18_kiygow',
+        width: 1417,
+        height: 1181,
+      },
+    },
+    {
+      slug: '19',
+      id: '7a3bcb1d-c609-4f3b-b969-30824a03435a',
+      series: 'Deformation',
+      seriesSlug: 'deformation',
+      year: 2006,
+      titleList: '19',
+      titleDetail: '19 from the series “Deformation”',
+      description: '',
+      edition: {
+        '30x40cm': '1 of 10',
+        '40x50cm': '1 of 10',
+        '100x120cm': '1 of 10',
+      },
+      prices: {
+        '30x40cm': {
+          dibond: 4000,
+          plexiglass: 4200,
+          trulife: 4400,
+        },
+        '40x50cm': {
+          dibond: 5200,
+          plexiglass: 5400,
+          trulife: 5600,
+        },
+        '100x120cm': {
+          dibond: 11400,
+          plexiglass: 12000,
+          trulife: 13000,
+        },
+      },
+      image: {
+        alt: 'Photo #19 from the series “Deformation (2006) by Paul Blanca',
+        id: 'deformation/19_akc2cb',
+        width: 1187,
+        height: 1417,
+      },
+    },
     {
       slug: 'sugartree-giullia',
       id: 'c29d94f3-f977-4b7e-91ac-4c305f9850e1',
@@ -1014,16 +1751,26 @@ const state = () => ({
   ],
 })
 
+const sortOrderArr = [
+  '76b89cfc-de28-4565-9a64-f32a3cc1a259', // #1 from Deformation
+  'd720956c-f08a-454b-b9e3-139d1030a48f', // Juliette from Wit en Bruin
+  'd3fc901b-67a5-439c-a7c4-495a5d1b282c', // Nora Kimball Crying from Par La Pluie Des Femmes
+  'a4316eca-91ca-4ecd-bb25-00454783fa31', // Dancers Feet Giullia from Kristal
+]
+
 const getters = {
   seriesPageIndex: (state) => state.seriesPageIndex,
   shopProductList: (state) => state.shopProductList,
-  seriesList: (state) =>
-    state.shopProductList.filter(
-      (product) =>
-        product.id === 'd3fc901b-67a5-439c-a7c4-495a5d1b282c' || // Nora Kimball Crying from Par La Pluie Des Femmes
-        product.id === 'd720956c-f08a-454b-b9e3-139d1030a48f' || // Juliette from Wit en Bruin
-        product.id === 'a4316eca-91ca-4ecd-bb25-00454783fa31' // Dancers Feet Giullia from Kristal
-    ),
+  seriesList: (state) => {
+    const covers = state.shopProductList.filter((product) => {
+      return sortOrderArr.some((item) => {
+        return item === product.id
+      })
+    })
+    const sorted = mapOrder(covers, sortOrderArr, 'id')
+    return sorted
+    // return covers
+  },
 }
 
 const mutations = {
@@ -1033,6 +1780,26 @@ const mutations = {
 }
 
 const actions = {}
+
+/**
+ * Sort array of objects based on another array
+ */
+
+function mapOrder(array, order, key) {
+  const sorter = function (a, b) {
+    const A = a[key]
+    const B = b[key]
+
+    if (order.indexOf(A) > order.indexOf(B)) {
+      return 1
+    } else {
+      return -1
+    }
+  }
+
+  array.sort(sorter)
+  return array
+}
 
 export default {
   state,

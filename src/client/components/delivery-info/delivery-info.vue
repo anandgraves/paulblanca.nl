@@ -2,13 +2,13 @@
   <div class="delivery-info rich-text">
     <ul class="delivery-info__list">
       <li class="delivery-info__item">
-        Worldwide <strong>free</strong> shipping.
+        Worldwide <strong>free</strong> shipping
       </li>
       <li class="delivery-info__item">
-        Worldwide <strong>Track&Trace</strong>.
+        Worldwide <strong>Track&Trace</strong>
       </li>
       <li class="delivery-info__item">
-        Only <strong>express delivery services</strong> are used.
+        <strong>Express delivery services</strong>
       </li>
     </ul>
 

@@ -56,7 +56,15 @@
           </tr>
           <tr>
             <th class="table-data__head table-data__cell">Printer</th>
-            <td class="table-data__cell">Eyes on Photoart</td>
+            <td class="table-data__cell">
+              <a
+                href="https://eyesonphotoart.nl/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="table-data__link"
+                >Eyes on PhotoArt</a
+              >
+            </td>
           </tr>
         </tbody>
       </table>
@@ -248,7 +256,7 @@ export default {
       return this.product.edition[this.size]
     },
     productTitle() {
-      return `${this.product.titleDetail}, ${this.product.year}`
+      return `${this.product.titleDetail}`
     },
     productSlug() {
       return `/shop/${this.getProductSeriesSlug}/`
