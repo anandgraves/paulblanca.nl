@@ -38,9 +38,10 @@
       </p>
 
       <p>
-        In the series ‘Deformation’ he was inspired by Japanese bondage. Models
-        mutulated by fishline and hanging in the air, supported by the same
-        fishline. This series was made for Amsterdam fashionweek in 2005 and
+        In the series ‘Deformation’ he was inspired by Rob Leer‘s SM scene.
+        Models mutulated by fishline and hanging in the air, supported by the
+        same fishline. This series was made for Amsterdam International Fashion
+        Week (AIFW), in collaboration with fashion designer Hester Slaman, and
         exposed in Apart Gallery Amsterdam.
       </p>
 
