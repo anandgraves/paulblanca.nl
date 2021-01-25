@@ -308,9 +308,24 @@
           </td>
         </tr>
         <tr>
-          <th class="table-data__head table-data__cell" scope="row">2006</th>
+          <th class="table-data__head table-data__cell" rowspan="2" scope="row">
+            2006
+          </th>
           <td class="table-data__cell">
             Solotentoonstelling, Galeria Antonio Barnola, Barcelona, Spanje
+          </td>
+        </tr>
+        <tr>
+          <td class="table-data__cell">
+            Expositie ‘Deformation’ in Studio Apart in Amsterdam als onderdeel
+            van de
+            <a
+              href="https://www.trendalert.nl/artikel/157039-aifw-deformation"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Amsterdam International Fashion Week</a
+            >
+            (AIFW)
           </td>
         </tr>
         <tr>
