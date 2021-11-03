@@ -30,7 +30,7 @@
         <icon-paypal />
       </icon-base>
     </li>
-    <li><span></span></li>
+    <li><span /></li>
     <li class="payment-icon">
       <icon-base viewbox="0 0 120 80" width="80" height="40" icon-name="visa">
         <icon-visa />

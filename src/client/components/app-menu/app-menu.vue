@@ -1,10 +1,17 @@
 <template>
   <nav class="app-menu">
-    <nuxt-link :to="pageUrl('shop')" class="app-menu__link">Shop</nuxt-link>
-    <nuxt-link :to="pageUrl('about')" class="app-menu__link">About</nuxt-link>
-    <nuxt-link :to="pageUrl('contact')" class="app-menu__link"
-      >Contact</nuxt-link
+    <nuxt-link :to="pageUrl('shop')" class="app-menu__link">
+      Shop
+    </nuxt-link>
+    <nuxt-link :to="pageUrl('about')" class="app-menu__link">
+      About
+    </nuxt-link>
+    <nuxt-link
+      :to="pageUrl('contact')"
+      class="app-menu__link"
     >
+      Contact
+    </nuxt-link>
   </nav>
 </template>
 
@@ -12,10 +19,10 @@
 import getPageUrl from '~/lib/get-page-url'
 export default {
   methods: {
-    pageUrl(query) {
+    pageUrl (query) {
       return getPageUrl(query)
-    },
-  },
+    }
+  }
 }
 </script>
 

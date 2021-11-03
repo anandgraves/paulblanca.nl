@@ -5,12 +5,14 @@
         class="app-footer__logo"
         src="/images/logo-white.svg"
         alt="Fine Art Photography of Paul Blanca | Artist | Photographer"
-      />
+      >
     </div>
 
     <div class="app-footer__content">
       <section class="app-footer__column">
-        <h2 class="app-footer__title heading-small">Need help?</h2>
+        <h2 class="app-footer__title heading-small">
+          Need help?
+        </h2>
         <ul class="app-footer__list">
           <li class="app-footer__list-item">
             <nuxt-link class="app-footer__link" :to="pageUrl('order-shipping')">
@@ -45,7 +47,9 @@
       </section>
 
       <section class="app-footer__column">
-        <h2 class="app-footer__title heading-small">Explore</h2>
+        <h2 class="app-footer__title heading-small">
+          Explore
+        </h2>
         <ul class="app-footer__list">
           <li class="app-footer__list-item">
             <nuxt-link
@@ -74,14 +78,15 @@
               href="https://instagram.com/paulblancanl/"
               target="_blank"
               rel="noopener noreferrer"
-              >Instagram</a
-            >
+            >Instagram</a>
           </li>
         </ul>
       </section>
 
       <section class="app-footer__column">
-        <h2 class="app-footer__title heading-small">Payment methods</h2>
+        <h2 class="app-footer__title heading-small">
+          Payment methods
+        </h2>
         <ul class="app-footer__list">
           <li class="app-footer__list-item">
             <nuxt-link
@@ -92,34 +97,52 @@
             </nuxt-link>
           </li>
           <li class="app-footer__list-item">
-            <nuxt-link :to="pageUrl('payment-methods')" class="app-footer__link"
-              >PayPal</nuxt-link
+            <nuxt-link
+              :to="pageUrl('payment-methods')"
+              class="app-footer__link"
             >
+              PayPal
+            </nuxt-link>
           </li>
           <li class="app-footer__list-item">
-            <nuxt-link :to="pageUrl('payment-methods')" class="app-footer__link"
-              >VISA</nuxt-link
+            <nuxt-link
+              :to="pageUrl('payment-methods')"
+              class="app-footer__link"
             >
+              VISA
+            </nuxt-link>
           </li>
           <li class="app-footer__list-item">
-            <nuxt-link :to="pageUrl('payment-methods')" class="app-footer__link"
-              >Apple Pay</nuxt-link
+            <nuxt-link
+              :to="pageUrl('payment-methods')"
+              class="app-footer__link"
             >
+              Apple Pay
+            </nuxt-link>
           </li>
           <li class="app-footer__list-item">
-            <nuxt-link :to="pageUrl('payment-methods')" class="app-footer__link"
-              >Mastercard</nuxt-link
+            <nuxt-link
+              :to="pageUrl('payment-methods')"
+              class="app-footer__link"
             >
+              Mastercard
+            </nuxt-link>
           </li>
           <li class="app-footer__list-item">
-            <nuxt-link :to="pageUrl('payment-methods')" class="app-footer__link"
-              >SOFORT</nuxt-link
+            <nuxt-link
+              :to="pageUrl('payment-methods')"
+              class="app-footer__link"
             >
+              SOFORT
+            </nuxt-link>
           </li>
           <li class="app-footer__list-item">
-            <nuxt-link :to="pageUrl('payment-methods')" class="app-footer__link"
-              >American Express</nuxt-link
+            <nuxt-link
+              :to="pageUrl('payment-methods')"
+              class="app-footer__link"
             >
+              American Express
+            </nuxt-link>
           </li>
         </ul>
       </section>
@@ -131,10 +154,10 @@
 import getPageUrl from '~/lib/get-page-url'
 export default {
   methods: {
-    pageUrl(query) {
+    pageUrl (query) {
       return getPageUrl(query)
-    },
-  },
+    }
+  }
 }
 </script>
 

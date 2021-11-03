@@ -2,7 +2,9 @@
   <div class="content">
     <article class="newsletter-form">
       <div class="newsletter-form__content">
-        <h2 class="heading-medium">Get updates first</h2>
+        <h2 class="heading-medium">
+          Get updates first
+        </h2>
         <p class="newsletter-form__pitch body">
           Sign up and receive updates about new projects, work and events.
         </p>
@@ -19,7 +21,7 @@
                 placeholder="What is your email address?"
                 required="true"
                 type="email"
-              />
+              >
             </div>
 
             <button
@@ -30,8 +32,10 @@
               }"
             >
               <div class="button__content">
-                <span v-if="isPending" class="button__icon-container"
-                  ><!-- By Sam Herbert (@sherb), for everyone.
+                <span
+                  v-if="isPending"
+                  class="button__icon-container"
+                ><!-- By Sam Herbert (@sherb), for everyone.
               More @ https://github.com/SamHerbert/SVG-Loaders -->
                   <svg
                     class="newsletter-form__icon-loader"
@@ -55,8 +59,7 @@
                           />
                         </path>
                       </g>
-                    </g></svg
-                ></span>
+                    </g></svg></span>
                 <span v-if="!isPending" class="button__text">Subscribe</span>
               </div>
             </button>
@@ -85,23 +88,23 @@
 </template>
 
 <script>
-const defaultErrorMessage = `Something went wrong. Send me an email at <a href="mailto:info@paulblanca.nl?subject=Newsletter">info@paulblanca.nl</a> and you will be added to the newsletter.`
+const defaultErrorMessage = 'Something went wrong. Send me an email at <a href="mailto:info@paulblanca.nl?subject=Newsletter">info@paulblanca.nl</a> and you will be added to the newsletter.'
 export default {
-  data() {
+  data () {
     return {
       firstName: '',
       email: '',
       isPending: false,
-      errorMessage: null,
+      errorMessage: null
     }
   },
   methods: {
-    async onSubmit() {
+    async onSubmit () {
       this.isPending = true
 
       try {
         await this.$axios.$post(process.env.convertKitApiUrl, {
-          email_address: this.email,
+          email_address: this.email
         })
         window.location.replace(process.env.emailSubscriptionCompletedUrl)
       } catch (error) {
@@ -121,8 +124,8 @@ export default {
         }
         this.isPending = false
       }
-    },
-  },
+    }
+  }
 }
 </script>
 

@@ -1,7 +1,7 @@
 <template>
   <div :style="{ paddingBottom: `${ratio}%` }" class="fixed-ratio">
     <div class="fixed-ratio__content">
-      <slot></slot>
+      <slot />
     </div>
   </div>
 </template>
@@ -11,18 +11,18 @@ export default {
   props: {
     height: {
       type: Number,
-      required: true,
+      required: true
     },
     width: {
       type: Number,
-      required: true,
-    },
+      required: true
+    }
   },
   computed: {
-    ratio() {
+    ratio () {
       return (this.height / this.width) * 100
-    },
-  },
+    }
+  }
 }
 </script>
 

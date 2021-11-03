@@ -1,9 +1,13 @@
 <template>
   <article class="about center-content body rich-text">
-    <h1 class="heading-large">Curriculum Vitae</h1>
+    <h1 class="heading-large">
+      Curriculum Vitae
+    </h1>
 
     <section>
-      <h2 class="heading-medium">Media</h2>
+      <h2 class="heading-medium">
+        Media
+      </h2>
 
       <ul class="list">
         <li class="list__item">
@@ -12,8 +16,7 @@
             href="https://focusmagazine.nl/product/focus-12-2020/"
             target="_blank"
             rel="noreferrer noopener"
-            >Focus Magazine, 2020</a
-          >.
+          >Focus Magazine, 2020</a>.
         </li>
         <li class="list__item">
           <a
@@ -21,25 +24,22 @@
         "
             target="_blank"
             rel="noreferrer noopener"
-            >Fotofestival Naarden 2019</a
-          >
+          >Fotofestival Naarden 2019</a>
         </li>
         <li class="list__item">
           <a
             href="https://www.parool.nl/nieuws/kunstenaar-paul-blanca-ik-loop-altijd-richting-de-prikkels-en-het-onbekende~b47436af/"
             target="_blank"
             rel="noreferrer noopener"
-            >Kunstenaar Paul Blanca: 'Ik loop altijd richting de prikkels en het
-            onbekende', Het Parool, 2017</a
-          >
+          >Kunstenaar Paul Blanca: 'Ik loop altijd richting de prikkels en het
+            onbekende', Het Parool, 2017</a>
         </li>
         <li class="list__item">
           <a
             href="https://www.npostart.nl/fotostudio-de-jong-6/15-02-2014/VPWON_1209690"
             target="_blank"
             rel="noreferrer noopener"
-            >Interview in het programma "Fotostudio De Jong" op NPO, 2014</a
-          >
+          >Interview in het programma "Fotostudio De Jong" op NPO, 2014</a>
           (video)
         </li>
         <li class="list__item">
@@ -47,9 +47,8 @@
             href="https://www.rtvoost.nl/nieuws/122002/Rechters-in-museum-De-Fundatie"
             target="_blank"
             rel="noopener noreferrer"
-            >Tentoonstelling ‘Rechtbankportretten‘ in Museum De Fundatie,
-            Zwolle, 2011</a
-          >
+          >Tentoonstelling ‘Rechtbankportretten‘ in Museum De Fundatie,
+            Zwolle, 2011</a>
           (video)
         </li>
         <li class="list__item">
@@ -57,21 +56,19 @@
             href="https://www.weblogzwolle.nl/nieuws/21752/start-expositie-paul-blanca-in-zwolle.html"
             target="_blank"
             rel="noreferrer noopener"
-            >Start expositie Paul Blanca in Zwolle, Rechtbankportretten, 2011</a
-          >
+          >Start expositie Paul Blanca in Zwolle, Rechtbankportretten, 2011</a>
         </li>
         <li class="list__item">
           <a
             href="https://www.vice.com/nl/article/5g7n3q/een-gesprek-met-paul-blanca-over-stierenvechten-herone-en-lekkere-wijven-293"
             target="_blank"
             rel="noreferrer noopener"
-            >Interview VICE magazine</a
-          >, 2010
+          >Interview VICE magazine</a>, 2010
         </li>
         <li class="list__item">
-          <a href="https://www.youtube.com/watch?v=Dcevb3BOXQI"
-            >Interview door De Jakhalzen, De Wereld Draait Door, 2010</a
-          >
+          <a
+            href="https://www.youtube.com/watch?v=Dcevb3BOXQI"
+          >Interview door De Jakhalzen, De Wereld Draait Door, 2010</a>
           (video)
         </li>
         <li class="list__item">
@@ -79,103 +76,103 @@
             href="/paul-blanca-azart-photographie-magazine-2009-kristal.pdf"
             target="_blank"
             rel="noreferrer noopener"
-            >AZART Photographie magazine, 2009 (pdf)</a
-          >
+          >AZART Photographie magazine, 2009 (pdf)</a>
         </li>
         <li class="list__item">
           <a
             href="https://www.trouw.nl/nieuws/exposities-in-frankfurt-tachtig-werken-van-hollandse-meesters-laten-meer-dan-brief-en-boek-zien~b079ad6c/"
             target="_blank"
             rel="noreferrer noopener"
-            >Exposities in Frankfurt - Tachtig werken van Hollandse meesters
-            laten meer dan brief en boek zien, 1993</a
-          >
+          >Exposities in Frankfurt - Tachtig werken van Hollandse meesters
+            laten meer dan brief en boek zien, 1993</a>
         </li>
         <li class="list__item">
           <a
             href="https://chrisreinewald.nl/wp-content/uploads/2016/09/De-Journalist-Paul-Blanca-210590.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            >‘De uiterste emotie‘, De Journalist, 1990</a
-          >
+          >‘De uiterste emotie‘, De Journalist, 1990</a>
           (pdf)
         </li>
       </ul>
     </section>
 
     <section>
-      <h2 class="heading-medium">Collections</h2>
+      <h2 class="heading-medium">
+        Collections
+      </h2>
       <ul class="list">
         <li class="list__item">
           <a
             href="https://www.stedelijk.nl/"
             target="_blank"
             rel="noopener noreferrer"
-            >Stedelijk Museum Amsterdam</a
-          >
+          >Stedelijk Museum Amsterdam</a>
         </li>
         <li class="list__item">
           <a
             href="https://www.centraalmuseum.nl/"
             target="_blank"
             rel="noopener noreferrer"
-            >Centraal Museum Utrecht</a
-          >
+          >Centraal Museum Utrecht</a>
         </li>
         <li class="list__item">
           <a
             href="https://www.museumdefundatie.nl"
             target="_blank"
             rel="noopener noreferrer"
-            >Museum De Fundatie, Zwolle</a
-          >
+          >Museum De Fundatie, Zwolle</a>
         </li>
         <li class="list__item">
           <a
             href="https://www.groningermuseum.nl/"
             target="_blank"
             rel="noopener noreferrer"
-            >Groninger Museum</a
-          >
+          >Groninger Museum</a>
         </li>
         <li class="list__item">
           <a
             href="https://www.coda-apeldoorn.nl/nl/museum/van-reekum"
             target="_blank"
             rel="noopener noreferrer"
-            >Van Reekum Museum, CODA, Apeldoorn</a
-          >
+          >Van Reekum Museum, CODA, Apeldoorn</a>
         </li>
       </ul>
     </section>
 
     <section>
-      <h2 class="heading-medium">History</h2>
+      <h2 class="heading-medium">
+        History
+      </h2>
 
       <table class="body">
         <tr>
-          <th class="table-data__head table-data__cell" scope="row">2020</th>
+          <th class="table-data__head table-data__cell" scope="row">
+            2020
+          </th>
           <td class="table-data__cell">
-            Website <nuxt-link to="/">paulblanca.nl</nuxt-link> live in
+            Website <nuxt-link to="/">
+              paulblanca.nl
+            </nuxt-link> live in
             partnership with
             <a
               href="https://21bits.nl/"
               target="_blank"
               rel="noreferrer noopener"
-              >21 Bits</a
-            >.
+            >21 Bits</a>.
           </td>
         </tr>
         <tr>
-          <th class="table-data__head table-data__cell" scope="row">2019</th>
+          <th class="table-data__head table-data__cell" scope="row">
+            2019
+          </th>
           <td class="table-data__cell">
             <a
               href="https://www.facebook.com/fotofestivalnaarden/photos/in-bastion-oranje-fotos-van-paul-blanca/2335881489822915/
         "
               target="_blank"
               rel="noreferrer noopener"
-              >Expositie 20 foto‘s, Fotofestival Naarden</a
-            >
+            >Expositie 20 foto‘s, Fotofestival Naarden</a>
           </td>
         </tr>
         <tr>
@@ -200,8 +197,7 @@
               href="https://www.parool.nl/nieuws/kunstenaar-paul-blanca-ik-loop-altijd-richting-de-prikkels-en-het-onbekende~b47436af/"
               target="_blank"
               rel="noreferrer noopener"
-              >Interview in Parool voor tentoonstelling Closer</a
-            >
+            >Interview in Parool voor tentoonstelling Closer</a>
             bij gallerie Gabriel Rolt
           </td>
         </tr>
@@ -217,21 +213,23 @@
               href="https://www.kunstinzicht.nl/kunst/tentoonstelling/10054/e17395/arti-et-amicitiae-mijn-collectie-uncut-2-barbara-van-ittersum.html"
               target="_blank"
               rel="noreferrer noopener"
-              >Arti et Amicitiae</a
-            >, Amsterdam.
+            >Arti et Amicitiae</a>, Amsterdam.
           </td>
         </tr>
         <tr>
-          <th class="table-data__head table-data__cell" scope="row">2014</th>
+          <th class="table-data__head table-data__cell" scope="row">
+            2014
+          </th>
           <td class="table-data__cell">
             <a
               href="https://www.npostart.nl/fotostudio-de-jong-6/15-02-2014/VPWON_1209690"
-              >Interview in het programma "Fotostudio De Jong" op NPO</a
-            >
+            >Interview in het programma "Fotostudio De Jong" op NPO</a>
           </td>
         </tr>
         <tr>
-          <th class="table-data__head table-data__cell" scope="row">2011</th>
+          <th class="table-data__head table-data__cell" scope="row">
+            2011
+          </th>
           <td class="table-data__cell">
             Rechtbankportretten. Museum de Fundatie, Zwolle
           </td>
@@ -241,9 +239,9 @@
             2010
           </th>
           <td class="table-data__cell">
-            <a href="https://www.youtube.com/watch?v=Dcevb3BOXQI"
-              >Interview door De Jakhalzen, De Wereld Draait Door</a
-            >
+            <a
+              href="https://www.youtube.com/watch?v=Dcevb3BOXQI"
+            >Interview door De Jakhalzen, De Wereld Draait Door</a>
           </td>
         </tr>
         <tr>
@@ -260,8 +258,7 @@
               href="/paul-blanca-azart-photographie-magazine-2009-kristal.pdf"
               target="_blank"
               rel="noreferrer noopener"
-              >AZART Photographie magazine (pdf)</a
-            >
+            >AZART Photographie magazine (pdf)</a>
           </td>
         </tr>
         <tr>
@@ -302,7 +299,9 @@
           </td>
         </tr>
         <tr>
-          <th class="table-data__head table-data__cell" scope="row">2007</th>
+          <th class="table-data__head table-data__cell" scope="row">
+            2007
+          </th>
           <td class="table-data__cell">
             Groepstentoonstelling, Galerie Rademakers, Amsterdam
           </td>
@@ -323,8 +322,7 @@
               href="https://www.trendalert.nl/artikel/157039-aifw-deformation"
               target="_blank"
               rel="noopener noreferrer"
-              >Amsterdam International Fashion Week</a
-            >
+            >Amsterdam International Fashion Week</a>
             (AIFW)
           </td>
         </tr>
@@ -386,7 +384,9 @@
           </td>
         </tr>
         <tr>
-          <th class="table-data__head table-data__cell" scope="row">2001</th>
+          <th class="table-data__head table-data__cell" scope="row">
+            2001
+          </th>
           <td class="table-data__cell">
             Groepstentoonstelling, Thema De Dood. Gemeentemuseum, Den Haag
           </td>
@@ -407,7 +407,9 @@
           </td>
         </tr>
         <tr>
-          <th class="table-data__head table-data__cell" scope="row">1999</th>
+          <th class="table-data__head table-data__cell" scope="row">
+            1999
+          </th>
           <td class="table-data__cell">
             Solotentoonstelling, Galerie BZ, Rotterdam
           </td>
@@ -500,14 +502,18 @@
           </td>
         </tr>
         <tr>
-          <th class="table-data__head table-data__cell" scope="row">1992</th>
+          <th class="table-data__head table-data__cell" scope="row">
+            1992
+          </th>
           <td class="table-data__cell">
             Solotentoonstelling Natural Morte & Insjallah. Werken uit de periode
             Egypte (een jaar). Lumen Travo, Amsterdam
           </td>
         </tr>
         <tr>
-          <th class="table-data__head table-data__cell" scope="row">1991</th>
+          <th class="table-data__head table-data__cell" scope="row">
+            1991
+          </th>
           <td class="table-data__cell">
             Toros de Sangre, Lumen Travo, Amsterdam
           </td>
@@ -676,20 +682,26 @@
           </td>
         </tr>
         <tr>
-          <th class="table-data__head table-data__cell" scope="row">1983</th>
+          <th class="table-data__head table-data__cell" scope="row">
+            1983
+          </th>
           <td class="table-data__cell">
             Photographs. Galerie Ton Peek, Utrecht
           </td>
         </tr>
         <tr>
-          <th class="table-data__head table-data__cell" scope="row">1982</th>
+          <th class="table-data__head table-data__cell" scope="row">
+            1982
+          </th>
           <td class="table-data__cell">
             Hans van Manen en Paul Blanca Photographs. Galerie Ton Peek,
             Utrecht.
           </td>
         </tr>
         <tr>
-          <th class="table-data__head table-data__cell" scope="row">1981</th>
+          <th class="table-data__head table-data__cell" scope="row">
+            1981
+          </th>
           <td class="table-data__cell">
             Expositie samen met Hans van Manen en Rob van Woerkom. Gallery Rob
             Amsterdam.
@@ -704,19 +716,19 @@
 import setCanonicalForSeo from '../../lib/set-canonical-for-seo.js'
 
 export default {
-  head() {
+  head () {
     return {
       title: 'Curriculum Vitae (CV)',
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: 'Biography of artist and photographer Paul Blanca.',
-        },
+          content: 'Biography of artist and photographer Paul Blanca.'
+        }
       ],
-      ...setCanonicalForSeo(this.$route),
+      ...setCanonicalForSeo(this.$route)
     }
-  },
+  }
 }
 </script>
 

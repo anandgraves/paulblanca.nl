@@ -7,7 +7,7 @@
             class="app-header__logo"
             alt="Fine Art Photography of Paul Blanca | Artist | Photographer"
             src="/images/logo-black.svg"
-          />
+          >
         </div>
 
         <span class="app-header__subtitle"> artist - photographer </span>
@@ -22,8 +22,8 @@ import appMenu from '../app-menu/app-menu'
 
 export default {
   components: {
-    appMenu,
-  },
+    appMenu
+  }
 }
 </script>
 
