@@ -9,8 +9,8 @@ export default function (route) {
       {
         hid: 'canonical',
         rel: 'canonical',
-        href: canonicalUrl,
-      },
-    ],
+        href: canonicalUrl
+      }
+    ]
   }
 }

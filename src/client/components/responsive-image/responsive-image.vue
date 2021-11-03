@@ -10,7 +10,7 @@
         :cloud-name="cloudName"
         :public-id="image.id"
         responsive
-        fetchFormat="auto"
+        fetch-format="auto"
         quality="auto"
         loading="lazy"
         secure="true"
@@ -29,29 +29,29 @@ import { CldImage } from 'cloudinary-vue'
 
 export default {
   components: {
-    CldImage,
+    CldImage
   },
   props: {
     image: {
       type: Object,
-      required: true,
+      required: true
     },
     /**
      * Color filling up the space when the image is loading.
      */
     placeholderColor: {
       type: String,
-      default: 'transparent',
-    },
+      default: 'transparent'
+    }
   },
   computed: {
-    cloudName() {
+    cloudName () {
       return process.env.cloudinaryCloudName
     },
-    alt() {
+    alt () {
       return this.image.alt || 'Photo by artist and photographer Paul Blanca'
-    },
-  },
+    }
+  }
 }
 </script>
 

@@ -1,6 +1,8 @@
 <template>
   <article class="about center-content">
-    <h1 class="heading-large">About</h1>
+    <h1 class="heading-large">
+      About
+    </h1>
 
     <section class="body rich-text">
       <p>
@@ -62,12 +64,14 @@
     </section>
 
     <section class="body rich-text">
-      <h2 class="heading-medium">Curriculum Vitae</h2>
+      <h2 class="heading-medium">
+        Curriculum Vitae
+      </h2>
       <p>
         View
         <nuxt-link to="/about/curriculum-vitae/">
-          Paul Blanca‘s Curriculum Vitae </nuxt-link
-        >&nbsp; from 1981 until present.
+          Paul Blanca‘s Curriculum Vitae
+        </nuxt-link>&nbsp; from 1981 until present.
       </p>
     </section>
   </article>
@@ -77,19 +81,19 @@
 import setCanonicalForSeo from '../../lib/set-canonical-for-seo.js'
 
 export default {
-  head() {
+  head () {
     return {
       title: 'About',
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: 'Biography of artist and photographer Paul Blanca.',
-        },
+          content: 'Biography of artist and photographer Paul Blanca.'
+        }
       ],
-      ...setCanonicalForSeo(this.$route),
+      ...setCanonicalForSeo(this.$route)
     }
-  },
+  }
 }
 </script>
 

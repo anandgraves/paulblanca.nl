@@ -12,17 +12,17 @@ const state = () => ({
       head: {
         title: 'Deformation, 2006',
         description: 'My photos are like sugar.',
-        imageId: 'deformation/1_inb7dz',
-      },
+        imageId: 'deformation/1_inb7dz'
+      }
     },
     {
       slug: 'kristal',
-      description: `<p>Someone within the art world felt that my photographs always had a certain negative undertone. “Is that necessary?”, she concluded her argument. My response to her was: “What do you mean? My photos are like sugar”. In reality, nothing could be further from the truth. Although I dared to claim that much of my work with women exudes poetry.</p>`,
+      description: '<p>Someone within the art world felt that my photographs always had a certain negative undertone. “Is that necessary?”, she concluded her argument. My response to her was: “What do you mean? My photos are like sugar”. In reality, nothing could be further from the truth. Although I dared to claim that much of my work with women exudes poetry.</p>',
       head: {
         title: 'Kristal, 2008',
         description: 'My photos are like sugar.',
-        imageId: 'kristal/dancers-feet-giullia_ta6eoq',
-      },
+        imageId: 'kristal/dancers-feet-giullia_ta6eoq'
+      }
     },
     {
       slug: 'par-la-pluie-des-femmes',
@@ -36,8 +36,8 @@ const state = () => ({
         description:
           'Women captured in tears by thinking of their most traumatic experience.',
         imageId:
-          'par-la-pluie-des-femmes/nora-kimball-crying-paul-blanca_aui9cz',
-      },
+          'par-la-pluie-des-femmes/nora-kimball-crying-paul-blanca_aui9cz'
+      }
     },
     {
       slug: 'wit-en-bruin',
@@ -52,9 +52,9 @@ const state = () => ({
         title: 'Wit en Bruin, 1992',
         description:
           'The expression on the face of speedball hookers was photographed.',
-        imageId: 'wit-en-bruin/juliette-paul-blanca_owdrmz',
-      },
-    },
+        imageId: 'wit-en-bruin/juliette-paul-blanca_owdrmz'
+      }
+    }
   ],
   shopProductList: [
     {
@@ -69,31 +69,31 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt: 'Photo #1 from the series “Deformation (2006) by Paul Blanca',
         id: 'deformation/1_inb7dz',
         width: 1528,
-        height: 1181,
-      },
+        height: 1181
+      }
     },
     {
       slug: '2',
@@ -107,31 +107,31 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt: 'Photo #2 from the series “Deformation (2006) by Paul Blanca',
         id: 'deformation/2_z5szsi',
         width: 1583,
-        height: 1181,
-      },
+        height: 1181
+      }
     },
     {
       slug: '3',
@@ -145,31 +145,31 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt: 'Photo #3 from the series “Deformation (2006) by Paul Blanca',
         id: 'deformation/3_mifhjb',
         width: 1375,
-        height: 1181,
-      },
+        height: 1181
+      }
     },
     {
       slug: '4',
@@ -183,31 +183,31 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt: 'Photo #4 from the series “Deformation (2006) by Paul Blanca',
         id: 'deformation/4_kjuxnm',
         width: 1356,
-        height: 1181,
-      },
+        height: 1181
+      }
     },
     {
       slug: '5',
@@ -221,31 +221,31 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt: 'Photo #5 from the series “Deformation (2006) by Paul Blanca',
         id: 'deformation/5_xai4nn',
         width: 1181,
-        height: 1417,
-      },
+        height: 1417
+      }
     },
     {
       slug: '6',
@@ -259,31 +259,31 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt: 'Photo #6 from the series “Deformation (2006) by Paul Blanca',
         id: 'deformation/6_p2p2no',
         width: 1417,
-        height: 1181,
-      },
+        height: 1181
+      }
     },
     {
       slug: '7',
@@ -297,31 +297,31 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt: 'Photo #7 from the series “Deformation (2006) by Paul Blanca',
         id: 'deformation/7_f85qgn',
         width: 1417,
-        height: 1181,
-      },
+        height: 1181
+      }
     },
     {
       slug: '8',
@@ -335,31 +335,31 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt: 'Photo #8 from the series “Deformation (2006) by Paul Blanca',
         id: 'deformation/8_zdqckd',
         width: 1417,
-        height: 1181,
-      },
+        height: 1181
+      }
     },
     {
       slug: '9',
@@ -373,31 +373,31 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt: 'Photo #9 from the series “Deformation (2006) by Paul Blanca',
         id: 'deformation/9_pe8jyn',
         width: 1417,
-        height: 1181,
-      },
+        height: 1181
+      }
     },
     {
       slug: '10',
@@ -411,31 +411,31 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt: 'Photo #10 from the series “Deformation (2006) by Paul Blanca',
         id: 'deformation/10_jvsbci',
         width: 1417,
-        height: 1181,
-      },
+        height: 1181
+      }
     },
     {
       slug: '11',
@@ -449,31 +449,31 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt: 'Photo #11 from the series “Deformation (2006) by Paul Blanca',
         id: 'deformation/11_sirxfm',
         width: 1417,
-        height: 1181,
-      },
+        height: 1181
+      }
     },
     {
       slug: '12',
@@ -487,31 +487,31 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt: 'Photo #12 from the series “Deformation (2006) by Paul Blanca',
         id: 'deformation/12_f2gje8',
         width: 1417,
-        height: 1181,
-      },
+        height: 1181
+      }
     },
     {
       slug: '13',
@@ -525,31 +525,31 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt: 'Photo #13 from the series “Deformation (2006) by Paul Blanca',
         id: 'deformation/13_oorxdg',
         width: 1181,
-        height: 1417,
-      },
+        height: 1417
+      }
     },
     {
       slug: '14',
@@ -563,31 +563,31 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt: 'Photo #14 from the series “Deformation (2006) by Paul Blanca',
         id: 'deformation/14_fjocec',
         width: 1181,
-        height: 1417,
-      },
+        height: 1417
+      }
     },
     {
       slug: '15',
@@ -601,31 +601,31 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt: 'Photo #15 from the series “Deformation (2006) by Paul Blanca',
         id: 'deformation/15_yb6hpo',
         width: 1417,
-        height: 1181,
-      },
+        height: 1181
+      }
     },
     {
       slug: '16',
@@ -639,31 +639,31 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt: 'Photo #16 from the series “Deformation (2006) by Paul Blanca',
         id: 'deformation/16_lxikin',
         width: 1417,
-        height: 1181,
-      },
+        height: 1181
+      }
     },
     {
       slug: '17',
@@ -677,31 +677,31 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt: 'Photo #17 from the series “Deformation (2006) by Paul Blanca',
         id: 'deformation/17_hrqwyl',
         width: 1417,
-        height: 1181,
-      },
+        height: 1181
+      }
     },
     {
       slug: '18',
@@ -715,31 +715,31 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt: 'Photo #18 from the series “Deformation (2006) by Paul Blanca',
         id: 'deformation/18_kiygow',
         width: 1417,
-        height: 1181,
-      },
+        height: 1181
+      }
     },
     {
       slug: '19',
@@ -753,31 +753,31 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt: 'Photo #19 from the series “Deformation (2006) by Paul Blanca',
         id: 'deformation/19_akc2cb',
         width: 1187,
-        height: 1417,
-      },
+        height: 1417
+      }
     },
     {
       slug: 'sugartree-giullia',
@@ -791,32 +791,32 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt:
           'Sugartree Giullia from the series “Kristal” (2008) by Paul Blanca',
         id: 'kristal/sugartree-giullia_b4hvdn',
         width: 1575,
-        height: 1579,
-      },
+        height: 1579
+      }
     },
     {
       slug: 'commitment-giullia',
@@ -830,32 +830,32 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt:
           'Commitment Giullia from the series “Kristal” (2008) by Paul Blanca',
         id: 'kristal/commitment-giullia_f1ikoh',
         width: 1711,
-        height: 1575,
-      },
+        height: 1575
+      }
     },
     {
       slug: 'storm-giullia',
@@ -869,31 +869,31 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt: 'Storm Giullia from the series “Kristal” (2008) by Paul Blanca',
         id: 'kristal/storm-giullia_is2sdq',
         width: 1181,
-        height: 1358,
-      },
+        height: 1358
+      }
     },
     {
       slug: 'domestic-violence-giullia',
@@ -907,32 +907,32 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt:
           'Domestic Violence Giullia from the series “Kristal” (2008) by Paul Blanca',
         id: 'kristal/domestic-violence-giullia_tgviig',
         width: 1811,
-        height: 1575,
-      },
+        height: 1575
+      }
     },
     {
       slug: 'Snowhite Giullia',
@@ -946,31 +946,31 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt: 'Snowhite Giullia from the series “Kristal” (2008) by Paul Blanca',
         id: 'kristal/snowwhite-giullia_ohuwjj',
         width: 1181,
-        height: 1358,
-      },
+        height: 1358
+      }
     },
     {
       slug: 'sticky-fingers-claudia',
@@ -984,32 +984,32 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt:
           'Sticky Fingers Claudia from the series “Kristal” (2008) by Paul Blanca',
         id: 'kristal/sticky-fingers-claudia_f1e47p',
         width: 984,
-        height: 1449,
-      },
+        height: 1449
+      }
     },
     {
       slug: 'mother-and-daughter-monique-v-and-anika',
@@ -1024,32 +1024,32 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt:
           'Mother And Daughter aonique V And Anika arom the series “Kristal” (2008) by Paul Blanca',
         id: 'kristal/mother-and-daughter-monique-v-and-anika_fn1eyx',
         width: 1181,
-        height: 1505,
-      },
+        height: 1505
+      }
     },
     {
       slug: 'dancers-feet-giullia',
@@ -1063,32 +1063,32 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt:
           'Dancers Feet Giullia from the series “Kristal” (2008) by Paul Blanca',
         id: 'kristal/dancers-feet-giullia_ta6eoq',
         width: 1181,
-        height: 1555,
-      },
+        height: 1555
+      }
     },
     {
       slug: 'princesse-glace-monique',
@@ -1102,32 +1102,32 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt:
           'Princess Glace Monique from the series “Kristal” (2008) by Paul Blanca',
         id: 'kristal/princesse-glace-monique_lumpa3',
         width: 1575,
-        height: 1575,
-      },
+        height: 1575
+      }
     },
     {
       slug: 'anonymous-torso-monique',
@@ -1141,32 +1141,32 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt:
           'Anonymous Torso Monique from the series “Kristal” (2008) by Paul Blanca',
         id: 'kristal/anonymous-torso-monique_gpv0cr',
         width: 1181,
-        height: 1513,
-      },
+        height: 1513
+      }
     },
     {
       slug: 'girl-on-crystal-anika',
@@ -1180,32 +1180,32 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt:
           'Girl On Crystal Anika from the series “Kristal” (2008) by Paul Blanca',
         id: 'kristal/girl-on-crystal-anika_r2ocyw',
         width: 1969,
-        height: 1378,
-      },
+        height: 1378
+      }
     },
     {
       slug: 'unknown',
@@ -1219,31 +1219,31 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt: 'Unknown from the series “Kristal” (2008) by Paul Blanca',
         id: 'kristal/unknown_nehrh5',
         width: 1736,
-        height: 1575,
-      },
+        height: 1575
+      }
     },
     {
       slug: 'alpha',
@@ -1257,31 +1257,31 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt: 'Alpha from the series “Wit en Bruin” (1992) by Paul Blanca',
         id: 'wit-en-bruin/alpha-paul-blanca_ku0mll',
         width: 1181,
-        height: 1484,
-      },
+        height: 1484
+      }
     },
     {
       slug: 'juliette',
@@ -1295,31 +1295,31 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt: 'Juliette from the series “Wit en Bruin” (1992) by Paul Blanca',
         id: 'wit-en-bruin/juliette-paul-blanca_owdrmz',
         width: 1378,
-        height: 1378,
-      },
+        height: 1378
+      }
     },
     {
       slug: 'madison',
@@ -1333,31 +1333,31 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt: 'Madison from the series “Wit en Bruin” (1992) by Paul Blanca',
         id: 'wit-en-bruin/madison-paul-blanca_znof55',
         width: 1181,
-        height: 1449,
-      },
+        height: 1449
+      }
     },
     {
       slug: 'maria',
@@ -1371,31 +1371,31 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt: 'Maria from the series “Wit en Bruin” (1992) by Paul Blanca',
         id: 'wit-en-bruin/maria-paul-blanca_sh2tpe',
         width: 1378,
-        height: 1378,
-      },
+        height: 1378
+      }
     },
     {
       slug: 'monica',
@@ -1409,31 +1409,31 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt: 'Monica from the series “Wit en Bruin” (1992) by Paul Blanca',
         id: 'wit-en-bruin/monica-paul-blanca_umn4zq',
         width: 1378,
-        height: 1378,
-      },
+        height: 1378
+      }
     },
     {
       slug: 'nora-kimball-crying',
@@ -1448,32 +1448,32 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt:
           'Nora Kimball Crying from the series “Par La Pluie Des Femmes” (1990) by Paul Blanca',
         id: 'par-la-pluie-des-femmes/nora-kimball-crying-paul-blanca_aui9cz',
         width: 1181,
-        height: 1532,
-      },
+        height: 1532
+      }
     },
     {
       slug: 'eva-crying',
@@ -1487,32 +1487,32 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt:
           'Eva Crying from the series “Par La Pluie Des Femmes” (1990) by Paul Blanca',
         id: 'par-la-pluie-des-femmes/eva-crying-paul-blanca_k8v1b2',
         width: 1378,
-        height: 1378,
-      },
+        height: 1378
+      }
     },
     {
       slug: 'julienne-crying',
@@ -1526,32 +1526,32 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt:
           'Julienne Crying from the series “Par La Pluie Des Femmes” (1990) by Paul Blanca',
         id: 'par-la-pluie-des-femmes/julienne-crying-paul-blanca_zoavd0',
         width: 1378,
-        height: 1378,
-      },
+        height: 1378
+      }
     },
     {
       slug: 'natalie-1-crying',
@@ -1565,32 +1565,32 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt:
           'Natalie Crying from the series “Par La Pluie Des Femmes” (1990) by Paul Blanca',
         id: 'par-la-pluie-des-femmes/natalie1-crying-paul-blanca_d9okaf',
         width: 1378,
-        height: 1378,
-      },
+        height: 1378
+      }
     },
     {
       slug: 'natalie-2-crying',
@@ -1604,32 +1604,32 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt:
           'Natalie Crying from the series “Par La Pluie Des Femmes” (1990) by Paul Blanca',
         id: 'par-la-pluie-des-femmes/natalie2-crying-paul-blanca_kuljji',
         width: 1378,
-        height: 1378,
-      },
+        height: 1378
+      }
     },
     {
       slug: 'natalie-3-crying',
@@ -1643,32 +1643,32 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt:
           'Natalie Crying from the series “Par La Pluie Des Femmes” (1990) by Paul Blanca',
         id: 'par-la-pluie-des-femmes/natalie3-crying-paul-blanca_yq9xzz',
         width: 1378,
-        height: 1378,
-      },
+        height: 1378
+      }
     },
     {
       slug: 'ellen-crying',
@@ -1682,32 +1682,32 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt:
           'Ellen Crying from the series “Par La Pluie Des Femmes” (1990) by Paul Blanca',
         id: 'par-la-pluie-des-femmes/ellen-crying-paul-blanca_lfafze',
         width: 1378,
-        height: 1378,
-      },
+        height: 1378
+      }
     },
     {
       slug: 'wilma-crying',
@@ -1721,46 +1721,46 @@ const state = () => ({
       edition: {
         '30x40cm': '1 of 10',
         '40x50cm': '1 of 10',
-        '100x120cm': '1 of 10',
+        '100x120cm': '1 of 10'
       },
       prices: {
         '30x40cm': {
           dibond: 4000,
           plexiglass: 4200,
-          trulife: 4400,
+          trulife: 4400
         },
         '40x50cm': {
           dibond: 5200,
           plexiglass: 5400,
-          trulife: 5600,
+          trulife: 5600
         },
         '100x120cm': {
           dibond: 11400,
           plexiglass: 12000,
-          trulife: 13000,
-        },
+          trulife: 13000
+        }
       },
       image: {
         alt:
           'Wilma Crying from the series “Par La Pluie Des Femmes” (1990) by Paul Blanca',
         id: 'par-la-pluie-des-femmes/wilma-crying-paul-blanca_x4twvm',
         width: 1378,
-        height: 1378,
-      },
-    },
-  ],
+        height: 1378
+      }
+    }
+  ]
 })
 
 const sortOrderArr = [
   '76b89cfc-de28-4565-9a64-f32a3cc1a259', // #1 from Deformation
   'd720956c-f08a-454b-b9e3-139d1030a48f', // Juliette from Wit en Bruin
   'd3fc901b-67a5-439c-a7c4-495a5d1b282c', // Nora Kimball Crying from Par La Pluie Des Femmes
-  'a4316eca-91ca-4ecd-bb25-00454783fa31', // Dancers Feet Giullia from Kristal
+  'a4316eca-91ca-4ecd-bb25-00454783fa31' // Dancers Feet Giullia from Kristal
 ]
 
 const getters = {
-  seriesPageIndex: (state) => state.seriesPageIndex,
-  shopProductList: (state) => state.shopProductList,
+  seriesPageIndex: state => state.seriesPageIndex,
+  shopProductList: state => state.shopProductList,
   seriesList: (state) => {
     const covers = state.shopProductList.filter((product) => {
       return sortOrderArr.some((item) => {
@@ -1770,13 +1770,13 @@ const getters = {
     const sorted = mapOrder(covers, sortOrderArr, 'id')
     return sorted
     // return covers
-  },
+  }
 }
 
 const mutations = {
-  SET_SHOP_PRODUCTS(state, payload) {
+  SET_SHOP_PRODUCTS (state, payload) {
     state.shopProductList = payload
-  },
+  }
 }
 
 const actions = {}
@@ -1785,7 +1785,7 @@ const actions = {}
  * Sort array of objects based on another array
  */
 
-function mapOrder(array, order, key) {
+function mapOrder (array, order, key) {
   const sorter = function (a, b) {
     const A = a[key]
     const B = b[key]
@@ -1805,5 +1805,5 @@ export default {
   state,
   getters,
   mutations,
-  actions,
+  actions
 }

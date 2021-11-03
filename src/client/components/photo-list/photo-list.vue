@@ -5,7 +5,7 @@
         <responsive-image
           :image="photo.image"
           class="photo-list__photo"
-        ></responsive-image>
+        />
         <div v-if="hasTitle" class="photo-list__title">
           {{ photo.titleList }}
         </div>
@@ -22,23 +22,23 @@ export default {
   props: {
     photos: {
       type: Array,
-      required: true,
+      required: true
     },
     hasTitle: {
       type: Boolean,
-      default: false,
+      default: false
     },
     detailLinkOnly: {
       type: Boolean,
-      default: false,
+      default: false
     },
     showSeriesTitle: {
       type: Boolean,
-      default: false,
-    },
+      default: false
+    }
   },
   methods: {
-    photoLink(photo) {
+    photoLink (photo) {
       if (this.detailLinkOnly) {
         return `/shop/${photo.seriesSlug}/${photo.slug}/`
       }
@@ -47,8 +47,8 @@ export default {
         return `/shop/${photo.seriesSlug}/`
       }
       return '/'
-    },
-  },
+    }
+  }
 }
 </script>
 

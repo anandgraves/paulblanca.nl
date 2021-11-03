@@ -20,50 +20,50 @@ export default {
      */
     rootMargin: {
       type: String,
-      default: '0px 0px 0px 0px',
+      default: '0px 0px 0px 0px'
     },
     /**
      * See InetersectionOberserver treshold [docs](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API#Intersection_observer_options)
      */
     threshold: {
       type: [Number, Array],
-      default: 0,
-    },
-  },
-  data() {
-    return {
-      isIntersected: false,
-      observer: null,
+      default: 0
     }
   },
-  mounted() {
+  data () {
+    return {
+      isIntersected: false,
+      observer: null
+    }
+  },
+  mounted () {
     if ('IntersectionObserver' in window) {
       this.observe()
     } else {
       this.isIntersected = true
     }
   },
-  beforeDestroy() {
+  beforeDestroy () {
     this.unobserve()
   },
   methods: {
-    observe() {
+    observe () {
       const { rootMargin, threshold } = this
       const config = { root: undefined, rootMargin, threshold }
       this.observer = new IntersectionObserver(this.onIntersection, config)
       this.observer.observe(this.$el)
     },
-    onIntersection(entries) {
-      this.isIntersected = entries.some((entry) => entry.intersectionRatio > 0)
+    onIntersection (entries) {
+      this.isIntersected = entries.some(entry => entry.intersectionRatio > 0)
       if (this.isIntersected) {
         this.unobserve()
       }
     },
-    unobserve() {
+    unobserve () {
       if ('IntersectionObserver' in window) {
         this.observer.unobserve(this.$el)
       }
-    },
-  },
+    }
+  }
 }
 </script>
