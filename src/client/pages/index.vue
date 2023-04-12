@@ -6,7 +6,7 @@
       <figcaption>Photo by Koos Breukel</figcaption>
     </figure>
 
-    <p class="contact-details"><a href="mailto:info@paulblanca.nl">info@paulblanca.nl</a></p>
+    <p class="contact-details"><a href="mailto:paulblanca@pm.me">paulblanca@pm.me</a></p>
   </div>
 </template>
 
